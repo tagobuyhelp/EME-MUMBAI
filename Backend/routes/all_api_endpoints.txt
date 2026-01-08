@@ -1,0 +1,14 @@
+
+......Dashboard......
+http://localhost:3001/v1/dashboard/get_all_dashboard_data
+
+
+...... Enquiry......
+http://localhost:3001/v1/enquiry/get_all_enquiry_data?page=1&limit=15&start_date=2024-12-27&end_date=2024-12-29
+
+http://localhost:3001/v1/enquiry/add_enquiry
+
+..... Admission.....
+http://localhost:3001/v1/admission/add_admission
+
+http://localhost:3001/v1/admission/get_all_admission_data?page=1&limit=15&start_date=2024-12-27&end_date=2024-12-29

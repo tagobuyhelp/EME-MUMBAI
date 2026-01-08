@@ -1,0 +1,47 @@
+{
+    "AllCourse": [
+        "SAP Courses",
+        "Digital Marketing",
+        "Web Development Course",
+        "Hotel Management Course",
+        "Cloud Computing Course",
+        "AI & ML Course",
+        "Cyber Security Course",
+        "HR Management Course",
+        "Devops & PowerBI Course",
+        "Mainframe Bootcamp",
+        "Generative AI Course",
+        "Graphic Design Course",
+        "UI/UX Design Course",
+        "EDP Course",
+        "Business Accounting Course"
+    ],
+    "SapCourse": [
+        "SAP ABAP Course",
+        "SAP FICO Course",
+        "SAP MM Course",
+        "SAP SD Course",
+        "SAP HCM Course",
+        "SAP PP Course",
+        "SAP Sucess Course",
+        "SAP Basic Course",
+        "SAP Analytics Course"
+    ],
+    "DigitalMarketing": [
+        "Digital Marketing Crash Course",
+        "Advanced Digital Marketing",
+        "Diploma in Advanced Marketing with AI",
+        "BBA in Digital Marketing"
+    ],
+    "WebDevelopment": [
+        "Full Stack Web Development",
+        "Web Development Certificate Course"
+    ],
+    "HotelManagement": [
+        "Hotel Management Certificate",
+        "Hotel Management Diploma(1 year)",
+        "Hotel Management Diploma(2 years)",
+        "BSc Hotel and Hospitality",
+        "MSc Hotel and Hospitality"
+    ]
+}
