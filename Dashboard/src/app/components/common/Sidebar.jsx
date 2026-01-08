@@ -173,9 +173,9 @@ export function Sidebar() {
                   className='w-4 h-4'
                   alt="love" width={50} height={50} />
               </div>
-              <a href='https://martiancorporation.com/' target='_blank' className='text-[#323232] text-sm'>
+              <a href='https://emeacademy.co.in' target='_blank' className='text-[#323232] text-sm'>
 
-                Martian Corporation
+                EME IT Team
               </a>
             </div>
           }
