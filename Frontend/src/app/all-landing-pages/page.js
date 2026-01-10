@@ -69,7 +69,7 @@ export default function page() {
 
     {
       name: "Landing Page - Prompt Engineering with AI Tools",
-      link: "/generative-ai-landing",
+      link: "/generative-ai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/generiveAiImage.jpg",
     },
 

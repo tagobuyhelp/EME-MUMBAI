@@ -1,24 +1,40 @@
-import { Footer } from "@/components/common/Footer";
-import { AnotherHeader } from "@/components/common/AnotherHeader";
+import AdmissionHeader from "@/components/common/AdmissionHeader";
+import { Inter } from "next/font/google";
 import InfiniteCall from "@/components/InfiniteCall";
-import FeaturedIn from "@/components/common/FeaturedIn";
-import WhyChooseEMECard from "@/components/common/WhyChooseEMECard";
-import TalkToOurCareerExpert from "@/components/common/TalkToOurCareerExpert";
-import PlacementSupport from "@/components/common/PlacementSupport";
-import NeedToKnowMore from "@/components/common/NeedToKnowMore";
-import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 import Awards from "@/components/common/Awards";
+import FeaturedIn from "@/components/common/FeaturedIn";
+import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
+import LearningMethodology from "@/components/common/LearningMethodology";
+import TalkToOurCareerExpert from "@/components/common/TalkToOurCareerExpert";
+import NeedToKnowMore from "@/components/common/NeedToKnowMore";
 import StickyCTAButton from "../blogs/Components/stickyCTAButton";
+import PlacementSupport from "@/components/common/PlacementSupport";
 import StudentsWorkingInCompanies from "@/components/common/student-working-in-companies";
 import Faqs from "@/components/common/Faqs";
 import CoursesHero from "@/components/global/CoursesHero";
+import CourseDetailsGrid from "@/components/common/CourseDetailsGrid";
 import CoursesCurriculum from "@/components/global/CoursesCurriculum";
 import CoursesCareerProsoects from "@/components/global/CoursesCareerProsoects";
-
 import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
-import CoursesDetails from "@/components/global/CoursesDetails";
+import CoursesLandingFooter from "@/components/global/CoursesLandingFooter";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
-import { alumniStudents } from "@/data/alumniStudentsData";
+import WhyChooseEMECard from "@/components/common/WhyChooseEMECard";
+
+
+export const metadata = {
+  title: "Generative AI Course Training in kolkata- EME Academy",
+  description:
+    "Enroll in EME Academy's artificial intelligence course training in kolkata. Master cutting-edge AI technologies with expert-led training, practical projects, and industry-focused curriculum to advance your career",
+  keywords: [
+    "generative ai course training in kolkata",
+    "artificial intelligence course training in kolkata",
+    "generative ai training in kolkata",
+  ],
+  alternates: {
+    canonical:
+      "https://emeacademy.co.in/generative-ai",
+  },
+};
 
 const GenAIfaq = [
   {
@@ -80,29 +96,31 @@ const GenAIfaq = [
   },
 ];
 
-export const metadata = {
-  title: "Generative AI Course Training in kolkata- EME Academy",
-  description:
-    "Enroll in EME Academy's artificial intelligence course training in kolkata. Master cutting-edge AI technologies with expert-led training, practical projects, and industry-focused curriculum to advance your career",
-  keywords: [
-    "generative ai course training in kolkata",
-    "artificial intelligence course training in kolkata",
-    "generative ai training in kolkata",
-  ],
-  alternates: {
-    canonical:
-      "https://emeacademy.co.in/generative-ai-course-training-in-kolkata",
-  },
-};
+const inter = Inter({ subsets: ["latin"] });
+const items = [
+  "Live Practical Classes",
+  "Free Study Materials",
+  "Global Certifications",
+  "15+ Portfolio Projects",
+  "Dedicated Placement Cell",
+  "Resume & Interview Preparation",
+  "Theory+Practical Examination",
+  "1:1 Mentoring",
+  "Recorded Sessions & Doubt Clearing",
+];
 
 export default function page() {
   const Courses = "Prompt Engineering with AI Course";
+  const SelectCourses = [
+    "Generative AI Course"
+  ];
   const email_sender = "ALL";
     const Brochure =
     "https://drive.google.com/file/d/1LPlfsCPoEtHbV4Zif5j6pp1OyG-oE7cN/view?usp=sharing";
   const BrochureName = "GenerativeAI_brochure.pdf";
   const _this = {
     Courses,
+    SelectCourses,
     email_sender,
     Brochure,
     BrochureName,
@@ -119,45 +137,26 @@ export default function page() {
     justdialRating: "4.8/5",
   };
 
-  // Course details data
-  const courseDetailsData = {
-    courseName: "Generative AI Course",
-    subtitle:
-      "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
-    courseData: [
-      {
-        id: 1,
-        title: "Generative AI Course",
-        image:
-          "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/GenAICard.png",
-        description:
-          "Get certified with one of the most advanced generative AI certification courses in Kolkata, covering everything from GPT to LangChain and model customization.",
-        details: [
-          { label: "Duration", value: "6 Months" },
-          {
-            label: "Affordable Fees",
-            value: (
-              <>
-                <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
-                ₹45,000 <span className="text-[#00A51E]">after discount</span>
-              </>
-            ),
-          },
-          {
-            label: "Mode of Training",
-            value: "Online and classroom sessions are available.",
-          },
-          {
-            label: "Languages",
-            value: "Bengali, English & Hindi",
-          },
-        ],
-        hookLine:
-          "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
-        topics: [
+  const courses = [
+    {
+      image: {
+        src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/GenAICard.png",
+        alt: "Generative AI Course",
+        width: 613,
+        height: 180,
+      },
+      imageBgColor: "#04142E",
+      title: "Generative AI Course",
+      description:
+        "Get certified with one of the most advanced generative AI certification courses in Kolkata, covering everything from GPT to LangChain and model customization.",
+      descriptionAlert:
+        "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+      hookLine:
+        "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+      topics: [
           {
             title: "Generative AI Fundamentals",
-            points: [
+            subpoints: [
               "Introduction to Generative AI and its real-world applications.",
               "Core concepts of probability and statistics used in GenAI.",
               "Overview of generative models including GANs and autoencoders.",
@@ -167,7 +166,7 @@ export default function page() {
           },
           {
             title: "Prompt Engineering Mastery",
-            points: [
+            subpoints: [
               "ChatGPT-based prompt writing for accurate and creative outputs.",
               "Techniques: Zero-shot, Few-shot, Persona, Chain-of-thought prompting.",
               "Prompt injections, constraints, delimiters, and adversarial prompting.",
@@ -175,14 +174,14 @@ export default function page() {
           },
           {
             title: "Mastering LLMs",
-            points: [
+            subpoints: [
               "Comparison of top LLMs like Google FLAN, Falcon, LaMDA, and Poe.",
               "Introduction to image, video, and audio AI models.",
             ],
           },
           {
             title: "Customizing LLMs with Enterprise Data",
-            points: [
+            subpoints: [
               "Techniques like fine-tuning, RLHF, embeddings, and vector search.",
               "Integrating Knowledge Graphs and semantic search engines.",
               "Using domain-specific customization strategies.",
@@ -190,7 +189,7 @@ export default function page() {
           },
           {
             title: "Enterprise Architecture & GenAI",
-            points: [
+            subpoints: [
               "AI’s role in modern enterprise architecture.",
               "Detailed breakdown of transformer and attention architectures.",
               "Use-case-driven model workflows for industrial GenAI adoption.",
@@ -198,7 +197,7 @@ export default function page() {
           },
           {
             title: "ModelOps & AI Deployment",
-            points: [
+            subpoints: [
               "Industrializing GenAI with ModelOps practices.",
               "Recalibration, retraining, and model maintenance cycles.",
               "Deployment examples: Search engine AI, chatbot workflows, domain apps.",
@@ -206,7 +205,7 @@ export default function page() {
           },
           {
             title: "LangChain for Advanced AI App Development",
-            points: [
+            subpoints: [
               "Using LangChain for building multi-LLM workflows.",
               "Text chunking, memory management, and real-time document retrieval.",
               "Live projects on conversational QA, summarization, and embedding search.",
@@ -214,7 +213,7 @@ export default function page() {
           },
           {
             title: "Exploring Open-Source & Non-Microsoft LLMs",
-            points: [
+            subpoints: [
               "Overview of Cohere, AI21, Alpaca & other non-Microsoft models.",
               "Generative tools across text, image, video, and audio domains.",
               "Comparative analysis: Strengths and best-use cases.",
@@ -222,18 +221,39 @@ export default function page() {
           },
           {
             title: "Responsible AI & Ethics",
-            points: [
+            subpoints: [
               "Environmental concerns in AI model training.",
               "Addressing bias, fairness & inclusivity in LLMs.",
               "Legal issues: Copyright, licensing & IP.",
             ],
           },
-        ],
-      },
-    ],
-  };
+      ],
+      accordionItems: [],
+      details: [
+        {
+          icon: "/assets/icons/DurationIcon.svg",
+          label: "Duration",
+          value: "6 Months",
+        },
+        {
+          icon: "/assets/icons/BudgetIcon.svg",
+          label: "Affordable Fees",
+          value: (
+            <>
+              <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
+              ₹45,000 <span className="text-[#00A51E]">after discount</span>
+            </>
+          ),
+        },
+        {
+          icon: "/assets/icons/TrainingIcon.svg",
+          label: "Mode of Training",
+          value: "Online & Classroom Sessions Available",
+        },
+      ],
+    },
+  ];
 
-  // Tools data
   const toolsData = {
     title: "Tools & Technologies You'll Master with our",
     courseName: "Generative AI Course",
@@ -339,7 +359,6 @@ export default function page() {
     ],
   };
 
-  // Career prospects data
   const careerProspectsData = {
     title:
       'Future Prospect of a <span class="text-[#f97316]">Prompt Engineering with AI Course</span>',
@@ -360,7 +379,6 @@ export default function page() {
     buttonText: "Check Eligibility",
   };
 
-  // Testimonials data
   const testimonialsData = {
     TestimonialsData: [
       {
@@ -438,46 +456,147 @@ export default function page() {
     titleHighlight: "Testimonials",
   };
 
+  const alumniStudents = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Kolkata, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
+
   return (
-    <main className="flex flex-col justify-start items-center w-full min-h-screen">
-      <AnotherHeader />
+    <main
+      className={`${inter.className} flex flex-col justify-start items-center w-full min-h-screen`}
+    >
+      <AdmissionHeader />
       <div id="home" className="w-full ">
         <InfiniteCall />
       </div>
-      <div className="w-full bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/generativeAI_hero.png')] xs:h-[460px] md:h-[490px] bg-cover bg-center bg-no-repeat">
+      <div className="w-full bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/generativeAI_hero.png')] xs:h-[460px] md:h-[555px] bg-cover bg-center bg-no-repeat">
         <CoursesHero {...heroData} {..._this} />
       </div>
+
       <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={Courses}
           brochure={Brochure}
           brochureName={BrochureName}
+          SelectCourses={SelectCourses || []}
+        />
+      </div>
+
+      <div id="CourseCurriculum" className="flex justify-center bg-[#ffffff]">
+        <CourseDetailsGrid
+          title="Explore the Best Generative AI"
+          subtitle="Course in Kolkata"
+          brochureInfo={{
+            Courses: "Prompt Engineering with AI Course",
+            email_sender: "ALL",
+            Brochure:
+              "https://drive.google.com/file/d/1LPlfsCPoEtHbV4Zif5j6pp1OyG-oE7cN/view?usp=sharing",
+            BrochureName: "GenerativeAI_brochure.pdf",
+          }}
+          courses={courses}
+          thisObject={_this}
         />
       </div>
       <div
-        id="CourseCurriculum"
+        id="about"
         className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%"
       >
-        <CoursesDetails {...courseDetailsData} {..._this} />
+        <FeaturedIn {..._this} />
       </div>
-
-      <div id="CourseTool" className="flex w-full  bg-[#F4FBFE] mt-6">
+      <div id="CourseTool" className="flex justify-center bg-[#ffffff]">
         <CoursesCurriculum {...toolsData} {..._this} />
       </div>
 
-      <div id="CourseProspects" className="flex w-full bg-white">
-        <CoursesCareerProsoects {...careerProspectsData} {..._this} />
+      <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
+        <CertifiedStudent
+          {..._this}
+          students={alumniStudents}
+          title={"Our Alumni "}
+          titleHighlight={"Leading the World"}
+          subtitle={
+            "750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
+          }
+        />
       </div>
-      <div id="about" className="flex w-full  bg-[#F4FBFE]">
-        <FeaturedIn {..._this} />
+
+      <div id="CourseProspects" className="flex w-full p-6">
+        <CoursesCareerProsoects {...careerProspectsData} {..._this} />
       </div>
 
       <div id="" className="flex w-full bg-[#ffffff] py-4">
-        <WhyChooseEMECard
-          {..._this}
-          backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Data_Analytics/DAMainWhyChoose.png"
-        />
-      </div>
+              <WhyChooseEMECard
+                {..._this}
+                backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Data_Analytics/DAMainWhyChoose.png"
+              />
+            </div>
 
       <div id="" className="flex w-full p-6">
         <TalkToOurCareerExpert {..._this} />
@@ -487,14 +606,11 @@ export default function page() {
         <PlacementSupport {..._this} />
       </div>
 
-      <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
-        <CertifiedStudent
-          {..._this}
-          students={alumniStudents}
-          title={"Our Alumni "}
-          titleHighlight={"Leading the World"}
-          subtitle={"750+ Students placed last year alone!"}
-        />
+      <div id="testimonials" className="flex w-full  bg-white">
+        <CoursesTestimonials {...testimonialsData} />
+      </div>
+      <div id="awards" className="flex w-full  bg-white">
+        <Awards />
       </div>
 
       <div id="" className="flex w-full p-6">
@@ -504,16 +620,11 @@ export default function page() {
       <div className="flex flex-col justify-center w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
         <NewsHomeLanding {..._this} />
       </div>
-      <div id="testimonials" className="flex w-full  bg-white">
-        <CoursesTestimonials {...testimonialsData} />
-      </div>
-      <div id="awards" className="flex w-full  bg-white">
-        <Awards />
-      </div>
+
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <Faqs faqs={GenAIfaq} />
       </div>
-      <Footer />
+      <CoursesLandingFooter courseName="Generative AI Course"  {..._this}/>
       <StickyCTAButton {..._this} />
     </main>
   );

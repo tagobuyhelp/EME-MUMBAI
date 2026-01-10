@@ -144,7 +144,7 @@ export default function AdmissionFooter() {
             <div className='w-full bg-[#ffffff]'>
                 <div className='w-full mx-auto 2xl:w-[1380px] flex text-black flex-col md:flex-row justify-center items-center gap-[10px]  mt-[20px] md:items-center  md:justify-between px-[20px]  lg:px-24  py-[20px]  text-[11px] lg:text-[12px] xl:text-[14px] font-[400] leading-[12px] lg:leading-[16px]'>
                     <div className='text-[15px]'> © 2024 <span className='text-[#508ef8]'>EME Academy</span>  | All Rights Reserved. </div>
-                    <div className='text-[15px]'>Design & Developed by <a href="https://martiancorporation.com/" className='text-[18px] font-[600] text-[#508ef8]'>Martian Corporation</a>
+                    <div className='text-[15px]'>Design & Developed By <a href="https://emeacademy.co.in/" className='text-[18px] font-[600] text-[#508ef8]'>EME IT Team</a>
                     </div>
 
                 </div>

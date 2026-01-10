@@ -280,7 +280,7 @@ export const Footer = () => {
       <div className='w-full bg-[#ffffff]'>
         <div className='w-full mx-auto 2xl:w-[1380px] flex text-black flex-col md:flex-row justify-center items-center gap-[10px] md:items-center  md:justify-between px-[20px]  lg:px-24  py-[20px]  text-[11px] lg:text-[12px] xl:text-[14px] font-[400] leading-[12px] lg:leading-[16px]'>
           <div className='text-sm lg:text-base'> © 2025 <span className='text-[#00A2E7] font-[600]'>EME Academy Educational & Welfare Trust</span>  | All Rights Reserved. </div>
-          <div className='text-[12px] lg:text-base'>Developed by <a href="https://martiancorporation.com/" className='text-sm lg:text-lg  font-[600] text-[#00A2E7]'>Martian Corporation</a>
+          <div className='text-[12px] lg:text-base'>Developed By <a href="https://emeacademy.co.in/" className='text-sm lg:text-lg  font-[600] text-[#00A2E7]'>EME IT Team</a>
           </div>
         </div>
       </div>
