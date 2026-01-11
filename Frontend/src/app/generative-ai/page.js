@@ -592,11 +592,12 @@ export default function page() {
       </div>
 
       <div id="" className="flex w-full bg-[#ffffff] py-4">
-              <WhyChooseEMECard
-                {..._this}
-                backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Data_Analytics/DAMainWhyChoose.png"
-              />
-            </div>
+        <LearningMethodology
+          {..._this}
+          items={items}
+          backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Data_Analytics/DAMainWhyChoose.png"
+        />
+      </div>
 
       <div id="" className="flex w-full p-6">
         <TalkToOurCareerExpert {..._this} />

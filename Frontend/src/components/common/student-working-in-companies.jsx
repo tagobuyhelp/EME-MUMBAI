@@ -124,8 +124,9 @@ function StudentsWorkingInCompanies({
                   height={36}
                 />
                 <div className="flex flex-col text-[12px] text-[#121112] text-center">
-                  <strong>100% </strong>
+                  <strong>100%</strong>
                   <strong>Placement</strong>
+                  <strong>Support</strong>
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center gap-2">
@@ -135,7 +136,7 @@ function StudentsWorkingInCompanies({
                   width={36}
                   height={36}
                 />
-                <div className="flex flex-col text-[12px] text-[#121112] text-center">
+                <div className="flex flex-nowrap flex-col text-[12px] text-[#121112] text-center">
                   <strong>10+ Years</strong>
                   <strong>of Excellence</strong>
                 </div>
