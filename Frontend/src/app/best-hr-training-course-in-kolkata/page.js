@@ -98,7 +98,7 @@ export default function page() {
 
   // Hero data
   const heroData = {
-    badgeText: "Learn & Get Hired in 6 Months!",
+    badgeText: "Learn & Get Hired in 4 Months!",
     title: "Best HR Training Course in Kolkata with Placement Support",
     description:
       "Learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and even AI in HR with expert guidance and hands-on training.",
