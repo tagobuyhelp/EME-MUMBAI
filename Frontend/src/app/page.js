@@ -1,25 +1,26 @@
 import { Hero } from "@/components/Home/Hero";
-import PodcastHome from "@/components/common/PodcastHome";
 import { Footer } from "@/components/common/Footer";
-import Image from "next/image";
-import { EventAbout } from "../components/common/EventAbout";
-import Awards from "@/components/common/Awards";
 import { AnotherHeader } from "@/components/common/AnotherHeader";
-import Trustedby from "@/components/Home/Trustedby";
-import CareerPreparation from "@/components/Home/CareerPreparation";
-import PlacementPartners from "@/components/Home/PlacementPartners";
-import BoardOfAdvisor from "@/components/common/BoardOfAdvisor";
-import CoursesSection from "@/components/Home/CoursesSection";
-import PlacementSupport from "@/components/common/PlacementSupport";
-import StickyCTAButton from "./blogs/Components/stickyCTAButton";
-import AllLocation from "@/components/common/all-location";
-import FeaturedIn from "@/components/common/FeaturedIn";
-import FaqHome from "@/components/Home/FaqHome";
-import CertifiedStudent from "./recentplacements/CertifiedStudent";
-
+import dynamic from 'next/dynamic';
+import Image from "next/image";
 import { alumniStudents } from "@/data/alumniStudentsData";
-import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
-import WhyEMEAcademy from "@/components/common/WhyEMEAcademy";
+
+const PodcastHome = dynamic(() => import("@/components/common/PodcastHome"));
+const EventAbout = dynamic(() => import("../components/common/EventAbout").then(mod => mod.EventAbout));
+const Awards = dynamic(() => import("@/components/common/Awards"));
+const Trustedby = dynamic(() => import("@/components/Home/Trustedby"));
+const CareerPreparation = dynamic(() => import("@/components/Home/CareerPreparation"));
+const PlacementPartners = dynamic(() => import("@/components/Home/PlacementPartners"));
+const BoardOfAdvisor = dynamic(() => import("@/components/common/BoardOfAdvisor"));
+const CoursesSection = dynamic(() => import("@/components/Home/CoursesSection"));
+const PlacementSupport = dynamic(() => import("@/components/common/PlacementSupport"));
+const StickyCTAButton = dynamic(() => import("./blogs/Components/stickyCTAButton"));
+const AllLocation = dynamic(() => import("@/components/common/all-location"));
+const FeaturedIn = dynamic(() => import("@/components/common/FeaturedIn"));
+const FaqHome = dynamic(() => import("@/components/Home/FaqHome"));
+const CertifiedStudent = dynamic(() => import("./recentplacements/CertifiedStudent"));
+const NewsHomeLanding = dynamic(() => import("@/components/common/NewsHomeLanding").then(mod => mod.NewsHomeLanding));
+const WhyEMEAcademy = dynamic(() => import("@/components/common/WhyEMEAcademy"));
 
 export const metadata = {
   title:

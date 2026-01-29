@@ -1,8 +1,10 @@
 'use client'
 import { Dialog, DialogTrigger, DialogContent, DialogTitle, } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import LandingAdmissionForm from "@/components/common/LandingAdmissionForm";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import dynamic from "next/dynamic";
+
+const LandingAdmissionForm = dynamic(() => import("@/components/common/LandingAdmissionForm"));
 
 export default function CTAButton({ name, styleClasses, _this }) {
 

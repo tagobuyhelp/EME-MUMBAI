@@ -139,13 +139,6 @@ export const Hero = () => {
     setCtaType,
   };
 
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
-
-  // Auto-cycle flips: show 7 images per flip for 3 flips, then repeat
   useEffect(() => {
     const interval = setInterval(() => {
       setFlipIndex((prev) => (prev + 1) % 3);
@@ -175,6 +168,7 @@ export const Hero = () => {
                   height={10}
                   alt="Ticked"
                   className="h-4 w-4 mr-1"
+                  priority
                 />
               </span>{" "}
               Career Building Program
@@ -188,7 +182,7 @@ export const Hero = () => {
                   <motion.span
                     className="flex flex-col justify-end items-end"
                     initial={{ width: 0 }}
-                    animate={isLoaded ? { width: "100%" } : { width: 0 }}
+                    animate={{ width: "100%" }}
                     transition={{ delay: 0.4, duration: 0.8 }}
                   >
                     <Image
@@ -197,6 +191,7 @@ export const Hero = () => {
                       width={150}
                       height={50}
                       className="relative ml-2 w-[75px] h-2 md:w-[140px] md:h-3"
+                      priority
                     />
                   </motion.span>
                 </span>{" "}
@@ -215,9 +210,7 @@ export const Hero = () => {
                   key={stat.id}
                   className="flex flex-col md:flex-row items-start md:items-center p-2 rounded-lg"
                   initial={{ opacity: 0, y: 20 }}
-                  animate={
-                    isLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
-                  }
+                  animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.5 * index, duration: 0.5 }}
                 >
                   <Image
@@ -226,6 +219,7 @@ export const Hero = () => {
                     height={40}
                     alt="icon"
                     className="w-9 h-9 md:h-12 md:w-12 md:mr-1"
+                    priority
                   />
                   <div className="flex flex-col items-start justify-center">
                     <div className="text-[14px] md:text-[18px] font-bold text-primary md:mb-1">
@@ -242,9 +236,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
-                animate={
-                  isLoaded ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }
-                }
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.8, duration: 0.5 }}
               >
                 <div className="flex flex-col md:flex-row md:justify-center md:items-center justify-start items-start gap-2">
@@ -285,9 +277,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
-                animate={
-                  isLoaded ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }
-                }
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1, duration: 0.5 }}
               >
                 <CTAButton
@@ -299,9 +289,7 @@ export const Hero = () => {
 
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
-                animate={
-                  isLoaded ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }
-                }
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1.2, duration: 0.5 }}
               >
                 <CTAButton
@@ -325,27 +313,23 @@ export const Hero = () => {
                   right: category.position.right,
                 }}
                 initial={{ opacity: 0, y: 20 }}
-                animate={
-                  isLoaded
-                    ? {
-                        opacity: 1,
-                        y: 0,
-                        x: [0, 10, 0, -10, 0],
-                        y: [0, -10, 0, 10, 0],
-                      }
-                    : { opacity: 0, y: 20 }
-                }
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                  x: [0, 10, 0, -10, 0],
+                  y: [0, -10, 0, 10, 0],
+                }}
                 transition={{
                   delay: category.delay,
                   duration: 0.8,
                   x: {
                     repeat: Number.POSITIVE_INFINITY,
-                    duration: 5 + Math.random() * 2,
+                    duration: 5 + (category.id % 5) * 0.4,
                     ease: "easeInOut",
                   },
                   y: {
                     repeat: Number.POSITIVE_INFINITY,
-                    duration: 6 + Math.random() * 2,
+                    duration: 6 + (category.id % 3) * 0.5,
                     ease: "easeInOut",
                   },
                 }}
@@ -371,27 +355,23 @@ export const Hero = () => {
                   className="absolute"
                   style={{ top: pos.position.top, right: pos.position.right }}
                   initial={{ opacity: 0, scale: 0 }}
-                  animate={
-                    isLoaded
-                      ? {
-                          opacity: 1,
-                          scale: 1,
-                          x: [0, 15, 0, -15, 0],
-                          y: [0, -15, 0, 15, 0],
-                        }
-                      : { opacity: 0, scale: 0 }
-                  }
+                  animate={{
+                    opacity: 1,
+                    scale: 1,
+                    x: [0, 15, 0, -15, 0],
+                    y: [0, -15, 0, 15, 0],
+                  }}
                   transition={{
                     delay: pos.delay,
                     duration: 0.8,
                     x: {
                       repeat: Number.POSITIVE_INFINITY,
-                      duration: 7 + Math.random() * 3,
+                      duration: 7 + (pos.id % 4) * 0.7,
                       ease: "easeInOut",
                     },
                     y: {
                       repeat: Number.POSITIVE_INFINITY,
-                      duration: 8 + Math.random() * 3,
+                      duration: 8 + (pos.id % 3) * 0.8,
                       ease: "easeInOut",
                     },
                   }}
@@ -418,6 +398,7 @@ export const Hero = () => {
                       src={profileImages[imageIndex] || "/placeholder.svg"}
                       alt={`Profile ${imageIndex + 1}`}
                       className="w-full h-full object-cover"
+                      priority
                     />
                   </motion.div>
                 </motion.div>

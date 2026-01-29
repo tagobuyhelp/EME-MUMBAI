@@ -77,6 +77,7 @@ export const AnotherHeader = () => {
                 height={150}
                 src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png"
                 alt="EME Logo"
+                priority
               />
             </Link>
             <div className="text-[10px] md:text-[10px] text-[#252C65] font-bold text-nowrap ml-[13px] z-[30]">
