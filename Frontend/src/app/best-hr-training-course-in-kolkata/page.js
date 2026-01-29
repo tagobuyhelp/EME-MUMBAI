@@ -396,9 +396,9 @@ export default function page() {
 
   return (
     <main
-      className={` flex flex-col justify-start items-center w-full min-h-screen`}
+      className={`flex flex-col justify-start items-center w-full min-h-screen`}
     >
-      <AdmissionHeader />
+      <AdmissionHeader _this={_this} />
       <div id="home" className="w-full ">
         <InfiniteCall />
       </div>

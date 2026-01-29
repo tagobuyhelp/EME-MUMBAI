@@ -11,14 +11,29 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import { Navigation, FreeMode } from "swiper/modules";
 
-export default function Header() {
+export default function Header({ _this: parentThis }) {
+  const pathname = usePathname();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
-  const Courses = "All Courses";
-  const email_sender = "ALL";
-  const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
-  const BrochureName = "EME-brochure-2024.pdf";
+
+  // Determine course name based on props or pathname
+  let Courses = "All Courses";
+  if (parentThis && parentThis.Courses) {
+    Courses = parentThis.Courses;
+  } else if (pathname === "/best-hr-training-course-in-kolkata") {
+    Courses = "HR Management Course";
+  } else if (pathname === "/best-data-analytics-course-in-kolkata") {
+    Courses = "Data Analytics Course";
+  } else if (pathname === "/best-data-science-course-in-kolkata") {
+    Courses = "Data Science Course";
+  } else if (pathname === "/best-digital-marketing-course-in-kolkata") {
+    Courses = "Digital Marketing Course";
+  }
+
+  const email_sender = parentThis?.email_sender || "ALL";
+  const Brochure = parentThis?.Brochure || "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
+  const BrochureName = parentThis?.BrochureName || "EME-brochure-2024.pdf";
 
   const _this = {
     isModalOpen,
