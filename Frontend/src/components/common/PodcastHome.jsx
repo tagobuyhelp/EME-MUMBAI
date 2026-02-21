@@ -151,7 +151,7 @@ export default function PodcastHome() {
                 href={podcast.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative w-full rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] group transition-all duration-300 hover:shadow-blue-400 h-[390px] sm:h-[390px] md:h-[450px] w-[250px] lg:w-[250px]"
+                className="relative w-full rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] group transition-all duration-300 hover:shadow-blue-400 h-[490px] md:h-[440px] w-[250px] lg:w-[250px]"
                 onMouseEnter={() => setHoveredIndex(index)}  
                 onMouseLeave={() => setHoveredIndex(null)} 
               >
