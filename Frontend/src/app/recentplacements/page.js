@@ -162,248 +162,211 @@ export default function RecentPlacements() {
     },
   ];
 
-  const studentsMarqueeData = [
-    {
-      id: 1,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-1.png",
-      title: "Tuhin Saha",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 2,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-2.png",
-      title: "Abantika Sarkar",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 3,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-3.png",
-      title: "Debsankar Mandal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 4,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-4.png",
-      title: "Gourab Shah",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 5,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-5.png",
-      title: "Rahul Kumar Gupta",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 6,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-6.png",
-      title: "Sahnawaz Saukat",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 7,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-7.png",
-      title: "Wahed Hossain",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 8,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-8.png",
-      title: "Sandip Singha",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 9,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-9.png",
-      title: "Sayandeep Ghosh",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 10,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-10.png",
-      title: "Sagar Raja",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 11,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-11.png",
-      title: "Vashanvee Kumari",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 12,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-12.png",
-      title: "Ankit Ghosh",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 13,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-13.png",
-      title: "Tanmay Dutta",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 14,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-14.png",
-      title: "Nuruzzaman Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 15,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-15.png",
-      title: "Sahil Das",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 16,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-16.png",
-      title: "Arghya Pal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 17,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-17.png",
-      title: "Diganta Debnath",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 18,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
-      title: "Sukanya Ghosh",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 19,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
-      title: "Nuruzzaman Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 20,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
-      title: "Vaishnavi",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 21,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
-      title: "Aniket Shome",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 22,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
-      title: "Supratim Sen",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 23,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
-      title: "Souvik Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 24,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
-      title: "Koushik Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-  ];
+const studentsMarqueeData = [
+  // ===== NEW STUDENTS (FROM ALUMNI) =====
+  {
+    id: 1,
+    img: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
+    title: "ERA Saha",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 2,
+    img: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
+    title: "Jayita Halder",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 3,
+    img: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
+    title: "Laiba Noor",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 4,
+    img: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
+    title: "Krishna Das Ghosh",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 5,
+    img: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
+    title: "Sreenanda Ghosh",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 6,
+    img: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
+    title: "Adrija Bose",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 7,
+    img: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
+    title: "Abhishek Majumder",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 8,
+    img: "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
+    title: "Amit Singh",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 9,
+    img: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
+    title: "Ankita Biswas",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 10,
+    img: "/assets/images/Home/hero/Keya_Sharma_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
+    title: "Keya Sharma",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+
+  // ===== EXISTING STUDENTS =====
+  {
+    id: 11,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-1.png",
+    title: "Tuhin Saha",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 12,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-2.png",
+    title: "Abantika Sarkar",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 13,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-3.png",
+    title: "Debsankar Mandal",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 14,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-4.png",
+    title: "Gourab Shah",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 15,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-5.png",
+    title: "Rahul Kumar Gupta",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 16,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-6.png",
+    title: "Sahnawaz Saukat",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 17,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-7.png",
+    title: "Wahed Hossain",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 18,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-8.png",
+    title: "Sandip Singha",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 19,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-9.png",
+    title: "Sayandeep Ghosh",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 20,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/student-10.png",
+    title: "Sagar Raja",
+    subtitle: "Kolkata, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#2C278EE5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+];
 
   const StudentCertifiedData = [
     {

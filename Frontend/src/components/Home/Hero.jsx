@@ -4,82 +4,34 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import CTAButton from "../common/CtaButton";
+import { alumniStudents } from "@/data/alumniStudentsData";
 
 const courseCategories = [
   {
     id: 1,
     name: "Web Development",
     color: "bg-white",
-    position: { top: "5%", right: "14%" },
-    delay: 0.2,
   },
   {
     id: 2,
     name: "Data Analytics",
     color: "bg-white",
-    position: { top: "34%", right: "29%" },
-    delay: 0.4,
   },
   {
     id: 3,
     name: "Digital Marketing",
     color: "bg-white",
-    position: { top: "38%", right: "12%" },
-    delay: 0.6,
   },
   {
     id: 4,
     name: "Web Designing",
     color: "bg-white",
-    position: { top: "65%", right: "21%" },
-    delay: 0.8,
   },
   {
     id: 5,
     name: "SAP",
     color: "bg-white",
-    position: { top: "78%", right: "16%" },
-    delay: 1.0,
   },
-];
-
-// Seven fixed positions (and delays) where profiles float
-const profilePositions = [
-  { id: 1, position: { top: "5%", right: "5%" }, delay: 0.3 },
-  { id: 2, position: { top: "7%", right: "28%" }, delay: 0.5 },
-  { id: 3, position: { top: "79%", right: "4%" }, delay: 0.7 },
-  { id: 4, position: { top: "45%", right: "28%" }, delay: 0.9 },
-  { id: 5, position: { top: "48%", right: "2%" }, delay: 1.1 },
-  { id: 6, position: { top: "80%", right: "30%" }, delay: 1.3 },
-  { id: 7, position: { top: "50%", right: "18%" }, delay: 1.5 },
-];
-
-// Pool of profile images to cycle through
-const profileImages = [
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Aniket_Shome.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Nuruzzaman_Mondal.jpg",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Sukanya_Ghosh.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Vaishnavi.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_twelve.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_thirteen.jpg",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_fourteen.png",
-  // Additional 7 images from public
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_fifteen.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_sixteen.jpg",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_seventeen.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_eighteen.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_nineteen.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_twenty.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profile_twentyOne.png",
-  //More 7
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profileOne2.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Subham_Sambui.jpg",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profileTwo2.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profileFour2.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profileThree.png",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Avick_Chakraborty.jpg",
-  "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/profileFive2.png",
-  // Newly added images
 ];
 
 // Stats for the hero section
@@ -139,9 +91,18 @@ export const Hero = () => {
     setCtaType,
   };
 
+  const heroProfiles = alumniStudents;
+  const hasProfiles = heroProfiles.length > 0;
+  const currentImageIndex = hasProfiles ? flipIndex % heroProfiles.length : 0;
+  const currentProfile = hasProfiles ? heroProfiles[currentImageIndex] : null;
+  const getProfile = (offset) =>
+    heroProfiles[
+      (currentImageIndex + offset + heroProfiles.length) % heroProfiles.length
+    ];
+
   useEffect(() => {
     const interval = setInterval(() => {
-      setFlipIndex((prev) => (prev + 1) % 3);
+      setFlipIndex((prev) => (prev + 1) % Math.max(heroProfiles.length, 1));
     }, 3000);
     return () => clearInterval(interval);
   }, []);
@@ -155,8 +116,8 @@ export const Hero = () => {
   };
 
   return (
-    <section className="w-full pt-4 pb-2 md:pt-0 mb:pb-0 md:pb-24 lg:pb-25 bg-[#E9F8FF] bg-[linear-gradient(to_right,#042A7610_0.1px,transparent_0.9px),linear-gradient(to_bottom,#042A7610_0.1px,transparent_0.9px),linear-gradient(to_right,#2251FF10_0.1px,transparent_0.9px),linear-gradient(to_bottom,#2251FF10_0.1px,transparent_0.9px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
-      <div className="w-full h-full max-w-[1240px] flex flex-row justify-center items-center container px-4 py-1 md:px-6 md:py-6 relative mx-auto">
+    <section className="w-full pt-3 pb-4 md:pt-0 mb:pb-0 md:pb-16 lg:pb-16 bg-[#E9F8FF] bg-[linear-gradient(to_right,#042A7610_0.1px,transparent_0.9px),linear-gradient(to_bottom,#042A7610_0.1px,transparent_0.9px),linear-gradient(to_right,#2251FF10_0.1px,transparent_0.9px),linear-gradient(to_bottom,#2251FF10_0.1px,transparent_0.9px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
+      <div className="w-full h-full max-w-[1240px] flex flex-row justify-center items-center container px-4 py-1 md:px-6 md:py-4 relative mx-auto">
         <div className="flex flex-col md:flex-row gap-2 items-center">
           {/* Left side content */}
           <div className="mt-1 md:mt-0 w-full md:max-w-[60%] space-y-4">
@@ -233,6 +194,17 @@ export const Hero = () => {
               ))}
             </div>
 
+            <div className="flex flex-wrap gap-2 pt-1">
+              {courseCategories.map((category) => (
+                <span
+                  key={category.id}
+                  className="px-3 py-1 rounded-full bg-white text-[11px] md:text-xs text-[#042A76] border border-[#E5E7EB]"
+                >
+                  {category.name}
+                </span>
+              ))}
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -301,212 +273,103 @@ export const Hero = () => {
             </div>
           </div>
 
-          {/* Right side animation */}
-          <div className="max-w-[40%] hidden lg:block">
-            {/* Floating course categories */}
-            {courseCategories.map((category) => (
-              <motion.div
-                key={category.id}
-                className={`absolute px-4 py-1 rounded-full ${category.color} whitespace-nowrap border border-[#042A76]`}
-                style={{
-                  top: category.position.top,
-                  right: category.position.right,
-                }}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                  x: [0, 10, 0, -10, 0],
-                  y: [0, -10, 0, 10, 0],
-                }}
-                transition={{
-                  delay: category.delay,
-                  duration: 0.8,
-                  x: {
-                    repeat: Number.POSITIVE_INFINITY,
-                    duration: 5 + (category.id % 5) * 0.4,
-                    ease: "easeInOut",
-                  },
-                  y: {
-                    repeat: Number.POSITIVE_INFINITY,
-                    duration: 6 + (category.id % 3) * 0.5,
-                    ease: "easeInOut",
-                  },
-                }}
-                whileHover={{
-                  scale: 1.1,
-                  transition: { duration: 0.2 },
-                }}
-              >
-                <div className="bg-gradient-to-r from-[#042A76] to-[#2251FF] bg-clip-text text-transparent">
-                  {category.name}
+          <div className="w-full md:max-w-[40%] mt-8 md:mt-0 flex justify-center">
+            <motion.div
+              className="relative w-full max-w-sm rounded-3xl bg-white/80 backdrop-blur shadow-[0_24px_60px_rgba(15,23,42,0.18)] border border-[#E5E7EB] overflow-hidden"
+              initial={{ opacity: 0, y: 40, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+            >
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(37,99,235,0.12),transparent_55%),radial-gradient(circle_at_bottom,_rgba(56,189,248,0.12),transparent_55%)] pointer-events-none" />
+              <div className="relative p-4 md:p-5 flex flex-col gap-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex flex-col">
+                    <span className="text-[11px] uppercase tracking-[0.18em] text-[#6B7280]">
+                      Success Stories
+                    </span>
+                    <span className="text-sm md:text-base font-semibold text-[#111827]">
+                      Placed EME Alumni
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1 rounded-full bg-[#ECFEFF] px-3 py-1">
+                    <span className="h-2 w-2 rounded-full bg-[#22C55E]" />
+                    <span className="text-[10px] md:text-[11px] font-medium text-[#0891B2]">
+                      Live placement updates
+                    </span>
+                  </div>
                 </div>
-              </motion.div>
-            ))}
 
-            {/* Auto-cycling profile images: 7 images per flip, 3 flips, repeat */}
-            {profilePositions.map((pos, index) => {
-              const batchStart =
-                (flipIndex * 7) % Math.max(profileImages.length, 1);
-              const imageIndex = (batchStart + index) % profileImages.length;
-              return (
-                <motion.div
-                  key={pos.id}
-                  className="absolute"
-                  style={{ top: pos.position.top, right: pos.position.right }}
-                  initial={{ opacity: 0, scale: 0 }}
-                  animate={{
-                    opacity: 1,
-                    scale: 1,
-                    x: [0, 15, 0, -15, 0],
-                    y: [0, -15, 0, 15, 0],
-                  }}
-                  transition={{
-                    delay: pos.delay,
-                    duration: 0.8,
-                    x: {
-                      repeat: Number.POSITIVE_INFINITY,
-                      duration: 7 + (pos.id % 4) * 0.7,
-                      ease: "easeInOut",
-                    },
-                    y: {
-                      repeat: Number.POSITIVE_INFINITY,
-                      duration: 8 + (pos.id % 3) * 0.8,
-                      ease: "easeInOut",
-                    },
-                  }}
-                  whileHover={{
-                    scale: 1.2,
-                    transition: { duration: 0.2 },
-                  }}
-                >
+                {hasProfiles && currentProfile && (
                   <motion.div
-                    className="w-auto h-auto rounded-lg shadow-[3px_3px_0px_0px_#199ADA] overflow-hidden z-[99]"
-                    key={`${pos.id}-${flipIndex}`}
-                    initial={{ opacity: 0, scale: 0.8, rotateY: 90 }}
-                    animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-                    transition={{
-                      duration: 0.6,
-                      ease: "easeInOut",
-                      type: "spring",
-                      stiffness: 100,
-                    }}
+                    className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-[#E5E7EB]"
+                    initial={{ scale: 0.95, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    whileHover={{ scale: 1.02 }}
                   >
                     <Image
-                      width={115}
-                      height={115}
-                      src={profileImages[imageIndex] || "/placeholder.svg"}
-                      alt={`Profile ${imageIndex + 1}`}
-                      className="w-full h-full object-cover"
+                      src={currentProfile.img || "/placeholder.svg"}
+                      alt={currentProfile.title || "Placed student"}
+                      fill
+                      className="object-cover"
+                      sizes="(min-width: 1024px) 320px, 80vw"
                       priority
                     />
+                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent p-3 md:p-4">
+                      <div className="flex items-center justify-between">
+                        <div className="flex flex-col">
+                          <span className="text-xs text-white/80">
+                            From learner to professional
+                          </span>
+                          <span className="text-sm md:text-base font-semibold text-white">
+                            {currentProfile.title}
+                          </span>
+                        </div>
+                        <div className="px-3 py-1 rounded-full bg-white/90 max-w-full">
+                          <span
+                            className="text-[10px] md:text-[11px] font-semibold text-[#111827] whitespace-nowrap max-w-[180px] md:max-w-[220px] overflow-hidden text-ellipsis"
+                          >
+                            {currentProfile.companyName &&
+                            currentProfile.companyName !== "Not Specified"
+                              ? `Hired by ${currentProfile.companyName}`
+                              : "Hired by top company"}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
                   </motion.div>
-                </motion.div>
-              );
-            })}
+                )}
 
-            {/* Decorative elements */}
-            <motion.div
-              className="absolute w-6 h-6"
-              style={{ top: "10%", right: "40%" }}
-              animate={{
-                x: [0, 20, 0, -20, 0],
-                y: [0, -20, 0, 20, 0],
-              }}
-              transition={{
-                repeat: Number.POSITIVE_INFINITY,
-                duration: 10,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/assets/images/Home/icons/Floatingicons1.svg"
-                alt="Vector 1"
-                width={100}
-                height={100}
-              />
-            </motion.div>
-
-            <motion.div
-              className="absolute w-8 h-8"
-              style={{ top: "27%", right: "20%" }}
-              animate={{
-                x: [0, -15, 0, 15, 0],
-                y: [0, 15, 0, -15, 0],
-              }}
-              transition={{
-                repeat: Number.POSITIVE_INFINITY,
-                duration: 8,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/assets/images/Home/icons/Floatingicons2.svg"
-                alt="Vector 1"
-                width={100}
-                height={100}
-              />
-            </motion.div>
-
-            <motion.div
-              className="absolute w-10 h-10"
-              style={{ top: "52%", right: "23%" }}
-              animate={{
-                x: [0, 10, 0, -10, 0],
-                y: [0, -10, 0, 10, 0],
-              }}
-              transition={{
-                repeat: Number.POSITIVE_INFINITY,
-                duration: 9,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/assets/images/Home/icons/Floatingicons3.svg"
-                alt="Vector 1"
-                width={100}
-                height={100}
-              />
-            </motion.div>
-            <motion.div
-              className="absolute w-10 h-10"
-              style={{ top: "70%", right: "35%" }}
-              animate={{
-                x: [0, 10, 0, -10, 0],
-                y: [0, -10, 0, 10, 0],
-              }}
-              transition={{
-                repeat: Number.POSITIVE_INFINITY,
-                duration: 9,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/assets/images/Home/icons/Floatingicons4.svg"
-                alt="Vector 1"
-                width={100}
-                height={100}
-              />
-            </motion.div>
-            <motion.div
-              className="absolute w-10 h-10"
-              style={{ top: "9%", right: "0%" }}
-              animate={{
-                x: [0, 10, 0, -10, 0],
-                y: [0, -10, 0, 10, 0],
-              }}
-              transition={{
-                repeat: Number.POSITIVE_INFINITY,
-                duration: 9,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/assets/images/Home/icons/Floatingicons5.svg"
-                alt="Vector 1"
-                width={100}
-                height={100}
-              />
+                {hasProfiles && (
+                  <div className="flex items-center justify-between mt-1">
+                    <div className="flex -space-x-2">
+                      {[1, 2, 3].map((offset) => (
+                        <motion.div
+                          key={offset}
+                          className="relative h-8 w-8 md:h-9 md:w-9 rounded-full border-2 border-white overflow-hidden bg-[#E5E7EB]"
+                          whileHover={{ scale: 1.08, y: -2 }}
+                        >
+                          <Image
+                            src={getProfile(offset).img}
+                            alt={getProfile(offset).title}
+                            fill
+                            className="object-cover"
+                            sizes="36px"
+                          />
+                        </motion.div>
+                      ))}
+                    </div>
+                    <div className="flex flex-col items-end">
+                      <span className="text-xs md:text-sm font-semibold text-[#111827]">
+                        5000+ successful careers
+                      </span>
+                      <span className="text-[10px] md:text-[11px] text-[#6B7280]">
+                        Join our next placement batch
+                      </span>
+                    </div>
+                  </div>
+                )}
+              </div>
             </motion.div>
           </div>
         </div>

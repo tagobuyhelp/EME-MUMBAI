@@ -52,7 +52,11 @@ export default function PodcastHome() {
   const [hoveredIndex, setHoveredIndex] = React.useState(null); 
 
   const podcasts = [
-    //placement
+    { id: 30, url: "https://youtube.com/shorts/QXA9pK8gFeE?feature=share", thumbnail: "https://img.youtube.com/vi/QXA9pK8gFeE/hqdefault.jpg" },
+    { id: 31, url: "https://youtube.com/shorts/kvFY72-Qu4o?feature=share", thumbnail: "https://img.youtube.com/vi/kvFY72-Qu4o/hqdefault.jpg" },
+    { id: 32, url: "https://youtube.com/shorts/gmWrTlQbpGg?feature=share", thumbnail: "https://img.youtube.com/vi/gmWrTlQbpGg/hqdefault.jpg" },
+    { id: 33, url: "https://youtube.com/shorts/X8pClskwMHM?feature=share", thumbnail: "https://img.youtube.com/vi/X8pClskwMHM/hqdefault.jpg" },
+    { id: 34, url: "https://youtu.be/8TzFhh_oFRY", thumbnail: "https://img.youtube.com/vi/8TzFhh_oFRY/hqdefault.jpg" },
     { id: 1, url: "https://youtube.com/shorts/PKl38kk51rY?si=Of2sFvT3vfXHDjXj", thumbnail: "https://drive.google.com/uc?export=view&id=1jjPiTXYZva7oeeDvO9o9k1FlX_xU_KdI" }, 
     { id: 2, url: "https://youtube.com/shorts/UF_NvyKnYck?si=ELBGYQSvbpSr25yQ", thumbnail: "https://drive.google.com/uc?export=view&id=1MJOZZ24Gt4_e2XhGssDGkacMqfldNRvB" }, 
     { id: 3, url: "https://youtube.com/shorts/7dW5JDEIq6o?si=nfy0rz3jA-ErXmd1", thumbnail: "https://drive.google.com/uc?export=view&id=1Q8MgozmovntML6XDW6VtVjWnq9j_Tmsq" },

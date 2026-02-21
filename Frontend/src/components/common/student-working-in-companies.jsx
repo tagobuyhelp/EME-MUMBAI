@@ -44,7 +44,21 @@ const companies1 = [
     width: 100,
     height: 60,
   },
+
+  // 🔽 Newly Added
+  { src: "/assets/icons/companies/mpokket.svg", alt: "M-Pokket", width: 100, height: 60 },
+  { src: "/assets/icons/companies/monotel.svg", alt: "Monotel", width: 100, height: 60 },
+  { src: "/assets/icons/companies/leadheights.svg", alt: "Lead Heights", width: 120, height: 60 },
+  { src: "/assets/icons/companies/mervice.svg", alt: "Mervice", width: 100, height: 60 },
+  { src: "/assets/icons/companies/edominer.svg", alt: "Edominer", width: 110, height: 60 },
+  { src: "/assets/icons/companies/fastinfo.svg", alt: "Fast Info", width: 110, height: 60 },
+  { src: "/assets/icons/companies/gowebbo.svg", alt: "Gowebbo & Co", width: 120, height: 60 },
+  { src: "/assets/icons/companies/bbc.svg", alt: "BBC", width: 80, height: 60 },
+  { src: "/assets/icons/companies/dreamcomputers.svg", alt: "Dream Computers", width: 140, height: 60 },
+  { src: "/assets/icons/companies/vialto.svg", alt: "Vialto Partners", width: 130, height: 60 },
+  { src: "/assets/icons/companies/spafabrics.svg", alt: "Spa Fabrics", width: 120, height: 60 },
 ];
+
 
 const companies2 = [
   {
@@ -83,7 +97,23 @@ const companies2 = [
     width: 90,
     height: 40,
   },
+
+  // 🔽 Newly Added
+  { src: "/assets/icons/companies/eloquent.svg", alt: "Eloquent Enterprise", width: 130, height: 60 },
+  { src: "/assets/icons/companies/kotak.svg", alt: "Kotak Life Insurance", width: 120, height: 60 },
+  { src: "/assets/icons/companies/cielhr.svg", alt: "CIEL HR", width: 100, height: 60 },
+  { src: "/assets/icons/companies/bhandari.svg", alt: "Bhandari Automobiles", width: 140, height: 60 },
+  { src: "/assets/icons/companies/foxin.svg", alt: "Foxin", width: 90, height: 60 },
+  { src: "/assets/icons/companies/zsm.svg", alt: "ZSM E Services Pvt Ltd", width: 130, height: 60 },
+  { src: "/assets/icons/companies/iotivity.svg", alt: "Iotivity", width: 100, height: 60 },
+  { src: "/assets/icons/companies/consequi.svg", alt: "Consequi", width: 110, height: 60 },
+  { src: "/assets/icons/companies/msmedost.svg", alt: "MSME Dost", width: 120, height: 60 },
+  { src: "/assets/icons/companies/mcc.svg", alt: "MCC", width: 80, height: 60 },
+  { src: "/assets/icons/companies/linquest.svg", alt: "Linquest", width: 110, height: 60 },
+  { src: "/assets/icons/companies/nexucon.svg", alt: "Nexucon", width: 110, height: 60 },
+  { src: "/assets/icons/companies/2coms.svg", alt: "2COMS", width: 100, height: 60 },
 ];
+
 
 function StudentsWorkingInCompanies({
   brochureName,

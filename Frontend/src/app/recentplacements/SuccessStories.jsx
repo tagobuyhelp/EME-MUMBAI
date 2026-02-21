@@ -6,8 +6,105 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const successStoriesData = [
+  // ===== PRIORITY TOP STUDENTS =====
   {
     id: 1,
+    name: "Krishna Das Ghosh",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Genius Consultant",
+    afterCompanyLogo: "/assets/icons/companies/genius-consultants.avif",
+  },
+  {
+    id: 2,
+    name: "Sreenanda Ghosh",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {
+    id: 3,
+    name: "Adrija Bose",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {
+    id: 4,
+    name: "Abhishek Majumder",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {
+    id: 5,
+    name: "Amit Singh",
+    location: "Kolkata, India",
+    profileImage:
+      "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Hamilton Research Pvt. Ltd",
+    afterCompanyLogo: "/assets/icons/companies/hamilton-research.jpeg",
+  },
+
+  // ===== OTHER NEW STUDENTS =====
+  {
+    id: 6,
+    name: "ERA Saha",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Not Specified",
+    afterCompanyLogo: "/assets/icons/companies/default.svg",
+  },
+  {
+    id: 7,
+    name: "Jayita Halder",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Trustklub",
+    afterCompanyLogo: "/assets/icons/companies/trustklub.jpg",
+  },
+  {
+    id: 8,
+    name: "Laiba Noor",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "2coms",
+    afterCompanyLogo: "/assets/icons/companies/2coms.avif",
+  },
+  {
+    id: 9,
+    name: "Ankita Biswas",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Human Settlement Planning Centre",
+    afterCompanyLogo: "/assets/icons/companies/hspc.svg",
+  },
+  {
+    id: 10,
+    name: "Keya Sharma",
+    location: "Kolkata, India",
+    profileImage:
+      "/assets/images/Home/hero/Keya_Sharma_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Hamilton Research Pvt. Ltd",
+    afterCompanyLogo: "/assets/icons/companies/hamilton-research.jpeg",
+  },
+
+  // ===== EXISTING STUDENTS =====
+  {
+    id: 11,
     name: "Vashanvee Kumari",
     location: "Kolkata, India",
     profileImage:
@@ -17,7 +114,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-1.svg",
   },
   {
-    id: 2,
+    id: 12,
     name: "Aniket Shome",
     location: "Kolkata, India",
     profileImage:
@@ -27,7 +124,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
   },
   {
-    id: 3,
+    id: 13,
     name: "Sukanya Ghosh",
     location: "Kolkata, India",
     profileImage:
@@ -37,7 +134,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
   },
   {
-    id: 4,
+    id: 14,
     name: "Nuruzzaman Mondal",
     location: "Kolkata, India",
     profileImage:
@@ -47,7 +144,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-3.svg",
   },
   {
-    id: 5,
+    id: 15,
     name: "Supratim Sen",
     location: "Kolkata, India",
     profileImage:
@@ -57,7 +154,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
   },
   {
-    id: 6,
+    id: 16,
     name: "Ujjal Sutradhar",
     location: "Kolkata, India",
     profileImage:
@@ -67,7 +164,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/Webbo.svg",
   },
   {
-    id: 7,
+    id: 17,
     name: "Avick Chakraborty",
     location: "Kolkata, India",
     profileImage:
@@ -77,7 +174,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/Oxford.svg",
   },
   {
-    id: 8,
+    id: 18,
     name: "Rahul Routh",
     location: "Kolkata, India",
     profileImage:
@@ -87,7 +184,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/TcsLogo.svg",
   },
   {
-    id: 9,
+    id: 19,
     name: "Rahul Rana",
     location: "Kolkata, India",
     profileImage:
@@ -97,7 +194,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/TcsLogo.svg",
   },
   {
-    id: 10,
+    id: 20,
     name: "Subham Sambui",
     location: "Kolkata, India",
     profileImage:
@@ -107,7 +204,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/Oxford.svg",
   },
   {
-    id: 11,
+    id: 21,
     name: "Rahul Singh",
     location: "Kolkata, India",
     profileImage:
@@ -117,7 +214,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/TcsLogo.svg",
   },
   {
-    id: 12,
+    id: 22,
     name: "Aitrik Banerjee",
     location: "Kolkata, India",
     profileImage:
@@ -127,7 +224,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/Concertrix.svg",
   },
   {
-    id: 13,
+    id: 23,
     name: "Koushik Mondal",
     location: "Kolkata, India",
     profileImage:
@@ -137,7 +234,7 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/images/companyLogo/company-2.svg",
   },
   {
-    id: 14,
+    id: 24,
     name: "Souvik Mondal",
     location: "Kolkata, India",
     profileImage:
@@ -156,18 +253,27 @@ const tabs = [
 ];
 
 export default function SuccessStories() {
-  const [displayCount, setDisplayCount] = useState(9);
+  const [displayCount, setDisplayCount] = useState(8);
   const visibleStories = successStoriesData.slice(0, displayCount);
   const hasMore = displayCount < successStoriesData.length;
   const [isLoaded, setIsLoaded] = useState(false);
+  const [autoHighlightIndex, setAutoHighlightIndex] = useState(0);
 
   useEffect(() => {
     const timeout = setTimeout(() => setIsLoaded(true), 100);
     return () => clearTimeout(timeout);
   }, []);
 
+  useEffect(() => {
+    if (!visibleStories.length) return;
+    const interval = setInterval(() => {
+      setAutoHighlightIndex((prev) => (prev + 1) % visibleStories.length);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, [visibleStories.length]);
+
   const handleLoadMore = () => {
-    setDisplayCount((prev) => prev + 9);
+    setDisplayCount((prev) => prev + 8);
   };
 
   return (
@@ -209,16 +315,16 @@ export default function SuccessStories() {
 
       {/* Success Stories Grid */}
       <div className="max-w-7xl mx-auto px-6 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {visibleStories.map((story, index) => (
             <SuccessStoryCard
               key={story.id}
               name={story.name}
-              location={story.location}
               profileImage={story.profileImage}
               beforeStatus={story.beforeStatus}
               afterCompany={story.afterCompany}
               afterCompanyLogo={story.afterCompanyLogo}
+              isHighlighted={autoHighlightIndex === index}
               delay={index * 0.05}
             />
           ))}

@@ -1,76 +1,87 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { CheckCircle2 } from "lucide-react";
 
 export function SuccessStoryCard({
   name,
-  location,
   profileImage,
   beforeStatus,
   afterCompany,
   afterCompanyLogo,
+  isHighlighted = false,
   delay = 0,
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay }}
-      whileHover={{ y: -4, transition: { duration: 0.2 } }}
-      className="bg-white rounded-2xl shadow-sm hover:shadow-sm transition-shadow flex flex-col gap-4 border border-[#DDDDDD]"
+      initial={{ opacity: 0, y: 30, scale: 0.95 }}
+      animate={{
+        opacity: 1,
+        y: isHighlighted ? -6 : 0,
+        scale: isHighlighted ? 1.03 : 1,
+        boxShadow: isHighlighted
+          ? "0 22px 55px rgba(15,23,42,0.20)"
+          : "0 16px 40px rgba(15,23,42,0.10)",
+      }}
+      transition={{ duration: 0.5, delay, ease: "easeOut" }}
+      whileHover={{
+        y: -10,
+        scale: 1.05,
+        boxShadow: "0 26px 65px rgba(15,23,42,0.25)",
+      }}
+      className="relative bg-white rounded-[26px] shadow-[0_16px_40px_rgba(15,23,42,0.10)] transition-all duration-300 flex flex-col overflow-hidden border border-[#E5E7EB] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.16),transparent_55%),radial-gradient(circle_at_bottom,_rgba(37,99,235,0.10),transparent_55%)] before:opacity-0 hover:before:opacity-100 before:pointer-events-none"
     >
-      {/* Top Section */}
-      <div className="flex items-center gap-4 px-5 pt-5">
-        <div className="w-20 h-20 rounded-xl overflow-hidden">
-          <Image
-            src={profileImage}
-            alt={name}
-            width={80}
-            height={80}
-            className="object-cover w-full h-full rounded-xl"
-          />
-        </div>
-
-        <div>
-          <h3 className="text-base md:text-lg font-semibold text-[#080808]">
-            {name}
-          </h3>
-          <p className="text-xs md:text-sm text-[#8E8E8E]">{location}</p>
+      <div className="relative w-full h-56 md:h-80 bg-[#E5E7EB] overflow-hidden">
+        <motion.div
+          className="absolute inset-0"
+          animate={{ scale: isHighlighted ? 1.04 : 1 }}
+          whileHover={{ scale: 1.08 }}
+          transition={{ duration: 0.45, ease: "easeOut" }}
+        >
+        <Image
+          src={profileImage}
+          alt={name}
+          fill
+          className="object-cover"
+          sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
+        />
+        </motion.div>
+        <div className="absolute left-3 bottom-3 md:left-4 md:bottom-4">
+          <motion.div
+            className="flex items-center gap-2 rounded-full bg-white/95 px-2.5 py-1 shadow-md"
+            animate={{ scale: isHighlighted ? 1.05 : 1, y: isHighlighted ? -2 : 0 }}
+            whileHover={{ scale: 1.08, y: -3 }}
+            transition={{ duration: 0.25 }}
+          >
+            <span className="text-[9px] md:text-[10px] text-[#6B7280]">
+              Placed at
+            </span>
+            <div className="relative w-16 h-6 md:w-20 md:h-8">
+              <Image
+                src={afterCompanyLogo}
+                alt={afterCompany}
+                fill
+                className="object-contain"
+              />
+            </div>
+          </motion.div>
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="bg-gray-50 rounded-xl flex items-center justify-between p-5 border border-[#EEEEEE] shadow-sm">
-        {/* Before */}
-        <div className="flex-1 space-y-1">
-          <p className="text-xs text-[#656565]">Before EME</p>
-          <p className="text-[16px] font-semibold text-[#4B4B4B]">
-            {beforeStatus}
+      <div className="px-5 pb-5 pt-4 flex flex-col gap-3">
+        <div className="flex items-center gap-2">
+          <p className="text-sm md:text-base font-semibold text-[#111827] tracking-tight">
+            {name}
           </p>
+          <motion.span
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: delay + 0.2, duration: 0.3 }}
+          >
+            <CheckCircle2 className="w-4 h-4 text-[#22C55E]" />
+          </motion.span>
         </div>
 
-        {/* EME Logo and Arrow */}
-        <div className="text-center justify-center flex flex-col items-center">
-          <div className="text-xs mx-auto mb-2 text-text-[#656565]">Placed In</div>
-          <Image
-            src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/vectorLogo.svg"
-            alt="EME Academy"
-            width={150}
-            height={150}
-            className="object-contain"
-          />
-        </div>
-
-        <div className="flex flex-col items-end justify-end flex-1 space-y-1">
-          <p className="text-xs text-[#232D63]">After EME</p>
-          <div className="w-20 h-6 relative">
-            <Image
-              src={afterCompanyLogo}
-              alt={afterCompany}
-              fill
-              className="object-contain"
-            />
-          </div>
-        </div>
+        <div className="pt-1" />
       </div>
     </motion.div>
   );
