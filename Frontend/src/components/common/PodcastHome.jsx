@@ -52,17 +52,19 @@ export default function PodcastHome() {
   const [hoveredIndex, setHoveredIndex] = React.useState(null); 
 
   const podcasts = [
-    { id: 30, url: "https://youtube.com/shorts/QXA9pK8gFeE?feature=share", thumbnail: "https://img.youtube.com/vi/QXA9pK8gFeE/hqdefault.jpg" },
-    { id: 31, url: "https://youtube.com/shorts/kvFY72-Qu4o?feature=share", thumbnail: "https://img.youtube.com/vi/kvFY72-Qu4o/hqdefault.jpg" },
-    { id: 32, url: "https://youtube.com/shorts/gmWrTlQbpGg?feature=share", thumbnail: "https://img.youtube.com/vi/gmWrTlQbpGg/hqdefault.jpg" },
-    { id: 33, url: "https://youtube.com/shorts/X8pClskwMHM?feature=share", thumbnail: "https://img.youtube.com/vi/X8pClskwMHM/hqdefault.jpg" },
-    { id: 34, url: "https://youtu.be/8TzFhh_oFRY", thumbnail: "https://img.youtube.com/vi/8TzFhh_oFRY/hqdefault.jpg" },
+    // placement stories (new + existing) grouped first
+    { id: 30, url: "https://youtube.com/shorts/QXA9pK8gFeE?feature=share", thumbnail: "https://drive.google.com/uc?export=view&id=1LRl7vGqed34w-Ko6hBiUR7z0M2gNCwpj" },
+    { id: 31, url: "https://youtube.com/shorts/kvFY72-Qu4o?feature=share", thumbnail: "https://drive.google.com/uc?export=view&id=1nfG1kEUpBT1tkQX59x21SJoOG1g6bNQU" },
+    { id: 32, url: "https://youtube.com/shorts/gmWrTlQbpGg?feature=share", thumbnail: "https://drive.google.com/uc?export=view&id=1WO2PVva0o67aD-Jp0yQ2uw8XIryqUrMQ" },
+    { id: 33, url: "https://youtube.com/shorts/X8pClskwMHM?feature=share", thumbnail: "https://drive.google.com/uc?export=view&id=1Ud-mPO0ajJBPQS4Cy8TI_XR7XgntrNPs" }, 
+    { id: 34, url: "https://youtu.be/8TzFhh_oFRY", thumbnail: "/assets/images/podcast/Sap_changed_my_life_Student_podcast_reels.jpg" },
+
     { id: 1, url: "https://youtube.com/shorts/PKl38kk51rY?si=Of2sFvT3vfXHDjXj", thumbnail: "https://drive.google.com/uc?export=view&id=1jjPiTXYZva7oeeDvO9o9k1FlX_xU_KdI" }, 
     { id: 2, url: "https://youtube.com/shorts/UF_NvyKnYck?si=ELBGYQSvbpSr25yQ", thumbnail: "https://drive.google.com/uc?export=view&id=1MJOZZ24Gt4_e2XhGssDGkacMqfldNRvB" }, 
     { id: 3, url: "https://youtube.com/shorts/7dW5JDEIq6o?si=nfy0rz3jA-ErXmd1", thumbnail: "https://drive.google.com/uc?export=view&id=1Q8MgozmovntML6XDW6VtVjWnq9j_Tmsq" },
     { id: 4, url: "https://youtube.com/shorts/kzFXr-O1Yk8?si=zcDAA5b8Nx-SJL7T", thumbnail: "https://drive.google.com/uc?export=view&id=1Ugwumj_xhYkSrNB9Eyof9AC5HpMjCl1s" },
     { id: 5, url: "https://youtu.be/4zjqEMlJuZg?si=c7uwtoiRog4WMX2S", thumbnail: "https://drive.google.com/uc?export=view&id=1omXWhAsvXQv8xS33FGq356GozDGQgAvv" },
-    //class reviews
+    // class reviews
     { id: 6, url: "https://youtube.com/shorts/_A05DRkLnWI?si=9YqPpLCPkFg36m5x", thumbnail: "https://drive.google.com/uc?export=view&id=1XrXV4Z7rNqOGRmvRUvJIcaO_E17MymWj" },
     { id: 7, url: "https://youtube.com/shorts/YjjleqeTx5Q?si=k1FkT7Zr_o--s7SC", thumbnail: "https://drive.google.com/uc?export=view&id=1OBFh63dI5KIqaI6FNCQvjVoI56pNSmsK" },
     { id: 8, url: "https://youtube.com/shorts/UxqspHzf2vg?si=NT0Gw3VXC2AZEDjZ", thumbnail: "https://drive.google.com/uc?export=view&id=1T7r7moQUv9waoQMcn5J_FP06-o3tchAL" },
@@ -149,7 +151,7 @@ export default function PodcastHome() {
                 href={podcast.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative w-full rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] group transition-all duration-300 hover:shadow-blue-400 lg:h-[350px] w-[250px] h-[320px] lg:w-[250px]"
+                className="relative w-full rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] group transition-all duration-300 hover:shadow-blue-400 h-[390px] sm:h-[390px] md:h-[450px] w-[250px] lg:w-[250px]"
                 onMouseEnter={() => setHoveredIndex(index)}  
                 onMouseLeave={() => setHoveredIndex(null)} 
               >
