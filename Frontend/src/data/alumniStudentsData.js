@@ -156,19 +156,6 @@ export const alumniStudents = [
   },
 
   {
-    id: 13,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
-    title: "Vaishnavi",
-    subtitle: "Kolkata, India",
-    companyName: "Monotel",
-    companyLogo: "/assets/images/Home/monotel_logo.png",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-
-  {
     id: 14,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
     title: "Aniket Shome",

@@ -15,15 +15,6 @@ export default function StudentPlaced({ subtitle }) {
       companyLogoHeight: 90,
     },
     {
-      id: 2,
-      name: "Vaishnavi",
-      profileImage:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/sap_landing/Vaishnavi.png",
-      companyLogo: "/assets/images/Home/monotel_logo.png",
-      companyLogoWidth: 90,
-      companyLogoHeight: 80,
-    },
-    {
       id: 3,
       name: "Nuruzzaman Mondal",
       profileImage:

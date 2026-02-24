@@ -62,7 +62,6 @@ export default function PodcastHome() {
     { id: 1, url: "https://youtube.com/shorts/PKl38kk51rY?si=Of2sFvT3vfXHDjXj", thumbnail: "https://drive.google.com/uc?export=view&id=1jjPiTXYZva7oeeDvO9o9k1FlX_xU_KdI" }, 
     { id: 2, url: "https://youtube.com/shorts/UF_NvyKnYck?si=ELBGYQSvbpSr25yQ", thumbnail: "https://drive.google.com/uc?export=view&id=1MJOZZ24Gt4_e2XhGssDGkacMqfldNRvB" }, 
     { id: 3, url: "https://youtube.com/shorts/7dW5JDEIq6o?si=nfy0rz3jA-ErXmd1", thumbnail: "https://drive.google.com/uc?export=view&id=1Q8MgozmovntML6XDW6VtVjWnq9j_Tmsq" },
-    { id: 4, url: "https://youtube.com/shorts/kzFXr-O1Yk8?si=zcDAA5b8Nx-SJL7T", thumbnail: "https://drive.google.com/uc?export=view&id=1Ugwumj_xhYkSrNB9Eyof9AC5HpMjCl1s" },
     { id: 5, url: "https://youtu.be/4zjqEMlJuZg?si=c7uwtoiRog4WMX2S", thumbnail: "https://drive.google.com/uc?export=view&id=1omXWhAsvXQv8xS33FGq356GozDGQgAvv" },
     // class reviews
     { id: 6, url: "https://youtube.com/shorts/_A05DRkLnWI?si=9YqPpLCPkFg36m5x", thumbnail: "https://drive.google.com/uc?export=view&id=1XrXV4Z7rNqOGRmvRUvJIcaO_E17MymWj" },
