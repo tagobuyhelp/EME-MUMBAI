@@ -9,28 +9,23 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 const courseCategories = [
   {
     id: 1,
-    name: "Web Development",
-    color: "bg-white",
+    name: "Data Analytics",
+    link: "/data-analytics-course-in-kolkata",
   },
   {
     id: 2,
-    name: "Data Analytics",
-    color: "bg-white",
+    name: "SAP",
+    link: "/maincourse/sap-training-kolkata",
   },
   {
     id: 3,
-    name: "Digital Marketing",
-    color: "bg-white",
+    name: "HR",
+    link: "/human-resource-course-in-kolkata",
   },
   {
     id: 4,
-    name: "Web Designing",
-    color: "bg-white",
-  },
-  {
-    id: 5,
-    name: "SAP",
-    color: "bg-white",
+    name: "Digital Marketing",
+    link: "/maincourse/digital-marketing-course-in-kolkata",
   },
 ];
 
@@ -121,7 +116,7 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row gap-2 items-center">
           {/* Left side content */}
           <div className="mt-1 md:mt-0 w-full md:max-w-[60%] space-y-4">
-            <div className="inline-flex items-center rounded-full border px-3 py-2 text-[10px] md:text-sm text-[#FD7900] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#FFF8F1] cursor-pointer">
+            <div className="inline-flex items-center rounded-full border px-3 py-2 text-[12px] md:text-sm text-[#FD7900] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#FFF8F1] cursor-pointer">
               <span className="text-xs mr-1">
                 <Image
                   src="/assets/images/Home/icons/tickIcon.svg"
@@ -136,7 +131,7 @@ export const Hero = () => {
             </div>
 
             <div className="space-y-3">
-              <h1 className="text-[18px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
+              <h1 className="text-[25px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
                 Learn from Eastern{" "}
                 <span className="text-orange-500 relative flex flex-col">
                   India’s No. 1
@@ -165,88 +160,93 @@ export const Hero = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="flex flex-row items-center gap-3 md:gap-8 pt-1">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.id}
-                  className="flex flex-col md:flex-row items-start md:items-center p-2 rounded-lg"
-                  initial={{ opacity: 0, y: 20 }}
+                  className="flex items-center gap-2"
+                  initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.5 * index, duration: 0.5 }}
+                  transition={{ delay: 0.3 + 0.1 * index, duration: 0.5 }}
                 >
                   <Image
                     src={stat.icon}
-                    width={40}
-                    height={40}
+                    width={24}
+                    height={24}
                     alt="icon"
-                    className="w-9 h-9 md:h-12 md:w-12 md:mr-1"
+                    className="w-6 h-6 md:h-8 md:w-8"
                     priority
                   />
-                  <div className="flex flex-col items-start justify-center">
-                    <div className="text-[14px] md:text-[18px] font-bold text-primary md:mb-1">
+                  <div className="flex flex-col">
+                    <span className="text-[15px] md:text-[20px] font-bold text-[#042A76] leading-none">
                       {stat.value}
-                    </div>
-                    <div className="text-[12px] md:text-[14px] text-muted-foreground text-nowrap md:text-center">
+                    </span>
+                    <span className="text-[10px] md:text-[13px] text-gray-600 font-medium mt-0.5">
                       {stat.label}
-                    </div>
+                    </span>
                   </div>
+                  {index < stats.length - 1 && (
+                    <div className="h-8 w-[1px] bg-gray-300 ml-2 hidden md:block" />
+                  )}
                 </motion.div>
               ))}
             </div>
 
             <div className="flex flex-wrap gap-2 pt-1">
               {courseCategories.map((category) => (
-                <span
+                <a
                   key={category.id}
-                  className="px-3 py-1 rounded-full bg-white text-[11px] md:text-xs text-[#042A76] border border-[#E5E7EB]"
+                  href={category.link}
+                  className="px-3 py-1 rounded-full bg-white text-[14px] md:text-xs text-[#042A76] border border-[#E5E7EB] hover:bg-[#042A76] hover:text-white transition-colors duration-300"
                 >
                   {category.name}
-                </span>
+                </a>
               ))}
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.8, duration: 0.5 }}
-              >
-                <div className="flex flex-col md:flex-row md:justify-center md:items-center justify-start items-start gap-2">
-                  <div>
-                    <Image
-                      src="/assets/images/Data_Analytics_Landing/Certifiedby.svg"
-                      alt="Certified By Icon"
-                      width={100}
-                      height={100}
-                    />
-                  </div>
-                  <div className="flex flex-row gap-2">
-                    <Image
-                      src="/assets/images/Data_Analytics_Landing/MSMEblack.svg"
-                      alt="MSME Logo"
-                      width={80}
-                      height={70}
-                    />
-                    <Image
-                      src="/assets/icons/ISOIcon.svg"
-                      alt="ISO Logo"
-                      width={80}
-                      height={60}
-                    />
-                    <Image
-                      src="/assets/icons/StartUpIndiaIcon.svg"
-                      alt="Start Up India Logo"
-                      width={110}
-                      height={42}
-                      className="mt-2"
-                    />
-                  </div>
+            {/* Certifications */}
+            <motion.div
+              className="flex items-center gap-4 pt-1"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.8, duration: 0.5 }}
+            >
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/assets/images/Data_Analytics_Landing/Certifiedby.svg"
+                  alt="Certified By"
+                  width={80}
+                  height={80}
+                  className="w-16 md:w-20"
+                />
+                <div className="flex items-center gap-3">
+                  <Image
+                    src="/assets/images/Data_Analytics_Landing/MSMEblack.svg"
+                    alt="MSME"
+                    width={60}
+                    height={50}
+                    className="w-12 md:w-16"
+                  />
+                  <Image
+                    src="/assets/icons/ISOIcon.svg"
+                    alt="ISO"
+                    width={60}
+                    height={45}
+                    className="w-12 md:w-16"
+                  />
+                  <Image
+                    src="/assets/icons/StartUpIndiaIcon.svg"
+                    alt="Start Up India"
+                    width={90}
+                    height={35}
+                    className="w-20 md:w-24 mt-1"
+                  />
                 </div>
-              </motion.div>
-            </div>
+              </div>
+            </motion.div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-row sm:flex-row gap-4">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
