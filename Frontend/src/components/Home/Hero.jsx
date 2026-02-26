@@ -197,7 +197,7 @@ export const Hero = () => {
                 <a
                   key={category.id}
                   href={category.link}
-                  className="px-3 py-1 rounded-full bg-white text-[14px] md:text-xs text-[#042A76] border border-[#E5E7EB] hover:bg-[#042A76] hover:text-white transition-colors duration-300"
+                  className="px-3 py-1 rounded-full bg-white text-[12px] md:text-xs text-[#042A76] border border-[#E5E7EB] hover:bg-[#042A76] hover:text-white transition-colors duration-300"
                 >
                   {category.name}
                 </a>
@@ -246,7 +246,7 @@ export const Hero = () => {
             </motion.div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-row sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -266,14 +266,14 @@ export const Hero = () => {
               >
                 <CTAButton
                   name="Book A Free Demo Class"
-                  styleClasses="bg-white text-[#2251FF] rounded-lg border border-gray-300 hover:bg-gray-50"
+                  styleClasses="bg-white text-[#2251FF] rounded-lg border border-gray-300 hover:bg-gray-50 hidden md:block"
                   _this={_this}
                 />
               </motion.div>
             </div>
           </div>
 
-          <div className="w-full md:max-w-[40%] mt-8 md:mt-0 flex justify-center">
+          <div className="w-full md:max-w-[40%] mt-2 md:mt-0 flex justify-center">
             <motion.div
               className="relative w-full max-w-sm rounded-3xl bg-white/80 backdrop-blur shadow-[0_24px_60px_rgba(15,23,42,0.18)] border border-[#E5E7EB] overflow-hidden"
               initial={{ opacity: 0, y: 40, scale: 0.95 }}
