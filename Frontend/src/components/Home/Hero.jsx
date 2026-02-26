@@ -131,7 +131,7 @@ export const Hero = () => {
             </div>
 
             <div className="space-y-3">
-              <h1 className="text-[25px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
+              <h1 className="text-[22px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
                 Learn from Eastern{" "}
                 <span className="text-orange-500 relative flex flex-col">
                   India’s No. 1
@@ -197,7 +197,7 @@ export const Hero = () => {
                 <a
                   key={category.id}
                   href={category.link}
-                  className="px-3 py-1 rounded-full bg-white text-[12px] md:text-xs text-[#042A76] border border-[#E5E7EB] hover:bg-[#042A76] hover:text-white transition-colors duration-300"
+                  className="px-3 py-1 rounded-full bg-white text-[10px] md:text-xs text-[#042A76] border border-[#E5E7EB] hover:bg-[#042A76] hover:text-white transition-colors duration-300"
                 >
                   {category.name}
                 </a>
