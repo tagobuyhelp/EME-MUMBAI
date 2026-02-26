@@ -1,58 +1,66 @@
 export const alumniStudents = [
   {
     id: 1,
-    img: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
-    title: "ERA Saha",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulSingh.svg",
+    title: "Rahul Singh",
     subtitle: "Kolkata, India",
-    companyName: "Not Specified",
-    companyLogo: "/assets/icons/companies/default.svg",
+    companyName: "TCS",
+    companyLogo: "/assets/images/TcsLogo.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 2,
-    img: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
-    title: "Jayita Halder",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Aitrik.svg",
+    title: "Aitrik Banerjee",
     subtitle: "Kolkata, India",
-    companyName: "Trustklub",
-    companyLogo: "/assets/icons/companies/trustklub.svg",
+    companyName: "Concentrix",
+    companyLogo: "/assets/images/companyLogo/Concertrix.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 3,
-    img: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
-    title: "Laiba Noor",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRana.svg",
+    title: "Rahul Rana",
     subtitle: "Kolkata, India",
-    companyName: "2coms",
-    companyLogo: "/assets/icons/companies/2coms.svg",
+    companyName: "TCS",
+    companyLogo: "/assets/images/TcsLogo.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 4,
-    img: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
-    title: "Krishna Das Ghosh",
+    img: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
+    title: "Ankita Biswas",
     subtitle: "Kolkata, India",
-    companyName: "Genius Consultant",
-    companyLogo: "/assets/icons/companies/genius-consultant.svg",
+    companyName: "Human Settlement Planning Centre",
+    companyLogo: "/assets/icons/companies/hspc.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 5,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRouth.svg",
+    title: "Rahul Routh",
+    subtitle: "Kolkata, India",
+    companyName: "TCS",
+    companyLogo: "/assets/images/TcsLogo.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 6,
     img: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
     title: "Sreenanda Ghosh",
     subtitle: "Kolkata, India",
@@ -63,33 +71,18 @@ export const alumniStudents = [
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
-  {
-    id: 6,
-    img: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
-    title: "Adrija Bose",
-    subtitle: "Kolkata, India",
-    companyName: "Lead Heights",
-    companyLogo: "/assets/images/Home/lead-height-logo.png",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-
   {
     id: 7,
-    img: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
-    title: "Abhishek Majumder",
+    img: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
+    title: "Laiba Noor",
     subtitle: "Kolkata, India",
-    companyName: "Lead Heights",
-    companyLogo: "/assets/images/Home/lead-height-logo.png",
+    companyName: "2coms",
+    companyLogo: "/assets/icons/companies/2coms.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 8,
     img: "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
@@ -102,22 +95,56 @@ export const alumniStudents = [
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 9,
-    img: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
-    title: "Ankita Biswas",
+    img: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
+    title: "Adrija Bose",
     subtitle: "Kolkata, India",
-    companyName: "Human Settlement Planning Centre",
-    companyLogo: "/assets/icons/companies/hspc.svg",
+    companyName: "Lead Heights",
+    companyLogo: "/assets/images/Home/lead-height-logo.png",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 10,
+    img: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
+    title: "Jayita Halder",
+    subtitle: "Kolkata, India",
+    companyName: "Trustklub",
+    companyLogo: "/assets/icons/companies/trustklub.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 11,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Avick.svg",
+    title: "Avick Chakraborty",
+    subtitle: "Kolkata, India",
+    companyName: "Oxford TMG Corp",
+    companyLogo: "/assets/images/companyLogo/Oxford.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 12,
+    img: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
+    title: "Abhishek Majumder",
+    subtitle: "Kolkata, India",
+    companyName: "Lead Heights",
+    companyLogo: "/assets/images/Home/lead-height-logo.png",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 13,
     img: "/assets/images/Home/hero/Keya_Sharma_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
     title: "Keya Sharma",
     subtitle: "Kolkata, India",
@@ -128,79 +155,133 @@ export const alumniStudents = [
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
-  {
-    id: 11,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
-    title: "Sukanya Ghosh",
-    subtitle: "Kolkata, India",
-    companyName: "Not Specified",
-    companyLogo: "/assets/icons/companies/default.svg",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-
-  {
-    id: 12,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
-    title: "Nuruzzaman Mondal",
-    subtitle: "Kolkata, India",
-    companyName: "Not Specified",
-    companyLogo: "/assets/icons/companies/default.svg",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-
   {
     id: 14,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
-    title: "Aniket Shome",
+    img: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
+    title: "Krishna Das Ghosh",
     subtitle: "Kolkata, India",
-    companyName: "Lead Heights",
-    companyLogo: "/assets/images/Home/lead-height-logo.png",
+    companyName: "Genius Consultant",
+    companyLogo: "/assets/icons/companies/genius-consultant.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 15,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
-    title: "Supratim Sen",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-4.svg",
+    title: "Sukanya Ghosh",
     subtitle: "Kolkata, India",
-    companyName: "Lead Heights",
-    companyLogo: "/assets/images/Home/lead-height-logo.png",
+    companyName: "Lead Height",
+    companyLogo: "/assets/images/companyLogo/company-4.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 16,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Souvik.svg",
     title: "Souvik Mondal",
     subtitle: "Kolkata, India",
-    companyName: "Mpocket",
-    companyLogo: "/assets/images/Home/mpokket.png",
+    companyName: "mPokket",
+    companyLogo: "/assets/images/companyLogo/company-2.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
     subtitleStyle: "font-light leading-tight text-sm",
   },
-
   {
     id: 17,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-3.svg",
+    title: "Aniket Shome",
+    subtitle: "Kolkata, India",
+    companyName: "Lead Height",
+    companyLogo: "/assets/images/companyLogo/company-4.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 18,
+    img: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
+    title: "ERA Saha",
+    subtitle: "Kolkata, India",
+    companyName: "Not Specified",
+    companyLogo: "/assets/icons/companies/default.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 19,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-5.svg",
+    title: "Nuruzzaman Mondal",
+    subtitle: "Kolkata, India",
+    companyName: "Mervice",
+    companyLogo: "/assets/images/companyLogo/company-3.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 20,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Kousik.svg",
     title: "Koushik Mondal",
     subtitle: "Kolkata, India",
-    companyName: "Mpocket",
-    companyLogo: "/assets/images/Home/mpokket.png",
+    companyName: "mPokket",
+    companyLogo: "/assets/images/companyLogo/company-2.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 21,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-1.svg",
+    title: "Vashanvee Kumari",
+    subtitle: "Kolkata, India",
+    companyName: "Monotel",
+    companyLogo: "/assets/images/companyLogo/company-1.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 22,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-6.svg",
+    title: "Supratim Sen",
+    subtitle: "Kolkata, India",
+    companyName: "Lead Height",
+    companyLogo: "/assets/images/companyLogo/company-4.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 23,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Ujjal.svg",
+    title: "Ujjal Sutradhar",
+    subtitle: "Kolkata, India",
+    companyName: "Webbo",
+    companyLogo: "/assets/images/companyLogo/Webbo.svg",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 24,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Shuvam.svg",
+    title: "Subham Sambui",
+    subtitle: "Kolkata, India",
+    companyName: "Oxford TMG Corp",
+    companyLogo: "/assets/images/companyLogo/Oxford.svg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -209,45 +290,8 @@ export const alumniStudents = [
 
   // ================= IMAGE PENDING =================
 
-
   // {
-  //   id: 19,
-  //   img: "/assets/images/Home/hero/Sukanya_Ghosh.webp",
-  //   title: "Sukanya Ghosh",
-  //   subtitle: "Kolkata, India",
-  //   companyName: "Not Specified",
-  //   companyLogo: "/assets/icons/companies/default.svg",
-  // },
-
-  // {
-  //   id: 20,
-  //   img: "/assets/images/Home/hero/Nuruzzaman_Mondal.webp",
-  //   title: "Nuruzzaman Mondal",
-  //   subtitle: "Kolkata, India",
-  //   companyName: "Not Specified",
-  //   companyLogo: "/assets/icons/companies/default.svg",
-  // },
-
-  // {
-  //   id: 21,
-  //   img: "/assets/images/Home/hero/Aniket_Shome_Lead_Height.webp",
-  //   title: "Aniket Shome",
-  //   subtitle: "Kolkata, India",
-  //   companyName: "Lead Heights",
-  //   companyLogo: "/assets/images/Home/lead-height-logo.png",
-  // },
-
-  // {
-  //   id: 22,
-  //   img: "/assets/images/Home/hero/Supratim_Sen_Lead_Height.webp",
-  //   title: "Supratim Sen",
-  //   subtitle: "Kolkata, India",
-  //   companyName: "Lead Heights",
-  //   companyLogo: "/assets/images/Home/lead-height-logo.png",
-  // },
-
-  // {
-  //   id: 23,
+  //   id: 25,
   //   img: "/assets/images/Home/hero/Soumyabrata_Maity_Lead_Heights.webp",
   //   title: "Soumyabrata Maity",
   //   subtitle: "Kolkata, India",
@@ -256,7 +300,7 @@ export const alumniStudents = [
   // },
 
   // {
-  //   id: 24,
+  //   id: 26,
   //   img: "/assets/images/Home/hero/Sukumar_Karmakar_Gouranga_Solutions.webp",
   //   title: "Sukumar Karmakar",
   //   subtitle: "Kolkata, India",
@@ -265,7 +309,7 @@ export const alumniStudents = [
   // },
 
   // {
-  //   id: 25,
+  //   id: 27,
   //   img: "/assets/images/Home/hero/Barnini_Mitra_Tax_Connect.webp",
   //   title: "Barnini Mitra",
   //   subtitle: "Kolkata, India",
@@ -274,7 +318,7 @@ export const alumniStudents = [
   // },
 
   // {
-  //   id: 26,
+  //   id: 28,
   //   img: "/assets/images/Home/hero/Sayantani_Vivre_Panels.webp",
   //   title: "Sayantani",
   //   subtitle: "Kolkata, India",
@@ -283,7 +327,7 @@ export const alumniStudents = [
   // },
 
   // {
-  //   id: 27,
+  //   id: 29,
   //   img: "/assets/images/Home/hero/Subhadeep_Bose_Onemed_Billing.webp",
   //   title: "Subhadeep Bose",
   //   subtitle: "Kolkata, India",
@@ -292,7 +336,7 @@ export const alumniStudents = [
   // },
 
   // {
-  //   id: 28,
+  //   id: 30,
   //   img: "/assets/images/Home/hero/Debanjan_Paria_Onemed_Billing.webp",
   //   title: "Debanjan Paria",
   //   subtitle: "Kolkata, India",

@@ -6,84 +6,38 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const successStoriesData = [
-  // ===== PRIORITY TOP STUDENTS =====
-  {
+    {
     id: 1,
-    name: "Krishna Das Ghosh",
+    name: "Rahul Singh",
     location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulSingh.svg",
     beforeStatus: "Fresher",
-    afterCompany: "Genius Consultant",
-    afterCompanyLogo: "/assets/icons/companies/genius-consultants.avif",
+    afterCompany: "TCS",
+    afterCompanyLogo: "/assets/images/TcsLogo.svg",
   },
   {
     id: 2,
-    name: "Sreenanda Ghosh",
+    name: "Aitrik Banerjee",
     location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Aitrik.svg",
     beforeStatus: "Fresher",
-    afterCompany: "Lead Heights",
-    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+    afterCompany: "Concentrix",
+    afterCompanyLogo: "/assets/images/companyLogo/Concertrix.svg",
   },
-  {
+    {
     id: 3,
-    name: "Adrija Bose",
+    name: "Rahul Rana",
     location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRana.svg",
     beforeStatus: "Fresher",
-    afterCompany: "Lead Heights",
-    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+    afterCompany: "TCS",
+    afterCompanyLogo: "/assets/images/TcsLogo.svg",
   },
   {
     id: 4,
-    name: "Abhishek Majumder",
-    location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
-    beforeStatus: "Fresher",
-    afterCompany: "Lead Heights",
-    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
-  },
-  {
-    id: 5,
-    name: "Amit Singh",
-    location: "Kolkata, India",
-    profileImage:
-      "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
-    beforeStatus: "Fresher",
-    afterCompany: "Hamilton Research Pvt. Ltd",
-    afterCompanyLogo: "/assets/icons/companies/hamilton-research.jpeg",
-  },
-
-  // ===== OTHER NEW STUDENTS =====
-  {
-    id: 6,
-    name: "ERA Saha",
-    location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
-    beforeStatus: "Fresher",
-    afterCompany: "Not Specified",
-    afterCompanyLogo: "/assets/icons/companies/default.svg",
-  },
-  {
-    id: 7,
-    name: "Jayita Halder",
-    location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
-    beforeStatus: "Fresher",
-    afterCompany: "Trustklub",
-    afterCompanyLogo: "/assets/icons/companies/trustklub.jpg",
-  },
-  {
-    id: 8,
-    name: "Laiba Noor",
-    location: "Kolkata, India",
-    profileImage: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
-    beforeStatus: "Fresher",
-    afterCompany: "2coms",
-    afterCompanyLogo: "/assets/icons/companies/2coms.avif",
-  },
-  {
-    id: 9,
     name: "Ankita Biswas",
     location: "Kolkata, India",
     profileImage: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
@@ -92,7 +46,82 @@ const successStoriesData = [
     afterCompanyLogo: "/assets/icons/companies/hspc.svg",
   },
   {
+    id: 5,
+    name: "Rahul Routh",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRouth.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "TCS",
+    afterCompanyLogo: "/assets/images/TcsLogo.svg",
+  },
+  {
+    id: 6,
+    name: "Sreenanda Ghosh",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {
+    id: 7,
+    name: "Laiba Noor",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "2coms",
+    afterCompanyLogo: "/assets/icons/companies/2coms.avif",
+  },
+  {
+    id: 8,
+    name: "Amit Singh",
+    location: "Kolkata, India",
+    profileImage:
+      "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Hamilton Research Pvt. Ltd",
+    afterCompanyLogo: "/assets/icons/companies/hamilton-research.jpeg",
+  },
+  {
+    id: 9,
+    name: "Adrija Bose",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {   
     id: 10,
+    name: "Jayita Halder",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Trustklub",
+    afterCompanyLogo: "/assets/icons/companies/trustklub.jpg",
+  },
+  {
+    id: 11,
+    name: "Avick Chakraborty",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Avick.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "Oxford TMG Corp",
+    afterCompanyLogo: "/assets/images/companyLogo/Oxford.svg",
+  },
+  {
+    id: 12,
+    name: "Abhishek Majumder",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Heights",
+    afterCompanyLogo: "/assets/images/Home/lead-height-logo.png",
+  },
+  {
+    id: 13,
     name: "Keya Sharma",
     location: "Kolkata, India",
     profileImage:
@@ -101,6 +130,86 @@ const successStoriesData = [
     afterCompany: "Hamilton Research Pvt. Ltd",
     afterCompanyLogo: "/assets/icons/companies/hamilton-research.jpeg",
   },
+  {
+    id: 14,
+    name: "Krishna Das Ghosh",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Genius Consultant",
+    afterCompanyLogo: "/assets/icons/companies/genius-consultants.avif",
+  },
+  {
+    id: 15,
+    name: "Sukanya Ghosh",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-4.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Height",
+    afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
+  },
+  {
+    id: 16,
+    name: "Souvik Mondal",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Souvik.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "mPokket",
+    afterCompanyLogo: "/assets/images/companyLogo/company-2.svg",
+  },
+  {
+    id: 17,
+    name: "Aniket Shome",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-3.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "Lead Height",
+    afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
+  },
+  {
+    id: 18,
+    name: "ERA Saha",
+    location: "Kolkata, India",
+    profileImage: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
+    beforeStatus: "Fresher",
+    afterCompany: "Not Specified",
+    afterCompanyLogo: "/assets/icons/companies/default.svg",
+  },
+  {
+    id: 19,
+    name: "Nuruzzaman Mondal",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-5.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "Mervice",
+    afterCompanyLogo: "/assets/images/companyLogo/company-3.svg",
+  },
+  {
+    id: 20,
+    name: "Koushik Mondal",
+    location: "Kolkata, India",
+    profileImage:
+      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Kousik.svg",
+    beforeStatus: "Fresher",
+    afterCompany: "mPokket",
+    afterCompanyLogo: "/assets/images/companyLogo/company-2.svg",
+  },
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   // ===== EXISTING STUDENTS =====
   {
@@ -113,36 +222,9 @@ const successStoriesData = [
     afterCompany: "Monotel",
     afterCompanyLogo: "/assets/images/companyLogo/company-1.svg",
   },
-  {
-    id: 12,
-    name: "Aniket Shome",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-3.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "Lead Height",
-    afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
-  },
-  {
-    id: 13,
-    name: "Sukanya Ghosh",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-4.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "Lead Height",
-    afterCompanyLogo: "/assets/images/companyLogo/company-4.svg",
-  },
-  {
-    id: 14,
-    name: "Nuruzzaman Mondal",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-5.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "Mervice",
-    afterCompanyLogo: "/assets/images/companyLogo/company-3.svg",
-  },
+  
+  
+  
   {
     id: 15,
     name: "Supratim Sen",
@@ -163,36 +245,8 @@ const successStoriesData = [
     afterCompany: "Webbo",
     afterCompanyLogo: "/assets/images/companyLogo/Webbo.svg",
   },
-  {
-    id: 17,
-    name: "Avick Chakraborty",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Avick.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "Oxford TMG Corp",
-    afterCompanyLogo: "/assets/images/companyLogo/Oxford.svg",
-  },
-  {
-    id: 18,
-    name: "Rahul Routh",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRouth.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "TCS",
-    afterCompanyLogo: "/assets/images/TcsLogo.svg",
-  },
-  {
-    id: 19,
-    name: "Rahul Rana",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRana.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "TCS",
-    afterCompanyLogo: "/assets/images/TcsLogo.svg",
-  },
+  
+  
   {
     id: 20,
     name: "Subham Sambui",
@@ -203,46 +257,10 @@ const successStoriesData = [
     afterCompany: "Oxford TMG Corp",
     afterCompanyLogo: "/assets/images/companyLogo/Oxford.svg",
   },
-  {
-    id: 21,
-    name: "Rahul Singh",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulSingh.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "TCS",
-    afterCompanyLogo: "/assets/images/TcsLogo.svg",
-  },
-  {
-    id: 22,
-    name: "Aitrik Banerjee",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Aitrik.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "Concentrix",
-    afterCompanyLogo: "/assets/images/companyLogo/Concertrix.svg",
-  },
-  {
-    id: 23,
-    name: "Koushik Mondal",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Kousik.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "mPokket",
-    afterCompanyLogo: "/assets/images/companyLogo/company-2.svg",
-  },
-  {
-    id: 24,
-    name: "Souvik Mondal",
-    location: "Kolkata, India",
-    profileImage:
-      "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Souvik.svg",
-    beforeStatus: "Fresher",
-    afterCompany: "mPokket",
-    afterCompanyLogo: "/assets/images/companyLogo/company-2.svg",
-  },
+
+  
+  
+  
 ];
 
 const tabs = [
