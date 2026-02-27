@@ -43,7 +43,7 @@ const successStoriesData = [
     profileImage: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
     beforeStatus: "Fresher",
     afterCompany: "Human Settlement Planning Centre",
-    afterCompanyLogo: "/assets/icons/companies/hspc.svg",
+    afterCompanyLogo: "/assets/icons/companies/hspc.jpeg",
   },
   {
     id: 5,
