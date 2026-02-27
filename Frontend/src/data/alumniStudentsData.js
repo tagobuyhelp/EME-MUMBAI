@@ -241,18 +241,6 @@ export const alumniStudents = [
   },
   {
     id: 21,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-1.svg",
-    title: "Vashanvee Kumari",
-    subtitle: "Kolkata, India",
-    companyName: "Monotel",
-    companyLogo: "/assets/images/companyLogo/company-1.svg",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-  {
-    id: 22,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-6.svg",
     title: "Supratim Sen",
     subtitle: "Kolkata, India",
@@ -264,7 +252,7 @@ export const alumniStudents = [
     subtitleStyle: "font-light leading-tight text-sm",
   },
   {
-    id: 23,
+    id: 22,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Ujjal.svg",
     title: "Ujjal Sutradhar",
     subtitle: "Kolkata, India",
@@ -276,7 +264,7 @@ export const alumniStudents = [
     subtitleStyle: "font-light leading-tight text-sm",
   },
   {
-    id: 24,
+    id: 23,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Shuvam.svg",
     title: "Subham Sambui",
     subtitle: "Kolkata, India",
