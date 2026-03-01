@@ -2,6 +2,16 @@
 import { Card } from "@/components/ui/card";
 import { useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { 
+  FileText, 
+  Brain, 
+  MessagesSquare, 
+  UserCheck, 
+  Briefcase, 
+  Layout, 
+  CheckCircle2 
+} from "lucide-react";
 
 export default function PlacementSupport({
   Courses,
@@ -21,163 +31,175 @@ export default function PlacementSupport({
     Brochure,
     BrochureName,
   };
-  // Data for the features
+
   const features = [
     {
       id: 1,
-      title: "Resume Building & LinkedIn Optimization",
-      position: "left",
+      title: "Resume & LinkedIn",
+      icon: FileText,
+      color: "text-blue-500",
+      bg: "bg-blue-50",
       points: [
-        "Create job-ready, professional resumes",
-        "Optimize LinkedIn to attract recruiters",
-        "Showcase skills, certifications & projects",
+        "Job-ready professional resumes",
+        "Recruiter-focused LinkedIn optimization",
+        "Project & skill showcasing"
       ],
     },
     {
       id: 2,
-      title: "Aptitude & Logical Reasoning Training",
-      position: "right",
+      title: "Aptitude Training",
+      icon: Brain,
+      color: "text-purple-500",
+      bg: "bg-purple-50",
       points: [
-        "Daily practice sessions",
-        "Full-length aptitude tests",
-        "Improve reasoning & speed",
+        "Daily logic & reasoning practice",
+        "Full-length aptitude mock tests",
+        "Speed & accuracy enhancement"
       ],
     },
     {
       id: 3,
-      title: "Interview Practice & Technical Training",
-      position: "left",
+      title: "Interview Mastery",
+      icon: MessagesSquare,
+      color: "text-orange-500",
+      bg: "bg-orange-50",
       points: [
-        "Weekly mock interviews",
-        "HR + technical rounds",
-        "Personalized feedback",
+        "Weekly HR & technical mocks",
+        "Personalized performance feedback",
+        "Real-world scenario prep"
       ],
     },
     {
       id: 4,
-      title: "Career Mentorship from Experts",
-      position: "right",
+      title: "Expert Mentorship",
+      icon: UserCheck,
+      color: "text-green-500",
+      bg: "bg-green-50",
       points: [
-        "1-on-1 counseling sessions",
-        "Industry insights & trends",
-        "Salary negotiation tips",
+        "1-on-1 career counseling",
+        "Latest industry trend insights",
+        "Professional salary negotiation"
       ],
     },
     {
       id: 5,
-      title: "Hiring Partners & Career Portal Access",
-      position: "left",
+      title: "Hiring Network",
+      icon: Briefcase,
+      color: "text-indigo-500",
+      bg: "bg-indigo-50",
       points: [
-        "50+ active hiring partners",
-        "Exclusive access to job listings",
-        "Direct interview referrals",
+        "Access to 50+ hiring partners",
+        "Exclusive job portal access",
+        "Direct corporate interview referrals"
       ],
     },
     {
       id: 6,
-      title: "Build Your Job-Winning Portfolio",
-      position: "right",
+      title: "Portfolio Building",
+      icon: Layout,
+      color: "text-pink-500",
+      bg: "bg-pink-50",
       points: [
-        "Build real-world projects",
-        "Get mentor feedback",
-        "Showcase work to employers",
+        "Real-world capstone projects",
+        "Guided mentor-led development",
+        "Employer-ready work showcase"
       ],
-      highlight: false,
     },
   ];
 
   return (
-    <div className="w-full py-8 px-4 md:px-8 lg:px-12">
-      <div className="max-w-[1140px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-center items-center md:items-baseline gap-2 text-[18px] md:text-[22px] font-semibold text-[#4B4B4B]">
-          Placement Support
-          <span className="flex flex-col items-end">
-            <span className="text-[16px] md:text-[22px] text-[#232D63]">
+    <section className="w-full py-6 md:py-10 overflow-hidden relative">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MazeImage.svg')] bg-repeat opacity-[0.08] pointer-events-none" />
+      
+      <div className="container relative z-10 max-w-[1200px] mx-auto px-4">
+        
+        {/* Header Section */}
+        <div className="flex flex-col items-center text-center space-y-2.5 mb-6 md:mb-10">
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
+          >
+            <Briefcase className="h-3.5 w-3.5" />
+            Career Excellence
+          </motion.div>
+
+          <motion.h2 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
+          >
+            Placement <span className="text-[#0057E2]">Support</span>
+            <span className="block text-base md:text-xl text-gray-500 font-bold mt-0.5">
               to Land Your Dream Job
             </span>
+          </motion.h2>
+
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: "60px" }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            className="relative h-1 w-16"
+          >
             <Image
               src="/assets/images/Home/icons/StudentsLineVector.svg"
-              alt="Justicial"
-              width={80}
-              height={40}
-              className="ml-2"
+              alt="line"
+              fill
+              className="object-contain"
             />
-          </span>
+          </motion.div>
         </div>
 
-        <div className="hidden md:block mt-4">
-          <div className="grid grid-cols-3 gap-6">
-            {features.map((feature) => (
-              <div key={feature.id} className="flex justify-center">
-                <Card
-                  className={`p-4 bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MazeImage.svg')] bg-cover bg-center bg-no-repeat shadow-md w-full max-w-[400px] ${
-                    feature.highlight
-                      ? "border-2 border-blue-500"
-                      : "transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer"
-                  }`}
-                >
-                  <h3 className="font-bold text-[#232D63] mb-2">
+        {/* Features Grid */}
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 md:gap-5">
+          {features.map((feature, index) => (
+            <motion.div
+              key={feature.id}
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.05 }}
+            >
+              <Card className="h-full p-3 md:p-5 bg-white border border-gray-100 rounded-xl md:rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_15px_40px_rgba(0,87,226,0.08)] transition-all duration-500 group flex flex-col">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 md:gap-4 mb-2 md:mb-4 text-center sm:text-left">
+                  <div className={`h-9 w-9 md:h-11 md:w-11 rounded-lg md:rounded-xl ${feature.bg} flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-110`}>
+                    <feature.icon className={`h-4.5 w-4.5 md:h-5.5 md:w-5.5 ${feature.color}`} />
+                  </div>
+                  <h3 className="text-xs md:text-base font-black text-gray-800 leading-tight">
                     {feature.title}
                   </h3>
-                  <ul className="space-y-2">
-                    {feature.points.map((point, idx) => (
-                      <li key={idx} className="flex items-start gap-2 ">
-                        <Image
-                          src="/assets/icons/Check3.svg"
-                          width={16}
-                          height={16}
-                          className="h-3.5 w-3.5 mt-1 flex-shrink-0"
-                          alt="check icon"
-                        />
-                        <span className="text-sm">{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </Card>
-              </div>
-            ))}
-          </div>
+                </div>
+
+                <ul className="space-y-1.5 md:space-y-2.5 flex-1 hidden sm:block">
+                  {feature.points.map((point, idx) => (
+                    <li key={idx} className="flex items-start gap-2 md:gap-3">
+                      <div className="h-3 w-3 md:h-4 md:w-4 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-0.5">
+                        <CheckCircle2 className="h-2 w-2 md:h-2.5 md:w-2.5 text-[#0057E2]" />
+                      </div>
+                      <span className="text-[10px] md:text-[13px] text-gray-600 font-medium leading-snug">
+                        {point}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+                
+                {/* Mobile point summary */}
+                <div className="sm:hidden mt-auto">
+                  <p className="text-[9px] font-bold text-[#0057E2] uppercase tracking-tighter">
+                    {feature.points.length} Key Services
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+          ))}
         </div>
 
-        <div className="md:hidden relative mt-2">
-          <div className="absolute left-4 top-0 bottom-0 w-0.5 border-dashed border-l-2 border-blue-300"></div>
-
-          <div className="relative space-y-4">
-            {features.map((feature) => (
-              <div
-                key={feature.id}
-                className="flex flex-row justify-center items-center mb-4 relative pl-4"
-              >
-                <div className="w-3 h-3 p-1 mr-1 bg-blue-500 rounded-full z-10"></div>
-                <hr className="w-[10%] border-dashed border-l-2 border-blue-300 -translate-y-1/2" />
-                <Card
-                  className={`p-4 shadow-md w-full ${
-                    feature.highlight ? "border-2 border-blue-500" : ""
-                  }`}
-                >
-                  <h3 className="font-bold text-[#232D63] mb-2">
-                    {feature.title}
-                  </h3>
-                  <ul className="space-y-2">
-                    {feature.points.map((point, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <Image
-                          src="/assets/icons/Check3.svg"
-                          width={16}
-                          height={16}
-                          className="h-3.5 w-3.5 mt-1.5 flex-shrink-0"
-                          alt="check icon"
-                        />
-                        <span className="text-sm">{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </Card>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
-    </div>
-  );
-}
+    </section>
+   );
+ }

@@ -3,43 +3,59 @@ import { useState } from "react";
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
 import CTAButton from "./CtaButton";
+import { motion } from "framer-motion";
+import { 
+  Award, 
+  Target, 
+  Clock, 
+  Zap, 
+  LifeBuoy, 
+  CreditCard,
+  CheckCircle2 
+} from "lucide-react";
 
 const features = [
   {
-    icon: "/assets/icons/IndustryIcon1.svg",
-    title: "Industry-Experienced Trainers",
-    subtitle:
-      "Gain in-depth knowledge from experienced, certified professionals who bring real industry insights to every session.",
+    icon: Award,
+    title: "Expert Mentors",
+    subtitle: "In-depth knowledge from certified professionals with real-world industry insights.",
+    color: "text-blue-500",
+    bg: "bg-blue-50",
   },
   {
-    icon: "/assets/icons/PlacementIcon2.svg",
-    title: "100% Placement Support",
-    subtitle:
-      "Receive end-to-end placement guidance, including resume building, interview prep, and job referrals until you get hired.",
+    icon: Target,
+    title: "100% Placement",
+    subtitle: "Resume building, interview prep, and direct job referrals until you get hired.",
+    color: "text-orange-500",
+    bg: "bg-orange-50",
   },
   {
-    icon: "/assets/icons/FlexibleIcon3.svg",
+    icon: Clock,
     title: "Flexible Schedule",
-    subtitle:
-      "Learn at your convenience with batch timings designed to suit working professionals and students alike.",
+    subtitle: "Learn at your convenience with batch timings for professionals and students.",
+    color: "text-green-500",
+    bg: "bg-green-50",
   },
   {
-    icon: "/assets/icons/CapstoneIcon4.svg",
-    title: "Capstone Projects & Hands-on Learning",
-    subtitle:
-      "Enhance your skills with practical projects to apply concepts confidently.",
+    icon: Zap,
+    title: "Hands-on Learning",
+    subtitle: "Enhance your skills with practical capstone projects to apply concepts confidently.",
+    color: "text-purple-500",
+    bg: "bg-purple-50",
   },
   {
-    icon: "/assets/icons/LifetimeIcon5.svg",
-    title: "Lifetime Career Assistance",
-    subtitle:
-      "Stay supported throughout your career with continuous mentorship, skill updates, and career guidance.",
+    icon: LifeBuoy,
+    title: "Career Assistance",
+    subtitle: "Continuous mentorship, skill updates, and career guidance throughout your journey.",
+    color: "text-indigo-500",
+    bg: "bg-indigo-50",
   },
   {
-    icon: "/assets/icons/EMIIcon6.svg",
-    title: "EMI Options",
-    subtitle:
-      "Make your learning affordable with easy monthly installment plans tailored to your budget.",
+    icon: CreditCard,
+    title: "Easy EMI Options",
+    subtitle: "Make learning affordable with flexible monthly installment plans tailored to you.",
+    color: "text-pink-500",
+    bg: "bg-pink-50",
   },
 ];
 
@@ -49,21 +65,12 @@ export default function WhyEMEAcademy() {
   const Courses = "All Course";
   const email_sender = "ALL";
   const SelectCourses = [
-    "Data Analytics Course",
-    "Sap Course",
-    "Digital Marketing Course",
-    "HR Management Course",
-    "Web Development Course",
-    "Data Science Course",
-    "Graphics Designing Course",
-    "Cyber Security Course",
-    "UI UX Course",
-    "Animation & VFX Course",
-    "Cloud Computing Course",
-    "Prompt Engineering with AI Course",
+    "Data Analytics Course", "Sap Course", "Digital Marketing Course",
+    "HR Management Course", "Web Development Course", "Data Science Course",
+    "Graphics Designing Course", "Cyber Security Course", "UI UX Course",
+    "Animation & VFX Course", "Cloud Computing Course", "Prompt Engineering with AI Course",
   ];
-  const Brochure =
-    "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
+  const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
   const BrochureName = "EME-brochure-2024.pdf";
   const _this = {
     isModalOpen,
@@ -76,66 +83,94 @@ export default function WhyEMEAcademy() {
     ctaType,
     setCtaType,
   };
+
   return (
-    <div className="w-full max-w-[1380px] mx-auto flex flex-col justify-center items-center">
-      <div className="flex flex-col gap-4 items-center text-center py-8 md:py-10 px-4 mx-auto">
-        <div className="flex items-baseline gap-2 text-[18px] md:text-[22px] font-[600] text-[#4B4B4B]">
-          Why Choose
-          <span className="flex flex-col items-end">
-            <span className="text-[18px] md:text-[22px] text-[#232D63]">
-              EME Academy
-            </span>
-            <Image
-              src="/assets/images/Home/icons/StudentsLineVector.svg"
-              alt="line"
-              width={80}
-              height={40}
-              className="ml-2"
-            />
-          </span>
-        </div>
-
-        <div className="w-full md:max-w-[1150px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full mt-4 ">
-          {features.map((feature, idx) => (
-            <Card
-              key={idx}
-              className="border border-[#EEEEEE] rounded-[20px] bg-white shadow-sm 
-  flex flex-col md:h-[390px] overflow-hidden"
+    <section className="w-full py-8 md:py-12 bg-[#F8FAFC] overflow-hidden">
+      <div className="container max-w-[1200px] mx-auto px-4">
+        <div className="flex flex-col items-center gap-6 md:gap-10">
+          
+          {/* Header Section */}
+          <div className="flex flex-col items-center text-center space-y-3 max-w-2xl mx-auto">
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
             >
-              {/* Top Image */}
-              <div className="w-full flex justify-center items-center pb-2">
-                <Image
-                  src={feature.icon}
-                  alt="icon"
-                  width={0}
-                  height={0}
-                  className="w-[140px] h-[140px] md:w-[160px] md:h-[160px] object-contain mx-auto"
-                />
-              </div>
+              <CheckCircle2 className="h-3.5 w-3.5" />
+              The EME Advantage
+            </motion.div>
 
-              {/* Divider */}
-              <hr className="w-full border-t border-[#EEEEEE] " />
+            <motion.h2 
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
+            >
+              Why Choose <span className="text-[#0057E2]">EME Academy</span>?
+            </motion.h2>
 
-              {/* Text Content */}
-              <div className="px-4  text-start">
-                <h3 className="text-[20px] md:text-[22px] font-bold text-[#232D63] font-[700] leading-[26px]">
-                  {feature.title}
-                </h3>
+            <motion.div
+              initial={{ width: 0 }}
+              whileInView={{ width: "60px" }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3, duration: 0.6 }}
+              className="relative h-1.5 w-16"
+            >
+              <Image
+                src="/assets/images/Home/icons/StudentsLineVector.svg"
+                alt="line"
+                fill
+                className="object-contain"
+              />
+            </motion.div>
+          </div>
 
-                <p className="text-[14px] md:text-[16px] text-[#4B4B4B] mt-3 leading-[1.5]">
-                  {feature.subtitle}
-                </p>
-              </div>
-            </Card>
-          ))}
+          {/* Features Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
+            {features.map((feature, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.05 }}
+              >
+                <Card className="h-full p-4 md:p-5 bg-white border border-gray-100 rounded-xl md:rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_15px_40px_rgba(0,87,226,0.08)] transition-all duration-500 group flex flex-col">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className={`h-10 w-10 md:h-11 md:w-11 rounded-lg md:rounded-xl ${feature.bg} flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-110`}>
+                      <feature.icon className={`h-5 w-5 md:h-5.5 md:w-5.5 ${feature.color}`} />
+                    </div>
+                    <h3 className="text-base md:text-lg font-black text-gray-800 leading-tight">
+                      {feature.title}
+                    </h3>
+                  </div>
+
+                  <p className="text-gray-600 text-[12px] md:text-[13px] leading-relaxed flex-1">
+                    {feature.subtitle}
+                  </p>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* CTA Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+          >
+            <CTAButton 
+              name="Enroll Now"
+              styleClasses="h-10 md:h-11 px-8 md:px-10 bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-black text-xs md:text-sm shadow-lg shadow-blue-50 transition-all hover:scale-105 active:scale-95 border-none"
+              _this={_this}
+            />
+          </motion.div>
+
         </div>
-
-        <CTAButton
-          name="Enroll Now"
-          styleClasses="mt-6 md:w-fit w-full bg-[#0057E2] hover:bg-[#004CA3] text-[#ffffff] hover:text-[#ffffff] rounded-[12px] font-semibold text-[12px] md:text-[14px] md:px-[50px]"
-          _this={_this}
-        />
       </div>
-    </div>
+    </section>
   );
 }
