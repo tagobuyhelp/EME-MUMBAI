@@ -721,7 +721,7 @@ export default function page() {
 
     return (
         <main
-            className={`${inter.className} flex flex-col justify-start items-center w-full min-h-screen overflow-x-hidden`}
+            className={`${inter.className} flex flex-col justify-start items-center w-full min-h-screen`}
         >
             <div className="w-full bg-[#0B1220] text-white border-y border-white/10 overflow-hidden group">
                 <style>{`
@@ -808,7 +808,7 @@ export default function page() {
                                     return (
                                         <div
                                             key={`${course.title}-${index}`}
-                                            className="snap-start shrink-0 w-[80%] max-w-[420px] rounded-3xl overflow-hidden border border-[#EEF2F7] bg-white shadow-[0_10px_40px_rgba(0,0,0,0.06)] flex flex-col"
+                                            className="snap-start shrink-0 w-[88%] max-w-[420px] rounded-3xl overflow-hidden border border-[#EEF2F7] bg-white shadow-[0_10px_40px_rgba(0,0,0,0.06)] flex flex-col"
                                         >
                                             <div
                                                 className="relative h-[210px]"
