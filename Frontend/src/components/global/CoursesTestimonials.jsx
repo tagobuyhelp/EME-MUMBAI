@@ -7,13 +7,14 @@ import "swiper/css/navigation"
 import "swiper/css/zoom"
 import { Autoplay, Zoom, Navigation } from "swiper/modules"
 import Image from "next/image"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
 export function CoursesTestimonials({
     TestimonialsData = [],
     title = "Students",
-    titleHighlight = "Testimonials"
+    titleHighlight = "Testimonials",
+    subtitle = ""
   }) {
 
   const breakpoints = {
@@ -32,6 +33,11 @@ export function CoursesTestimonials({
           {title}
           <span className="text-[#E87D1A]"> {titleHighlight}</span>
         </h2>
+        {subtitle ? (
+          <p className="mt-1 text-center text-[#4B4B4B] text-[12px] md:text-[14px] font-medium max-w-[900px]">
+            {subtitle}
+          </p>
+        ) : null}
       </div>
 
       {/* Swiper Carousel */}
@@ -99,6 +105,12 @@ export function CoursesTestimonials({
                       <p className="text-xs md:text-[14px] text-[#7F7F7F] font-[400]">
                         {data.role}
                       </p>
+                      {data.note ? (
+                        <div className="mt-1 inline-flex items-center gap-1.5 text-[11px] md:text-[12px] font-semibold text-[#0057E2]">
+                          <CheckCircle2 className="h-4 w-4" />
+                          <span>{data.note}</span>
+                        </div>
+                      ) : null}
                     </div>
                   </div>
                 </SwiperSlide>

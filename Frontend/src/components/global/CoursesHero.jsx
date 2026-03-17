@@ -17,7 +17,8 @@ function CoursesHero({
     title,
     description,
     googleRating,
-    justdialRating }) {
+    justdialRating,
+    heroStats = [] }) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [ctaType, setCtaType] = useState(null);
@@ -53,6 +54,37 @@ function CoursesHero({
                             {description}
                         </p>
                     </div>
+
+                    {heroStats?.length > 0 && (
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 w-full">
+                            {heroStats.map((stat, idx) => (
+                                <div
+                                    key={`${stat?.value ?? "stat"}-${idx}`}
+                                    className="flex items-start gap-2 rounded-xl border border-white/10 bg-white/10 backdrop-blur px-3 py-2"
+                                >
+                                    {stat?.iconSrc ? (
+                                        <Image
+                                            src={stat.iconSrc}
+                                            alt={stat.iconAlt || "icon"}
+                                            width={18}
+                                            height={18}
+                                            className="mt-0.5"
+                                        />
+                                    ) : (
+                                        <div className="text-base leading-none">{stat.icon}</div>
+                                    )}
+                                    <div className="flex flex-col leading-tight">
+                                        <div className="text-[12px] md:text-[13px] font-extrabold text-[#FFF5ED]">
+                                            {stat.value}
+                                        </div>
+                                        <div className="text-[10px] md:text-[11px] font-semibold text-white/80">
+                                            {stat.label}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
 
                     {/* Rating and Brochure */}
                     <div className='w-full flex flex-row justify-center md:justify-start items-center gap-2 text-[#fff] text-[12px]'>

@@ -5,13 +5,13 @@ import { StudentCard } from "./StudentCard";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import CTAButton from "@/components/common/CtaButton";
-import { Award, CheckCircle2 } from "lucide-react";
 
 const CertifiedStudent = ({
   students = [],
-  title,
-  titleHighlight,
-  subtitle,
+  badgeText = "👤 Real Students. Real Results. Koi Farzi Nahi.",
+  title = "They Started Exactly Where You Are Today.",
+  titleHighlight = "",
+  subtitle = "Last year akele 750+ placements. Salary ₹40,000–₹70,000/month — aur yeh sirf starting hai.",
   Courses,
   email_sender,
   SelectCourses = [],
@@ -48,8 +48,7 @@ const CertifiedStudent = ({
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
           >
-            <Award className="h-3.5 w-3.5" />
-            Verified Student Success
+            {badgeText}
           </motion.div>
 
           <motion.h2 
@@ -59,24 +58,29 @@ const CertifiedStudent = ({
             transition={{ delay: 0.1 }}
             className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
           >
-            {title}{" "}
-            <span className="relative inline-block text-[#0057E2]">
-              {titleHighlight}
-              <motion.div
-                initial={{ width: 0 }}
-                whileInView={{ width: "100%" }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.3, duration: 0.6 }}
-                className="absolute -bottom-1 left-0 h-1.5 w-full"
-              >
-                <Image
-                  src="/assets/images/Home/icons/StudentsLineVector.svg"
-                  alt="line"
-                  fill
-                  className="object-contain"
-                />
-              </motion.div>
-            </span>
+            {title}
+            {titleHighlight ? (
+              <>
+                {" "}
+                <span className="relative inline-block text-[#0057E2]">
+                  {titleHighlight}
+                  <motion.div
+                    initial={{ width: 0 }}
+                    whileInView={{ width: "100%" }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.3, duration: 0.6 }}
+                    className="absolute -bottom-1 left-0 h-1.5 w-full"
+                  >
+                    <Image
+                      src="/assets/images/Home/icons/StudentsLineVector.svg"
+                      alt="line"
+                      fill
+                      className="object-contain"
+                    />
+                  </motion.div>
+                </span>
+              </>
+            ) : null}
           </motion.h2>
 
           <motion.p 
