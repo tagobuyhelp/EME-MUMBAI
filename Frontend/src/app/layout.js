@@ -20,6 +20,74 @@ export const metadata = {
 <link rel="icon" href="facicon.ico" sizes="any" />;
 
 export default function RootLayout({ children }) {
+  const educationalOrganizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: "EME Academy",
+    url: "https://emeacademy.co.in/",
+    telephone: "+919831284098",
+    email: "info@emeacademy.co.in",
+    description:
+      "EME Academy offers professional courses in Digital Marketing, SAP, HR Management, and Data Analytics in Kolkata.",
+    logo: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png",
+    founder: {
+      "@type": "Person",
+      name: "Kazi Mahasin Azim",
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress:
+        "5th Floor, TOWER-1, Globsyn Crystals, 505, EP Block, Sector V, Bidhannagar",
+      addressLocality: "Kolkata",
+      addressRegion: "West Bengal",
+      postalCode: "700091",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "22.572142449058223",
+      longitude: "88.43353038465743",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: "08:00",
+        closes: "18:00",
+      },
+    ],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.7",
+      reviewCount: "297",
+    },
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=61565016775751",
+      "https://www.instagram.com/emeacademy__/",
+      "https://www.youtube.com/@emeacademy",
+      "https://www.linkedin.com/company/emeacademy/",
+      "https://maps.app.goo.gl/rkwtFrpKiNQFpsdM6",
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Courses",
+      itemListElement: [
+        { "@type": "Course", name: "Digital Marketing Course" },
+        { "@type": "Course", name: "SAP Course" },
+        { "@type": "Course", name: "HR Management Course" },
+        { "@type": "Course", name: "Data Analytics Course" },
+      ],
+    },
+  };
+
   return (
     <html lang="en" className="scroll-smooth">
       <Head>
@@ -46,6 +114,12 @@ export default function RootLayout({ children }) {
             `,
           }}
         ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(educationalOrganizationSchema),
+          }}
+        />
       </Head>
       {/* <GoogleTagManager gtmId="GTM-PDQTB5WZ" /> */}
       <GoogleTagManager gtmId="GTM-K9M2TGKC" />
