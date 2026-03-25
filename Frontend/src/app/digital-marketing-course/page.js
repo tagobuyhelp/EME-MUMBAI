@@ -21,6 +21,7 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButton from "@/components/common/CtaButton";
+import DMShortsCarousel from "./DMShortsCarousel";
 
 export const metadata = {
     title: "Best Digital Marketing Course in Kolkata | EME Academ",
@@ -1015,9 +1016,21 @@ export default function page() {
                 <PlacementSupport {..._this} />
             </div>
 
-            <div id="testimonials" className="flex w-full  bg-white">
-                <CoursesTestimonials {...testimonialsData} />
+            <div className="w-full bg-white">
+                <DMShortsCarousel
+                    _this={_this}
+                    videos={[
+                        "https://www.youtube.com/shorts/ZqHbDgX30Ps",
+                        "https://www.youtube.com/shorts/qC06mvJiyL0",
+                        "https://www.youtube.com/shorts/5vtXeeSxmcc",
+                        "https://www.youtube.com/shorts/37JLYYEBquU",
+                        "https://www.youtube.com/shorts/UF_NvyKnYck",
+                        "https://www.youtube.com/shorts/7dW5JDEIq6o",
+                        "https://www.youtube.com/shorts/TbTxV6hjaJ4",
+                    ]}
+                />
             </div>
+
             <div id="awards" className="flex w-full  bg-white">
                 <Awards />
             </div>
