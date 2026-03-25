@@ -224,13 +224,7 @@ export default function CoursesSection() {
             Unlock Your Career Potential with <br className="hidden md:block" />
             <span className="text-[#0057E2] relative inline-block">
               Expert-Led Training
-              <Image
-                src="/assets/images/Home/icons/StudentsLineVector.svg"
-                alt="line"
-                width={120}
-                height={12}
-                className="absolute -bottom-2 left-0 w-full"
-              />
+              
             </span>
           </motion.h2>
           

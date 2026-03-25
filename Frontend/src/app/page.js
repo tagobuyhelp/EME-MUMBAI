@@ -125,6 +125,10 @@ export default function Home() {
         <PlacementPartners />
       </div>
 
+      <div className="flex w-full bg-[#FFFFFF]">
+        <CoursesSection />
+      </div>
+
       <div className="flex justify-center items-center w-full h-auto m-auto">
         <Trustedby />
       </div>
@@ -141,9 +145,7 @@ export default function Home() {
         BrochureName={BrochureName}
         />
       </div>
-      <div className="flex w-full bg-[#FFFFFF]">
-        <CoursesSection />
-      </div>
+      
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent  {..._this}
           students={alumniStudents}

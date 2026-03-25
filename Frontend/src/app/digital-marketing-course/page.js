@@ -771,7 +771,7 @@ export default function page() {
                 <InfiniteCall />
             </div>
 
-            <div className="w-full bg-[url('/assets/images/Digital_Marketing_Landing/images/best-digital-marketing-training-kolkata-hero-bg-3.webp')] xs:h-[460px] md:h-[555px] bg-cover bg-center bg-no-repeat">
+            <div className="w-full bg-[url('/assets/images/Digital_Marketing_Landing/images/best-digital-marketing-training-kolkata-hero-bg-3.webp')] xs:h-[380px] sm:h-[420px] md:h-[555px] bg-cover bg-center bg-no-repeat">
                 <CoursesHero {...heroData} {..._this} />
             </div>
 
@@ -868,8 +868,8 @@ export default function page() {
 
                                                 <div className="mt-auto pt-5 grid grid-cols-2 gap-3">
                                                     <CTAButton
-                                                        name="Explore Now →"
-                                                        styleClasses="w-full bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-bold text-[12px] px-4 h-10 border-none"
+                                                        name="Apply Now"
+                                                        styleClasses="w-full bg-[#0057E2] hover:bg-[#0047C2]  text-white rounded-xl font-bold text-[12px] px-4 h-10 border-none"
                                                         _this={ctaThis}
                                                     />
                                                     <Link href={course.link} className="w-full" target="_blank">
@@ -955,8 +955,8 @@ export default function page() {
 
                                             <div className="mt-auto pt-6 flex flex-col sm:flex-row gap-3">
                                                 <CTAButton
-                                                    name="Explore Now →"
-                                                    styleClasses="w-full sm:w-auto bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-bold text-[12px] md:text-[13px] px-6 h-11 border-none"
+                                                    name="Apply Now"
+                                                    styleClasses="w-full sm:w-auto bg-[#0057E2] hover:bg-[#0047C2] text-white hover:text-white rounded-xl font-bold text-[12px] md:text-[13px] px-6 h-11 border-none"
                                                     _this={ctaThis}
                                                 />
                                                 <Link href={course.link} className="w-full sm:w-auto" target="_blank">
