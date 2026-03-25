@@ -1,7 +1,6 @@
 "use client";
 import * as React from "react";
 import Image from "next/image";
-import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -31,8 +30,7 @@ const getYouTubeThumb = (id) => {
 };
 
 export default function DMShortsCarousel({ _this, videos }) {
-  const plugin = React.useRef(Autoplay({ delay: 3500, stopOnInteraction: false }));
-  const [hoveredIndex, setHoveredIndex] = React.useState(null);
+  const [activeIndex, setActiveIndex] = React.useState(null);
 
   const items = React.useMemo(() => {
     const fallback = [
@@ -70,56 +68,79 @@ export default function DMShortsCarousel({ _this, videos }) {
 
         <div className="mt-7 md:mt-10 relative">
           <Carousel
-            plugins={[plugin.current]}
             opts={{ align: "start", loop: true }}
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
             className="w-full"
           >
             <CarouselContent className="flex gap-3 md:gap-6 py-4">
-              {items.map((item, index) => (
-                <CarouselItem
-                  key={item.id}
-                  className="basis-[84%] sm:basis-[56%] md:basis-[40%] lg:basis-[24%] flex justify-center"
-                >
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="relative w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[260px] rounded-2xl overflow-hidden border border-[#EEF2F7] shadow-[0_10px_30px_rgba(0,0,0,0.08)] bg-black group"
-                    onMouseEnter={() => setHoveredIndex(index)}
-                    onMouseLeave={() => setHoveredIndex(null)}
+              {items.map((item, index) => {
+                const isActive = activeIndex === index;
+
+                return (
+                  <CarouselItem
+                    key={item.id}
+                    className="basis-[84%] sm:basis-[56%] md:basis-[40%] lg:basis-[24%] flex justify-center"
                   >
-                    <div className="relative w-full aspect-[9/16]">
-                      <Image
-                        src={item.thumbnail}
-                        alt="Student story"
-                        fill
-                        sizes="(max-width: 640px) 84vw, (max-width: 1024px) 320px, 260px"
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-black/35 transition-opacity duration-300 group-hover:opacity-0" />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="h-12 w-12 rounded-full bg-white/90 backdrop-blur flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0">
-                          <div className="ml-0.5 h-0 w-0 border-y-[8px] border-y-transparent border-l-[12px] border-l-[#0057E2]" />
+                    <div
+                      role="button"
+                      tabIndex={0}
+                      className="relative w-full max-w-[280px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[260px] rounded-2xl overflow-hidden border border-[#EEF2F7] shadow-[0_10px_30px_rgba(0,0,0,0.08)] bg-black group outline-none"
+                      onClick={() => setActiveIndex((prev) => (prev === index ? null : index))}
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          setActiveIndex((prev) => (prev === index ? null : index));
+                        }
+                      }}
+                    >
+                      <div className="relative w-full aspect-[9/16]">
+                        <Image
+                          src={item.thumbnail}
+                          alt="Student story"
+                          fill
+                          sizes="(max-width: 640px) 84vw, (max-width: 1024px) 320px, 260px"
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-black/35 transition-opacity duration-300 group-hover:opacity-0" />
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div
+                            className={`h-12 w-12 rounded-full bg-white/90 backdrop-blur flex items-center justify-center transition-opacity duration-300 ${isActive ? "opacity-0" : "group-hover:opacity-0"}`}
+                          >
+                            <div className="ml-0.5 h-0 w-0 border-y-[8px] border-y-transparent border-l-[12px] border-l-[#0057E2]" />
+                          </div>
+                        </div>
+
+                        <div className={`absolute inset-0 ${isActive ? "block" : "hidden"}`}>
+                          {isActive && item.youtubeId ? (
+                            <iframe
+                              className="w-full h-full"
+                              src={`https://www.youtube.com/embed/${item.youtubeId}?autoplay=1&mute=0&controls=1&playsinline=1&rel=0&modestbranding=1`}
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              frameBorder="0"
+                              title="YouTube video player"
+                            />
+                          ) : null}
                         </div>
                       </div>
-
-                      <div className="absolute inset-0 hidden group-hover:block">
-                        {hoveredIndex === index && item.youtubeId ? (
-                          <iframe
-                            className="w-full h-full"
-                            src={`https://www.youtube.com/embed/${item.youtubeId}?autoplay=0&mute=0&controls=1&playsinline=1&rel=0&modestbranding=1`}
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            frameBorder="0"
-                            title="YouTube video player"
-                          />
-                        ) : null}
+                      <div
+                        className={`absolute bottom-3 left-3 right-3 ${isActive ? "hidden" : "flex"} justify-between items-center gap-3`}
+                      >
+                        <div className="text-white/80 text-[11px] font-semibold truncate">
+                          Tap to play
+                        </div>
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white text-[11px] font-bold underline underline-offset-2"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          YouTube
+                        </a>
                       </div>
                     </div>
-                  </a>
-                </CarouselItem>
-              ))}
+                  </CarouselItem>
+                );
+              })}
             </CarouselContent>
 
             <CarouselPrevious className="hidden md:flex absolute -left-6 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-md hover:bg-gray-100" />

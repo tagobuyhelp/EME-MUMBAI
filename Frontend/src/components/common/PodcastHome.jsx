@@ -15,6 +15,7 @@ import CTAButton from "./CtaButton"
 export default function PodcastHome() {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [ctaType, setCtaType] = React.useState(null);
+  const [activeIndex, setActiveIndex] = React.useState(null);
   const Courses = "All Course";
   const email_sender = "ALL";
   const SelectCourses = [
@@ -46,10 +47,8 @@ export default function PodcastHome() {
   };
   
   const plugin = React.useRef(
-    Autoplay({ delay: 3500, stopOnInteraction: false })
+    Autoplay({ delay: 3500, stopOnInteraction: true })
   )
-
-  const [hoveredIndex, setHoveredIndex] = React.useState(null); 
 
   const podcasts = [
     // placement stories (new + existing) grouped first
@@ -141,59 +140,89 @@ export default function PodcastHome() {
         className="w-full"
       >
         <CarouselContent className="flex gap-6 py-5">
-          {podcastWithThumbnails.map((podcast, index) => (
-            <CarouselItem
-              key={index}
-              className="flex-shrink-0 basis-[85%] sm:basis-[60%] md:basis-[55%] lg:basis-[22%] flex justify-center"
-            >
-              <a
-                href={podcast.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative w-full rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] group transition-all duration-300 hover:shadow-blue-400 h-[490px] md:h-[440px] w-[250px] lg:w-[250px]"
-                onMouseEnter={() => setHoveredIndex(index)}  
-                onMouseLeave={() => setHoveredIndex(null)} 
+          {podcastWithThumbnails.map((podcast, index) => {
+            const isActive = activeIndex === index;
+
+            return (
+              <CarouselItem
+                key={index}
+                className="flex-shrink-0 basis-[85%] sm:basis-[60%] md:basis-[55%] lg:basis-[22%] flex justify-center"
               >
-                {/* Thumbnail */}
-                <Image
-                  src={podcast.thumbnail}
-                  alt={`podcast-${index}`}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-
-                {/* Play Icon */}
-                <div className="absolute inset-0 flex items-center justify-center z-20">
-                  <Image
-                    src="/assets/images/play.png"
-                    height={50}
-                    width={50}
-                    alt="play"
-                    className="opacity-90 group-hover:opacity-0 transition-opacity duration-300"
-                  />
-                </div>
-
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black/40 opacity-100 group-hover:opacity-0 transition-opacity duration-300 z-10" />
-
-                {/* YouTube Embed (on hover) */}
-                {/* react youtube, reactplayer etc. -- by ramij sir */}
-                <div className="absolute inset-0 hidden group-hover:block animate-fadeIn z-30">
-                  {/* Load iframe ONLY when hovered */}
-                {hoveredIndex === index && (
-                  <div className="absolute inset-0 animate-fadeIn z-30">
-                    <iframe
-                      className="w-full h-full rounded-xl"
-                      src={`https://www.youtube.com/embed/${podcast.idCode}?autoplay=1&mute=1&controls=0`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      frameBorder="0"
+                <div
+                  role="button"
+                  tabIndex={0}
+                  className="relative w-full max-w-[280px] md:max-w-[300px] rounded-xl overflow-hidden border border-[#121112] shadow-[4px_4px_0_#B5D8FF] bg-black outline-none"
+                  onClick={() => {
+                    setActiveIndex((prev) => {
+                      const next = prev === index ? null : index;
+                      if (next !== null) plugin.current?.stop?.();
+                      else plugin.current?.reset?.();
+                      return next;
+                    });
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setActiveIndex((prev) => {
+                        const next = prev === index ? null : index;
+                        if (next !== null) plugin.current?.stop?.();
+                        else plugin.current?.reset?.();
+                        return next;
+                      });
+                    }
+                  }}
+                >
+                  <div className="relative w-full aspect-[9/16]">
+                    <Image
+                      src={podcast.thumbnail}
+                      alt={`podcast-${index}`}
+                      fill
+                      sizes="(max-width: 640px) 85vw, (max-width: 1024px) 300px, 260px"
+                      className="object-cover"
                     />
+
+                    <div className="absolute inset-0 bg-black/40" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div
+                        className={`h-12 w-12 rounded-full bg-white/90 backdrop-blur flex items-center justify-center transition-opacity duration-300 ${isActive ? "opacity-0" : ""}`}
+                      >
+                        <div className="ml-0.5 h-0 w-0 border-y-[8px] border-y-transparent border-l-[12px] border-l-[#0057E2]" />
+                      </div>
+                    </div>
+
+                    <div className={`absolute inset-0 ${isActive ? "block" : "hidden"}`}>
+                      {isActive && podcast.idCode ? (
+                        <iframe
+                          className="w-full h-full"
+                          src={`https://www.youtube.com/embed/${podcast.idCode}?autoplay=1&mute=0&controls=1&playsinline=1&rel=0&modestbranding=1`}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          frameBorder="0"
+                          title="YouTube video player"
+                        />
+                      ) : null}
+                    </div>
                   </div>
-                )}
+
+                  <div
+                    className={`absolute bottom-3 left-3 right-3 ${isActive ? "hidden" : "flex"} justify-between items-center gap-3`}
+                  >
+                    <div className="text-white/85 text-[11px] font-semibold truncate">
+                      Tap to play
+                    </div>
+                    <a
+                      href={podcast.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white text-[11px] font-bold underline underline-offset-2"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      YouTube
+                    </a>
+                  </div>
                 </div>
-              </a>
-            </CarouselItem>
-          ))}
+              </CarouselItem>
+            );
+          })}
         </CarouselContent>
 
         <CarouselPrevious className="absolute -left-3 md:-left-8 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-all" />
