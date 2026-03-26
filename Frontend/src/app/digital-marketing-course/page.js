@@ -22,6 +22,7 @@ import Image from "next/image";
 import Link from "next/link";
 import CTAButton from "@/components/common/CtaButton";
 import DMShortsCarousel from "./DMShortsCarousel";
+import DMFinalSupportSection from "./DMFinalSupportSection";
 
 export const metadata = {
     title: "Best Digital Marketing Course in Kolkata | EME Academ",
@@ -980,10 +981,6 @@ export default function page() {
             >
                 <FeaturedIn {..._this} />
             </div>
-            <div id="CourseTool" className="flex justify-center bg-[#ffffff]">
-                <CoursesCurriculum {...toolsData} {..._this} />
-            </div>
-
             <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
                 <CertifiedStudent
                     {..._this}
@@ -995,27 +992,20 @@ export default function page() {
                     }
                 />
             </div>
-
             <div id="CourseProspects" className="flex w-full p-6">
                 <CoursesCareerProsoects {...careerProspectsData} {..._this} />
             </div>
+            
+            
 
             <div id="" className="flex w-full bg-[#ffffff] py-4">
                 <LearningMethodology
                     {..._this}
                     items={items}
                     backgroundImage="/assets/images/Digital_Marketing_Landing/DMLearningMethodology.webp"
+                    variant="compact"
                 />
             </div>
-
-            <div id="" className="flex w-full p-6">
-                <TalkToOurCareerExpert {..._this} />
-            </div>
-
-            <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-                <PlacementSupport {..._this} />
-            </div>
-
             <div className="w-full bg-white">
                 <DMShortsCarousel
                     _this={_this}
@@ -1030,6 +1020,9 @@ export default function page() {
                     ]}
                 />
             </div>
+
+            
+            
 
             <div id="awards" className="flex w-full  bg-white">
                 <Awards />
@@ -1046,6 +1039,7 @@ export default function page() {
             <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
                 <Faqs faqs={DMfaq} />
             </div>
+            <DMFinalSupportSection _this={_this} />
             <CoursesLandingFooter courseName="Digital Marketing Course"  {..._this} />
             <StickyCTAButton {..._this} />
         </main>
