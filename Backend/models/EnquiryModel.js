@@ -7,6 +7,7 @@ const EnquirySchema = new Schema(
     email: { type: String, required: true, trim: true },
     phone_number: { type: String, required: true, trim: true },
     course: { type: String, required: true, trim: true },
+    timing: { type: String, trim: true, default: null },
 
     // ✅ UTM Tracking fields
     utm_source: { type: String, trim: true, default: null },

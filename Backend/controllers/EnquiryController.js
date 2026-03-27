@@ -35,6 +35,7 @@ module.exports = {
         email = "",
         phone_number = "",
         course = "",
+        timing = "",
         email_sender = "",
         // ✅ UTM fields
         utm_source = null,
@@ -84,6 +85,7 @@ module.exports = {
           email,
           phone_number,
           course,
+           timing,
           utm_source,
           utm_medium,
           utm_campaign,
@@ -101,6 +103,7 @@ module.exports = {
           email,
           phone_number,
           course,
+          timing,
           source: inserted.source,
         };
 
@@ -222,6 +225,7 @@ module.exports = {
           email: item.email,
           phone_number: item.phone_number,
           course: item.course,
+          timing: item.timing || null,
           source: derivedSource,
           url: url,
           createdAt: moment(item.createdAt).tz("Asia/Kolkata").format(),

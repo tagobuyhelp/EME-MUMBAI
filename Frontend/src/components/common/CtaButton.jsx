@@ -20,8 +20,8 @@ export default function CTAButton({ name, styleClasses, _this }) {
                         size="lg" variant="outline"
                         className={`${styleClasses} w-full sm:w-auto text-[12px] md:text-sm leading-5 font-semibold px-8 hover:cursor-pointer py-2`}
                         onClick={() => { 
-                        _this?.setIsModalOpen(true)
-                        _this?.setCtaType(isBrochureCTA ? "download" : "normal");    
+                        _this?.setIsModalOpen?.(true)
+                        _this?.setCtaType?.(isBrochureCTA ? "download" : "normal");    
                          }}>
                         <div>
                             {name}

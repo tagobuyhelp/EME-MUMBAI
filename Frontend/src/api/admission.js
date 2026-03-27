@@ -12,6 +12,7 @@ const admission = {
         phone_number: data.mobile,
         email: data.email,
         course: data.course,
+        timing: data.timing || null,
         email_sender: data.email_sender,
         // UTM tracking fields and page URL
         utm_source: data.utm_source || null,

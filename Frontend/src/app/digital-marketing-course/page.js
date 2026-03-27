@@ -117,8 +117,9 @@ const items = [
 export default function page() {
     const Courses = "Digital Marketing Course";
     const SelectCourses = [
-        "Advanced Digital Marketing (Facebook & Google Ads)",
-        "Master Digital Marketing with AI",
+        "Advanced Digital Marketing (Facebook & Google Ads) - ₹30,000",
+        "Master Digital Marketing with AI - ₹40,000",
+        "Both - Tell me more"
     ];
     const email_sender = "ALL";
     const Brochure =
@@ -147,7 +148,7 @@ export default function page() {
         justdialRating: "4.8/5",
         heroStats: [
             { iconSrc: "/assets/icons/PlacementIcon.svg", iconAlt: "Placement", value: "750+ Placed", label: "Last year alone" },
-            { iconSrc: "/assets/icons/BudgetIcon.svg", iconAlt: "Salary", value: "₹40K–₹70K/mo", label: "Average starting salary" },
+            { iconSrc: "/assets/icons/BudgetIcon.svg", iconAlt: "Salary", value: "₹25K–₹60K/mo", label: "Average starting salary" },
             { iconSrc: "/assets/icons/DurationIcon.svg", iconAlt: "Weekend batches", value: "Weekend Batches", label: "For working professionals" },
             { iconSrc: "/assets/icons/EMIIcon.svg", iconAlt: "EMI", value: "0% EMI", label: "From ₹2,500/month" },
         ],
@@ -594,20 +595,18 @@ export default function page() {
     };
 
     const careerProspectsData = {
-        title:
-            'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
-        subtitle:
-            "After completing our Digital Marketing Course in Kolkata, you will unlock diverse career opportunities:",
+        title: "Complete the Course. Set Your Career.",
+        subtitle: "Whether You're a Parent or a Graduate — These Paths Are Yours.",
         careerRoles: [
             "Digital Marketing Executive",
-            "DEO/PPC Specialist",
+            "SEO/PPC Specialist",
             "Social Media Manager",
             "Content Marketer",
             "Marketing Automation Specialist",
-            "Freelancer/ Entrepreneur",
+            "Freelancer / Entrepreneur",
         ],
         salaryInfo:
-            'Average Salary in India: <strong class="font-bold">₹4 - 12 LPA</strong> (as per industry standard)',
+            'Avg salary: <strong class="font-bold">₹25K–₹60K/month</strong>',
         image: "/assets/images/Digital_Marketing_Landing/CareerProspectsDM.webp",
         buttonText: "Check Eligibility",
     };
@@ -745,7 +744,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 9093926145
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹40K–₹70K/month
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 0% Interest EMI · No Coding Required · Weekend Batches Available
@@ -759,7 +758,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 9093926145
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹40K–₹70K/month
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 0% Interest EMI · No Coding Required · Weekend Batches Available
@@ -981,15 +980,20 @@ export default function page() {
             >
                 <FeaturedIn {..._this} />
             </div>
-            <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
-                <CertifiedStudent
-                    {..._this}
-                    students={alumniStudents}
-                    title={"Our Alumni "}
-                    titleHighlight={"Leading the World"}
-                    subtitle={
-                        "750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
-                    }
+            <div className="w-full bg-white">
+                <DMShortsCarousel
+                    _this={_this}
+                    title="👤 Real Students. Real Results. Koi Farzi Nahi."
+                    subtitle="They Started Exactly  Where You Are Today. Last year akele 750+ placements. Salary ₹25,000–₹60,000/month — aur yeh sirf starting hai."
+                    videos={[
+                        "https://www.youtube.com/shorts/ZqHbDgX30Ps",
+                        "https://www.youtube.com/shorts/qC06mvJiyL0",
+                        "https://www.youtube.com/shorts/5vtXeeSxmcc",
+                        "https://www.youtube.com/shorts/37JLYYEBquU",
+                        "https://www.youtube.com/shorts/UF_NvyKnYck",
+                        "https://www.youtube.com/shorts/7dW5JDEIq6o",
+                        "https://www.youtube.com/shorts/TbTxV6hjaJ4",
+                    ]}
                 />
             </div>
             <div id="CourseProspects" className="flex w-full p-6">
@@ -1006,21 +1010,10 @@ export default function page() {
                     variant="compact"
                 />
             </div>
-            <div className="w-full bg-white">
-                <DMShortsCarousel
-                    _this={_this}
-                    videos={[
-                        "https://www.youtube.com/shorts/ZqHbDgX30Ps",
-                        "https://www.youtube.com/shorts/qC06mvJiyL0",
-                        "https://www.youtube.com/shorts/5vtXeeSxmcc",
-                        "https://www.youtube.com/shorts/37JLYYEBquU",
-                        "https://www.youtube.com/shorts/UF_NvyKnYck",
-                        "https://www.youtube.com/shorts/7dW5JDEIq6o",
-                        "https://www.youtube.com/shorts/TbTxV6hjaJ4",
-                    ]}
-                />
+            
+            <div id="testimonials" className="flex w-full bg-white">
+                <CoursesTestimonials {...testimonialsData} />
             </div>
-
             
             
 
@@ -1039,6 +1032,7 @@ export default function page() {
             <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
                 <Faqs faqs={DMfaq} />
             </div>
+            
             <DMFinalSupportSection _this={_this} />
             <CoursesLandingFooter courseName="Digital Marketing Course"  {..._this} />
             <StickyCTAButton {..._this} />

@@ -15,6 +15,8 @@ exports.connect = () => {
         resolve(true);
       })
       .catch((error) => {
+        console.error("DB Connection Failed.");
+        console.error(error?.message || error);
         reject(error);
         process.exit(-1);
       });

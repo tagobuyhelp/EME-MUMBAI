@@ -144,7 +144,7 @@ function CoursesHero({
             </div >
 
             {/* Bottom CTA Card */}
-            <div className="hidden mt-10 relative w-full md:flex md:flex-col items-center justify-center z-[9] px-4 pb-6" >
+            <div className="hidden mt-1 relative w-full md:flex md:flex-col items-center justify-center z-[9] px-4 pb-6" >
                 <Card className="w-full max-w-[1140px] px-6 py-4 shadow-l border border-gray-200 rounded-2xl">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-[#727272]">
                         <div className='flex flex-col lg:flex-row justify-center items-center text-center lg:text-start gap-2'>

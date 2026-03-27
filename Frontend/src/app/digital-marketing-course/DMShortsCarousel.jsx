@@ -29,7 +29,7 @@ const getYouTubeThumb = (id) => {
   return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 };
 
-export default function DMShortsCarousel({ _this, videos }) {
+export default function DMShortsCarousel({ _this, videos, title, subtitle }) {
   const [activeIndex, setActiveIndex] = React.useState(null);
 
   const items = React.useMemo(() => {
@@ -59,10 +59,10 @@ export default function DMShortsCarousel({ _this, videos }) {
       <div className="w-full max-w-[1200px] mx-auto px-4">
         <div className="flex flex-col items-center text-center gap-2">
           <h2 className="text-[#232D63] text-[20px] md:text-[32px] font-black leading-tight">
-            Watch Real Student Stories
+            {title || "Watch Real Student Stories"}
           </h2>
           <p className="text-[#4B4B4B] text-[12px] md:text-[14px] font-medium max-w-[820px]">
-            Quick reels from learners who joined, learned, and started seeing results.
+            {subtitle || "Quick reels from learners who joined, learned, and started seeing results."}
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export default function DMShortsCarousel({ _this, videos }) {
 
         <div className="mt-8 flex justify-center">
           <CTAButton
-            name="Apply Now"
+            name="I Can Do This Too →"
             styleClasses="h-11 px-10 bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-black text-xs md:text-sm shadow-lg shadow-blue-50 border-none"
             _this={_this}
           />

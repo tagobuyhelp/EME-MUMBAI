@@ -35,6 +35,7 @@ const admissionSchema = z.object({
     .regex(/^(\+91-|\+91|0)?\d{10}$/, "Please enter valid mobile number"),
   //   course: z.string().optional(),
   course: z.string().min(1, "Please select a course"),
+  timing: z.string().min(1, "Please select when you want to start"),
 });
 
 export default function LandingAdmissionForm(_this) {
@@ -49,6 +50,7 @@ export default function LandingAdmissionForm(_this) {
     mobile: "",
     // phone_number: "",
     course: _this.SelectCourses?.length > 0 ? "" : _this.Courses,
+    timing: "",
     email_sender: _this.email_sender,
   });
 
@@ -280,6 +282,24 @@ focus:ring-1 focus:ring-blue-500  transition-colors"
               )}
             </div>
           )}
+
+          <Controller
+            control={form.control}
+            name="timing"
+            render={({ field }) => (
+              <Select value={field.value} onValueChange={field.onChange}>
+                <SelectTrigger className="w-full h-9">
+                  <SelectValue placeholder="When do you want to start?" />
+                </SelectTrigger>
+                <SelectContent position="popper" side="bottom">
+                  <SelectItem value="Immediately">Immediately</SelectItem>
+                  <SelectItem value="Within 1 month">Within 1 month</SelectItem>
+                  <SelectItem value="2–3 months">2–3 months</SelectItem>
+                  <SelectItem value="Just exploring">Just exploring</SelectItem>
+                </SelectContent>
+              </Select>
+            )}
+          />
           <div className="flex flex-col space-y-1">
             <div className="flex items-start space-x-1">
               <Checkbox id="terms" className="" />

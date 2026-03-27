@@ -19,6 +19,8 @@ import { DatePickerWithRange } from "@/components/ui/date-range-filter"
 
 export default function EnquireTable({ data, loading, onLoadMore, hasMore, totalItems, last24HoursRecordCount }) {
     const [selectedCourse, setSelectedCourse] = useState("All Courses")
+    const [selectedTiming, setSelectedTiming] = useState("All Timings")
+    const [selectedSource, setSelectedSource] = useState("All Sources")
     const [sortOrder, setSortOrder] = useState(null)
     const [dateRange, setDateRange] = useState({ from: null, to: null })
     const [filteredData, setFilteredData] = useState(data || [])
@@ -28,6 +30,21 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
 
     const formatDate = (dateString) => {
         return moment(dateString).format("DD-MM-YYYY, hh:mm:ss A")
+    }
+
+    const getDisplayedUrl = (student) => {
+        return student?.url && String(student.url).trim() !== "" ? student.url : "-";
+    }
+
+    const getDisplayedSource = (student) => {
+        const displayedUrl = getDisplayedUrl(student);
+        if (student?.source && String(student.source).trim() !== "") return student.source;
+        if (displayedUrl !== "-") return "organic";
+        return "-";
+    }
+
+    const getDisplayedTiming = (student) => {
+        return student?.timing && String(student.timing).trim() !== "" ? student.timing : "-";
     }
 
     const allCourses = [
@@ -49,6 +66,28 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
         "UI UX Course",
         "Data Analytics Course",
         "Data Science Course",
+    ]
+
+    const allTimings = [
+        "All Timings",
+        "Immediately",
+        "Within 1 month",
+        "2–3 months",
+        "Just exploring",
+        "Not Provided",
+    ]
+
+    const allSources = [
+        "All Sources",
+        "organic",
+        "utm",
+        "facebook",
+        "google",
+        "instagram",
+        "youtube",
+        "whatsapp",
+        "other",
+        "-",
     ]
 
     useEffect(() => {
@@ -76,6 +115,25 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                 filtered = filtered.filter((student) => student.course === selectedCourse)
             }
 
+            if (selectedTiming !== "All Timings") {
+                filtered = filtered.filter((student) => {
+                    const timing = getDisplayedTiming(student);
+                    if (selectedTiming === "Not Provided") return timing === "-";
+                    return timing === selectedTiming;
+                })
+            }
+
+            if (selectedSource !== "All Sources") {
+                filtered = filtered.filter((student) => {
+                    const source = String(getDisplayedSource(student)).toLowerCase();
+                    const selected = String(selectedSource).toLowerCase();
+                    if (selected === "other") {
+                        return !["organic", "utm", "facebook", "google", "instagram", "youtube", "whatsapp", "-"].includes(source);
+                    }
+                    return source === selected;
+                })
+            }
+
             // Filter by date range
             if (dateRange.from && dateRange.to) {
                 filtered = filtered.filter((student) => {
@@ -95,7 +153,7 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
 
             setFilteredData(filtered)
         }
-    }, [data, selectedCourse, dateRange, sortOrder])
+    }, [data, selectedCourse, selectedTiming, selectedSource, dateRange, sortOrder])
     const contentRef = useRef()
     const tableRef = useRef(null)
     const reactToPrintFn = useReactToPrint({ contentRef })
@@ -128,6 +186,30 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                             {allCourses.map((course, index) => (
                                 <SelectItem key={index} value={course}>
                                     {course}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+                    <Select value={selectedTiming} onValueChange={(value) => setSelectedTiming(value)}>
+                        <SelectTrigger className="w-auto h-6 px-2 data-[size=default]:h-8 data-[size=sm]:h-7">
+                            <SelectValue className="text-sm " placeholder="Timing" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {allTimings.map((t, index) => (
+                                <SelectItem key={index} value={t}>
+                                    {t}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
+                    <Select value={selectedSource} onValueChange={(value) => setSelectedSource(value)}>
+                        <SelectTrigger className="w-auto h-6 px-2 data-[size=default]:h-8 data-[size=sm]:h-7">
+                            <SelectValue className="text-sm " placeholder="Source" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {allSources.map((s, index) => (
+                                <SelectItem key={index} value={s}>
+                                    {s}
                                 </SelectItem>
                             ))}
                         </SelectContent>
@@ -184,6 +266,7 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                                 </TableHead>
                                 <TableHead className="border-l border-[#EAECF0] w-[18%]">Email</TableHead>
                                 <TableHead className="border-l border-[#EAECF0] w-[18%]">Course</TableHead>
+                            <TableHead className="border-l border-[#EAECF0] w-[12%]">Timing</TableHead>
                                 <TableHead className="border-l border-[#EAECF0] w-[10%]">Source</TableHead>
                                 <TableHead className="text-center border-l border-[#EAECF0] w-[9%] print:hidden">
                                     Actions
@@ -195,7 +278,7 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                             {loading && filteredData.length === 0 ? (
                                 <TableRow>
                                     <TableCell
-                                        colSpan={8}
+                                        colSpan={9}
                                         className="w-full text-center py-2 text-gray-500"
                                     >
                                         <div className="flex justify-center">
@@ -205,14 +288,9 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                                 </TableRow>
                             ) : filteredData && filteredData.length > 0 ? (
                                 filteredData.map((student, index) => {
-                                    const displayedUrl =
-                                        student?.url && String(student.url).trim() !== "" ? student.url : "-";
-                                    const displayedSource =
-                                        student?.source && String(student.source).trim() !== ""
-                                            ? student.source
-                                            : displayedUrl !== "-"
-                                                ? "organic"
-                                                : "-";
+                                    const displayedUrl = getDisplayedUrl(student);
+                                    const displayedSource = getDisplayedSource(student);
+                                    const displayedTiming = getDisplayedTiming(student);
 
                                     return (
                                         <TableRow
@@ -236,6 +314,9 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                                             </TableCell>
                                             <TableCell className="border-l border-[#EAECF0] whitespace-normal wrap-break-word">
                                                 {student.course}
+                                            </TableCell>
+                                            <TableCell className="border-l border-[#EAECF0] whitespace-normal wrap-break-word">
+                                                {displayedTiming}
                                             </TableCell>
                                             <TableCell className="border-l border-[#EAECF0] whitespace-normal wrap-break-word">
                                                 {displayedSource}
@@ -292,6 +373,9 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                                                                 <div className="font-medium">Course</div>
                                                                 <div className="col-span-2 break-words">{student.course}</div>
 
+                                                                <div className="font-medium">Timing</div>
+                                                                <div className="col-span-2 break-words">{displayedTiming}</div>
+
                                                                 <div className="font-medium">Source</div>
                                                                 <div className="col-span-2 break-words">{displayedSource}</div>
 
@@ -324,7 +408,7 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
                                 })
                             ) : (
                                 <TableRow>
-                                    <TableCell colSpan={8} className="w-full py-4 text-gray-500">
+                                    <TableCell colSpan={9} className="w-full py-4 text-gray-500">
                                         <div className="flex flex-col justify-center items-center">
                                             <Image
                                                 src="/assets/images/empty-box.png"
@@ -361,4 +445,3 @@ export default function EnquireTable({ data, loading, onLoadMore, hasMore, total
         </div>
     )
 }
-
