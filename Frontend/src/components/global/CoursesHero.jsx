@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useState } from "react";
 import { Card } from "@/components/ui/card"
 import LandingAdmissionForm from '@/components/common/LandingAdmissionForm';
+import LandingAdmissionFormWithTiming from '@/components/common/LandingAdmissionFormWithTiming';
 import CTAButton from '../common/CtaButton';
 
 
@@ -13,6 +14,7 @@ function CoursesHero({
     email_sender,
     Brochure,
     BrochureName,
+    formVariant,
     badgeText,
     title,
     description,
@@ -31,7 +33,8 @@ function CoursesHero({
         Brochure,
         BrochureName,
         ctaType,           
-        setCtaType,         
+        setCtaType,
+        formVariant,
     };
 
     return (
@@ -139,7 +142,11 @@ function CoursesHero({
                 {/* dialog box for desktop view */}
                 {/* Admission Form */}
                 <div className='hidden mt-10 lg:inline'>
-                    <LandingAdmissionForm {..._this} />
+                    {formVariant === "timing" ? (
+                        <LandingAdmissionFormWithTiming {..._this} />
+                    ) : (
+                        <LandingAdmissionForm {..._this} />
+                    )}
                 </div>
             </div >
 

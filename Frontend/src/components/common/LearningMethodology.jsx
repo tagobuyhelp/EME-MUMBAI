@@ -7,7 +7,7 @@ import { CheckCircle2, Sparkles, PlayCircle, BookOpen, Award, Briefcase, Users, 
 
  
 
-export default function LearningMethodology ({ Courses, email_sender, Brochure, BrochureName, items, backgroundImage, variant }){
+export default function LearningMethodology ({ Courses, email_sender, Brochure, BrochureName, items, backgroundImage, variant, formVariant }){
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [ctaType, setCtaType] = useState(null);
     const _this = {
@@ -19,6 +19,7 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
       BrochureName,
       ctaType,
       setCtaType,
+      formVariant,
     };
 
     const defaultItems = [

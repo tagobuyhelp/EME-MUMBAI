@@ -23,6 +23,7 @@ function CoursesCareerProsoects({
   email_sender,
   Brochure,
   BrochureName,
+  formVariant,
   name = "Download Free Brochure"
 }) {
 
@@ -38,6 +39,7 @@ function CoursesCareerProsoects({
     BrochureName,
     ctaType,
     setCtaType,
+    formVariant,
   };
 
   return (

@@ -33,11 +33,11 @@ const admissionSchema = z.object({
   mobile: z
     .string()
     .regex(/^(\+91-|\+91|0)?\d{10}$/, "Please enter valid mobile number"),
-  //   course: z.string().optional(),
   course: z.string().min(1, "Please select a course"),
+  timing: z.string().min(1, "Please select when you want to start"),
 });
 
-export default function LandingAdmissionForm(_this) {
+export default function LandingAdmissionFormWithTiming(_this) {
   const router = useRouter();
   const pathname = usePathname();
   const cleanPath = pathname.replace(/\/$/, "");
@@ -47,8 +47,8 @@ export default function LandingAdmissionForm(_this) {
     name: "",
     email: "",
     mobile: "",
-    // phone_number: "",
     course: _this.SelectCourses?.length > 0 ? "" : _this.Courses,
+    timing: "",
     email_sender: _this.email_sender,
   });
 
@@ -64,8 +64,6 @@ export default function LandingAdmissionForm(_this) {
     }
   };
 
-  // console.log("Admission Form Props:", _this.SelectCourses);
-  // Capture UTM params and page URL
   const utmParams = useMemo(() => {
     if (typeof window === "undefined") return {};
     const url = new URL(window.location.href);
@@ -79,16 +77,6 @@ export default function LandingAdmissionForm(_this) {
     };
   }, []);
 
-  // function validateEmail(email) {
-  //     var emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  //     return emailRegex.test(email);
-  // }
-
-  // function validatePhone(phone) {
-  //     var phoneRegex = /^(\+91-|\+91|0)?\d{10}$/;
-  //     return phoneRegex.test(phone);
-  // }
-
   const downloadBrochure = () => {
     if (_this?.Brochure) {
       const link = document.createElement("a");
@@ -97,63 +85,38 @@ export default function LandingAdmissionForm(_this) {
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
       link.click();
-    } else {
-      // toast.error('Brochure not available')
     }
   };
 
   const handleAdmissionDataSubmit = (data) => {
     setAdmissionData(data);
-    // if (
-    //     admissiondata.name === "" ||
-    //     admissiondata.email === "" ||
-    //     admissiondata.mobile === "" || (_this.SelectCourses?.length > 0  && admissiondata.course === "")
-    // ) {
-    //     return toast.error("All field are required!");
-    // }
-    // if (!validatePhone(admissiondata.mobile)) {
-    //     return toast.error("Please enter valid mobile number.")
-    // }
-    // if (!validateEmail(admissiondata.email)) {
-    //     return toast.error("Please enter valid email.")
-    // }
-
     setFormVisible(false);
     API.admission
       .SendAdmissionData({
-        // ...admissiondata,
         ...data,
         email_sender: _this.email_sender,
         ...utmParams,
       })
       .then((response) => {
         if (response) {
-          // console.log(response);
           setAdmissionResult(true);
           if (_this.ctaType === "download") {
             setTimeout(() => {
               downloadBrochure();
             }, 2000);
           }
-          // router.push('/thank-you');
           router.push(`${cleanPath}/thank-you`);
         } else if (!response) {
-          console.log(response);
           setAdmissionResult(false);
         }
       })
       .finally(() => {
-        // setAdmissionData({
-        //   name: "",
-        //   email: "",
-        //   mobile: "",
-        //   course: "",
-        // });
         form.reset();
         setFormVisible(true);
         setAdmissionResult(true);
       });
   };
+
   return (
     <div className="w-[300px] min-h-[250px] lg:max-w-[300px] lg:min-h-[350px] px-2 md:px-4 py-2 md:py-3 flex flex-col rounded-2xl justify-center items-center gap-[14px] bg-[#ffffff]">
       <div className="w-full flex flex-col justify-start gap-[2px] border-l-4 border-[#0057E2] ">
@@ -166,29 +129,18 @@ export default function LandingAdmissionForm(_this) {
       </div>
       {formVisible ? (
         <form
-          // onSubmit={handleAdmissionDataSubmit}
-          onSubmit={form.handleSubmit(
-            handleAdmissionDataSubmit,
-            showValidationToast
-          )}
+          onSubmit={form.handleSubmit(handleAdmissionDataSubmit, showValidationToast)}
           className="w-full flex flex-col justify-start items-center gap-y-4 lg:gap-y-4.5"
         >
           <input
             type="text"
             placeholder="Enter full name"
-            // value={admissiondata.name}
-            // onChange={(e) => {
-            //     setAdmissionData((prev) => ({
-            //         ...prev,
-            //         name: e.target.value,
-            //     }));
-            // }}
             {...form.register("name", {
               onChange: (e) => {
                 e.target.value = e.target.value
-                  .replace(/[^a-zA-Z\s]/g, "") // only letters & space
-                  .replace(/\s+/g, " ") // single space only
-                  .trimStart(); // no leading space
+                  .replace(/[^a-zA-Z\s]/g, "")
+                  .replace(/\s+/g, " ")
+                  .trimStart();
               },
             })}
             className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#CED4DA]   px-2 py-[6px] w-full     bg-[#ffffff] placeholder:text-[#666] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500
@@ -197,66 +149,32 @@ focus:ring-1 focus:ring-blue-500  transition-colors"
           <input
             type="text"
             placeholder="Email Address"
-            // value={admissiondata.email}
-            // onChange={(e) => {
-            //     setAdmissionData((prev) => ({
-            //         ...prev,
-            //         email: e.target.value,
-            //     }));
-            // }}
             {...form.register("email", {
               onChange: (e) => {
                 e.target.value = e.target.value
-                  .replace(/\s/g, "") // remove spaces
-                  .replace(/[A-Z]/g, (c) => c.toLowerCase()); // lowercase
+                  .replace(/\s/g, "")
+                  .replace(/[A-Z]/g, (c) => c.toLowerCase());
+              },
+            })}
+            className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#CED4DA]    px-2 py-[6px] w-full     bg-[#ffffff] placeholder:text-[#666] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+          />
+          <input
+            type="text"
+            placeholder="Mobile Number"
+            inputMode="numeric"
+            maxLength={10}
+            {...form.register("mobile", {
+              onChange: (e) => {
+                e.target.value = e.target.value.replace(/\D/g, "").slice(0, 10);
               },
             })}
             className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#CED4DA]    px-2 py-[6px] w-full     bg-[#ffffff] placeholder:text-[#666] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
           />
 
-          <input
-            type="text"
-            placeholder="Mobile Number"
-            // value={admissiondata.mobile}
-            // onChange={(e) => {
-            //     setAdmissionData((prev) => ({
-            //         ...prev,
-            //         mobile: e.target.value,
-            //     }));
-            // }}
-            inputMode="numeric"
-            maxLength={10}
-            {...form.register("mobile", {
-              onChange: (e) => {
-                e.target.value = e.target.value
-                  .replace(/\D/g, "") // remove non-digits
-                  .slice(0, 10); // limit to 10 digits
-              },
-            })}
-            className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#CED4DA]    px-2 py-[6px] w-full     bg-[#ffffff] placeholder:text-[#666] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
-          />
           {(_this.Courses === "All Course" ||
             (_this.SelectCourses && _this.SelectCourses.length > 0)) && (
             <div className="w-full">
               {_this.SelectCourses ? (
-                //  <Select
-                //     value={admissiondata.course}
-                //     onValueChange={(value) => {
-                //         setAdmissionData((prev) => ({
-                //             ...prev,
-                //             course: value,
-                //         }));
-                //     }}
-                // >
-                //     <SelectTrigger className="w-full h-9">
-                //         <SelectValue placeholder="Select Program" />
-                //     </SelectTrigger>
-                //     <SelectContent position="popper" side="bottom">
-                //         {_this.SelectCourses?.map((course, index) => (
-                //             <SelectItem key={index} value={course}>{course}</SelectItem>
-                //         ))}
-                //     </SelectContent>
-                // </Select>
                 <Controller
                   control={form.control}
                   name="course"
@@ -280,6 +198,24 @@ focus:ring-1 focus:ring-blue-500  transition-colors"
               )}
             </div>
           )}
+
+          <Controller
+            control={form.control}
+            name="timing"
+            render={({ field }) => (
+              <Select value={field.value} onValueChange={field.onChange}>
+                <SelectTrigger className="w-full h-9">
+                  <SelectValue placeholder="When do you want to start?" />
+                </SelectTrigger>
+                <SelectContent position="popper" side="bottom">
+                  <SelectItem value="Immediately">Immediately</SelectItem>
+                  <SelectItem value="Within 1 month">Within 1 month</SelectItem>
+                  <SelectItem value="2–3 months">2–3 months</SelectItem>
+                  <SelectItem value="Just exploring">Just exploring</SelectItem>
+                </SelectContent>
+              </Select>
+            )}
+          />
 
           <div className="flex flex-col space-y-1">
             <div className="flex items-start space-x-1">

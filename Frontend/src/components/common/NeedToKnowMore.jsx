@@ -12,6 +12,7 @@ export default function NeedToKnowMore({
   email_sender,
   Brochure,
   BrochureName,
+  formVariant,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -25,6 +26,7 @@ export default function NeedToKnowMore({
     BrochureName,
     ctaType,
     setCtaType,
+    formVariant,
   };
   return (
     <Card className="w-full max-w-[1140px] shadow-none border-[#EEEEEE] bg-[#F4FBFE] gap-2 md:gap-10 flex flex-col md:flex-row rounded-[26px] justify-center md:justify-between items-center px-4 pt-1 md:pl-5 mx-auto">

@@ -5,6 +5,7 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import dynamic from "next/dynamic";
 
 const LandingAdmissionForm = dynamic(() => import("@/components/common/LandingAdmissionForm"));
+const LandingAdmissionFormWithTiming = dynamic(() => import("@/components/common/LandingAdmissionFormWithTiming"));
 
 export default function CTAButton({ name, styleClasses, _this }) {
 
@@ -33,7 +34,11 @@ export default function CTAButton({ name, styleClasses, _this }) {
                         <DialogTitle>Admission Form</DialogTitle>
                     </VisuallyHidden>
                     <div className="w-full z-[999]">
-                        <LandingAdmissionForm {..._this} />
+                        {_this?.formVariant === "timing" ? (
+                            <LandingAdmissionFormWithTiming {..._this} />
+                        ) : (
+                            <LandingAdmissionForm {..._this} />
+                        )}
                     </div>
                 </DialogContent>
             </Dialog>

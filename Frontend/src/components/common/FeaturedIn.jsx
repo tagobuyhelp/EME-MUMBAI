@@ -61,6 +61,7 @@ export default function FeaturedIn({
   SelectCourses,
   Brochure,
   BrochureName,
+  formVariant,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -74,6 +75,7 @@ export default function FeaturedIn({
     BrochureName,
     ctaType,
     setCtaType,
+    formVariant,
   };
 
   return (

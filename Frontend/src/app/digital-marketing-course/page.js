@@ -131,6 +131,7 @@ export default function page() {
         email_sender,
         Brochure,
         BrochureName,
+        formVariant: "timing",
     };
 
     const heroData = {
@@ -782,6 +783,7 @@ export default function page() {
                     brochure={Brochure}
                     brochureName={BrochureName}
                     SelectCourses={SelectCourses || []}
+                    formVariant={_this.formVariant}
                 />
             </div>
 

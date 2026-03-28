@@ -120,6 +120,7 @@ function StudentsWorkingInCompanies({
   brochure,
   courses,
   SelectCourses = [],
+  formVariant,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -137,6 +138,7 @@ function StudentsWorkingInCompanies({
     BrochureName,
     ctaType,
     setCtaType,
+    formVariant,
   };
 
   return (

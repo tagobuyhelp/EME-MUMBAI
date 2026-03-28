@@ -20,6 +20,7 @@ export function NewsHomeLanding({
   SelectCourses = [],
   Brochure,
   BrochureName,
+  formVariant,
 }) {
   const plugin = React.useRef(
     Autoplay({ delay: 1500, stopOnInteraction: false })
@@ -36,6 +37,7 @@ export function NewsHomeLanding({
     BrochureName,
     ctaType,
     setCtaType,
+    formVariant,
   };
 
   const NewsData = [
