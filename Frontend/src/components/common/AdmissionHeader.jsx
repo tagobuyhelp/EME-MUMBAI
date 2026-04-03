@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import { Navigation, FreeMode } from "swiper/modules";
 
-export default function Header({ _this: parentThis }) {
+export default function Header({ _this: parentThis, navItems }) {
   const pathname = usePathname();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -48,6 +48,16 @@ export default function Header({ _this: parentThis }) {
   };
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const headerNavItems =
+    navItems || [
+      { to: "home", label: "Course Overview" },
+      { to: "about", label: "Featured In" },
+      { to: "CourseCurriculum", label: "Course Curriculum" },
+      { to: "CourseTool", label: "Tools" },
+      { to: "CourseProspects", label: "Career Prospects" },
+      { to: "testimonials", label: "Testimonials" },
+      { to: "awards", label: "Awards" },
+    ];
 
   return (
     <div className="sticky top-0 drop-shadow-2xl w-full z-[50] py-2 bg-white">
@@ -113,15 +123,7 @@ export default function Header({ _this: parentThis }) {
               1280: { slidesPerView: 6, spaceBetween: 25 },
             }}
           >
-            {[
-              { to: "home", label: "Course Overview" },
-              { to: "about", label: "Featured In" },
-              { to: "CourseCurriculum", label: "Course Curriculum" },
-              { to: "CourseTool", label: "Tools" },
-              { to: "CourseProspects", label: "Career Prospects" },
-              { to: "testimonials", label: "Testimonials" },
-              { to: "awards", label: "Awards" },
-            ].map((item, index) => (
+            {headerNavItems.map((item, index) => (
               <SwiperSlide key={index} className="!w-auto !mx-0">
                 <Link
                   to={item.to}
@@ -151,15 +153,7 @@ export default function Header({ _this: parentThis }) {
               : "hidden"
           }`}
         >
-          {[
-            { to: "home", label: "Course Overview" },
-            { to: "about", label: "Featured In" },
-            { to: "CourseCurriculum", label: "Course Curriculum" },
-            { to: "CourseTool", label: "Tools" },
-            { to: "CourseProspects", label: "Career Prospects" },
-            { to: "testimonials", label: "Testimonials" },
-            { to: "awards", label: "Awards" },
-          ].map((item, index) => (
+          {headerNavItems.map((item, index) => (
             <Link
               key={index}
               to={item.to}

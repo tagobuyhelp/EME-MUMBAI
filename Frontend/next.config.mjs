@@ -32,6 +32,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/linkedin-course",
+        destination: "/best-linkedin-course-for-career-hiring-growth",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
