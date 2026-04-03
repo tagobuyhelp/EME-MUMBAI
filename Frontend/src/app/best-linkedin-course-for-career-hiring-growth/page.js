@@ -378,40 +378,43 @@ export default function page() {
         <InfiniteCall />
       </div>
 
-      <div className="w-full bg-contain bg-no-repeat bg-[#0B1B44] bg-[url('/assets/images/Home/background3.png')] bg-cover bg-center bg-no-repeat">
-        <CoursesHero
-          {..._this}
-          badgeText={"Learn & Get Hired in 6 Months!"}
-          title={"Master LinkedIn. Generate Real Results."}
-          description={
-            "The most complete LinkedIn course built for HR, Sales, Marketing, Freelancers & Business Owners, powered by AI at every step. Go from invisible to irresistible."
-          }
-          googleRating={"4.8"}
-          justdialRating={""}
-          showRatings={false}
-          showCertifications={true}
-          showBottomCtaCard={true}
-          ctaPrimaryLabel={
-            <span className="inline-flex items-center gap-2">
-              <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">rocket_launch</span>
-              Enrol now
-            </span>
-          }
-          ctaSecondaryLabel={
-            <span className="inline-flex items-center gap-2">
-              <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">menu_book</span>
-              Explore Curriculum
-            </span>
-          }
-          ctaSecondaryHref={"#CourseCurriculum"}
-          heroStats={[
-            { materialIcon: "school", value: "24+ LIVE CLASSES" },
-            { materialIcon: "view_module", value: "6 POWER MODULES" },
-            { materialIcon: "account_tree", value: "5 ROLE TRACKS" },
-            { materialIcon: "schedule", value: "48HRS OF LEARNING" },
-            { materialIcon: "smart_toy", value: "AI PROMPTS & TOOLS" },
-          ]}
-        />
+      <div className="w-full relative bg-contain bg-no-repeat bg-[#0B1B44] bg-[url('/assets/images/linkedin/linkedin-course-hero-career-growth-engagement.webp')] bg-cover bg-center bg-no-repeat overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#0057E245_0%,transparent_55%),linear-gradient(90deg,#0B1B44E6_0%,#0B1B44B3_45%,#0B1B44CC_100%),radial-gradient(circle_at_bottom,#E87D1A33_0%,transparent_55%)]" />
+        <div className="relative z-10">
+          <CoursesHero
+            {..._this}
+            badgeText={"Learn & Get Hired in 6 Months!"}
+            title={"Master LinkedIn. Generate Real Results."}
+            description={
+              "The most complete LinkedIn course built for HR, Sales, Marketing, Freelancers & Business Owners, powered by AI at every step. Go from invisible to irresistible."
+            }
+            googleRating={"4.8"}
+            justdialRating={""}
+            showRatings={false}
+            showCertifications={true}
+            showBottomCtaCard={true}
+            ctaPrimaryLabel={
+              <span className="inline-flex items-center gap-2">
+                <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">rocket_launch</span>
+                Enrol now
+              </span>
+            }
+            ctaSecondaryLabel={
+              <span className="inline-flex items-center gap-2">
+                <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">menu_book</span>
+                Curriculum
+              </span>
+            }
+            ctaSecondaryHref={"#CourseCurriculum"}
+            heroStats={[
+              { materialIcon: "school", value: "24+ LIVE CLASSES" },
+              { materialIcon: "view_module", value: "6 POWER MODULES" },
+              { materialIcon: "account_tree", value: "5 ROLE TRACKS" },
+              { materialIcon: "schedule", value: "48HRS OF LEARNING" },
+              { materialIcon: "smart_toy", value: "AI PROMPTS & TOOLS" },
+            ]}
+          />
+        </div>
       </div>
 
       <div id="core-topics" className="w-full bg-white">
@@ -438,7 +441,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="w-full bg-[#F4FBFE]">
+      <div className="w-full bg-[#F4FBFE] bg-[url('/assets/images/linkedin/linkedin-course-problems-section-light-background.webp')] bg-cover bg-center bg-no-repeat">
         <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-4 py-10 md:py-14 px-[20px] md:px-28">
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-white border border-[#E6F3FA] flex items-center justify-center">
@@ -630,7 +633,8 @@ export default function page() {
               </div>
             </div>
 
-            <div className="rounded-2xl bg-[#232D63] text-white shadow-lg p-6 flex flex-col justify-between gap-4 overflow-hidden relative">
+            <div className="rounded-2xl bg-[#232D63] text-white shadow-lg p-6 flex flex-col justify-between gap-4 overflow-hidden relative bg-[url('/assets/images/linkedin/certificate-course-completion-background-premium.webp')] bg-cover bg-center bg-no-repeat">
+              <div className="absolute inset-0 bg-[linear-gradient(90deg,#0B1B44E6_0%,#0B1B44B3_55%,#0B1B44E6_100%),radial-gradient(circle_at_top,#0057E240_0%,transparent_55%),radial-gradient(circle_at_bottom,#E87D1A2E_0%,transparent_55%)]" />
               <span className="material-symbols-outlined absolute -top-6 -right-6 text-[120px] text-white/10 leading-none">
                 workspace_premium
               </span>
@@ -653,7 +657,9 @@ export default function page() {
 
       <div className="w-full py-10 md:py-14 px-[20px] md:px-28">
         <div className="w-full max-w-[1380px] mx-auto">
-          <div className="max-w-5xl mx-auto px-6 md:px-12 py-10 md:py-12 text-center text-white rounded-3xl border border-white/10 bg-[#0B1B44] bg-[radial-gradient(circle_at_top,#0057E230_0%,transparent_55%),radial-gradient(circle_at_bottom,#E87D1A26_0%,transparent_55%)] shadow-xl">
+          <div className="max-w-5xl mx-auto px-6 md:px-12 py-10 md:py-12 text-center text-white rounded-3xl border border-white/10 bg-[#0B1B44] bg-[url('/assets/images/linkedin/linkedin-course-cta-background-growth-dark-premium.webp')] bg-cover bg-center bg-no-repeat shadow-xl relative overflow-hidden">
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,#0B1B44E6_0%,#0B1B44B3_55%,#0B1B44E6_100%),radial-gradient(circle_at_top,#0057E240_0%,transparent_55%),radial-gradient(circle_at_bottom,#E87D1A2E_0%,transparent_55%)]" />
+            <div className="relative z-10">
             <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full text-sm bg-[#E87D1A]/15 text-[#FFD7B8] font-medium mb-4 border border-[#E87D1A]/25">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#E87D1A] opacity-75" />
@@ -679,6 +685,7 @@ export default function page() {
             </div>
             <div className="text-sm text-white/60">
               Certificate issued upon successful completion.
+            </div>
             </div>
           </div>
         </div>
