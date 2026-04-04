@@ -97,6 +97,12 @@ export function NewsHomeLanding({
       channel: "/assets/images/Dailyhunt.png",
       link: "http://dhunt.in/SHbMS",
     },
+    {
+      id: 10,
+      src: "/assets/images/Home/news/mid-day-post.jpeg",
+      channel: "/assets/images/Home/news/mid-day.png",
+      link: "https://www.mid-day.com/buzzfeed/article/the-success-story-of-the-eme-academy-moulding-careers-empowering-futures-in-the-new-age-economy---9281",
+    },
   ];
 
   return (
