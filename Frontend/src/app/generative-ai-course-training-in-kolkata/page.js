@@ -81,13 +81,21 @@ const GenAIfaq = [
 ];
 
 export const metadata = {
-  title: "Generative AI Course Training in kolkata- EME Academy",
+  title: "Ai Courses in kolkata and Prompt Engineer Course in Kolkata",
   description:
-    "Enroll in EME Academy's artificial intelligence course training in kolkata. Master cutting-edge AI technologies with expert-led training, practical projects, and industry-focused curriculum to advance your career",
+    "Join artificial intelligence course in kolkata and ai course in kolkata with Prompt Engineering course with placement and Prompt engineering course with certificate.",
   keywords: [
-    "generative ai course training in kolkata",
-    "artificial intelligence course training in kolkata",
-    "generative ai training in kolkata",
+    "artificial intelligence course in kolkata",
+    "ai course in kolkata",
+    "artificial intelligence course fees in kolkata",
+    "Ai and Machine Learning Courses in kolkata",
+    "Ai courses in kolkata",
+    "best ai course in kolkata",
+    "Prompt Engineering course in kolkata with placement",
+    "Prompt engineering course in kolkata with certificate",
+    "prompt engineer course in kolkata",
+    "ai prompt engineering course in kolkata",
+    "artificial intelligence course in kolkata",
   ],
   alternates: {
     canonical:

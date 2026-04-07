@@ -21,11 +21,18 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "WordPress Course In Kolkata With 100% Practical Projects",
+  description:
+    "Join Best wordpress developer course in kolkata at wordpress training institute in kolkata with 100% practical projects and expert development training.",
+  keywords: [
+    "Best wordpress developer course in kolkata",
+    "wordpress training institute in kolkata",
+    "WordPress Course In Kolkata With 100% Practical Projects",
+    "Wordpress Development Training Institute in Kolkata",
+    "Best wordpress developer course in kolkata fees",
+  ],
   alternates: {
-    canonical: "https://emeacademy.co.in/wordpress-developement-landing",
+    canonical: "https://emeacademy.co.in/wordpress-training-institute-in-kolkata",
   },
 };
 

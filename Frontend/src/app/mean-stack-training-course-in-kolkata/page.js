@@ -21,11 +21,20 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "MEAN Stack Course In Kolkata With 100% Placement Support",
+  description:
+    "Join Best MEAN Stack Training Course in Kolkata with 100% placement support at Top Mean Stack Training Institutes in Kolkata offering full MEAN Stack course.",
+  keywords: [
+    "Best MEAN Stack Training Course in Kolkata",
+    "MEAN Stack Course In Kolkata With 100% Placement Support",
+    "Best MEAN Stack Full Course in Kolkata",
+    "Top Mean Stack Training Institutes in Kolkata",
+    "Mean Stack Development Course in Kolkata",
+    "Best Mean Stack Development Training Institute in Kolkata",
+    "MERN Stack Developer Certification Course in Kolkata",
+  ],
   alternates: {
-    canonical: "https://emeacademy.co.in/mean-stack-landing",
+    canonical: "https://emeacademy.co.in/mean-stack-training-course-in-kolkata",
   },
 };
 

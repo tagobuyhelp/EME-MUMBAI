@@ -22,12 +22,19 @@ import CTAButton from "../../components/common/CtaButton";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Full Stack Web Development Course in kolkata with Placement Support",
+  title: "Best MERN Stack Training Course in Kolkata – 100% Job",
   description:
-    "Enroll in our Full Stack Web Development Course in kolkata to master Front-end, PHP Back-end, Databases, WordPress, Laravel, and Rest API. Gain expertise in these areas and secure a lucrative job opportunity.",
+    "Join MERN Stack Development Course in Kolkata at the Best MERN Stack Course In Kolkata offering expert Best Mern Stack Developer Course Training in Kolkata.",
   keywords: [
-    "Full Stack Web Development Course in kolkata with Placement Support",
-    "Full Stack Web Development Course in kolkata",
+    "MERN Stack Development Course in Kolkata",
+    "Best MERN Stack Course In Kolkata",
+    "Best Mern Stack Developer Course Training in Kolkata",
+    "Mern stack training institute in kolkata placement for freshers",
+    "Mern Full Stack Course Training In Kolkata",
+    "Full Stack Developer Course in Kolkata",
+    "Ready MERN Stack Development Course in Kolkata",
+    "Mern stack development course in kolkata price",
+    "MERN Stack Developer Course with Placement",
   ],
   alternates: {
     canonical:

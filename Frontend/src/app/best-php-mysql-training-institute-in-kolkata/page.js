@@ -20,11 +20,20 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best Php & Mysql Course Training in Kolkata With Placement",
+  description:
+    "Join best PHP training institute in kolkata offering Top 10 Php MySQL training in Kolkata, PHP MySQL Full Stack Course In Kolkata with expert guidance.",
+  keywords: [
+    "Top PHP training institute in kolkata",
+    "best PHP training institute in kolkata",
+    "Php & mysql course training in kolkata fees",
+    "PHP MySql Training institute in Kolkata",
+    "Top 10 Php MySQL training in Kolkata",
+    "PHP MySQL Full Stack Course In Kolkata",
+    "Best php & mysql course training in kolkata",
+  ],
   alternates: {
-    canonical: "https://emeacademy.co.in/php-mysql-landing",
+    canonical: "https://emeacademy.co.in/best-php-mysql-training-institute-in-kolkata",
   },
 };
 

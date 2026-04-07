@@ -21,9 +21,17 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best Data Science Institute in Kolkata With 100 % Placement",
+  description:
+    "Enroll in the best data science institute in kolkata, best data science training institute in kolkata with affordable data science course fees in kolkata.",
+  keywords: [
+    "best data science training institute in kolkata",
+    "data science course in kolkata",
+    "data science course in kolkata fees",
+    "best data science course in kolkata",
+    "data science course fees in kolkata",
+    "data science course in kolkata offline",
+  ],
   alternates: {
     canonical: "https://emeacademy.co.in/data-science-course-in-kolkata",
   },

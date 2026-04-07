@@ -19,10 +19,9 @@ import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 
 export const metadata = {
-  title:
-    "Best Cyber Security Course in kolkata | Cyber Security Training in kolkata - EME Academy",
+  title: "Best Cyber Security Course in Kolkata with placement",
   description:
-    "Enroll in the best cyber security institute in Kolkata and advance your career with the best cyber security courses in Kolkata designed by industry experts.",
+    "Join cyber security course in kolkata at best cyber security institute in kolkata with affordable cyber security course fees in kolkata and expert training.",
   keywords: [
     "cyber security course in kolkata",
     "cyber security course in kolkata fees",

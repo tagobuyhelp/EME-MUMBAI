@@ -21,9 +21,19 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Data Analytics Institute in Kolkata and Training in Kolkata",
+  description:
+    "Best data analytics courses in kolkata, data analytics institute in kolkata, data analytics training in kolkata for practical skills & career growth now!",
+  keywords: [
+    "data analytics courses in kolkata",
+    "data analyst course in kolkata",
+    "data analytics courses in kolkata with placement",
+    "data analyst course fee in kolkata",
+    "best data analytics courses in kolkata",
+    "data analytics institute in kolkata",
+    "data analytics training in kolkata",
+    "best institute for data analyst course in kolkata",
+  ],
   alternates: {
     canonical: "https://emeacademy.co.in/data-analytics-course-in-kolkata",
   },
