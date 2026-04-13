@@ -77,7 +77,7 @@ export default function AllSapCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                    3 hrs. a day , once a week
+                                    2 hrs. a day , once a week
                                 </div>
                                 <div>
                                     Saturday / Sunday

@@ -68,7 +68,7 @@ export default function KeypointFIFO() {
             <div>
               <CheckCircle size={16} className="text-green-600 mt-1" />
             </div>
-            <p>100% Job Opportunities</p>
+            <p>100% Placement Assistance</p>
           </div>
 
           <div className="flex items-center gap-2">
