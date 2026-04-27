@@ -70,7 +70,8 @@ export const Hero = () => {
     "UI UX Course",
     "Animation & VFX Course",
     "Cloud Computing Course",
-    "Prompt Engineering with AI Course"
+    "Prompt Engineering with AI Course",
+    "LinkedIn Course",
   ];
   const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
   const BrochureName = "EME-brochure-2024.pdf";

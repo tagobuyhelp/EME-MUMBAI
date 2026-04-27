@@ -686,6 +686,21 @@ export const Header = () => {
                   </Link>
 
                   <Link
+                    href="/best-linkedin-course-for-career-hiring-growth"
+                    className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
+                  >
+                    <span className=" p-1 rounded-md">
+                      <Image
+                        width={20}
+                        height={20}
+                        src={"/assets/images/dropdown-menu/linkedin.svg"}
+                        alt="LinkedIn icon"
+                      />
+                    </span>
+                    <span className="text-sm font-medium">LinkedIn Course</span>
+                  </Link>
+
+                  <Link
                     href="/best-animation-and-vfx-institute-in-kolkata"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >

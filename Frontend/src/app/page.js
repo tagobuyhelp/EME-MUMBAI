@@ -100,7 +100,8 @@ export default function Home() {
     "UI UX Course",
     "Animation & VFX Course",
     "Cloud Computing Course",
-    "Prompt Engineering with AI Course"
+    "Prompt Engineering with AI Course",
+    "LinkedIn Course"
   ];
   const Brochure = "https://drive.google.com/file/d/1eGFi7GlCRTLehu5nljGHAwOyFvdwUFiJ/view?usp=sharing";  //needed
   const BrochureName = "EME-brochure-2024.pdf";

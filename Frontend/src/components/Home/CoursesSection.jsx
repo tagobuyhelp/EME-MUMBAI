@@ -171,6 +171,22 @@ export default function CoursesSection() {
       link: "/maincourse/business-accounting-course-in-kolkata",
       description: "Practical Tally Prime, GST, Income Tax, and Financial Accounting.",
       features: ["GST Filing", "Taxation Skills", "Tally Certification"]
+    },
+    {
+      id: 9,
+      title: "LinkedIn Course",
+      category: "others",
+      image: "/assets/images/linkedin/linkedin-course-hero-career-growth-engagement.webp",
+      rating: 4.9,
+      reviews: "95",
+      duration: "3 Months",
+      originalPrice: 30000,
+      discountedPrice: 25000,
+      saving: "16% OFF",
+      languages: ["Bengali", "English", "Hindi"],
+      link: "/best-linkedin-course-for-career-hiring-growth",
+      description: "Master LinkedIn for career growth, personal branding, and lead generation.",
+      features: ["Personal Branding", "Lead Generation", "Career Growth Strategies"]
     }
   ];
 
@@ -357,7 +373,7 @@ function CourseCard({ course, formatPrice }) {
           src={course.image}
           alt={course.title}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className=" transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1E293B]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       </div>

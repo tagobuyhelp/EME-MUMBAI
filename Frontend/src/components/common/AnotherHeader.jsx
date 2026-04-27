@@ -675,6 +675,22 @@ export const AnotherHeader = () => {
                   </Link>
 
                   <Link
+                    href="/best-linkedin-course-for-career-hiring-growth"
+                    className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
+                  >
+                    <span className=" p-1 rounded-md">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="20" height="20" rx="4" stroke="#0A66C2" strokeWidth="1.8"/>
+                        <path d="M8 10V16" stroke="#0A66C2" strokeWidth="1.8" strokeLinecap="round"/>
+                        <circle cx="8" cy="7.5" r="1" fill="#0A66C2"/>
+                        <path d="M12 16V12.8C12 11.6 12.7 11 13.6 11C14.5 11 15 11.6 15 12.6V16" 
+                              stroke="#0A66C2" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </span>
+                    <span className="text-sm font-medium">LinkedIn Course</span>
+                  </Link>
+
+                  <Link
                     href="/best-animation-and-vfx-institute-in-kolkata"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
