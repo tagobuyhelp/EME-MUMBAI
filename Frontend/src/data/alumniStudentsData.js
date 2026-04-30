@@ -228,18 +228,6 @@ export const alumniStudents = [
     subtitleStyle: "font-light leading-tight text-sm",
   },
   {
-    id: 20,
-    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Kousik.svg",
-    title: "Koushik Mondal",
-    subtitle: "Kolkata, India",
-    companyName: "mPokket",
-    companyLogo: "/assets/images/companyLogo/company-2.svg",
-    overlay:
-      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-    titleStyle: "text-base font-medium",
-    subtitleStyle: "font-light leading-tight text-sm",
-  },
-  {
     id: 21,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-6.svg",
     title: "Supratim Sen",
