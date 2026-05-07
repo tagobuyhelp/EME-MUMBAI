@@ -37,7 +37,7 @@ export default function MotionGraphicsHero({
             </div>
           </div>
           <h1 className="max-w-[730px] lg:w-full lg:h-auto text-[24px] lg:text-[35.5px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
-            Best Motion Graphic Course In Kolkata
+            Best Motion Graphic Course In Mumbai
           </h1>
           <p className="relative leading-[18.75px]  text-[#727272] text-[12px] md:text-[14px] text-center lg:text-left">
             Our Motion Graphic Design course helps you master design principles

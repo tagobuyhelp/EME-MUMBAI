@@ -3,7 +3,7 @@ import AdmissionPage from "./AdmissionPage";
 
 export const metadata = {
   alternates: {
-    canonical: "https://emeacademy.co.in/admission-page",
+    canonical: "https://mumbai.emeacademy.co.in/admission-page",
   },
 };
 

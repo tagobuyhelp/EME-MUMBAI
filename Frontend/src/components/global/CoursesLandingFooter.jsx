@@ -26,7 +26,7 @@ export default function CoursesLandingFooter({
     setCtaType,
   };
 
-  const addressUrl = "https://maps.app.goo.gl/29GowbGvjuF3pLYq5";
+  const addressUrl = "https://www.google.com/maps/search/Synergy+Business+Park,+Goregaon+East,+Mumbai";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
   return (
     <div className="w-full bg-[#001029] border-t-2 border-[#FAF9F9]">
@@ -38,7 +38,7 @@ export default function CoursesLandingFooter({
               width={500}
               height={500}
               src="/assets/images/emeFooterLogo.svg"
-              alt="EME Logo"
+              alt="EME Academy Mumbai Logo"
             />
             <div className="text-[13px] lg:text-[15px] font-[400] border-b w-[300px] pb-[10px]">
               Explore, learn, and grow with us today. With a diverse range of
@@ -99,8 +99,7 @@ export default function CoursesLandingFooter({
                       src="/assets/images/Web_Development/icons/icons8-india-48.png"
                       alt="Location Icon"
                     />
-                    EME Academy, 5th Floor, TOWER-1, Globsyn Crystals, 505, EP
-                    Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091
+                    EME Academy Mumbai, 605, 6th Floor, Synergy Business Park, Sahakar Wadi, Vishweshwar Nagar, Goregaon, Mumbai, Maharashtra 400063
                   </Link>
                 </div>
                 <div className="flex mt-[10px] hover:underline cursor-pointer">
@@ -145,8 +144,8 @@ export default function CoursesLandingFooter({
                     src="/assets/icons/sms.svg"
                     alt="call icon"
                   />
-                  <a href="mailto:info@emeacademy.co.in">
-                    info@emeacademy.co.in
+                  <a href="mailto:infomumbai@emeacademy.co.in">
+                    infomumbai@emeacademy.co.in
                   </a>
                 </li>
               </div>

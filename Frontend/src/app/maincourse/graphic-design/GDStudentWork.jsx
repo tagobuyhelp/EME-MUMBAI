@@ -25,10 +25,10 @@ function GDStudentWork() {
         <div className="bg-white w-full px-2 py-4 md:p-6">
           <h2 className=" text-center text-[18px] md:text-[22px] font-semibold mb-2 md:mb-6">
             <span className="text-[#232D63]"> Student Work at</span>{" "}
-            <span className="text-[#E87D1A]">EME Academy</span>
+            <span className="text-[#E87D1A]">EME Academy Mumbai</span>
             <div className="text-[#7F7879] text-[12px] font-normal">
               <p>
-                Explore creative projects made by EME Kolkata students during
+                Explore creative projects made by EME Academy Mumbai students during
                 their training.
               </p>
             </div>

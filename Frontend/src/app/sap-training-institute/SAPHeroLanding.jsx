@@ -34,7 +34,7 @@ function Hero({
         <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between gap-y-3  lg:gap-x-6 py-5 md:py-10  px-5 md:px-24 ">
             <div className='w-full lg:hidden inline'>
                 <div className='w-full text-[#042A76] text-xl font-bold text-nowrap text-center '>
-                    <span className="text-[#E87D1A]">E</span>astern India’s No.1
+                    <span className="text-[#E87D1A]">W</span>estern India’s No. 1
                 </div>
                 <div className='w-full text-[#00A2E7] text-xl font-bold text-nowrap text-center '>
                     Professional Training Institute
@@ -101,7 +101,7 @@ function Hero({
             <div className='hidden w-[70%] lg:flex flex-col gap-y-10 items-start justify-start '>
                 <div className='w-full hidden lg:inline'>
                     <div className='w-full text-[#232D63] lg:leading-10 lg:text-3xl  font-bold text-nowrap text-start '>
-                        <span className="text-[#E87D1A]">E</span>astern India’s <span className="text-[#E87D1A]">No.1</span> <span className='text-[#00A2E7]'>Professional Training Institute</span>
+                        <span className="text-[#E87D1A]">W</span>estern India’s <span className="text-[#E87D1A]">No. 1</span> <span className='text-[#00A2E7]'>Professional Training Institute</span>
 
                     </div>
                     <div className='w-full text-[#232D63] lg:leading-10 lg:text-3xl  font-extrabold flex justify-start gap-x-2 text-start '>

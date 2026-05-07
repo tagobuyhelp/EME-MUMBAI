@@ -21,21 +21,21 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Data Analytics Institute in Kolkata and Training in Kolkata",
+  title: "Data Analytics Institute in Mumbai and Training in Mumbai",
   description:
-    "Best data analytics courses in kolkata, data analytics institute in kolkata, data analytics training in kolkata for practical skills & career growth now!",
+    "Best data analytics courses in Mumbai, data analytics institute in Mumbai, data analytics training in Mumbai for practical skills & career growth now!",
   keywords: [
-    "data analytics courses in kolkata",
-    "data analyst course in kolkata",
-    "data analytics courses in kolkata with placement",
-    "data analyst course fee in kolkata",
-    "best data analytics courses in kolkata",
-    "data analytics institute in kolkata",
-    "data analytics training in kolkata",
-    "best institute for data analyst course in kolkata",
+    "data analytics courses in Mumbai",
+    "data analyst course in Mumbai",
+    "data analytics courses in Mumbai with placement",
+    "data analyst course fee in Mumbai",
+    "best data analytics courses in Mumbai",
+    "data analytics institute in Mumbai",
+    "data analytics training in Mumbai",
+    "best institute for data analyst course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/data-analytics-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/data-analytics-course-in-mumbai",
   },
 };
 
@@ -53,7 +53,7 @@ const DataAnalyticsfaq = [
   {
     id: 3,
     title: "Do I need prior experience for the Data Analytics Course?",
-    desc: "No! Our Data Analytics Course in Kolkata is designed for both beginners and professionals. We start with the basics of SQL, Python, and Excel, making it easy for learners from non-technical backgrounds to grasp complex concepts.",
+    desc: "No! Our Data Analytics Course in Mumbai is designed for both beginners and professionals. We start with the basics of SQL, Python, and Excel, making it easy for learners from non-technical backgrounds to grasp complex concepts.",
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const DataAnalyticsfaq = [
   {
     id: 5,
     title: "Will I receive a certification upon course completion?",
-    desc: "Yes, a globally recognised certification is awarded after completing the course.",
+    desc: "Yes, a globally recognised certification is awarded after completing the course by EME Academy Mumbai.",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ const DataAnalyticsfaq = [
   {
     id: 8,
     title: "Is there an internship included in the course?",
-    desc: "Yes! Our Data Analytics Course in Kolkata includes a 1-month internship where you’ll work on real-world projects and apply the concepts learned during training. This internship boosts your confidence and prepares you for job roles.",
+    desc: "Yes! Our Data Analytics Course in Mumbai includes a 1-month internship where you’ll work on real-world projects and apply the concepts learned during training. This internship boosts your confidence and prepares you for job roles.",
   },
   {
     id: 9,
@@ -93,7 +93,7 @@ const DataAnalyticsfaq = [
   {
     id: 11,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -109,13 +109,86 @@ function page() {
     BrochureName,
   };
 
+  const alumniStudentsMumbai = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
+
   // Hero data
   const heroData = {
     badgeText: "Learn & Get Hired in 6 Months!",
     title:
-      "Best Data Analytics Course in Kolkata– Become a Certified Data Analyst.",
+      "Best Data Analytics Course in Mumbai– Become a Certified Data Analyst.",
     description:
-      "Gain knowledge of Python, SQL, Excel, Tableau, Power BI with our Data Analytics Course in Kolkata and earn up to ₹12 LPA! We bridge theory with real-world application to empower you to solve business problems using industry tools.",
+      "Gain knowledge of Python, SQL, Excel, Tableau, Power BI with our Data Analytics Course in Mumbai and earn up to ₹12 LPA! We bridge theory with real-world application to empower you to solve business problems using industry tools.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -132,7 +205,7 @@ function page() {
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Data_Analytics/DataAnalyticsCoursesMain.jpg",
         description:
-          "Discover data analytics courses in Kolkata for careers. EME Academy trains freshers and professionals in data tools and techniques.",
+          "Discover data analytics courses in Mumbai for careers. EME Academy Mumbai trains freshers and professionals in data tools and techniques.",
         details: [
           {
             label: "Duration",
@@ -153,11 +226,11 @@ function page() {
           },
           {
             label: "Languages",
-            value: "Bengali, English & Hindi",
+            value: "English & Hindi",
           },
         ],
         hookLine:
-          "Become a Certified Data Analyst with the Best Data Analytics Training Institute in Kolkata!",
+          "Become a Certified Data Analyst with the Best Data Analytics Training Institute in Mumbai!",
         topics: [
           {
             title: "Introduction to Data Analytics",
@@ -276,9 +349,9 @@ function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospect of a <span class="text-[#f97316]">Data Analyst in Kolkata</span>',
+      'Future Prospect of a <span class="text-[#f97316]">Data Analyst in Mumbai</span>',
     subtitle:
-      "After completing our Data Analytics Course in Kolkata, you will explore the roles like",
+      "After completing our Data Analytics Course in Mumbai, you will explore the roles like",
     careerRoles: [
       "Data Analyst",
       "Marketing Analyst",
@@ -300,21 +373,21 @@ function page() {
         id: 1,
         name: "Nidhi Agarwal",
         rating: 4,
-        text: `"Is course ke baad 50% salary hike mili! Data Analytics is a must-have skill in today's time and the instructors at EME Academy are just amazing. I believe that their mentorship was a key factor in helping me secure this role as a Data Visualisation Specialist"`,
+        text: `"Is course ke baad 50% salary hike mili! Data Analytics is a must-have skill in today's time and the instructors at EME Academy Mumbai are just amazing. I believe that their mentorship was a key factor in helping me secure this role as a Data Visualisation Specialist"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Aniket Sharma",
         rating: 3,
-        text: `"I had no prior experience in data analytics, but EME Academy made it so easy! The Python and SQL modules were explained step by step, and the hands-on projects gave me the confidence to apply for my first Data Analyst job."`,
+        text: `"I had no prior experience in data analytics, but EME Academy Mumbai made it so easy! The Python and SQL modules were explained step by step, and the hands-on projects gave me the confidence to apply for my first Data Analyst job."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 3,
         name: "Arindam Banerjee",
         rating: 5,
-        text: `"Ami kokhono bhabini Data Analytics amake ei rokom career opportunity debe. EME Academy'r guidance ar Power BI & Tableau er practical knowledge amar life-e onek boro change ene diyeche."`,
+        text: `"Ami kokhono bhabini Data Analytics amake ei rokom career opportunity debe. EME Academy Mumbai'r guidance ar Power BI & Tableau er practical knowledge amar life-e onek boro change ene diyeche."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -389,7 +462,7 @@ function page() {
 
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent  {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={"750+ Students placed last year alone!"}

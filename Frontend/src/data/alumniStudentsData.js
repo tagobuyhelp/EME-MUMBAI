@@ -3,7 +3,7 @@ export const alumniStudents = [
     id: 1,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulSingh.svg",
     title: "Rahul Singh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "TCS",
     companyLogo: "/assets/images/TcsLogo.svg",
     overlay:
@@ -15,7 +15,7 @@ export const alumniStudents = [
     id: 2,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Aitrik.svg",
     title: "Aitrik Banerjee",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Concentrix",
     companyLogo: "/assets/images/companyLogo/Concertrix.svg",
     overlay:
@@ -27,7 +27,7 @@ export const alumniStudents = [
     id: 3,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRana.svg",
     title: "Rahul Rana",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "TCS",
     companyLogo: "/assets/images/TcsLogo.svg",
     overlay:
@@ -39,7 +39,7 @@ export const alumniStudents = [
     id: 4,
     img: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
     title: "Ankita Biswas",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Human Settlement Planning Centre",
     companyLogo: "/assets/icons/companies/hspc.svg",
     overlay:
@@ -51,7 +51,7 @@ export const alumniStudents = [
     id: 5,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRouth.svg",
     title: "Rahul Routh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "TCS",
     companyLogo: "/assets/images/TcsLogo.svg",
     overlay:
@@ -63,7 +63,7 @@ export const alumniStudents = [
     id: 6,
     img: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
     title: "Sreenanda Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Heights",
     companyLogo: "/assets/images/Home/lead-height-logo.png",
     overlay:
@@ -75,7 +75,7 @@ export const alumniStudents = [
     id: 7,
     img: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
     title: "Laiba Noor",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "2coms",
     companyLogo: "/assets/icons/companies/2coms.svg",
     overlay:
@@ -87,7 +87,7 @@ export const alumniStudents = [
     id: 8,
     img: "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
     title: "Amit Singh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Hamilton Research Pvt. Ltd",
     companyLogo: "/assets/icons/companies/hamilton-research.svg",
     overlay:
@@ -99,7 +99,7 @@ export const alumniStudents = [
     id: 9,
     img: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
     title: "Adrija Bose",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Heights",
     companyLogo: "/assets/images/Home/lead-height-logo.png",
     overlay:
@@ -111,7 +111,7 @@ export const alumniStudents = [
     id: 10,
     img: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
     title: "Jayita Halder",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Trustklub",
     companyLogo: "/assets/icons/companies/trustklub.svg",
     overlay:
@@ -123,7 +123,7 @@ export const alumniStudents = [
     id: 11,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Avick.svg",
     title: "Avick Chakraborty",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Oxford TMG Corp",
     companyLogo: "/assets/images/companyLogo/Oxford.svg",
     overlay:
@@ -135,7 +135,7 @@ export const alumniStudents = [
     id: 12,
     img: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
     title: "Abhishek Majumder",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Heights",
     companyLogo: "/assets/images/Home/lead-height-logo.png",
     overlay:
@@ -147,7 +147,7 @@ export const alumniStudents = [
     id: 13,
     img: "/assets/images/Home/hero/Keya_Sharma_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
     title: "Keya Sharma",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Hamilton Research Pvt. Ltd",
     companyLogo: "/assets/icons/companies/hamilton-research.svg",
     overlay:
@@ -159,7 +159,7 @@ export const alumniStudents = [
     id: 14,
     img: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
     title: "Krishna Das Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Genius Consultant",
     companyLogo: "/assets/icons/companies/genius-consultant.svg",
     overlay:
@@ -171,7 +171,7 @@ export const alumniStudents = [
     id: 15,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-4.svg",
     title: "Sukanya Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Height",
     companyLogo: "/assets/images/companyLogo/company-4.svg",
     overlay:
@@ -183,7 +183,7 @@ export const alumniStudents = [
     id: 16,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Souvik.svg",
     title: "Souvik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "mPokket",
     companyLogo: "/assets/images/companyLogo/company-2.svg",
     overlay:
@@ -195,7 +195,7 @@ export const alumniStudents = [
     id: 17,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-3.svg",
     title: "Aniket Shome",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Height",
     companyLogo: "/assets/images/companyLogo/company-4.svg",
     overlay:
@@ -207,7 +207,7 @@ export const alumniStudents = [
     id: 18,
     img: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
     title: "ERA Saha",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Not Specified",
     companyLogo: "/assets/icons/companies/default.svg",
     overlay:
@@ -219,7 +219,7 @@ export const alumniStudents = [
     id: 19,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-5.svg",
     title: "Nuruzzaman Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Mervice",
     companyLogo: "/assets/images/companyLogo/company-3.svg",
     overlay:
@@ -231,7 +231,7 @@ export const alumniStudents = [
     id: 21,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-6.svg",
     title: "Supratim Sen",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Lead Height",
     companyLogo: "/assets/images/companyLogo/company-4.svg",
     overlay:
@@ -243,7 +243,7 @@ export const alumniStudents = [
     id: 22,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Ujjal.svg",
     title: "Ujjal Sutradhar",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Webbo",
     companyLogo: "/assets/images/companyLogo/Webbo.svg",
     overlay:
@@ -255,7 +255,7 @@ export const alumniStudents = [
     id: 23,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Shuvam.svg",
     title: "Subham Sambui",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     companyName: "Oxford TMG Corp",
     companyLogo: "/assets/images/companyLogo/Oxford.svg",
     overlay:
@@ -270,7 +270,7 @@ export const alumniStudents = [
   //   id: 25,
   //   img: "/assets/images/Home/hero/Soumyabrata_Maity_Lead_Heights.webp",
   //   title: "Soumyabrata Maity",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "Lead Heights",
   //   companyLogo: "/assets/images/Home/lead-height-logo.png",
   // },
@@ -279,7 +279,7 @@ export const alumniStudents = [
   //   id: 26,
   //   img: "/assets/images/Home/hero/Sukumar_Karmakar_Gouranga_Solutions.webp",
   //   title: "Sukumar Karmakar",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "Gouranga Solutions",
   //   companyLogo: "/assets/icons/companies/gouranga-solutions.svg",
   // },
@@ -288,7 +288,7 @@ export const alumniStudents = [
   //   id: 27,
   //   img: "/assets/images/Home/hero/Barnini_Mitra_Tax_Connect.webp",
   //   title: "Barnini Mitra",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "Tax Connect Advisory Services LLP",
   //   companyLogo: "/assets/icons/companies/tax-connect.svg",
   // },
@@ -297,7 +297,7 @@ export const alumniStudents = [
   //   id: 28,
   //   img: "/assets/images/Home/hero/Sayantani_Vivre_Panels.webp",
   //   title: "Sayantani",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "Vivre Panels",
   //   companyLogo: "/assets/icons/companies/vivre-panels.svg",
   // },
@@ -306,7 +306,7 @@ export const alumniStudents = [
   //   id: 29,
   //   img: "/assets/images/Home/hero/Subhadeep_Bose_Onemed_Billing.webp",
   //   title: "Subhadeep Bose",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "OneMed Billing",
   //   companyLogo: "/assets/icons/companies/onemed-billing.svg",
   // },
@@ -315,7 +315,7 @@ export const alumniStudents = [
   //   id: 30,
   //   img: "/assets/images/Home/hero/Debanjan_Paria_Onemed_Billing.webp",
   //   title: "Debanjan Paria",
-  //   subtitle: "Kolkata, India",
+  //   subtitle: "Mumbai, India",
   //   companyName: "OneMed Billing",
   //   companyLogo: "/assets/icons/companies/onemed-billing.svg",
   // },

@@ -9,16 +9,16 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "Best SAP FICO Training in kolkata | SAP FICO Training 100% Placement - EME Academy",
+    "Best SAP FICO Training in Mumbai | SAP FICO Training 100% Placement - EME Academy Mumbai",
   description:
-    "Get the best SAP FICO training Center in kolkata at EME Academy. Learn from expert trainers and gain practical skills for a successful career in SAP. Start your journey today!",
+    "Get the best SAP FICO training Center in Mumbai at EME Academy Mumbai. Learn from expert trainers and gain practical skills for a successful career in SAP. Start your journey today!",
   keywords: [
-    "Best SAP FICO Training in kolkata",
-    "SAP FICO Training in kolkata",
-    "SAP FICO Training course in kolkata",
+    "Best SAP FICO Training in Mumbai",
+    "SAP FICO Training in Mumbai",
+    "SAP FICO Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-fico",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-fico",
   },
 };
 

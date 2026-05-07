@@ -21,16 +21,16 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Web Development Course in kolkata - Get Job in 6 Months - - EME Academy",
+    "Best Web Development Course in Mumbai - Get Job in 6 Months - - EME Academy Mumbai",
   description:
-    "Best Website Development course in kolkata. Get 100% Job just in 6 months. Lifetime job placement from EME Academy. Learn from the best professional faculties. Join EME Academy Now!",
+    "Best Website Development course in Mumbai. Get 100% Job just in 6 months. Lifetime job placement from EME Academy Mumbai. Learn from the best professional faculties. Join EME Academy Mumbai Now!",
   keywords: [
-    "best web development course in kolkata",
-    "web development course in kolkata",
-    "website development course in kolkata",
+    "best web development course in Mumbai",
+    "web development course in Mumbai",
+    "website development course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/maincourse/web-development",
+    canonical: "https://mumbai.emeacademy.co.in/maincourse/web-development",
   },
 };
 
@@ -137,7 +137,7 @@ const webdevfaq = [
       <>
         <p>
           To enroll, contact us at 9093926145/9831284098 or email at
-          info@emeacademy.co.in. You can also register online through our
+          infomumbai@emeacademy.co.in. You can also register online through our
           website.
         </p>
       </>
@@ -149,18 +149,18 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MERNBanner2.svg",
-      alt: "Full Stack (MERN) Web Development Course in Kolkata",
+      alt: "Full Stack (MERN) Web Development Course in Mumbai",
       width: 437,
       height: 180,
     },
     link: "/best-mern-stack-development-course-in-kolkata",
     imageBgColor: "#0F2633",
-    title: "Full Stack (MERN) Web Development Course in Kolkata",
+    title: "Full Stack (MERN) Web Development Course in Mumbai",
     description: "MERN Stack - MongoDB, Express.js, React.js, Node.js",
     hookLine:
       "Enroll now and become a certified full stack developer with placement support!",
     descriptionAlert:
-      "Discover the Best Full Stack Web Development Course in Kolkata with EME Academy, designed to make you industry-ready. Master the MERN stack (MongoDB, Express.js, React, Node.js) and build dynamic applications from the scratch.",
+      "Discover the Best Full Stack Web Development Course in Mumbai with EME Academy Mumbai, designed to make you industry-ready. Master the MERN stack (MongoDB, Express.js, React, Node.js) and build dynamic applications from the scratch.",
     topics: [
       "Frontend Development with React.js: Component-based architecture, state management, and API integration.",
       "Backend Development with Node.js & Express.js: RESTful API creation, authentication, and database management.",
@@ -243,17 +243,17 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MEAN2.svg",
-      alt: "Full Stack (MEAN) Web Development Course in Kolkata",
+      alt: "Full Stack (MEAN) Web Development Course in Mumbai",
       width: 613,
       height: 180,
     },
     link: "/best-mean-stack-training-course-in-kolkata",
     imageBgColor: "#01363E",
-    title: "Full Stack (MEAN) Web Development Course in Kolkata",
+    title: "Full Stack (MEAN) Web Development Course in Mumbai",
     description: "MEAN Stack - MongoDB, Express.js, Angular.js, Node.js",
-    hookLine: "Learn from the Best MEAN Stack Training Institute in Kolkata!",
+    hookLine: "Learn from the Best MEAN Stack Training Institute in Mumbai!",
     descriptionAlert:
-      "Master the MEAN Stack (MongoDB, Express.js, Angular, Node.js) with EME Academy’s Best Full Stack Development Course in Kolkata with Placement. Gain practical coding experience with real-world projects.",
+      "Master the MEAN Stack (MongoDB, Express.js, Angular, Node.js) with EME Academy Mumbai’s Best Full Stack Development Course in Mumbai with Placement. Gain practical coding experience with real-world projects.",
     topics: [
       "Frontend with Angular: TypeScript, two-way data binding, and modular design.",
       "Backend with Node.js & Express.js: Robust server-side applications.",
@@ -287,17 +287,17 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/PHP2.svg",
-      alt: "PHP & MySQL Development Intensive Course in Kolkata",
+      alt: "PHP & MySQL Development Intensive Course in Mumbai",
       width: 613,
       height: 180,
     },
     link: "/php-mysql-training-institute-in-kolkata",
     imageBgColor: "#1F77A2",
-    title: "PHP & MySQL Development Intensive Course in Kolkata",
+    title: "PHP & MySQL Development Intensive Course in Mumbai",
     hookLine:
-      "Join the Top PHP MySQL Training Institute in Kolkata with Placement Support.",
+      "Join the Top PHP MySQL Training Institute in Mumbai with Placement Support.",
     descriptionAlert:
-      "Enhance your programming skills with the Best PHP & MySQL Course Training in Kolkata. Learn backend development, database management, and server-side scripting.",
+      "Enhance your programming skills with the Best PHP & MySQL Course Training in Mumbai. Learn backend development, database management, and server-side scripting.",
     topics: [
       "PHP fundamentals, functions, arrays, and control structures.",
       "Creating MySQL Databases and handling database operations.",
@@ -335,13 +335,13 @@ const courses = [
       width: 613,
       height: 180,
     },
-    link: "/wordpress-development-training-institute-in-kolkata",
+    link: "/wordpress-development-training-institute-in-mumbai",
     imageBgColor: "#22769B",
     title: "WordPress Development",
     hookLine:
-      "Join the Best WordPress Training Institute in Kolkata with Placement Support.",
+      "Join the Best WordPress Training Institute in Mumbai with Placement Support.",
     descriptionAlert:
-      "Become a professional WordPress developer with our Best WordPress Developer Course in Kolkata. Gain hands-on experience in website creation, customization, and plugin management.",
+      "Become a professional WordPress developer with our Best WordPress Developer Course in Mumbai. Gain hands-on experience in website creation, customization, and plugin management.",
     topics: [
       "Introduction to WordPress, Themes, and Plugins.",
       "Managing Pages, Posts, Widgets, and Menus.",
@@ -511,7 +511,7 @@ const careerProspectsData = {
   title:
     'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
   subtitle:
-    "After completing our Web Development Course in Kolkata, you will unlock diverse career opportunities:",
+    "After completing our Web Development Course in Mumbai, you will unlock diverse career opportunities:",
   careerRoles: [
     "Frontend Developer",
     "Backend Developer",
@@ -578,14 +578,14 @@ const testimonialsData = {
       id: 7,
       name: "Rohit Roy",
       rating: 5,
-      text: `"I always thought website development was complicated until I joined EME Academy’s WordPress course. Now, I can build and customize professional websites without coding!"`,
+      text: `"I always thought website development was complicated until I joined EME Academy Mumbai’s WordPress course. Now, I can build and customize professional websites without coding!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 8,
       name: "Neha Das",
       rating: 5,
-      text: `"EME Academy’s Full Stack courses are beginner-friendly and career-focused. I took the MEAN Stack course and learned how to build scalable apps, boosting my confidence for real-world projects."`,
+      text: `"EME Academy Mumbai’s Full Stack courses are beginner-friendly and career-focused. I took the MEAN Stack course and learned how to build scalable apps, boosting my confidence for real-world projects."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -609,9 +609,9 @@ const testimonialsData = {
 
 const heroData = {
   badgeText: "Get Job-Ready in Just 6 Months!",
-  title: "Best Web Development Course in Kolkata",
+  title: "Best Web Development Course in Mumbai",
   description:
-    "Explore Full Stack Web Development with MERN, MEAN, PHP & MySQL, and WordPress. Earn up to ₹12 LPA with the best course in Kolkata, designed to launch your tech career.",
+    "Explore Full Stack Web Development with MERN, MEAN, PHP & MySQL, and WordPress. Earn up to ₹12 LPA with the best course in Mumbai, designed to launch your tech career.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };

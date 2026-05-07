@@ -21,18 +21,18 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "WordPress Course In Kolkata With 100% Practical Projects",
+  title: "WordPress Course In Mumbai With 100% Practical Projects",
   description:
-    "Join Best wordpress developer course in kolkata at wordpress training institute in kolkata with 100% practical projects and expert development training.",
+    "Join Best wordpress developer course in mumbai at wordpress training institute in mumbai with 100% practical projects and expert development training.",
   keywords: [
-    "Best wordpress developer course in kolkata",
-    "wordpress training institute in kolkata",
-    "WordPress Course In Kolkata With 100% Practical Projects",
-    "Wordpress Development Training Institute in Kolkata",
-    "Best wordpress developer course in kolkata fees",
+    "Best wordpress developer course in mumbai",
+    "wordpress training institute in mumbai",
+    "WordPress Course In Mumbai With 100% Practical Projects",
+    "Wordpress Development Training Institute in Mumbai",
+    "Best wordpress developer course in mumbai fees",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/wordpress-training-institute-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/wordpress-training-institute-in-mumbai",
   },
 };
 
@@ -40,7 +40,7 @@ const faq = [
   {
     id: 1,
     title:
-      "Is this WordPress Developer Course suitable for beginners in Kolkata?",
+      "Is this WordPress Developer Course suitable for beginners in Mumbai?",
     decs: "Yes, absolutely. The course is designed from the ground up—starting with the basics of CMS and PHP. Even students without any technical background can learn WordPress comfortably.",
   },
   {
@@ -92,16 +92,16 @@ const faq = [
   {
     id: 11,
     title: "How can I enroll?",
-    decs: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    decs: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
 // Hero data
 const heroData = {
   badgeText: "Build Stunning Websites with WordPress in Just 4 Months!",
-  title: "Best WordPress Developer Course in Kolkata – 100% Practical Projects",
+  title: "Best WordPress Developer Course in Mumbai – 100% Practical Projects",
   description:
-    "Join EME Academy, the most trusted WordPress training institute in Kolkata. Learn everything from scratch (WordPress setup, theme customization, plugin development, SEO, and eCommerce integration) through real-world projects guided by industry experts.",
+    "Join EME Academy Mumbai, the most trusted WordPress training institute in Mumbai. Learn everything from scratch (WordPress setup, theme customization, plugin development, SEO, and eCommerce integration) through real-world projects guided by industry experts.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -118,7 +118,7 @@ const courseDetailsData = {
       image:
         "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Wordpress_Development_Landing/WordpressDevelopmentLandingCourseDetails.png",
       description:
-        "Get certified with one of the most practical WordPress courses in Kolkata. Learn theme development, plugin creation, SEO, WooCommerce integration, and more through real-world projects.",
+        "Get certified with one of the most practical WordPress courses in Mumbai. Learn theme development, plugin creation, SEO, WooCommerce integration, and more through real-world projects.",
       details: [
         {
           label: "Duration",
@@ -143,11 +143,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Join the Best WordPress Training Institute in Kolkata with Placement Support.",
+        "Join the Best WordPress Training Institute in Mumbai with Placement Support.",
       topics: [
         {
           title: "Introduction to WordPress",
@@ -310,9 +310,9 @@ const courseCurriculumData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing the best WordPress developer course in Kolkata at EME Academy, you can confidently apply for roles such as:",
+    "After completing the best WordPress developer course in Mumbai at EME Academy Mumbai, you can confidently apply for roles such as:",
   careerRoles: [
     "Wordpress Developer",
     "Website Administrator",
@@ -334,7 +334,7 @@ const testimonialsData = {
       id: 1,
       name: "Rohit Pal",
       rating: 5,
-      text: `"আমি ভাবতাম website বানানো খুব কঠিন। কিন্তু EME Academy-তে ভর্তি হওয়ার পর বুঝলাম—ভালো শেখালে সবকিছু সহজ হয়। এখন আমি freelancer হয়ে WordPress site বানাচ্ছি।"`,
+      text: `"আমি ভাবতাম website বানানো খুব কঠিন। কিন্তু EME Academy Mumbai-তে ভর্তি হওয়ার পর বুঝলাম—ভালো শেখালে সবকিছু সহজ হয়। এখন আমি freelancer হয়ে WordPress site বানাচ্ছি।"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -376,7 +376,7 @@ const testimonialsData = {
       id: 7,
       name: "Ria Panja",
       rating: 5,
-      text: `"EME Academy’s WordPress course changed my career. I was doing a data entry job. Now I’m working as a junior WordPress developer in a tech company."`,
+      text: `"EME Academy Mumbai’s WordPress course changed my career. I was doing a data entry job. Now I’m working as a junior WordPress developer in a tech company."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {

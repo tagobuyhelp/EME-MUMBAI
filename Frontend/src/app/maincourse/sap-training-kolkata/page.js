@@ -13,11 +13,11 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "SAP Training in kolkata | Best SAP Training institute in kolkata with Placement - EME Academy",
+    "SAP Training in Mumbai | Best SAP Training institute in Mumbai with Placement - EME Academy Mumbai",
   description:
-    "EME Academy, is one of the best SAP training institute in kolkata with 100% placement support. SAP training in kolkata with placement provided by sap-certified experts and real-time working professionals with a handful of years of experience in real-time sap projects.",
+    "EME Academy Mumbai, is one of the best SAP training institute in Mumbai with 100% placement support. SAP training in Mumbai with placement provided by sap-certified experts and real-time working professionals with a handful of years of experience in real-time sap projects.",
   alternates: {
-    canonical: "https://emeacademy.co.in/maincourse/sap-training-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/maincourse/sap-training-mumbai",
   },
 };
 
@@ -25,7 +25,7 @@ const sapfaq = [
   {
     id: 1,
     title: "Why should I choose EME Academy for SAP training?",
-    desc: "EME Academy is recognized for its expert faculty, hands-on SAP training with real-world projects, and strong track record of successful placements in reputable companies."
+    desc: "EME Academy Mumbai is recognized for its expert faculty, hands-on SAP training with real-world projects, and strong track record of successful placements in reputable companies."
   },
   {
     id: 2,
@@ -112,12 +112,12 @@ export default function page() {
           {/* Course Overview */}
           <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
             <h2 className="text-[#232D63] text-xl font-semibold">
-              Join our SAP Course in Kolkata to Grow Your Professional Career
+              Join our SAP Course in Mumbai to Grow Your Professional Career
             </h2>
             <p className="text-[#727272] text-[12px] lg:text-[16px]">
               Do you wish to enhance your career prospects with specialized
               skills? Join EME Academy for our{" "}
-              <strong>SAP training in Kolkata</strong> today and unlock a bunch
+              <strong>SAP training in Mumbai</strong> today and unlock a bunch
               of opportunities for your upcoming future. As organizations are
               relying deeply on SAP software for enterprise management, the
               demand for certified professionals is increasing. Enroll in our
@@ -126,14 +126,14 @@ export default function page() {
             </p>
             <p>
               With our professional{" "}
-              <strong>SAP training institute in Kolkata</strong>, you will be
+              <strong>SAP training institute in Mumbai</strong>, you will be
               prepared with the expertise needed to manage business operations
               efficiently. Our courses are suitable for all skill levels,
               whether you&apos;re a novice or want to focus on areas like SAP
               FICO, MM, or SD.
             </p>
             <p>
-              Here, we provide SAP courses in Kolkata with a comprehensive
+              Here, we provide SAP courses in Mumbai with a comprehensive
               curriculum designed by industry experts. Take the step towards
               securing your successful career in SAP today and position yourself
               as a valuable asset to any organisation.
@@ -143,24 +143,24 @@ export default function page() {
           {/* Certification Training */}
           <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
             <h2 className="text-[#232D63] text-xl font-semibold   ">
-              SAP Training Institute in Kolkata with Practical-Focused Placement
+              SAP Training Institute in Mumbai with Practical-Focused Placement
               Support
             </h2>
             <p className="text-[#727272] text-[12px] lg:text-[16px]   ">
-              Are you looking for the best SAP training institute in Kolkata
+              Are you looking for the best SAP training institute in Mumbai
               with practical, focused placement support? If yes, we are here to
               help you! We are EME Academy, a professional{" "}
               <strong>
-                SAP training institute in Kolkata with placement offers
+                SAP training institute in Mumbai with placement offers
               </strong>
               , hands-on experience, and expert guidance to help you master SAP
               modules properly. With a strong focus on industrial relevant
               skills, our{" "}
-              <strong>SAP training in Kolkata with placement</strong> helps you
+              <strong>SAP training in Mumbai with placement</strong> helps you
               to gain both theoretical knowledge and practical experience. Here,
               we will provide personalized placement assistance to help you find
               your dream job in top companies. Enroll today at the leading SAP
-              training institute in Kolkata and start a mega career in the world
+              training institute in Mumbai and start a mega career in the world
               of SAP!
             </p>
           </section>
@@ -168,7 +168,7 @@ export default function page() {
           {/* Key Highlights */}
           <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
             <h2 className="text-[#232D63] text-xl font-semibold   ">
-              What We Offer in Our SAP Training in Kolkata
+              What We Offer in Our SAP Training in Mumbai
             </h2>
             <p>
               <strong>Training with experts - </strong> Learn from industry
@@ -197,19 +197,19 @@ export default function page() {
               certification to boost your career.
             </p>
             <p>
-              Join our <strong>best SAP training institute in Kolkata</strong>{" "}
+              Join our <strong>best SAP training institute in Mumbai</strong>{" "}
               today for a better future.
             </p>
           </section>
 
           <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
             <h2 className="text-[#232D63] text-xl font-semibold">
-              Reasons to Choose EME Academy
+              Reasons to Choose EME Academy Mumbai
             </h2>
             <p>
               If you are planning to get a successful career in SAP, then join
               EME Academy! We stand out as a leading{" "}
-              <strong>SAP learning institute in Kolkata</strong>, offering
+              <strong>SAP learning institute in Mumbai</strong>, offering
               top-notch training with practical exposure. Here’s why you should
               choose us -
             </p>
@@ -230,7 +230,7 @@ export default function page() {
             </p>
             <p>
               <strong>Placement assistance - </strong> Being the{" "}
-              <strong>best SAP training in Kolkata</strong>, we offer committed
+              <strong>best SAP training in Mumbai</strong>, we offer committed
               placement assistance to help you land a position in prestigious
               organizations.
             </p>
@@ -246,16 +246,16 @@ export default function page() {
               experience.
             </p>
 
-            <p>Choose EME Academy for a bright future in the SAP career!</p>
+            <p>Choose EME Academy Mumbai for a bright future in the SAP career!</p>
           </section>
 
           <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
             <h2 className="text-[#232D63] text-xl font-semibold   ">
-              Features of Our SAP Course at Salk Lake in Kolkata
+              Features of Our SAP Course in Mumbai
             </h2>
             <p>
               <strong>Learn from expert trainers -</strong> Enroll in our
-              <strong> SAP course in Kolkata Salt Lake</strong> and learn from
+              <strong> SAP course in Mumbai</strong> and learn from
               experienced professionals with in-depth SAP knowledge.
             </p>
             <p>
@@ -271,7 +271,7 @@ export default function page() {
               by learning from the most well-liked SAP modules.
             </p>
             <p>
-              Join our <strong>SAP learning institute in Kolkata</strong> and
+              Join our <strong>SAP learning institute in Mumbai</strong> and
               excel in your career!
             </p>
           </section>
@@ -281,18 +281,18 @@ export default function page() {
             <h2 className="text-[#232D63] text-xl font-semibold   ">FAQs</h2>
             <div className="flex flex-col gap-2 text-[#727272] text-[12px] lg:text-[16px]">
               <h3 className="font-semibold">
-                1. Which is the best institute in Kolkata to learn the SAP
+                1. Which is the best institute in Mumbai to learn the SAP
                 course?
               </h3>
               <p>
                 There are plenty of institutes where you can learn the SAP
-                course in Kolkata! EME Academy is one of the best SAP learning
-                institutes in Kolkata, providing hands-on experience, expert
+                course in Mumbai! EME Academy Mumbai is one of the best SAP learning
+                institutes in Mumbai, providing hands-on experience, expert
                 trainers, and a strong industry connection.
               </p>
 
               <h3 className="font-semibold">
-                2. Why choose the SAP training institute at Kolkata?
+                2. Why choose the SAP training institute at Mumbai?
               </h3>
               <p>
                 If you are planning to have a great career in the future, then
@@ -319,22 +319,22 @@ export default function page() {
                 4. Does EME Academy provide any effective placement?{" "}
               </h3>
               <p>
-                Yes, the SAP training institute in Kolkata with placement
+                Yes, the SAP training institute in Mumbai with placement
                 ensures that students receive dedicated job support. We support
                 you in finding employment following the conclusion of your
                 degree, from resume construction to interview preparation and
                 networking with top employers. Your chances of getting a
                 well-paying SAP job are increased by our robust placement
-                network in Kolkata.
+                network in Mumbai.
               </p>
 
               <h3 className="font-semibold">
                 5. How long will the course take to learn?{" "}
               </h3>
               <p>
-                Depending on the module you select, the SAP course in Kolkata
+                Depending on the module you select, the SAP course in Mumbai
                 normally lasts anywhere from six weeks to six months. At EME
-                Academy, we offer flexible courses that are customized to your
+                Academy Mumbai, we offer flexible courses that are customized to your
                 schedule and professional objectives, whether you&apos;re
                 pursuing a particular module or the full SAP suite.{" "}
               </p>
@@ -344,11 +344,11 @@ export default function page() {
               </h3>
               <p>
                 Yes, here at EME Academy, our professionals can enroll in
-                flexible weekend batches for our SAP course in Kolkata Salt
-                Lake. You can enroll in our weekend sessions whenever it&apos;s
-                convenient for you because we recognize how important
-                flexibility is. For people with hectic schedules, this makes our
-                SAP training center in Kolkata ideal.
+                flexible weekend batches for our SAP course in Mumbai. You can
+                enroll in our weekend sessions whenever it&apos;s convenient for
+                you because we recognize how important flexibility is. For
+                people with hectic schedules, this makes our SAP training
+                center in Mumbai ideal.
               </p>
 
               <h3 className="font-semibold">
@@ -358,7 +358,7 @@ export default function page() {
                 That depends on your wish! If you wish to learn SAP course then
                 it will give effective opportunity to your career. Given the
                 growing demand for SAP experts, enrolling in a course at a
-                respectable SAP learning institute in Kolkata will improve your
+                respectable SAP learning institute in Mumbai will improve your
                 job prospects by equipping you with the knowledge and skills you
                 need to succeed in prestigious organizations.
               </p>

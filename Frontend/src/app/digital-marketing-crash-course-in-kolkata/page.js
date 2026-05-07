@@ -8,33 +8,33 @@ import Faqs from "@/components/common/Faqs";
   const faqs = [
     {
       key: 1,
-      question: "What makes a digital marketing course the best in Kolkata?",
+      question: "What makes a digital marketing course the best in Mumbai?",
       answer:
-        "The best digital marketing course in Kolkata offers a comprehensive curriculum, industry-experienced instructors, practical hands-on training, and a track record of successful graduates. It should equip you with the latest digital marketing skills and strategies to excel in the competitive market.",
+        "The best digital marketing course in Mumbai offers a comprehensive curriculum, industry-experienced instructors, practical hands-on training, and a track record of successful graduates. It should equip you with the latest digital marketing skills and strategies to excel in the competitive market.",
     },
     {
       key: 2,
       question: "Is the placement guaranteed after completing the course?",
       answer:
-        "EME Academy provides placement assistance to its students, helping them connect with potential employers. While placement is not guaranteed, the academy strives to support students in securing suitable opportunities.",
+        "EME Academy Mumbai provides placement assistance to its students, helping them connect with potential employers. While placement is not guaranteed, the academy strives to support students in securing suitable opportunities.",
     },
     {
       key: 3,
       question: "What are the course fees?",
       answer:
-        "Digital marketing course fees in Kolkata can vary depending on the institution, but EME Academy offers competitive fees, just ₹30,000 in total, with an admission fee of ₹15,000 and a course duration of 6 months. To learn more, please get in touch with the academy directly.",
+        "Digital marketing course fees in Mumbai can vary depending on the institution, but EME Academy Mumbai offers competitive fees, just ₹30,000 in total, with an admission fee of ₹15,000 and, a course duration of 6 months, To learn more, please get in touch with the academy directly.",
     },
     {
       key: 4,
       question: "How can I enroll in this course?",
       answer:
-        "To enroll in a course, visit EME Academy's website, select your desired course, and follow the provided instructions for the application and registration process.",
+        "To enroll in a course, visit EME Academy Mumbai's website, select your desired course, and follow the provided instructions for the application and registration process.",
     },
     {
       key: 5,
       question: "Why EME Academy for Digital Marketing Course?",
       answer:
-        "EME Academy stands out for its experienced instructors, comprehensive curriculum, industry-relevant training, and strong track record of successful graduates in the field of digital marketing.",
+        "EME Academy Mumbai stands out for its experienced instructors, comprehensive curriculum, industry-relevant training, and strong track record of successful graduates in the field of digital marketing.",
     },
     {
       key: 6,
@@ -45,17 +45,17 @@ import Faqs from "@/components/common/Faqs";
   ];
 export const metadata = {
   title:
-    "Best Digital Marketing Crash Course in Kolkata with Placements - EME Academy",
+    "Best Digital Marketing Crash Course in Mumbai with Placements - EME Academy Mumbai",
   description:
-    "Get ready to boost your digital marketing skills with our crash course in Kolkata! Master the essentials and propel your career forward.",
+    "Get ready to boost your digital marketing skills with our crash course in Mumbai! Master the essentials and propel your career forward at EME Academy Mumbai.",
   keywords: [
-    "Best Digital Marketing Crash Course in Kolkata with Placements",
-    "Digital Marketing Crash Course in Kolkata",
-    "Best Digital Marketing Crash Course in Kolkata",
+    "Best Digital Marketing Crash Course in Mumbai with Placements",
+    "Digital Marketing Crash Course in Mumbai",
+    "Best Digital Marketing Crash Course in Mumbai",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/digital-marketing-crash-course-in-kolkata",
+      "https://mumbai.emeacademy.co.in/digital-marketing-crash-course-in-mumbai",
   },
 };
 

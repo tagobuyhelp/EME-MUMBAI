@@ -18,25 +18,24 @@ import CoursesCareerProsoects from "@/components/global/CoursesCareerProsoects";
 import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
 import CoursesDetails from "@/components/global/CoursesDetails";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
-import { alumniStudents } from "@/data/alumniStudentsData";
 
 const GenAIfaq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Generative AI course in Kolkata is beginner-friendly. We start from the basics and build up to advanced tools like LLMs, GANs, and LangChain.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Generative AI course in Mumbai is beginner-friendly. We start from the basics and build up to advanced tools like LLMs, GANs, and LangChain.",
   },
   {
     id: 2,
     title:
-      "What is the duration and fee structure of the Generative AI course in Kolkata?",
-    desc: "The course is 6 months long (including internship). The generative AI course fees in Kolkata at EME Academy is ₹40,000, currently offered at a discounted fee of ₹30,000.",
+      "What is the duration and fee structure of the Generative AI course in Mumbai?",
+    desc: "The course is 6 months long (including internship). The generative AI course fees in Mumbai at EME Academy Mumbai is ₹40,000, currently offered at a discounted fee of ₹30,000.",
   },
   {
     id: 3,
     title:
       "Will I receive a certificate after completing this Generative AI course?",
-    desc: "Absolutely. Upon completion, you’ll receive a globally recognized generative AI certification from EME Academy, positioning you as an AI-ready professional in a booming tech industry.",
+    desc: "Absolutely. Upon completion, you’ll receive a globally recognized generative AI certification from EME Academy Mumbai, positioning you as an AI-ready professional in a booming tech industry.",
   },
   {
     id: 4,
@@ -46,7 +45,7 @@ const GenAIfaq = [
   {
     id: 5,
     title: "Do you offer placement support after the course?",
-    desc: "Yes! EME Academy offers 100% placement assistance with resume building, mock interviews, job referrals, and portfolio development to help you land your first job in the AI space.",
+    desc: "Yes! EME Academy Mumbai offers 100% placement assistance with resume building, mock interviews, job referrals, and portfolio development to help you land your first job in the AI space.",
   },
   {
     id: 6,
@@ -76,30 +75,30 @@ const GenAIfaq = [
   {
     id: 11,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
 export const metadata = {
-  title: "Ai Courses in kolkata and Prompt Engineer Course in Kolkata",
+  title: "AI Courses in Mumbai and Prompt Engineer Course in Mumbai",
   description:
-    "Join artificial intelligence course in kolkata and ai course in kolkata with Prompt Engineering course with placement and Prompt engineering course with certificate.",
+    "Join artificial intelligence course in Mumbai and AI course in Mumbai with Prompt Engineering course with placement and Prompt engineering course with certificate.",
   keywords: [
-    "artificial intelligence course in kolkata",
-    "ai course in kolkata",
-    "artificial intelligence course fees in kolkata",
-    "Ai and Machine Learning Courses in kolkata",
-    "Ai courses in kolkata",
-    "best ai course in kolkata",
-    "Prompt Engineering course in kolkata with placement",
-    "Prompt engineering course in kolkata with certificate",
-    "prompt engineer course in kolkata",
-    "ai prompt engineering course in kolkata",
-    "artificial intelligence course in kolkata",
+    "artificial intelligence course in Mumbai",
+    "AI course in Mumbai",
+    "artificial intelligence course fees in Mumbai",
+    "AI and Machine Learning Courses in Mumbai",
+    "AI courses in Mumbai",
+    "best AI course in Mumbai",
+    "Prompt Engineering course in Mumbai with placement",
+    "Prompt engineering course in Mumbai with certificate",
+    "prompt engineer course in Mumbai",
+    "AI prompt engineering course in Mumbai",
+    "artificial intelligence course in Mumbai",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/generative-ai-course-training-in-kolkata",
+      "https://mumbai.emeacademy.co.in/generative-ai-course-training-in-mumbai",
   },
 };
 
@@ -120,9 +119,9 @@ export default function page() {
   const heroData = {
     badgeText: "Master Generative AI in Just 6 Months",
     title:
-      "Best Generative AI Course in Kolkata – Master LLMs, Prompt Engineering, and AI Tools.",
+      "Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
     description:
-      "Learn from experts at EME Academy – the best generative AI training institute in Kolkata. Our hands-on course covers Large Language Models (LLMs), Prompt Engineering, LangChain, AI app building, and much more.",
+      "Learn from experts at EME Academy Mumbai – the best generative AI training institute in Mumbai. Our hands-on course covers Large Language Models (LLMs), Prompt Engineering, LangChain, AI app building, and much more.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -131,7 +130,7 @@ export default function page() {
   const courseDetailsData = {
     courseName: "Generative AI Course",
     subtitle:
-      "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+      "Become job-ready with the best generative AI certification course in Mumbai with hands-on tools and real-world application!",
     courseData: [
       {
         id: 1,
@@ -139,7 +138,7 @@ export default function page() {
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/GenAICard.png",
         description:
-          "Get certified with one of the most advanced generative AI certification courses in Kolkata, covering everything from GPT to LangChain and model customization.",
+          "Get certified with one of the most advanced generative AI certification courses in Mumbai, covering everything from GPT to LangChain and model customization.",
         details: [
           { label: "Duration", value: "6 Months" },
           {
@@ -157,11 +156,11 @@ export default function page() {
           },
           {
             label: "Languages",
-            value: "Bengali, English & Hindi",
+            value: "English & Hindi",
           },
         ],
         hookLine:
-          "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+          "Become job-ready with the best generative AI certification course in Mumbai with hands-on tools and real-world application!",
         topics: [
           {
             title: "Generative AI Fundamentals",
@@ -352,7 +351,7 @@ export default function page() {
     title:
       'Future Prospect of a <span class="text-[#f97316]">Prompt Engineering with AI Course</span>',
     subtitle:
-      "After completing the generative AI course in Kolkata, you'll be ready for exciting roles like:",
+      "After completing the generative AI course in Mumbai, you'll be ready for exciting roles like:",
     careerRoles: [
       "AI Engineer",
       "Prompt Engineer",
@@ -375,14 +374,14 @@ export default function page() {
         id: 1,
         name: "Sayantika Ghosh",
         rating: 5,
-        text: `"I never thought I’d understand terms like transformers or GANs, but EME Academy made it super clear. The trainers explained everything step-by-step. Easily the best generative AI course in Kolkata!"`,
+        text: `"I never thought I’d understand terms like transformers or GANs, but EME Academy Mumbai made it super clear. The trainers explained everything step-by-step. Easily the best generative AI course in Mumbai!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Arpan Das",
         rating: 5,
-        text: `"Before joining, I was just using ChatGPT for fun. Now I can design full AI workflows using LangChain! EME Academy's generative AI certification truly changed my career path."`,
+        text: `"Before joining, I was just using ChatGPT for fun. Now I can design full AI workflows using LangChain! EME Academy Mumbai's generative AI certification truly changed my career path."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -396,7 +395,7 @@ export default function page() {
         id: 4,
         name: "Sayan Pal",
         rating: 5,
-        text: `"আমি ভেবেছিলাম LLM আর GAN শেখা অনেক কঠিন হবে, কিন্তু EME Academy সবকিছু এত সহজ করে বুঝিয়েছে যে এখন আমি নিজেই AI-based content তৈরি করতে পারি!"`,
+        text: `"আমি ভেবেছিলাম LLM আর GAN শেখা অনেক কঠিন হবে, কিন্তু EME Academy Mumbai সবকিছু এত সহজ করে বুঝিয়েছে যে এখন আমি নিজেই AI-based content তৈরি করতে পারি!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -438,13 +437,86 @@ export default function page() {
         id: 10,
         name: "Debayan Chatterjee",
         rating: 5,
-        text: `"The 'Responsible AI' session was something I didn’t expect but truly valued. It showed me how important ethics are in this field. Hats off to the EME Academy trainers!"`,
+        text: `"The 'Responsible AI' session was something I didn’t expect but truly valued. It showed me how important ethics are in this field. Hats off to the EME Academy Mumbai trainers!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
     ],
     title: "Students",
     titleHighlight: "Testimonials",
   };
+
+  const alumniStudentsMumbai = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
 
   return (
     <main className="flex flex-col justify-start items-center w-full min-h-screen">
@@ -498,7 +570,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={"750+ Students placed last year alone!"}

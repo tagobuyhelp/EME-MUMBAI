@@ -43,7 +43,7 @@ export default function HomeAbout() {
           About Us
         </div> */}
         <h1 className="w-full max-w-[935px] flex flex-wrap justify-center items-center leading-[1] gap-2 text-white text-center text-2xl lg:text-[38px] font-[700] z-20 p-3 lg:py-5 lg:p-0">
-          Eastern India’s
+          Western India’s
           <span className="text-orange-500 relative flex flex-col justify-end items-end lg:justify-center lg:items-end">
             No. 1 Professional
             <Image
@@ -57,16 +57,16 @@ export default function HomeAbout() {
           Training Institute
         </h1>
         <p className="hidden md:block w-full max-w-[1240px] mx-auto px-4 md:px-10 text-white text-sm md:text-[16px] leading-5 lg:leading-7 font-normal md:font-[500]   text-center z-20 pb-3 lg:pb-5">
-          Greetings from EME Academy! The best Institute for professional
-          Training in Eastern India on Digital Marketing, Data Science, Web
-          Development, UI/UX, Data Analytics and many more in Kolkata. With a
+          Greetings from EME Academy Mumbai! The best Institute for professional
+          Training in Western India on Digital Marketing, Data Science, Web
+          Development, UI/UX, Data Analytics and many more in Mumbai. With a
           decade-long legacy and an expanding international footprint in
-          Islington, London, EME Academy is where careers are crafted, futures
+          Islington, London, EME Academy Mumbai is where careers are crafted, futures
           are built and dreams take wings.
         </p>
 
         <p className="md:hidden w-full max-w-[1240px] mx-auto px-4 md:px-10 text-white text-sm md:text-[16px] leading-5 lg:leading-7 font-normal md:font-[500]   text-center z-20 pb-3 lg:pb-5">
-          Greetings from EME Academy! Eastern India’s leading institute for
+          Greetings from EME Academy Mumbai! Western India’s leading institute for
           professional training in Digital Marketing, Data Science, Web
           Development, UI/UX, and more. With a legacy of excellence and global
           presence in London, we shape careers and build futures.

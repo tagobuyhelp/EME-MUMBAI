@@ -10,11 +10,11 @@ import { Card } from "@/components/ui/card";
 import AllLocation from "@/components/common/all-location";
 import WhyEMEAcademy from "@/components/common/WhyEMEAcademy";
 export const metadata = {
-  title: "About Us - EME Academy",
+  title: "About Us - EME Academy Mumbai",
   description:
-    "Know the story behind EME Academy. Learn about our mission, values, and the team dedicated to providing exceptional services. Find out why we're passionate about making a difference.",
+    "Know the story behind EME Academy Mumbai. Learn about our mission, values, and the team dedicated to providing exceptional services in Mumbai. Find out why we're passionate about making a difference.",
   alternates: {
-    canonical: "https://emeacademy.co.in/about-us",
+    canonical: "https://mumbai.emeacademy.co.in/about-us",
   },
 };
 

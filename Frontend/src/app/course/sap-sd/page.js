@@ -8,16 +8,16 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP SD Training in kolkata - EME Academy",
+  title: "Best SAP SD Training in Mumbai - EME Academy Mumbai",
   description:
-    "Get the best SAP SD training in kolkata at EME Academy. Learn from expert trainers, gain real-world skills, and boost your career in sales and distribution.",
+    "Get the best SAP SD training in Mumbai at EME Academy Mumbai. Learn from expert trainers, gain real-world skills, and boost your career in sales and distribution.",
   keywords: [
-    "Best SAP SD Training in kolkata",
-    "SAP SD Training in kolkata",
-    "SAP SD Training course in kolkata",
+    "Best SAP SD Training in Mumbai",
+    "SAP SD Training in Mumbai",
+    "SAP SD Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-sd",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-sd",
   },
 };
 

@@ -25,7 +25,7 @@ export default function AllLocation() {
         Our Classrooms
         <span className="flex flex-col items-end">
           <span className="text-[18px] md:text-[22px] text-[#232D63]">
-            – Kolkata & London
+            – Mumbai & London
           </span>
           <Image
             src="/assets/images/Home/icons/StudentsLineVector.svg"

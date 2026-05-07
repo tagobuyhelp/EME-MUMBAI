@@ -22,31 +22,30 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 import CTAButton from "../../components/common/CtaButton";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best PHP MySQL Training Institute in Mumbai | PHP Development Course",
+  description: "Join the best PHP MySQL training institute in Mumbai at EME Academy Mumbai. Master backend development, database integration with 100% placement support.",
+  keywords: ["php mysql training institute in mumbai", "php development course in mumbai", "best php training institute in mumbai"],
   alternates: {
-    canonical:
-      "https://emeacademy.co.in/php-mysql-training-institute-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/php-mysql-training-institute-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this PHP & MySQL course suitable for beginners in Kolkata?",
-    decs: "Yes, absolutely! This course is perfect for beginners. We start from the fundamentals of programming like syntax, variables, and loops in PHP and gradually move toward database management and full website integration using MySQL. No prior coding experience is needed.",
+    title: "Is this PHP & MySQL course suitable for beginners in Mumbai?",
+    decs: "Yes, absolutely! This course is perfect for beginners in Mumbai. We start from the fundamentals of programming like syntax, variables, and loops in PHP and gradually move toward database management and full website integration using MySQL. No prior coding experience is needed.",
   },
   {
     id: 2,
     title:
-      "What is the duration and fee structure of the PHP MySQL course in Kolkata?",
-    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹35,000, but we're currently offering it at ₹25,000 as part of a limited-time promotion. EMI options with 0% interest are available.",
+      "What is the duration and fee structure of the PHP MySQL course in Mumbai?",
+    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹35,000, but we're currently offering it at ₹25,000 as part of a limited-time promotion at EME Academy Mumbai. EMI options with 0% interest are available.",
   },
   {
     id: 3,
     title: "Will I get a certificate after completing the PHP & MySQL course?",
-    decs: "Definitely! You will receive an industry-recognized PHP & MySQL Developer Certificate from EME Academy. This certification adds great value to your resume and is accepted by recruiters and IT companies across India.",
+    decs: "Definitely! You will receive an industry-recognized PHP & MySQL Developer Certificate from EME Academy Mumbai. This certification adds great value to your resume and is accepted by recruiters and IT companies across India.",
   },
   {
     id: 4,
@@ -86,7 +85,7 @@ const faq = [
   {
     id: 11,
     title: "How can I enroll?",
-    decs: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    decs: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -94,9 +93,9 @@ const faq = [
 const heroData = {
   badgeText: "Become a Certified PHP Developer in Just 4 Months!",
   title:
-    "Best PHP Training Institute in Kolkata – Get Certified with EME Academy",
+    "Best PHP Training Institute in Mumbai – Get Certified with EME Academy Mumbai",
   description:
-    "Join EME Academy, the leading PHP & MySQL training institute in Kolkata, and master full-stack development with dynamic website building skills, secure database integration, and job-ready projects.",
+    "Join EME Academy Mumbai, the leading PHP & MySQL training institute in Mumbai, and master full-stack development with dynamic website building skills, secure database integration, and job-ready projects.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -113,7 +112,7 @@ const courseDetailsData = {
       image:
         "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Php_MySql_Landing/PhpMySqlLandingCourseDetails.png",
       description:
-        "Get certified with one of the most comprehensive PHP & MySQL courses in Kolkata. Learn full-stack development with hands-on projects, dynamic web apps, and job-ready skills.",
+        "Get certified with one of the most comprehensive PHP & MySQL courses in Mumbai. Learn full-stack development with hands-on projects, dynamic web apps, and job-ready skills at EME Academy Mumbai.",
       details: [
         {
           label: "Duration",
@@ -138,11 +137,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Join the Top PHP MySQL Training Institute in Kolkata with Placement Support.",
+        "Join the Top PHP MySQL Training Institute in Mumbai with Placement Support.",
       topics: [
         {
           title: "Module 1: PHP Development (Basics to Advanced)",
@@ -369,9 +368,9 @@ const courseCurriculumData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing the best PHP & MySQL Full Stack Course at EME Academy, you can confidently apply for roles such as:",
+    "After completing the best PHP & MySQL Full Stack Course at EME Academy Mumbai, you can confidently apply for roles such as:",
   careerRoles: [
     "PHP Developer",
     "Backend Developer",
@@ -393,7 +392,7 @@ const testimonialsData = {
       id: 1,
       name: "Ananya Paul",
       rating: 5,
-      text: `"This course didn’t just teach me PHP and MySQL, but also showed me how to integrate them into full-scale projects. Now, I can say that I’m ready to apply for backend development jobs!"`,
+      text: `"This course didn’t just teach me PHP and MySQL, but also showed me how to integrate them into full-scale projects. Now, I can say that I’m ready to apply for backend development jobs at EME Academy Mumbai!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -404,7 +403,7 @@ const testimonialsData = {
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
-      id: 3,
+      id: 2,
       name: "Ankita Rakshit",
       rating: 5,
       text: `"I was very confused about coding before joining. PHP sounded tough to me. But the way the EME sir explained everything line by line, it became so clear. I built my first login system in just 3 weeks! I feel so confident now."`,
@@ -421,7 +420,7 @@ const testimonialsData = {
       id: 5,
       name: "Rakesh Dubey",
       rating: 5,
-      text: `"I never knew what SQL injection was before. Now I use prepared statements and validate every form input. I work from home and do small projects for clients. Thanks to EME for showing me the practical side."`,
+      text: `"I never knew what SQL injection was before. Now I use prepared statements and validate every form input. I work from home and do small projects for clients. Thanks to EME Academy Mumbai for showing me the practical side."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {

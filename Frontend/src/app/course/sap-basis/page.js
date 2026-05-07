@@ -9,16 +9,16 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "SAP BASIS Training in kolkata | SAP Basis Certification Training institute kolkata - EME Academy",
+    "SAP BASIS Training in Mumbai | SAP Basis Certification Training institute Mumbai - EME Academy Mumbai",
   description:
-    "Discover the best SAP BASIS training institute in kolkata for comprehensive learning. Unlock your potential with expert guidance and practical skills.",
+    "Discover the best SAP BASIS training institute in Mumbai for comprehensive learning. Unlock your potential with expert guidance and practical skills.",
   keywords: [
-    "Best SAP SAP BASIS Training in kolkata",
-    "SAP SAP BASIS Training in kolkata",
-    "SAP Basis Certification Training institute kolkata",
+    "Best SAP BASIS Training in Mumbai",
+    "SAP BASIS Training in Mumbai",
+    "SAP Basis Certification Training institute Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-basis",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-basis",
   },
 };
 

@@ -21,28 +21,28 @@ import CoursesLandingFooter from "@/components/global/CoursesLandingFooter";
 
 export const metadata = {
   title:
-    "Best Cyber Security Course in kolkata | Cyber Security Training in kolkata - EME Academy",
+    "Best Cyber Security Course in Mumbai | Cyber Security Training in Mumbai - EME Academy",
   description:
-    "Enroll in the best cyber security institute in Kolkata and advance your career with the best cyber security courses in Kolkata designed by industry experts.",
+    "Enroll in the best cyber security institute in Mumbai and advance your career with the best cyber security courses in Mumbai designed by industry experts.",
   keywords: [
-    "cyber security course in kolkata",
-    "cyber security course in kolkata fees",
-    "best cyber security institute in kolkata",
-    "cyber security course fees in kolkata",
-    "best cyber security courses in kolkata",
-    "cyber crime courses in kolkata",
-    "cyber forensics courses in kolkata",
+    "cyber security course in Mumbai",
+    "cyber security course in Mumbai fees",
+    "best cyber security institute in Mumbai",
+    "cyber security course fees in Mumbai",
+    "best cyber security courses in Mumbai",
+    "cyber crime courses in Mumbai",
+    "cyber forensics courses in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/cyber-security-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/cyber-security-course-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Cyber Security Course in Kolkata is beginner-friendly. We have a structured learning approach that makes complex concepts like ethical hacking, penetration testing, and cryptography easy to grasp.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Cyber Security Course in Mumbai is beginner-friendly. We have a structured learning approach that makes complex concepts like ethical hacking, penetration testing, and cryptography easy to grasp.",
   },
   {
     id: 2,
@@ -52,17 +52,17 @@ const faq = [
   {
     id: 3,
     title: "Will I get hands-on experience with real-world hacking tools?",
-    desc: "Absolutely. This is one of the best cyber security courses in Kolkata with practical labs. You’ll work on tools like Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit, and more.",
+    desc: "Absolutely. This is one of the best cyber security courses in Mumbai with practical labs. You’ll work on tools like Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit, and more.",
   },
   {
     id: 4,
     title: "Do I get placement support after completing the course?",
-    desc: "Yes! EME Academy provides 100% placement assistance, including job referrals, resume building, mock interviews, and access to our hiring partners network. Our course is designed for real-world job readiness.",
+    desc: "Yes! EME Academy Mumbai provides 100% placement assistance, including job referrals, resume building, mock interviews, and access to our hiring partners network. Our course is designed for real-world job readiness.",
   },
   {
     id: 5,
     title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy.",
+    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
   },
   {
     id: 6,
@@ -82,16 +82,16 @@ const faq = [
   {
     id: 9,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
 const heroData = {
   badgeText: "Learn & Get Hired in 6 Months!",
   title:
-    "Best Cyber Security Course in Kolkata – Master Ethical Hacking, Networking, and Penetration Testing",
+    "Best Cyber Security Course in Mumbai – Master Ethical Hacking, Networking, and Penetration Testing",
   description:
-    "Join EME Academy, the best cyber security institute in Kolkata, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
+    "Join EME Academy Mumbai, the best cyber security institute in Mumbai, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -99,14 +99,14 @@ const heroData = {
 const courseDetailsData = {
   courseName: "Cyber Security Course",
   subtitle:
-    "Advance your career with our comprehensive Cyber Security training in Kolkata, designed for freshers and professionals.",
+    "Advance your career with our comprehensive Cyber Security training in Mumbai, designed for freshers and professionals.",
   courseData: [
     {
       id: 1,
       title: "Cyber Security Course",
       image: "/assets/images/Cyber_Security/CyberSecurityCourseMain.png",
       description:
-        "Join EME Academy, the best cyber security institute in Kolkata, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
+        "Join EME Academy Mumbai, the best cyber security institute in Mumbai, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
       details: [
         {
           label: "Duration",
@@ -127,11 +127,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Become job-ready with the best cyber security course in Kolkata with placement support!",
+        "Become job-ready with the best cyber security course in Mumbai with placement support!",
       topics: [
         {
           title: "Ethical Hacking",
@@ -271,9 +271,9 @@ const toolsData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing EME Academy’s Cyber Security course in Kolkata, you'll be equipped to take up roles in both print and digital media across diverse industries:",
+    "After completing EME Academy Mumbai’s Cyber Security course in Mumbai, you'll be equipped to take up roles in both print and digital media across diverse industries:",
   careerRoles: [
     "Cyber Security Analyst",
     "Ethical Hacker",
@@ -300,7 +300,7 @@ const testimonialsData = {
       id: 1,
       name: "Pratik Saha",
       rating: 5,
-      text: `"Never thought I could understand ethical hacking so easily. EME Academy truly offers the best cyber security course in Kolkata!"`,
+      text: `"Never thought I could understand ethical hacking so easily. EME Academy Mumbai truly offers the best cyber security course in Mumbai!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -314,14 +314,14 @@ const testimonialsData = {
       id: 3,
       name: "Arjun Ghosh",
       rating: 5,
-      text: `"EME Academy made complex topics like SQL injection and sniffing feel simple. The trainers are fantastic and very practical."`,
+      text: `"EME Academy Mumbai made complex topics like SQL injection and sniffing feel simple. The trainers are fantastic and very practical."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 4,
       name: "Adnan Rahman",
       rating: 5,
-      text: `"এই কোর্সটা করে আমি Ethical Hacking আর Penetration Testing শিখে এখন এক কোম্পানিতে Cyber Analyst হিসেব কাজ করছি। Kolkata-র বেস্ট Cyber Security কোর্স!"`,
+      text: `"এই কোর্সটা করে আমি Ethical Hacking আর Penetration Testing শিখে এখন এক কোম্পানিতে Cyber Analyst হিসেব কাজ করছি। Mumbai-র বেস্ট Cyber Security কোর্স!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -356,7 +356,7 @@ const testimonialsData = {
       id: 9,
       name: "Shreya Mitra",
       rating: 5,
-      text: `"I was skeptical at first, but this is honestly the best cyber security institute in Kolkata. Great for placement and freelancing too."`,
+      text: `"I was skeptical at first, but this is honestly the best cyber security institute in Mumbai. Great for placement and freelancing too."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -371,12 +371,12 @@ const testimonialsData = {
   titleHighlight: "Testimonials",
 };
 
-const alumniStudents = [
+const alumniStudentsMumbai = [
   {
     id: 1,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
     title: "Sukanya Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -386,7 +386,7 @@ const alumniStudents = [
     id: 2,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
     title: "Nuruzzaman Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -396,7 +396,7 @@ const alumniStudents = [
     id: 3,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
     title: "Vaishnavi",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -406,7 +406,7 @@ const alumniStudents = [
     id: 4,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
     title: "Aniket Shome",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -416,7 +416,7 @@ const alumniStudents = [
     id: 5,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
     title: "Supratim Sen",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -426,7 +426,7 @@ const alumniStudents = [
     id: 6,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
     title: "Souvik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -436,7 +436,7 @@ const alumniStudents = [
     id: 7,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
     title: "Koushik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -510,7 +510,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={

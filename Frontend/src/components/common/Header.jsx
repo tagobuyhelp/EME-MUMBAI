@@ -93,7 +93,7 @@ export const Header = () => {
                 width={100}
                 height={100}
                 src="/assets/images/eme.svg"
-                alt="EME Logo"
+                alt="EME Academy Mumbai Logo"
               />
             </Link>
             <div className="text-[10px] md:text-[10px] text-[#ffffff] font-bold text-nowrap ml-[13px] z-[30]">
@@ -259,7 +259,7 @@ export const Header = () => {
                 {/* First Column */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-5">
                   <Link
-                    href="/data-analytics-course-in-kolkata"
+                    href="/data-analytics-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -312,7 +312,7 @@ export const Header = () => {
                           main courses
                         </div>
                         <Link
-                          href="/maincourse/sap-training-kolkata"
+                          href="/maincourse/sap-training-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           SAP Main Course
@@ -430,25 +430,25 @@ export const Header = () => {
                         </div>
 
                         <Link
-                          href="/best-mern-stack-development-course-in-kolkata"
+                          href="/best-mern-stack-development-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Full Stack (MERN) Web Development Course
                         </Link>
                         <Link
-                          href="/best-mean-stack-training-course-in-kolkata"
+                          href="/best-mean-stack-training-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Full Stack (MEAN) Web Development Course
                         </Link>
                         <Link
-                          href="/php-mysql-training-institute-in-kolkata"
+                          href="/php-mysql-training-institute-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           PHP & MySQL Development Intensive Course
                         </Link>
                         <Link
-                          href="/wordpress-development-training-institute-in-kolkata"
+                          href="/wordpress-development-training-institute-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           WordPress Development
@@ -495,7 +495,7 @@ export const Header = () => {
                           main courses
                         </div>
                         <Link
-                          href="/maincourse/digital-marketing-course-in-kolkata"
+                          href="/maincourse/digital-marketing-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Digital Marketing Main Course
@@ -506,13 +506,13 @@ export const Header = () => {
                         </div>
 
                         <Link
-                          href="/advanced-digital-marketing-certificate-course-in-kolkata"
+                          href="/advanced-digital-marketing-certificate-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Advanced Digital Marketing (Facebook & Google Ads)
                         </Link>
                         <Link
-                          href="/diploma-in-advance-digital-marketing-courses-in-kolkata"
+                          href="/diploma-in-advance-digital-marketing-courses-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Master Digital Marketing with AI
@@ -522,7 +522,7 @@ export const Header = () => {
                   </div>
 
                   <Link
-                    href="/data-science-course-in-kolkata"
+                    href="/data-science-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -589,13 +589,13 @@ export const Header = () => {
                         </div>
 
                         <Link
-                          href="/graphic-design-course-in-kolkata"
+                          href="/graphic-design-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Graphic Design
                         </Link>
                         <Link
-                          href="/motion-graphics-course-in-kolkata"
+                          href="/motion-graphics-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Motion Graphic
@@ -605,7 +605,7 @@ export const Header = () => {
                   </div>
 
                   <Link
-                    href="/human-resource-course-in-kolkata"
+                    href="/human-resource-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -620,7 +620,7 @@ export const Header = () => {
                   </Link>
 
                   <Link
-                    href="/ui-ux-design-course-in-kolkata"
+                    href="/ui-ux-design-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -637,7 +637,7 @@ export const Header = () => {
                   </Link>
 
                   <Link
-                    href="/generative-ai-course-training-in-kolkata"
+                    href="/generative-ai-course-training-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -654,7 +654,7 @@ export const Header = () => {
                   </Link>
 
                   <Link
-                    href="/machine-learning-course-in-kolkata"
+                    href="/machine-learning-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -671,7 +671,7 @@ export const Header = () => {
                   </Link>
 
                   <Link
-                    href="/cyber-security-course-in-kolkata"
+                    href="/cyber-security-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
@@ -701,7 +701,7 @@ export const Header = () => {
                   </Link>
 
                   <Link
-                    href="/best-animation-and-vfx-institute-in-kolkata"
+                    href="/best-animation-and-vfx-institute-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">

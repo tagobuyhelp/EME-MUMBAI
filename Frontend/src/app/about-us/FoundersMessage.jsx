@@ -80,7 +80,7 @@ export default function FoundersMessage() {
           Education is the key to the future
         </h2>
         <p className="text-[#757575] text-[16px]">
-          At EME Academy, we believe that education should not only to provide
+          At EME Academy Mumbai, we believe that education should not only to provide
           information but to ensure transformation. Since day one, our mission
           has been to enable every learner with contemporary & futuristic
           skills. With industry demand driven training and global opportunities,
@@ -92,7 +92,7 @@ export default function FoundersMessage() {
             Kazi Mahasin Azim
           </h3>
           <p className="text-[#757575] text-[14px]">
-            Founder & Chairman, EME Academy
+            Founder & Chairman, EME Academy Mumbai
           </p>
         </div>
       </div>

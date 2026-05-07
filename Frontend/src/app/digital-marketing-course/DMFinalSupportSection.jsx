@@ -104,7 +104,7 @@ export default function DMFinalSupportSection({ _this }) {
               <span className="text-[#E87D1A] font-black">They can&apos;t all be wrong.</span>
             </div>
             <div className="mt-4 text-[12px] md:text-[13px] font-semibold text-white/75 leading-relaxed">
-              No one in Kolkata will give you a better option — whether you are a parent wanting to set your child&apos;s career, or a graduate looking for the right direction.
+              No one in Mumbai will give you a better option — whether you are a parent wanting to set your child&apos;s career, or a graduate looking for the right direction.
             </div>
 
             <div className="mt-6 flex items-center gap-3">
@@ -114,7 +114,7 @@ export default function DMFinalSupportSection({ _this }) {
               <div className="text-left leading-tight">
                 <div className="font-black text-[13px] md:text-[14px]">EME Academy Team</div>
                 <div className="text-white/70 text-[11px] md:text-[12px] font-semibold">
-                  Kolkata&apos;s #1 Career Support Institute
+                  Mumbai&apos;s #1 Career Support Institute
                 </div>
               </div>
             </div>

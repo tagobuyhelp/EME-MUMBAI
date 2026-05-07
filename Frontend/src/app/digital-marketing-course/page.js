@@ -25,18 +25,18 @@ import DMShortsCarousel from "./DMShortsCarousel";
 import DMFinalSupportSection from "./DMFinalSupportSection";
 
 export const metadata = {
-    title: "Best Digital Marketing Course in Kolkata | EME Academ",
-    description: "",
-    keywords: [""],
+    title: "Best Digital Marketing Course in Mumbai | EME Academy Mumbai",
+    description: "Looking for the best digital marketing course in Mumbai? EME Academy Mumbai offers advanced digital marketing training with placement assistance.",
+    keywords: ["digital marketing course in Mumbai", "best digital marketing institute in Mumbai", "digital marketing training Mumbai"],
     alternates: {
-        canonical: "https://emeacademy.co.in/digital-marketing-course",
+        canonical: "https://mumbai.emeacademy.co.in/digital-marketing-course",
     },
 };
 
 const DMfaq = [
     {
         id: 1,
-        title: "Is this course for beginners in Kolkata?",
+        title: "Is this course for beginners in Mumbai?",
         desc: "Yes! All our courses are perfect for beginners.",
     },
     {
@@ -46,7 +46,7 @@ const DMfaq = [
         desc: (
             <>
                 <p>
-                    Our digital marketing courses in Kolkata range from 4 to 6 months,
+                    Our digital marketing courses in Mumbai range from 4 to 6 months,
                     including internship. The course fees are mentioned below:
                 </p>
                 <p>● Advanced Digital Marketing (Facebook & Google Ads)- ₹30,000</p>
@@ -72,12 +72,12 @@ const DMfaq = [
     {
         id: 6,
         title: "I’m working full-time. Can I still join this course?",
-        desc: "Yes, we provide flexible batches including weekend and evening classes. Our digital marketing training institute in Kolkata is built for working professionals who want to upskill without quitting their jobs.",
+        desc: "Yes, we provide flexible batches including weekend and evening classes. Our digital marketing training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs.",
     },
     {
         id: 7,
         title: "Will I learn advanced tools and strategies during the course?",
-        desc: "Yes. As part of our advanced digital marketing training institute in Kolkata, you’ll get hands-on experience with ChatGPT, SEMrush, Meta Ads, Google Ads, Mailchimp, WordPress, and more.",
+        desc: "Yes. As part of our advanced digital marketing training institute in Mumbai, you’ll get hands-on experience with ChatGPT, SEMrush, Meta Ads, Google Ads, Mailchimp, WordPress, and more.",
     },
     {
         id: 8,
@@ -87,7 +87,7 @@ const DMfaq = [
     {
         id: 9,
         title: "Can I work on freelance projects after this course?",
-        desc: "Yes! Our digital marketing course in Kolkata with placement also covers freelancing strategies. We’ll help you build a client-ready portfolio and pitch confidently.",
+        desc: "Yes! Our digital marketing course in Mumbai with placement also covers freelancing strategies. We’ll help you build a client-ready portfolio and pitch confidently.",
     },
     {
         id: 10,
@@ -97,7 +97,7 @@ const DMfaq = [
     {
         id: 11,
         title: "How can I enroll?",
-        desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+        desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
     },
 ];
 
@@ -135,7 +135,7 @@ export default function page() {
     };
 
     const heroData = {
-        badgeText: "Kolkata's #1 Digital Marketing Institute — 10+ Years",
+        badgeText: "Mumbai's #1 Digital Marketing Institute — 10+ Years",
         title: (
             <>
                 One Right Step — <br />
@@ -163,7 +163,7 @@ export default function page() {
                 width: 613,
                 height: 180,
             },
-            link: "/advanced-digital-marketing-certificate-course-in-kolkata",
+            link: "/advanced-digital-marketing-certificate-course-in-mumbai",
             imageBgColor: "#005CE2",
             badgeText: "Facebook & Google Ads",
             title: "Advanced Digital Marketing Course",
@@ -171,7 +171,7 @@ export default function page() {
             description:
                 "Learn to run ads on Facebook and Google that actually convert. Real campaigns, real budgets, real results — taught by instructors who have worked in the industry.",
             descriptionAlert:
-                "Our comprehensive advanced digital marketing course in Kolkata covers all aspects, including Google Ads, Facebook Ads, and advanced strategies. Learn to drive conversions, optimize ROI, and grow your digital marketing skills with hands-on projects and industry-relevant tools.",
+                "Our comprehensive advanced digital marketing course in Mumbai covers all aspects, including Google Ads, Facebook Ads, and advanced strategies. Learn to drive conversions, optimize ROI, and grow your digital marketing skills with hands-on projects and industry-relevant tools.",
             hookLine:
                 "Enroll now and become a certified digital marketing expert with Facebook & Google Ads mastery!",
             topics: [
@@ -277,14 +277,14 @@ export default function page() {
                 width: 613,
                 height: 180,
             },
-            link: "/diploma-in-advance-digital-marketing-courses-in-kolkata",
+            link: "/diploma-in-advance-digital-marketing-courses-in-mumbai",
             imageBgColor: "#04142E",
             badgeText: "AI TRANSFORMING DIGITAL MARKETING",
             title: "Master Digital Marketing with AI",
             description:
                 "ChatGPT, AI automation, and full-funnel strategy — the exact skills employers are looking for in 2025–26. Perfect for freelancers, professionals, and business owners.",
             descriptionAlert:
-                "Transform your marketing approach with AI-powered tools and strategies at the best digital marketing institute in Kolkata — the EME Academy. This course covers SEO, sales funnel optimization, and content marketing, ideal for entrepreneurs, freelancers, and professionals looking to scale their digital marketing efforts.",
+                "Transform your marketing approach with AI-powered tools and strategies at the best digital marketing institute in Mumbai — the EME Academy Mumbai. This course covers SEO, sales funnel optimization, and content marketing, ideal for entrepreneurs, freelancers, and professionals looking to scale their digital marketing efforts.",
             hookLine:
                 "Enroll now and become a certified digital marketing expert with AI-powered skills!",
             topics: [
@@ -653,7 +653,7 @@ export default function page() {
             id: 1,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
             title: "Sukanya Ghosh",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -773,7 +773,7 @@ export default function page() {
                 <InfiniteCall />
             </div>
 
-            <div className="w-full bg-[url('/assets/images/Digital_Marketing_Landing/images/best-digital-marketing-training-kolkata-hero-bg-3.webp')] xs:h-[380px] sm:h-[420px] md:h-[555px] bg-cover bg-center bg-no-repeat">
+            <div className="w-full bg-[url('/assets/images/Digital_Marketing_Landing/images/best-digital-marketing-training-mumbai-hero-bg-3.webp')] xs:h-[380px] sm:h-[420px] md:h-[555px] bg-cover bg-center bg-no-repeat">
                 <CoursesHero {...heroData} {..._this} />
             </div>
 

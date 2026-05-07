@@ -9,16 +9,16 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "SAP Success Factors Training | SAP SuccessFactors Course in kolkata- - EME Academy",
+    "SAP Success Factors Training | SAP SuccessFactors Course in Mumbai - EME Academy Mumbai",
   description:
-    "Discover top-notch SAP Success Factors courses in kolkata. Gain valuable skills for your career growth. Join now!",
+    "Discover top-notch SAP Success Factors courses in Mumbai. Gain valuable skills for your career growth. Join now!",
   keywords: [
-    "Best SAP SuccessFactors Training in kolkata",
-    "SAP SuccessFactorsTraining in kolkata",
-    "SAP SuccessFactors course in kolkata",
+    "Best SAP SuccessFactors Training in Mumbai",
+    "SAP SuccessFactors Training in Mumbai",
+    "SAP SuccessFactors course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-success",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-success",
   },
 };
 

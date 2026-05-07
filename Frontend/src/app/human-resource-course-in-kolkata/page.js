@@ -18,21 +18,29 @@ import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
+export const metadata = {
+  title: "Best HR Training Course in Mumbai | Human Resource Course in Mumbai",
+  description: "Join the best HR training course in Mumbai at EME Academy Mumbai. Master payroll, compliance, talent acquisition with 100% placement support.",
+  keywords: ["hr training course in mumbai", "human resource course in mumbai", "hr course in mumbai with placement"],
+  alternates: {
+    canonical: "https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai",
+  },
+};
 const faqs = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Human Resource course in Kolkata is ideal for students, fresh graduates, or anyone switching careers. The curriculum starts from the basics and gradually covers advanced HR tools and industry practices.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Human Resource course in Mumbai is ideal for students, fresh graduates, or anyone switching careers. The curriculum starts from the basics and gradually covers advanced HR tools and industry practices.",
   },
   {
     id: 2,
     title: "What is the duration and fee of the HR course?",
-    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Kolkata at EME Academy is ₹20,000 after discount. EMI options are also available.",
+    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Mumbai at EME Academy Mumbai is ₹20,000 after discount. EMI options are also available.",
   },
   {
     id: 3,
     title: "Will I learn about payroll and compliance like PF, ESI, and tax?",
-    desc: "Absolutely! This is a complete Human Resource training course in Kolkata that includes salary structure design, PF/ESI calculations, Form 16, and compliance using real-world Excel-based systems.",
+    desc: "Absolutely! This is a complete Human Resource training course in Mumbai that includes salary structure design, PF/ESI calculations, Form 16, and compliance using real-world Excel-based systems.",
   },
   {
     id: 4,
@@ -57,7 +65,7 @@ const faqs = [
   {
     id: 8,
     title: "Will I receive a certificate after course completion?",
-    desc: "Yes, a globally recognised Human Resource certification will be issued by EME Academy upon successful completion of the course.",
+    desc: "Yes, a globally recognised Human Resource certification will be issued by EME Academy Mumbai upon successful completion of the course.",
   },
   {
     id: 9,
@@ -72,7 +80,7 @@ const faqs = [
   {
     id: 11,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -91,9 +99,9 @@ function page() {
   // Hero data
   const heroData = {
     badgeText: "Learn & Get Hired in 4 Months!",
-    title: "Best HR Training Course in Kolkata with Placement Support",
+    title: "Best HR Training Course in Mumbai with Placement Support",
     description:
-      "Learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and even AI in HR with expert guidance and hands-on training.",
+      "Learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and even AI in HR with expert guidance and hands-on training at EME Academy Mumbai.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -134,11 +142,11 @@ function page() {
           },
           {
             label: "Languages",
-            value: "Bengali, English & Hindi",
+            value: "English & Hindi",
           },
         ],
         hookLine:
-          "Become job-ready with the best institute for Human Resource in Kolkata!",
+          "Become job-ready with the best institute for Human Resource in Mumbai!",
         topics: [
           {
             title: "HR Management & Systems",
@@ -211,9 +219,9 @@ function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+      'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
     subtitle:
-      "After completing EME Academy’s Human Resource course in Kolkata, you’ll be eligible for various HR roles across top industries:",
+      "After completing EME Academy Mumbai’s Human Resource course in Mumbai, you’ll be eligible for various HR roles across top industries:",
     careerRoles: [
       "HR Specialist/Executive",
       "IT Recruiter",
@@ -240,28 +248,28 @@ function page() {
         id: 1,
         name: "Poulami Sarkar",
         rating: 5,
-        text: `"I enrolled in the HR course with zero background in recruitment. Today, I confidently manage talent acquisition using LinkedIn and Zoho platforms. This is definitely the best Human Resource course in Kolkata."`,
+        text: `"I enrolled in the HR course with zero background in recruitment. Today, I confidently manage talent acquisition using LinkedIn and Zoho platforms. This is definitely the best Human Resource course in Mumbai."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Sanchita Dey",
         rating: 5,
-        text: `"আমি ভাবিনি HRMS software শেখা এত সহজ হবে! এখন আমি Zoho আর KEKA ব্যবহার করে চাকরির প্রক্রিয়া ম্যানেজ করতে পারি। Thanks EME!"`,
+        text: `"আমি ভাবিনি HRMS software শেখা এত সহজ হবে! এখন আমি Zoho আর KEKA ব্যবহার করে চাকরির প্রক্রিয়া ম্যানেজ করতে পারি। Thanks EME Academy Mumbai!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 3,
         name: "Rajat Paul",
         rating: 5,
-        text: `"EME Academy’s HR course helped me crack my first job as a Junior HR Executive. The payroll module and mock interviews were really informative!"`,
+        text: `"EME Academy Mumbai’s HR course helped me crack my first job as a Junior HR Executive. The payroll module and mock interviews were really informative!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 4,
         name: "Aditya Banerjee",
         rating: 5,
-        text: `"Loved the real-life case studies and hands-on training in PF, ESI, and compliance. This is truly the best institute for Human Resource in Kolkata with placement."`,
+        text: `"Loved the real-life case studies and hands-on training in PF, ESI, and compliance. This is truly the best institute for Human Resource in Mumbai with placement."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -282,7 +290,7 @@ function page() {
         id: 7,
         name: "Soma Ghosh",
         rating: 5,
-        text: `"I now work as an HR Assistant thanks to the Human Resource course in Kolkata with placement at EME Academy. Their support is unmatched."`,
+        text: `"I now work as an HR Assistant thanks to the Human Resource course in Mumbai with placement at EME Academy Mumbai. Their support is unmatched."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -379,7 +387,7 @@ function page() {
         <Faqs faqs={faqs} />
       </div>
       <Footer />
-      <StickyCTAButton Courses="Human Resource Course" />
+      <StickyCTAButton {..._this} />
     </main>
   );
 }

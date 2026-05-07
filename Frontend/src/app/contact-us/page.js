@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Have questions or need assistance? Contact us today for friendly help and support. We're here to assist you with any queries or concerns you may have.",
   alternates: {
-    canonical: "https://emeacademy.co.in/contact-us",
+    canonical: "https://mumbai.emeacademy.co.in/contact-us",
   },
 };
 
@@ -43,7 +43,7 @@ export default function ContactPageClient() {
       BrochureName,
     };
 
-  const addressUrl1 = "https://maps.app.goo.gl/29GowbGvjuF3pLYq5";
+  const addressUrl1 = "https://www.google.com/maps/search/Synergy+Business+Park,+Goregaon+East,+Mumbai";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
 
   return (
@@ -78,8 +78,7 @@ export default function ContactPageClient() {
                     src="/assets/images/Web_Development/icons/icons8-india-48.png"
                     alt="Location Icon"
                   />
-                  EME Academy, 5th Floor, TOWER-1, Globsyn Crystals, 505, EP
-                  Block, Sector V, Bidhannagar, Kolkata, West Bengal
+                  EME Academy Mumbai, 605, 6th Floor, Synergy Business Park, Sahakar Wadi, Vishweshwar Nagar, Goregaon, Mumbai, Maharashtra 400063
                 </Link>
               </div>
               <div className="flex mt-[10px] hover:underline cursor-pointer">
@@ -127,7 +126,7 @@ export default function ContactPageClient() {
                   src="/assets/images/SMSBlue.svg"
                   alt="call icon"
                 />
-                <a href="mailto:info@emeacademy.co.in">info@emeacademy.co.in</a>
+                <a href="mailto:infomumbai@emeacademy.co.in">infomumbai@emeacademy.co.in</a>
               </li>
             </div>
 
@@ -142,7 +141,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/fb-round.svg"
-                    alt="EME facebook Logo"
+                    alt="EME Academy Mumbai facebook Logo"
                   />
                 </a>
 
@@ -152,7 +151,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/x-round.svg"
-                    alt="EME facebook Logo"
+                    alt="EME Academy Mumbai facebook Logo"
                   />
                 </a>
 
@@ -165,7 +164,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/insta-round.svg"
-                    alt="EME Instagram Logo"
+                    alt="EME Academy Mumbai Instagram Logo"
                   />
                 </a>
 
@@ -175,7 +174,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/yt-round.svg"
-                    alt="EME Youtube Logo"
+                    alt="EME Academy Mumbai Youtube Logo"
                   />
                 </a>
                 <a
@@ -187,7 +186,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/linkedin-round.svg"
-                    alt="EME LinkedIn Logo"
+                    alt="EME Academy Mumbai LinkedIn Logo"
                   />
                 </a>
                 <a
@@ -199,7 +198,7 @@ export default function ContactPageClient() {
                     width={500}
                     height={500}
                     src="/assets/images/quora-round.svg"
-                    alt="EME Quora Logo"
+                    alt="EME Academy Mumbai Quora Logo"
                   />
                 </a>
               </div>
@@ -232,7 +231,7 @@ export default function ContactPageClient() {
           <div className="pt-5 lg:py-10 py-5 px-[20px] md:px-24  max-w-[1380px] mx-auto">
             <iframe
               className="w-full md:shadow-2xl shadow-lg  rounded-md lg:rounded-2xl h-[300px] lg:h-[500px]"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.193634194048!2d88.4309983756273!3d22.57186007949222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275ae8c555555%3A0x50b9cb59e41cdd6d!2sEME%20Academy%20-%20Digital%20Marketing%20%7C%20SAP%20%7C%20Web%20Development%20%7C%20Data%20Analytics%20%7C%20Graphic%20Designing%20Institute!5e0!3m2!1sen!2sin!4v1762242698994!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.995079524021!2d72.85303497598418!3d19.157833082079088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7135c3453b5%3A0x63351ec30c5e7b2f!2sSynergy%20Business%20Park!5e0!3m2!1sen!2sin!4v1715055600000!5m2!1sen!2sin"
               width="600"
               height="500"
               allowFullScreen=""

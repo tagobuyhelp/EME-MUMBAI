@@ -9,16 +9,16 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "Graphic Design Courses | Best Graphic Design institute in kolkata - EME Academy",
+    "Graphic Design Courses | Best Graphic Design institute in Mumbai - EME Academy Mumbai",
   description:
-    "Want to learn graphic design from top graphic design institutes in kolkata? EME Academy offers you the best graphic design courses in kolkata. Call now!",
+    "Want to learn graphic design from top graphic design institutes in Mumbai? EME Academy Mumbai offers you the best graphic design courses in Mumbai. Call now!",
   keywords: [
-    "graphic design courses in kolkata ",
-    "graphic design institutes in kolkata",
-    "best graphic design courses in kolkata",
+    "graphic design courses in Mumbai ",
+    "graphic design institutes in Mumbai",
+    "best graphic design courses in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/graphic-design-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/graphic-design-course-in-mumbai",
   },
 };
 

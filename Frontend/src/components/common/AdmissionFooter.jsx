@@ -29,7 +29,7 @@ export default function AdmissionFooter() {
                             width={500}
                             height={500}
                             src={logo}
-                            alt="EME Logo" />
+                            alt="EME Academy Mumbai Logo" />
                         <div className='text-[13px] lg:text-[15px] font-[400] border-b w-[300px] pb-[10px]'>
                             Explore, learn, and grow with us today. With a diverse range of courses, expert instructors, and a supportive community, we&apos;re here to empower you on your educational journey.
 
@@ -41,7 +41,7 @@ export default function AdmissionFooter() {
                                     width={500}
                                     height={500}
                                     src={fb}
-                                    alt="EME Logo" />
+                                    alt="EME Academy Mumbai Logo" />
                             </a>
 
                             <a href='https://www.instagram.com/emeacademy.co.in/'>
@@ -50,7 +50,7 @@ export default function AdmissionFooter() {
                                     width={500}
                                     height={500}
                                     src={insta}
-                                    alt="EME Logo" />
+                                    alt="EME Academy Mumbai Logo" />
                             </a>
 
                             <a href='https://www.youtube.com/@emeacademy' target='_blank'>
@@ -59,7 +59,7 @@ export default function AdmissionFooter() {
                                     width={500}
                                     height={500}
                                     src={yt}
-                                    alt="EME Logo" />
+                                    alt="EME Academy Mumbai Logo" />
                             </a>
                         </div>
                     </div>
@@ -108,8 +108,8 @@ export default function AdmissionFooter() {
                             <div className='text-[13px] lg:text-[14px] font-[400] leading-[20px] lg:leading-[24px] text-white/80'>
                                 <li className='flex justify-start items-center'>
                                     {/* <img src={location_icon} alt="" /> */}
-                                    Office No - 505, 5th Floor, Tower- 1,Kolkata,</li>
-                                <li>West Bengal, India,700136</li>
+                                    Office No - 605, 6th Floor, Synergy Business Park, Mumbai,</li>
+                                <li>Maharashtra, India, 400063</li>
 
                                 <li className='flex items-center gap-2 mt-[15px] lg:mt-[25px]'>
                                     <Image
@@ -128,9 +128,9 @@ export default function AdmissionFooter() {
                                         height={500}
                                         src={sms}
                                         alt="call icon" />
-                                    <a href="mailto:info@emeacademy.co.in"
+                                    <a href="mailto:infomumbai@emeacademy.co.in"
                                         className=' font-[400]  '>
-                                        info@emeacademy.co.in
+                                        infomumbai@emeacademy.co.in
                                     </a>
                                 </li>
                             </div>
@@ -143,8 +143,8 @@ export default function AdmissionFooter() {
 
             <div className='w-full bg-[#ffffff]'>
                 <div className='w-full mx-auto 2xl:w-[1380px] flex text-black flex-col md:flex-row justify-center items-center gap-[10px]  mt-[20px] md:items-center  md:justify-between px-[20px]  lg:px-24  py-[20px]  text-[11px] lg:text-[12px] xl:text-[14px] font-[400] leading-[12px] lg:leading-[16px]'>
-                    <div className='text-[15px]'> © 2024 <span className='text-[#508ef8]'>EME Academy</span>  | All Rights Reserved. </div>
-                    <div className='text-[15px]'>Design & Developed By <a href="https://emeacademy.co.in/" className='text-[18px] font-[600] text-[#508ef8]'>EME IT Team</a>
+                    <div className='text-[15px]'> © 2024 <span className='text-[#508ef8]'>EME Academy Mumbai</span>  | All Rights Reserved. </div>
+                    <div className='text-[15px]'>Design & Developed By <a href="https://mumbai.emeacademy.co.in/" className='text-[18px] font-[600] text-[#508ef8]'>EME IT Team</a>
                     </div>
 
                 </div>

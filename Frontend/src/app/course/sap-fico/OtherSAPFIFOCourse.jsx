@@ -192,7 +192,7 @@ export default function SAPCourseDetails() {
     return (
         <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-[40px] px-[20px] md:px-24'>
             <div className='text-[#232D63] text-[16px] lg:text-[18px] font-[700] text-center  text-4xl leading-loose tracking-tighter'>
-                SAP Modules at <span className="text-[#00A2E7] px-1">EME Academy</span>
+                SAP Modules at <span className="text-[#00A2E7] px-1">EME Academy Mumbai</span>
             </div>
             <div className='flex lg:-w-full text-center text-[#727272]   font-medium leading-[20px] text-[14px] lg:text-[16px]'>
                 You might be looking to specialize in a particular SAP module. Perhaps wanting comprehensive SAP training? We have you covered. Take a look at an overview of what we offer

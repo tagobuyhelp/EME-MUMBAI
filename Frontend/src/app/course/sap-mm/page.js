@@ -8,16 +8,16 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP MM Training in kolkata - EME Academy",
+  title: "Best SAP MM Training in Mumbai - EME Academy Mumbai",
   description:
-    "Join our SAP MM Training in kolkata to gain practical skills and knowledge in material management. Learn from experts and boost your career with hands-on training.",
+    "Join our SAP MM Training in Mumbai to gain practical skills and knowledge in material management. Learn from experts and boost your career with hands-on training.",
   keywords: [
-    "Best SAP MM Training in kolkata",
-    "SAP MM Training in kolkata",
-    "SAP MM Training course in kolkata",
+    "Best SAP MM Training in Mumbai",
+    "SAP MM Training in Mumbai",
+    "SAP MM Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-mm",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-mm",
   },
 };
 

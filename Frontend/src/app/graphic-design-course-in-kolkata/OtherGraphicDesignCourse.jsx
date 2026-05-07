@@ -24,7 +24,7 @@ export default function OtherGraphicDesignCourse() {
             assistance2: "Assistance",
             decsTwo: "Certification Assistance",
             decsThree: "Cutting-edge Curriculum.",
-            link: "/motion-graphics-course-in-kolkata",
+            link: "/motion-graphics-course-in-mumbai",
         },
     ];
 

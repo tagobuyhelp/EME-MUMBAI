@@ -9,16 +9,16 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "Best SAP PP Training in kolkata | SAP PP Training 100% Placement - EME Academy",
+    "Best SAP PP Training in Mumbai | SAP PP Training 100% Placement - EME Academy Mumbai",
   description:
-    "Get the best SAP PP course training in kolkata at EME Academy. Learn from expert trainers and start your career in production planning today.",
+    "Get the best SAP PP course training in Mumbai at EME Academy Mumbai. Learn from expert trainers and start your career in production planning today.",
   keywords: [
-    "Best SAP PP Training in kolkata",
-    "SAP PP Training in kolkata",
-    "SAP PP Training course in kolkata",
+    "Best SAP PP Training in Mumbai",
+    "SAP PP Training in Mumbai",
+    "SAP PP Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-pp",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-pp",
   },
 };
 

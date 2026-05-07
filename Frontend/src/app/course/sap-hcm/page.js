@@ -8,16 +8,16 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP HCM Training in kolkata - EME Academy",
+  title: "Best SAP HCM Training in Mumbai - EME Academy Mumbai",
   description:
-    "Get the best SAP HCM training in kolkata at EME Academy. Learn from experts, gain practical skills, and advance your career in human resources.",
+    "Get the best SAP HCM training in Mumbai at EME Academy Mumbai. Learn from experts, gain practical skills, and advance your career in human resources.",
   keywords: [
-    "Best SAP HCM Training in kolkata",
-    "SAP HCM Training in kolkata",
-    "SAP HCM Training course in kolkata",
+    "Best SAP HCM Training in Mumbai",
+    "SAP HCM Training in Mumbai",
+    "SAP HCM Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-hcm",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-hcm",
   },
 };
 

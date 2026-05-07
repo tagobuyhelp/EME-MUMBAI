@@ -2,9 +2,9 @@ import { AnotherHeader } from "@/components/common/AnotherHeader";
 
 export const metadata = {
   title:
-    "Eastern India's No 1 Training Institute |  Kolkata's No.1 Job Oriented Training Institute - EME Academy",
+    "Western India’s No. 1 Training Institute | Mumbai's No.1 Job Oriented Training Institute - EME Academy Mumbai",
   description:
-    "We are job oriented training Institute. Best SAP Certification courses and hotel Management courses for career growth. Job-oriented & relevant COURSES IN Kolkata at EME Academy",
+    "We are job oriented training Institute. Best SAP Certification courses and hotel Management courses for career growth. Job-oriented & relevant COURSES IN Mumbai at EME Academy Mumbai",
 };
 
 export default function RootLayout({ children }) {

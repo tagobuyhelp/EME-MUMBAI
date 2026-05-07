@@ -22,42 +22,42 @@ import CTAButton from "../../components/common/CtaButton";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Best MERN Stack Training Course in Kolkata – 100% Job",
+  title: "Best MERN Stack Training Course in Mumbai – 100% Job",
   description:
-    "Join MERN Stack Development Course in Kolkata at the Best MERN Stack Course In Kolkata offering expert Best Mern Stack Developer Course Training in Kolkata.",
+    "Join MERN Stack Development Course in Mumbai at the Best MERN Stack Course In Mumbai offering expert Best Mern Stack Developer Course Training in Mumbai.",
   keywords: [
-    "MERN Stack Development Course in Kolkata",
-    "Best MERN Stack Course In Kolkata",
-    "Best Mern Stack Developer Course Training in Kolkata",
-    "Mern stack training institute in kolkata placement for freshers",
-    "Mern Full Stack Course Training In Kolkata",
-    "Full Stack Developer Course in Kolkata",
-    "Ready MERN Stack Development Course in Kolkata",
-    "Mern stack development course in kolkata price",
+    "MERN Stack Development Course in Mumbai",
+    "Best MERN Stack Course In Mumbai",
+    "Best Mern Stack Developer Course Training in Mumbai",
+    "Mern stack training institute in Mumbai placement for freshers",
+    "Mern Full Stack Course Training In Mumbai",
+    "Full Stack Developer Course in Mumbai",
+    "Ready MERN Stack Development Course in Mumbai",
+    "Mern stack development course in Mumbai price",
     "MERN Stack Developer Course with Placement",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/best-mern-stack-development-course-in-kolkata",
+      "https://mumbai.emeacademy.co.in/best-mern-stack-development-course-in-mumbai",
   },
 };
 
 const MernStackfaq = [
   {
     id: 1,
-    title: "Is this MERN Stack course suitable for beginners in Kolkata?",
+    title: "Is this MERN Stack course suitable for beginners in Mumbai?",
     decs: "Yes, absolutely. This course is beginner-friendly and starts from the fundamentals of front-end and back-end development before moving into full-stack projects and advanced deployment techniques.",
   },
   {
     id: 2,
     title:
-      "What is the duration and fee structure of the MERN Stack course in Kolkata?",
-    decs: "The full MERN Stack Development Course in Kolkata is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
+      "What is the duration and fee structure of the MERN Stack course in Mumbai?",
+    decs: "The full MERN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
   },
   {
     id: 3,
     title: "Will I get a certificate after completing the MERN Stack course?",
-    decs: "Definitely. You will receive an industry-recognized MERN Stack Developer Certification from EME Academy, which is highly valued by IT companies and recruiters across India.",
+    decs: "Definitely. You will receive an industry-recognized MERN Stack Developer Certification from EME Academy Mumbai, which is highly valued by IT companies and recruiters across India.",
   },
   {
     id: 4,
@@ -97,16 +97,16 @@ const MernStackfaq = [
   {
     id: 11,
     title: "How can I enroll?",
-    decs: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    decs: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
 const heroData = {
   badgeText:
-    "Best Full Stack (MERN) Web Development Course in Kolkata – Become a Certified Full Stack Developer!",
-  title: "Best MERN Stack Training Course in Kolkata – 100% Job-Ready Program",
+    "Best Full Stack (MERN) Web Development Course in Mumbai – Become a Certified Full Stack Developer!",
+  title: "Best MERN Stack Training Course in Mumbai – 100% Job-Ready Program",
   description:
-    "Looking for the Best MERN Stack Course in Kolkata with placement for freshers? EME Academy offers hands-on MERN Stack Developer Course Training in Kolkata designed to help you master React, Node.js, Express.js, and MongoDB through real-time projects and 100% placement support.",
+    "Looking for the Best MERN Stack Course in Mumbai with placement for freshers? EME Academy Mumbai offers hands-on MERN Stack Developer Course Training in Mumbai designed to help you master React, Node.js, Express.js, and MongoDB through real-time projects and 100% placement support.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -123,7 +123,7 @@ const courseDetailsData = {
       image:
         "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Mern_Stack_Landing/MernStackCourseDetailsLanding.png",
       description:
-        "Get certified with one of the most advanced MERN Stack certification courses in Kolkata, ideal for freshers, working professionals, and aspiring developers who want to build scalable, high-performing web applications from scratch.",
+        "Get certified with one of the most advanced MERN Stack certification courses in Mumbai, ideal for freshers, working professionals, and aspiring developers who want to build scalable, high-performing web applications from scratch.",
       details: [
         {
           label: "Duration",
@@ -144,11 +144,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Become a Certified Full Stack MERN Developer with the Best MERN Stack Training Institute in Kolkata!",
+        "Become a Certified Full Stack MERN Developer with the Best MERN Stack Training Institute in Mumbai!",
       topics: [
         {
           title: "Frontend Development with React.js",
@@ -412,9 +412,9 @@ const courseCurriculumData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span className="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing the best MERN Stack Developer Course Training in Kolkata at EME Academy, you can confidently apply for roles such as:",
+    "After completing the best MERN Stack Developer Course Training in Mumbai at EME Academy Mumbai, you can confidently apply for roles such as:",
   careerRoles: [
     "Full Stack Developer",
     "Frontend React Developer",
@@ -424,7 +424,7 @@ const careerProspectsData = {
     "Backend Node.js Developer",
   ],
   salaryInfo:
-    'Average Salary in India: <strong class="font-bold">₹4.5 LPA - ₹12 LPA</strong> (as per industry standard)',
+    'Average Salary in India: <strong className="font-bold">₹4.5 LPA - ₹12 LPA</strong> (as per industry standard)',
   image:
     "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Mern_Stack_Landing/MernStackCareerProspectsLanding.svg",
   buttonText: "Check Eligibility",
@@ -444,21 +444,21 @@ const testimonialsData = {
       id: 2,
       name: "Anjan Roy",
       rating: 5,
-      text: `"Mujhe backend development seekhna tha, aur EME Academy ne perfect foundation diya. Database projects ne real-world applications kaise kaam karti hain ye samajhne mein madad ki. Ab apna dynamic website bana raha hoon."`,
+      text: `"Mujhe backend development seekhna tha, aur EME Academy Mumbai ne perfect foundation diya. Database projects ne real-world applications kaise kaam karti hain ye samajhne mein madad ki. Ab apna dynamic website bana raha hoon."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 3,
       name: "Fatima Sheikh",
       rating: 5,
-      text: `"MERN Stack course at EME Academy was a game-changer! React se lekar backend authentication tak sab kuch detail mein cover kiya hai is course me. GitHub aur cloud deployment training se job search mein competitive edge mila hai mujhe. Highly recommended!"`,
+      text: `"MERN Stack course at EME Academy Mumbai was a game-changer! React se lekar backend authentication tak sab kuch detail mein cover kiya hai is course me. GitHub aur cloud deployment training se job search mein competitive edge mila hai mujhe. Highly recommended!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 4,
       name: "Hassan Ali",
       rating: 5,
-      text: `"EME Academy-এর Full Stack (MERN) Web Development course এ enroll করার পর mentorship টা আমার খুব ভালো লেগেছে। Debugging help, API integration—সবকিছুতেই instructors অনেক support করেছেন। কোর্স শেষ করার পরই আমার প্রথম freelance project পেয়ে গেছি!"`,
+      text: `"EME Academy Mumbai-এর Full Stack (MERN) Web Development course এ enroll করার পর mentorship টা আমার খুব ভালো লেগেছে। Debugging help, API integration—সবকিছুতেই instructors অনেক support করেছেন। কোর্স শেষ করার পরই আমার প্রথম freelance project পেয়ে গেছি!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
   ],
@@ -478,6 +478,79 @@ export default function page() {
     Brochure,
     BrochureName,
   };
+
+  const alumniStudentsMumbai = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
 
   return (
     <main
@@ -521,7 +594,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={

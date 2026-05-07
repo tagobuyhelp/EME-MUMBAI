@@ -163,7 +163,7 @@ export default function CareerPreparation() {
                 transition={{ delay: 0.1 }}
                 className="text-2xl md:text-3xl lg:text-4xl font-black text-gray-900 leading-tight"
               >
-                Building Careers in Kolkata via <span className="text-[#0057E2]">Practical Excellence</span>
+                Building Careers in Mumbai via <span className="text-[#0057E2]">Practical Excellence</span>
               </motion.h2>
 
               <motion.p 
@@ -173,7 +173,7 @@ export default function CareerPreparation() {
                 transition={{ delay: 0.2 }}
                 className="text-gray-600 text-[13px] md:text-sm leading-relaxed max-w-lg"
               >
-                Join Eastern India&apos;s leading institute. We bridge the gap between academic learning and industry needs with our professional programs.
+                Join Western India&apos;s leading institute. We bridge the gap between academic learning and industry needs with our professional programs.
               </motion.p>
             </div>
 

@@ -20,39 +20,39 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Best Php & Mysql Course Training in Kolkata With Placement",
+  title: "Best Php & Mysql Course Training in Mumbai With Placement",
   description:
-    "Join best PHP training institute in kolkata offering Top 10 Php MySQL training in Kolkata, PHP MySQL Full Stack Course In Kolkata with expert guidance.",
+    "Join best PHP training institute in Mumbai offering Top 10 Php MySQL training in Mumbai, PHP MySQL Full Stack Course In Mumbai with expert guidance.",
   keywords: [
-    "Top PHP training institute in kolkata",
-    "best PHP training institute in kolkata",
-    "Php & mysql course training in kolkata fees",
-    "PHP MySql Training institute in Kolkata",
-    "Top 10 Php MySQL training in Kolkata",
-    "PHP MySQL Full Stack Course In Kolkata",
-    "Best php & mysql course training in kolkata",
+    "Top PHP training institute in Mumbai",
+    "best PHP training institute in Mumbai",
+    "Php & mysql course training in Mumbai fees",
+    "PHP MySql Training institute in Mumbai",
+    "Top 10 Php MySQL training in Mumbai",
+    "PHP MySQL Full Stack Course In Mumbai",
+    "Best php & mysql course training in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/best-php-mysql-training-institute-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/best-php-mysql-training-institute-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this PHP & MySQL course suitable for beginners in Kolkata?",
+    title: "Is this PHP & MySQL course suitable for beginners in Mumbai?",
     decs: "Yes, absolutely! This course is perfect for beginners. We start from the fundamentals of programming like syntax, variables, and loops in PHP and gradually move toward database management and full website integration using MySQL. No prior coding experience is needed.",
   },
   {
     id: 2,
     title:
-      "What is the duration and fee structure of the PHP MySQL course in Kolkata?",
-    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹35,000, but we're currently offering it at ₹25,000 as part of a limited-time promotion. EMI options with 0% interest are available.",
+      "What is the duration and fee structure of the PHP MySQL course in Mumbai?",
+    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹35,000, but we're currently offering it at ₹25,000 as part of a limited-time promotion at EME Academy Mumbai. EMI options with 0% interest are available.",
   },
   {
     id: 3,
     title: "Will I get a certificate after completing the PHP & MySQL course?",
-    decs: "Definitely! You will receive an industry-recognized PHP & MySQL Developer Certificate from EME Academy. This certification adds great value to your resume and is accepted by recruiters and IT companies across India.",
+    decs: "Definitely! You will receive an industry-recognized PHP & MySQL Developer Certificate from EME Academy Mumbai. This certification adds great value to your resume and is accepted by recruiters and IT companies across India.",
   },
   {
     id: 4,
@@ -92,7 +92,7 @@ const faq = [
   {
     id: 11,
     title: "How can I enroll?",
-    decs: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    decs: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -100,9 +100,9 @@ const faq = [
 const heroData = {
   badgeText: "Become a Certified PHP Developer in Just 4 Months!",
   title:
-    "Best PHP Training Institute in Kolkata – Get Certified with EME Academy",
+    "Best PHP Training Institute in Mumbai – Get Certified with EME Academy Mumbai",
   description:
-    "Join EME Academy, the leading PHP & MySQL training institute in Kolkata, and master full-stack development with dynamic website building skills, secure database integration, and job-ready projects.",
+    "Join EME Academy Mumbai, the leading PHP & MySQL training institute in Mumbai, and master full-stack development with dynamic website building skills, secure database integration, and job-ready projects.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -119,7 +119,7 @@ const courseDetailsData = {
       image:
         "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Php_MySql_Landing/PhpMySqlLandingCourseDetails.png",
       description:
-        "Get certified with one of the most comprehensive PHP & MySQL courses in Kolkata. Learn full-stack development with hands-on projects, dynamic web apps, and job-ready skills.",
+        "Get certified with one of the most comprehensive PHP & MySQL courses in Mumbai. Learn full-stack development with hands-on projects, dynamic web apps, and job-ready skills at EME Academy Mumbai.",
       details: [
         {
           label: "Duration",
@@ -144,11 +144,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Join the Top PHP MySQL Training Institute in Kolkata with Placement Support.",
+        "Join the Top PHP MySQL Training Institute in Mumbai with Placement Support.",
       topics: [
         {
           title: "Module 1: PHP Development (Basics to Advanced)",
@@ -375,9 +375,9 @@ const courseCurriculumData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span className="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing the best PHP & MySQL Full Stack Course at EME Academy, you can confidently apply for roles such as:",
+    "After completing the best PHP & MySQL Full Stack Course at EME Academy Mumbai, you can confidently apply for roles such as:",
   careerRoles: [
     "PHP Developer",
     "Backend Developer",
@@ -386,7 +386,7 @@ const careerProspectsData = {
     "Full stack Web Developer (PHP)",
   ],
   salaryInfo:
-    'Average Salary in India: <strong class="font-bold">₹3.5 LPA - ₹6 LPA</strong> (as per industry standard)',
+    'Average Salary in India: <strong className="font-bold">₹3.5 LPA - ₹6 LPA</strong> (as per industry standard)',
   image:
     "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Php_MySql_Landing/PhpMySqlLandingCareerProspects.svg",
   buttonText: "Check Eligibility",
@@ -399,7 +399,7 @@ const testimonialsData = {
       id: 1,
       name: "Ananya Paul",
       rating: 5,
-      text: `"This course didn’t just teach me PHP and MySQL, but also showed me how to integrate them into full-scale projects. Now, I can say that I’m ready to apply for backend development jobs!"`,
+      text: `"This course didn’t just teach me PHP and MySQL, but also showed me how to integrate them into full-scale projects. Now, I can say that I’m ready to apply for backend development jobs at EME Academy Mumbai!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -427,7 +427,7 @@ const testimonialsData = {
       id: 5,
       name: "Rakesh Dubey",
       rating: 5,
-      text: `"I never knew what SQL injection was before. Now I use prepared statements and validate every form input. I work from home and do small projects for clients. Thanks to EME for showing me the practical side."`,
+      text: `"I never knew what SQL injection was before. Now I use prepared statements and validate every form input. I work from home and do small projects for clients. Thanks to EME Academy Mumbai for showing me the practical side."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -451,7 +451,7 @@ const testimonialsData = {
 
 export default function page() {
   const Courses = "PHP & MySQL Course";
-  const email_sender = "ALL";
+  const email_sender = "info@emeacademy.com";
   const Brochure =
     "https://drive.google.com/file/d/1K-P-2y5yhYWxXXDqulEz72Dm9LdwxqjG/view?usp=sharing";
   const BrochureName = "php_mysql_brochure.pdf";
@@ -461,6 +461,79 @@ export default function page() {
     Brochure,
     BrochureName,
   };
+
+  const alumniStudentsMumbai = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
 
   return (
     <main
@@ -509,7 +582,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={

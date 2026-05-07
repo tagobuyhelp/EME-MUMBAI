@@ -11,16 +11,16 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 
 export const metadata = {
   title:
-    "Machine Learning Course | Best Machine Learning institute in kolkata - EME Academy",
+    "Machine Learning Course | Best Machine Learning institute in Mumbai - EME Academy Mumbai",
   description:
-    "Join the best machine learning training in Kolkata and enhance your skills with an expert-led machine learning course in Kolkata for career growth. Enroll now!",
+    "Join the best machine learning training in Mumbai and enhance your skills with an expert-led machine learning course in Mumbai for career growth. Enroll now!",
   keywords: [
-    "machine learning training in kolkata",
-    "machine learning course in kolkata",
-    "machine learning institute in kolkata",
+    "machine learning training in Mumbai",
+    "machine learning course in Mumbai",
+    "machine learning institute in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/machine-learning-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/machine-learning-course-in-mumbai",
   },
 };
 
@@ -39,9 +39,9 @@ export const metadata = {
     },
     {
       id: 3,
-      question: "Why choose AI & ML at EME Academy?",
+      question: "Why choose AI & ML at EME Academy Mumbai?",
       answer:
-        "No, you do not. We have designed our course to accommodate beginners as well. Experience is recommended, but not mandatory.",
+        "No, you do not. We have designed our course to accommodate beginners as well. Experience is recommended, but not mandatory. EME Academy Mumbai provides the best hands-on training.",
     },
     {
       id: 4,
@@ -59,13 +59,13 @@ export const metadata = {
       id: 6,
       question: "How flexible are training schedules at EME Academy?",
       answer:
-        "Our training schedules are designed to be flexible, allowing students to balance learning with their existing commitments.",
+        "Our training schedules at EME Academy Mumbai are designed to be flexible, allowing students to balance learning with their existing commitments.",
     },
     {
       id: 7,
       question: "What makes the faculty at EME Academy qualified to teach AI & ML course?",
       answer:
-        "Our faculty members are highly qualified professionals with extensive experience in AI & ML, ensuring top-quality mentorship and practical insights.",
+        "Our faculty members at EME Academy Mumbai are highly qualified professionals with extensive experience in AI & ML, ensuring top-quality mentorship and practical insights.",
     },
   ];
 export default function page() {

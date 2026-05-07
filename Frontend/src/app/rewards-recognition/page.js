@@ -3,11 +3,11 @@ import { Footer } from "@/components/common/Footer";
 import Awards from "@/components/common/Awards";
 import { Header } from "@/components/common/Header";
 export const metadata = {
-  title: "Awards and Recognitions | Celebrating Excellence - EME Academy",
+  title: "Awards and Recognitions | Celebrating Excellence - EME Academy Mumbai",
   description:
-    "Our latest awards and recognitions honoring outstanding achievements across various fields. Celebrate excellence with us as we highlight remarkable contributions and milestones.",
+    "Explore the latest awards and recognitions for EME Academy Mumbai, honoring our commitment to excellence in professional training and student success.",
   alternates: {
-    canonical: "https://emeacademy.co.in/rewards-recognition",
+    canonical: "https://mumbai.emeacademy.co.in/rewards-recognition",
   },
 };
 

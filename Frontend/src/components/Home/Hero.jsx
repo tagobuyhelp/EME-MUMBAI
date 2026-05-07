@@ -10,22 +10,22 @@ const courseCategories = [
   {
     id: 1,
     name: "Data Analytics",
-    link: "/data-analytics-course-in-kolkata",
+    link: "/data-analytics-course-in-mumbai",
   },
   {
     id: 2,
     name: "SAP",
-    link: "/maincourse/sap-training-kolkata",
+    link: "/maincourse/sap-training-mumbai",
   },
   {
     id: 3,
     name: "HR",
-    link: "/human-resource-course-in-kolkata",
+    link: "/human-resource-course-in-mumbai",
   },
   {
     id: 4,
     name: "Digital Marketing",
-    link: "/maincourse/digital-marketing-course-in-kolkata",
+    link: "/maincourse/digital-marketing-course-in-mumbai",
   },
 ];
 
@@ -133,7 +133,7 @@ export const Hero = () => {
 
             <div className="space-y-3">
               <h1 className="text-[22px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
-                Learn from Eastern{" "}
+                Learn from Western{" "}
                 <span className="text-orange-500 relative flex flex-col">
                   India’s No. 1
                   <motion.span

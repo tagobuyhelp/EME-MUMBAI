@@ -22,11 +22,11 @@ import { Footer } from "@/components/common/Footer";
 import CoursesLandingFooter from "@/components/global/CoursesLandingFooter";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best Animation & VFX Institute in Mumbai | Animation Course Mumbai",
+  description: "Join the best animation and VFX institute in Mumbai at EME Academy Mumbai. Master 2D, 3D animation, and VFX with 100% placement support.",
+  keywords: ["best animation institute in mumbai", "animation course mumbai", "vfx institute in mumbai", "2d animation course mumbai", "3d animation course mumbai"],
   alternates: {
-    canonical: "https://emeacademy.co.in/animation-and-vfx-landing",
+    canonical: "https://mumbai.emeacademy.co.in/animation-vfx-institute-mumbai",
   },
 };
 
@@ -51,7 +51,7 @@ const AnimationVfxfaq = [
   {
     id: 3,
     title: "Will I receive a certificate after completion?",
-    desc: "Yes. You'll receive an industry-recognized certificate from EME Academy along with a showreel-ready portfolio.",
+    desc: "Yes. You'll receive an industry-recognized certificate from EME Academy Mumbai along with a showreel-ready portfolio.",
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ const AnimationVfxfaq = [
   {
     id: 10,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -95,7 +95,7 @@ const heroData = {
   badgeText: "Get Job-Ready in Just 8 Months!",
   title: "Learn Animation & VFX – Become a Studio-Ready Professional.",
   description:
-    "Master 2D, 3D Animation & VFX with the Best Animation Institute in Kolkata.",
+    "Master 2D, 3D Animation & VFX with the Best Animation Institute in Mumbai.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -112,7 +112,7 @@ const courses = [
     link: "",
     title: "2D Animation Course",
     description:
-      "Start your creative journey with our 2D Animation course for beginners. Learn from Kolkata's top institute and bring characters to life.",
+      "Start your creative journey with our 2D Animation course for beginners. Learn from Mumbai's top institute and bring characters to life.",
     hookLine:
       "Enroll now and become a certified 2D Animator with placement support!",
     topics: [
@@ -178,8 +178,8 @@ const courses = [
     link: "",
     title: "3D Animation Course",
     description:
-      "Join the best 3D animation institute in Kolkata and dive into modeling, rigging, and motion design used in top films and games.",
-    hookLine: "Learn from the Best Animation Training Institute in Kolkata!",
+      "Join the best 3D animation institute in Mumbai and dive into modeling, rigging, and motion design used in top films and games.",
+    hookLine: "Learn from the Best Animation Training Institute in Mumbai!",
     topics: [
       {
         title: "What You’ll Learn:",
@@ -252,7 +252,7 @@ const courses = [
     description:
       "Become a complete animation pro with this powerful combo course! Learn both 2D & 3D techniques and build a diverse portfolio.",
     hookLine:
-      "Join the Best 2D + 3D Animation Institute in Kolkata with 100% Placement Assistance and Studio-Grade Training.",
+      "Join the Best 2D + 3D Animation Institute in Mumbai with 100% Placement Assistance and Studio-Grade Training.",
     topics: [
       {
         title: "What You’ll Learn:",
@@ -312,7 +312,7 @@ const courses = [
     description:
       "Build your creative foundation with digital design, classical animation principles, and visual storytelling.",
     hookLine:
-      "Join the Best VFX Institute in Kolkata with 100% Placement Assistance and Studio-Grade Training.",
+      "Join the Best VFX Institute in Mumbai with 100% Placement Assistance and Studio-Grade Training.",
     topics: [
       {
         title: "What You’ll Learn:",
@@ -546,9 +546,9 @@ const toolsData = {
 // Career Prospects Data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing our Animation & VFX Course in Kolkata, you will unlock diverse career opportunities:",
+    "After completing our Animation & VFX Course in Mumbai, you will unlock diverse career opportunities:",
   careerRoles: [
     "2D Animator",
     "3D Animator",
@@ -572,49 +572,49 @@ const testimonialsData = {
     {
       name: "Poulomi Sarkar",
       rating: 5,
-      text: "“The 2D animation course at EME Academy taught me everything from sketching to storyboarding. Now I create animated explainer videos for clients across India!”",
+      text: "“The 2D animation course at EME Academy Mumbai taught me everything from sketching to storyboarding. Now I create animated explainer videos for clients across India!”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Abhishek Roy",
       rating: 4,
-      text: "“I started with zero knowledge in 3D and ended up animating characters in Maya. The instructors were super patient and helpful.”",
+      text: "“I started with zero knowledge in 3D and ended up animating characters in Maya at EME Academy Mumbai. The instructors were super patient and helpful.”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Rhea Das",
       rating: 5,
-      text: "“The combo course gave me a strong foundation in both 2D and 3D. I've now got a complete portfolio and freelance clients from Behance and Fiverr.”",
+      text: "“The combo course at EME Academy Mumbai gave me a strong foundation in both 2D and 3D. I've now got a complete portfolio and freelance clients from Behance and Fiverr.”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Fatima Naskar",
       rating: 5,
-      text: "“Loved the way each concept was broken down for beginners. The Photoshop + Illustrator training helped me land my first internship!”",
+      text: "“Loved the way each concept was broken down for beginners at EME Academy Mumbai. The Photoshop + Illustrator training helped me land my first internship!”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Puja Banerjee",
       rating: 5,
-      text: "“I always loved drawing, but had no clue how to turn it into a profession. The 2D Animation course at EME Academy gave me a clear path. From storyboarding to character design, I now work as a junior animator at a media agency. Highly recommended!”",
+      text: "“I always loved drawing, but had no clue how to turn it into a profession. The 2D Animation course at EME Academy Mumbai gave me a clear path. From storyboarding to character design, I now work as a junior animator at a media agency. Highly recommended!”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Arjun Mehta",
       rating: 5,
-      text: "“As someone from a non-design background, I was intimidated by 3D software. But the hands-on mentorship and project-based training at EME Academy helped me master Maya, rigging, and character animation. I recently got hired by a game development studio in Hyderabad!”",
+      text: "“As someone from a non-design background, I was intimidated by 3D software. But the hands-on mentorship and project-based training at EME Academy Mumbai helped me master Maya, rigging, and character animation. I recently got hired by a game development studio in Hyderabad!”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Nisha Karim",
       rating: 5,
-      text: "“I enrolled in the 2D+3D combo program, and it gave me a strong foundation in both pipelines. The transition from Illustrator to Maya and After Effects was seamless, and now I freelance for clients across YouTube and ad agencies. The placement help was a big bonus.”",
+      text: "“I enrolled in the 2D+3D combo program at EME Academy Mumbai, and it gave me a strong foundation in both pipelines. The transition from Illustrator to Maya and After Effects was seamless, and now I freelance for clients across YouTube and ad agencies. The placement help was a big bonus.”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       name: "Dev Shah",
       rating: 5,
-      text: "“I joined EME Academy while finishing college, and within 6 months, I had a complete animation portfolio ready. The instructors are passionate, and they push you to experiment. I recently got selected for an internship at a VFX studio in Bangalore!”",
+      text: "“I joined EME Academy Mumbai while finishing college, and within 6 months, I had a complete animation portfolio ready. The instructors are passionate, and they push you to experiment. I recently got selected for an internship at a VFX studio in Bangalore!”",
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -639,7 +639,7 @@ const alumniStudents = [
     id: 1,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
     title: "Sukanya Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -649,7 +649,7 @@ const alumniStudents = [
     id: 2,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
     title: "Nuruzzaman Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -659,7 +659,7 @@ const alumniStudents = [
     id: 3,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
     title: "Vaishnavi",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -669,7 +669,7 @@ const alumniStudents = [
     id: 4,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
     title: "Aniket Shome",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -679,7 +679,7 @@ const alumniStudents = [
     id: 5,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
     title: "Supratim Sen",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -689,7 +689,7 @@ const alumniStudents = [
     id: 6,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
     title: "Souvik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -699,7 +699,7 @@ const alumniStudents = [
     id: 7,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
     title: "Koushik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -710,8 +710,6 @@ const alumniStudents = [
 export default function page() {
   const Courses = "Animation & VFX Course";
   const email_sender = "ALL";
-  // const Brochure =
-  //   "/assets/documents/AllCourseBrochure/EME_Animation_&_VFX.pdf";
   const Brochure = "https://drive.google.com/file/d/1QM7Y9wH57uG080onb8Kk6XTWezuUikgS/view?usp=sharing";
   const BrochureName = "animation_and_vfx_brochure.pdf";
   const _this = {
@@ -747,23 +745,20 @@ export default function page() {
       <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={"Animation & VFX Course"}
-          brochure={
-            "/assets/documents/AllCourseBrochure/EME_Animation and VFX.pdf"
-          }
-          brochureName={"animation_and_vfx_brochure.pdf"}
+          brochure={Brochure}
+          brochureName={BrochureName}
         />
       </div>
       <div className="flex justify-center bg-[#ffffff]">
         <CourseDetailsGrid
           title="Explore Our Industry-Focused "
-          subtitle="Animation & VFX Courses in Kolkata"
-          description="At EME Academy, we provide specialized Animation & VFX courses designed to equip you with the knowledge and skills <br />needed to become a job-ready."
+          subtitle="Animation & VFX Courses in Mumbai"
+          description="At EME Academy Mumbai, we provide specialized Animation & VFX courses designed to equip you with the knowledge and skills <br />needed to become a job-ready."
           brochureInfo={{
             Courses: "Animation & VFX Course",
             email_sender: "ALL",
-            Brochure:
-              "/assets/documents/AllCourseBrochure/EME_Animation_&_VFX.pdf",
-            BrochureName: "animation_and_vfx_brochure.pdf",
+            Brochure: Brochure,
+            BrochureName: BrochureName,
           }}
           courses={courses}
           thisObject={_this}
@@ -808,15 +803,12 @@ export default function page() {
         <LearningMethodology
           {..._this}
           items={items}
-          backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Animation_VFX_Landing/LearingMethodologyImage.png"
+          backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Animation_VFX_Landing/LearningMethodologyImageBg.png"
         />
       </div>
       <div id="" className="flex w-full p-6">
         <TalkToOurCareerExpert {..._this} />
       </div>
-      {/* <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-      <PlacementSupport {..._this} />
-    </div> */}
       <div id="" className="flex w-full bg-[#F4FBFE] p-6">
         <WhyChooseEMELatest
           name="3D Animation & VFX"

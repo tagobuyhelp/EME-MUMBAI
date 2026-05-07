@@ -18,29 +18,29 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best HR Training Course in Mumbai with Placement Support",
+  description: "Enroll in the best HR training course in Mumbai and master human resource management with placement support. Start your HR journey today!",
+  keywords: ["hr training course in mumbai", "best hr training institute in mumbai", "hr management course in mumbai"],
   alternates: {
-    canonical: "https://emeacademy.co.in/human-resource-management-landing",
+    canonical: "https://mumbai.emeacademy.co.in/best-hr-training-course-in-mumbai",
   },
 };
 
 const faqs = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Human Resource course in Kolkata is ideal for students, fresh graduates, or anyone switching careers. The curriculum starts from the basics and gradually covers advanced HR tools and industry practices.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Human Resource course in Mumbai is ideal for students, fresh graduates, or anyone switching careers. The curriculum starts from the basics and gradually covers advanced HR tools and industry practices.",
   },
   {
     id: 2,
     title: "What is the duration and fee of the HR course?",
-    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Kolkata at EME Academy is ₹20,000 after discount. EMI options are also available.",
+    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Mumbai at EME Academy Mumbai is ₹20,000 after discount. EMI options are also available.",
   },
   {
     id: 3,
     title: "Will I learn about payroll and compliance like PF, ESI, and tax?",
-    desc: "Absolutely! This is a complete Human Resource training course in Kolkata that includes salary structure design, PF/ESI calculations, Form 16, and compliance using real-world Excel-based systems.",
+    desc: "Absolutely! This is a complete Human Resource training course in Mumbai that includes salary structure design, PF/ESI calculations, Form 16, and compliance using real-world Excel-based systems.",
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ const faqs = [
   {
     id: 8,
     title: "Will I receive a certificate after course completion?",
-    desc: "Yes, a globally recognised Human Resource certification will be issued by EME Academy upon successful completion of the course.",
+    desc: "Yes, a globally recognised Human Resource certification will be issued by EME Academy Mumbai upon successful completion of the course.",
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ const faqs = [
   {
     id: 11,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -99,7 +99,7 @@ export default function page() {
   // Hero data
   const heroData = {
     badgeText: "Learn & Get Hired in 4 Months!",
-    title: "Best HR Training Course in Kolkata with Placement Support",
+    title: "Best HR Training Course in Mumbai with Placement Support",
     description:
       "Learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and even AI in HR with expert guidance and hands-on training.",
     googleRating: "4.8/5",
@@ -141,12 +141,12 @@ export default function page() {
             value: "Online and classroom sessions are available.",
           },
           {
-            label: "Languages",
-            value: "Bengali, English & Hindi",
-          },
+          label: "Languages",
+          value: "English & Hindi",
+        },
         ],
         hookLine:
-          "Become job-ready with the best institute for Human Resource in Kolkata!",
+          "Become job-ready with the best institute for Human Resource in Mumbai!",
         topics: [
           {
             title: "HR Management & Systems",
@@ -219,9 +219,9 @@ export default function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+      'Future Prospects of this <span className="text-[#f97316]">Course in Mumbai</span>',
     subtitle:
-      "After completing EME Academy’s Human Resource course in Kolkata, you’ll be eligible for various HR roles across top industries:",
+      "After completing EME Academy Mumbai’s Human Resource course in Mumbai, you’ll be eligible for various HR roles across top industries:",
     careerRoles: [
       "HR Specialist/Executive",
       "IT Recruiter",
@@ -250,28 +250,28 @@ export default function page() {
         id: 1,
         name: "Poulami Sarkar",
         rating: 5,
-        text: `"I enrolled in the HR course with zero background in recruitment. Today, I confidently manage talent acquisition using LinkedIn and Zoho platforms. This is definitely the best Human Resource course in Kolkata."`,
+        text: `"I enrolled in the HR course with zero background in recruitment. Today, I confidently manage talent acquisition using LinkedIn and Zoho platforms. This is definitely the best Human Resource course in Mumbai."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Sanchita Dey",
         rating: 5,
-        text: `"আমি ভাবিনি HRMS software শেখা এত সহজ হবে! এখন আমি Zoho আর KEKA ব্যবহার করে চাকরির প্রক্রিয়া ম্যানেজ করতে পারি। Thanks EME!"`,
+        text: `"আমি ভাবিনি HRMS software শেখা এত সহজ হবে! এখন আমি Zoho আর KEKA ব্যবহার করে চাকরির প্রক্রিয়া ম্যানেজ করতে পারি। Thanks EME Academy Mumbai!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 3,
         name: "Rajat Paul",
         rating: 5,
-        text: `"EME Academy’s HR course helped me crack my first job as a Junior HR Executive. The payroll module and mock interviews were really informative!"`,
+        text: `"EME Academy Mumbai’s HR course helped me crack my first job as a Junior HR Executive. The payroll module and mock interviews were really informative!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 4,
         name: "Aditya Banerjee",
         rating: 5,
-        text: `"Loved the real-life case studies and hands-on training in PF, ESI, and compliance. This is truly the best institute for Human Resource in Kolkata with placement."`,
+        text: `"Loved the real-life case studies and hands-on training in PF, ESI, and compliance. This is truly the best institute for Human Resource in Mumbai with placement."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -292,7 +292,7 @@ export default function page() {
         id: 7,
         name: "Soma Ghosh",
         rating: 5,
-        text: `"I now work as an HR Assistant thanks to the Human Resource course in Kolkata with placement at EME Academy. Their support is unmatched."`,
+        text: `"I now work as an HR Assistant thanks to the Human Resource course in Mumbai with placement at EME Academy Mumbai. Their support is unmatched."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -321,77 +321,77 @@ export default function page() {
     titleHighlight: "Testimonials",
   };
 
-  const alumniStudents = [
-    {
-      id: 1,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
-      title: "Sukanya Ghosh",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 2,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
-      title: "Nuruzzaman Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 3,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
-      title: "Vaishnavi",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 4,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
-      title: "Aniket Shome",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 5,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
-      title: "Supratim Sen",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 6,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
-      title: "Souvik Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
-    {
-      id: 7,
-      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
-      title: "Koushik Mondal",
-      subtitle: "Kolkata, India",
-      overlay:
-        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-      titleStyle: "text-base font-medium",
-      subtitleStyle: "font-light leading-tight text-sm",
-    },
+  const alumniStudentsMumbai = [
+      {
+        id: 1,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+        title: "Sukanya Ghosh",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 2,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+        title: "Nuruzzaman Mondal",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 3,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+        title: "Vaishnavi",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 4,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+        title: "Aniket Shome",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 5,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+        title: "Supratim Sen",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 6,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+        title: "Souvik Mondal",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
+      {
+        id: 7,
+        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+        title: "Koushik Mondal",
+        subtitle: "Mumbai, India",
+        overlay:
+          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+        titleStyle: "text-base font-medium",
+        subtitleStyle: "font-light leading-tight text-sm",
+      },
   ];
 
   return (
@@ -444,7 +444,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
@@ -465,7 +465,7 @@ export default function page() {
         <Faqs faqs={faqs} />
       </div>
       <CoursesLandingFooter courseName="Human Resource Course"  {..._this}/>
-      <StickyCTAButton Courses="Human Resource Course" />
+      <StickyCTAButton {..._this} />
     </main>
   );
 }

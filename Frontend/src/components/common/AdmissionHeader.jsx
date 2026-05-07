@@ -22,13 +22,13 @@ export default function Header({ _this: parentThis, navItems }) {
   let Courses = "All Courses";
   if (parentThis && parentThis.Courses) {
     Courses = parentThis.Courses;
-  } else if (pathname === "/best-hr-training-course-in-kolkata") {
+  } else if (pathname === "/best-hr-training-course-in-mumbai") {
     Courses = "HR Management Course";
-  } else if (pathname === "/best-data-analytics-course-in-kolkata") {
+  } else if (pathname === "/best-data-analytics-course-in-mumbai") {
     Courses = "Data Analytics Course";
-  } else if (pathname === "/best-data-science-course-in-kolkata") {
+  } else if (pathname === "/best-data-science-course-in-mumbai") {
     Courses = "Data Science Course";
-  } else if (pathname === "/best-digital-marketing-course-in-kolkata") {
+  } else if (pathname === "/best-digital-marketing-course-in-mumbai") {
     Courses = "Digital Marketing Course";
   }
 
@@ -70,7 +70,7 @@ export default function Header({ _this: parentThis, navItems }) {
               width={150}
               height={150}
               src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png"
-              alt="EME Logo"
+              alt="EME Academy Mumbai Logo"
             />
           </Link>
           <div className="text-[10px] md:text-[10px] text-[#252C65] font-bold text-nowrap ml-[13px] z-[30]">

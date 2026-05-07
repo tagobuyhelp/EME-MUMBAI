@@ -108,7 +108,7 @@ export default function WhyEMEAcademy() {
               transition={{ delay: 0.1 }}
               className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
             >
-              Why Choose <span className="text-[#0057E2]">EME Academy</span>?
+              Why Choose <span className="text-[#0057E2]">EME Academy Mumbai</span>?
             </motion.h2>
 
             <motion.div

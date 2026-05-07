@@ -8,16 +8,16 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 import { Footer } from "@/components/common/Footer";
 
 export const metadata = {
-  title: "Best SAP ABAP Training in kolkata - EME Academy",
+  title: "Best SAP ABAP Training in Mumbai - EME Academy Mumbai",
   description:
-    "EME Academy provides the most job-focused SAP ABAP training in kolkata, designed to offer valuable insights into the analytics market. Our trainer will support you every step of the way, starting from the basics.",
+    "EME Academy Mumbai provides the most job-focused SAP ABAP training in Mumbai, designed to offer valuable insights into the analytics market. Our trainer will support you every step of the way, starting from the basics.",
   keywords: [
-    "Best SAP ABAP Training in kolkata",
-    "SAP ABAP Training in kolkata",
-    "SAP ABAP Training course in kolkata",
+    "Best SAP ABAP Training in Mumbai",
+    "SAP ABAP Training in Mumbai",
+    "SAP ABAP Training course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-abap",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-abap",
   },
 };
 

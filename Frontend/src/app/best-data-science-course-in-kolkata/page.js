@@ -21,24 +21,24 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "",
-  description: "",
-  keywords: [""],
+  title: "Best Data Science Course in Mumbai | Data Science Training Institute",
+  description: "Join the best data science course in Mumbai at EME Academy Mumbai. Master Python, Machine Learning, AI, and SQL with 100% placement support.",
+  keywords: ["data science course in mumbai", "best data science institute in mumbai", "data science training in mumbai"],
   alternates: {
-    canonical: "https://emeacademy.co.in/data-science-landing",
+    canonical: "https://mumbai.emeacademy.co.in/best-data-science-course-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Diploma in Advanced Data Science Course in Kolkata is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch and builds up to advanced data science concepts.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Diploma in Advanced Data Science Course in Mumbai is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch and builds up to advanced data science concepts.",
   },
   {
     id: 2,
     title:
-      "What is the EME Academy’s Advanced Data Science Course Fees in Kolkata?",
+      "What is the EME Academy Mumbai’s Advanced Data Science Course Fees in Mumbai?",
     desc: "Our data science course fees start from ₹50,000, currently offered at a discounted price of ₹40,000. EMI and installment plans are also available.",
   },
   {
@@ -64,7 +64,7 @@ const faq = [
   {
     id: 7,
     title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy.",
+    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
   },
   {
     id: 8,
@@ -74,12 +74,12 @@ const faq = [
   {
     id: 9,
     title: "Do I need coding knowledge before joining?",
-    desc: "No prior coding or technical background is needed. This beginner-friendly data science training in Kolkata starts from the basics and builds your expertise step by step.",
+    desc: "No prior coding or technical background is needed. This beginner-friendly data science training in Mumbai starts from the basics and builds your expertise step by step.",
   },
   {
     id: 10,
     title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes. Our data science training institute in Kolkata is built for working professionals who want to upskill without quitting their jobs.",
+    desc: "Yes, we provide flexible batches including weekend and evening classes. Our data science training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs.",
   },
   {
     id: 11,
@@ -89,7 +89,7 @@ const faq = [
   {
     id: 12,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -108,9 +108,9 @@ export default function page() {
   // Hero data
   const heroData = {
     badgeText: "Learn & Get Hired in 6 Months!",
-    title: "Best Data Science Course in Kolkata",
+    title: "Best Data Science Course in Mumbai",
     description:
-      "Master Python, R, SQL, Tableau, Machine Learning & AI with the best data science institute in Kolkata and earn up to ₹35 LPA! Work on real-time datasets, build capstone projects, and access 100% placement support.",
+      "Master Python, R, SQL, Tableau, Machine Learning & AI with the best data science institute in Mumbai and earn up to ₹35 LPA! Work on real-time datasets, build capstone projects, and access 100% placement support.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -148,11 +148,11 @@ export default function page() {
           },
           {
             label: "Languages",
-            value: "Bengali, English & Hindi",
+            value: "English & Hindi",
           },
         ],
         hookLine:
-          "Become a Certified Data Scientist with the Best Data Science Training Institute in Kolkata!",
+          "Become a Certified Data Scientist with the Best Data Science Training Institute in Mumbai!",
         topics: [
           {
             title: "Introduction to Data Science",
@@ -355,9 +355,9 @@ export default function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospect of a <span class="text-[#f97316]">Data Analyst in Kolkata</span>',
+      'Future Prospect of a <span class="text-[#f97316]">Data Scientist in Mumbai</span>',
     subtitle:
-      "After completing the Data Science course in Kolkata with placement from EME Academy, you'll be ready for these job roles:",
+      "After completing the Data Science course in Mumbai with placement from EME Academy Mumbai, you'll be ready for these job roles:",
     careerRoles: [
       "Data Scientist",
       "Machine Learning Engineer",
@@ -381,42 +381,42 @@ export default function page() {
         id: 1,
         name: "Soumya Mondal",
         rating: 5,
-        text: `"The trainers at EME Academy are truly experts. Their deep understanding of machine learning algorithms helped me transition from a beginner to a professional. The curriculum is well-organized, and the real-world projects made learning fun and practical!"`,
+        text: `"The trainers at EME Academy Mumbai are truly experts. Their deep understanding of machine learning algorithms helped me transition from a beginner to a professional. The curriculum is well-organized, and the real-world projects made learning fun and practical!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Ritwika Dey",
         rating: 5,
-        text: `"I had zero experience in coding before joining this data science course in Kolkata, but the trainers at EME Academy broke everything down step-by-step. The Python and SQL modules were so well-structured, I was able to work on projects with confidence!"`,
+        text: `"I had zero experience in coding before joining this data science course in Mumbai, but the trainers at EME Academy Mumbai broke everything down step-by-step. The Python and SQL modules were so well-structured, I was able to work on projects with confidence!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 3,
         name: "Debashish Dasgupta",
         rating: 5,
-        text: `"This is the best data science course in Kolkata. It has equipped me with not just theoretical knowledge but real-world applications. The trainers are very approachable and always ready to clear any doubts."`,
+        text: `"This is the best data science course in Mumbai. It has equipped me with not just theoretical knowledge but real-world applications. The trainers at EME Academy Mumbai are very approachable and always ready to clear any doubts."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 4,
         name: "Taniya Ghosh",
         rating: 5,
-        text: `"আমি কখনো ভাবিনি Data Science এতটা সহজ হতে পারে। EME Academy’র ট্রেইনারদের অসাধারণ গাইডেন্স এবং Python, SQL শেখানোর পদ্ধতি আমাকে Industry-Ready করে তুলেছে। এই কোর্সটি সত্যিই আমার ক্যারিয়ার পাল্টে দিয়েছে!"`,
+        text: `"আমি কখনো ভাবিনি Data Science এতটা সহজ হতে পারে। EME Academy Mumbai’র ট্রেইনারদের অসাধারণ গাইডেন্স এবং Python, SQL শেখানোর পদ্ধতি আমাকে Industry-Ready করে তুলেছে। এই কোর্সটি সত্যিই আমার ক্যারিয়ার পাল্টে দিয়েছে!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 5,
         name: "Souvik Das",
         rating: 5,
-        text: `"I always wanted to learn AI and machine learning but didn’t know where to start. At EME Academy, I have learned just everything from data cleaning to predictive analytics."`,
+        text: `"I always wanted to learn AI and machine learning but didn’t know where to start. At EME Academy Mumbai, I have learned just everything from data cleaning to predictive analytics."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 6,
         name: "Laboni Mukherjee",
         rating: 5,
-        text: `"আমি আগে কখনো deep learning বা AI tools সম্পর্কে জানতাম না, কিন্তু EME Academy-র প্রশিক্ষকদের সহায়তায় আমি এখন এই সব বিষয়ে দক্ষ। তারা প্রতিটি বিষয় খুব সুন্দরভাবে বুঝিয়ে দিয়েছেন!"`,
+        text: `"আমি আগে কখনো deep learning বা AI tools সম্পর্কে জানতাম না, কিন্তু EME Academy Mumbai-র প্রশিক্ষকদের সহায়তায় আমি এখন এই সব বিষয়ে দক্ষ। তারা প্রতিটি বিষয় খুব সুন্দরভাবে বুঝিয়ে দিয়েছেন!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -451,6 +451,79 @@ export default function page() {
     title: "Students",
     titleHighlight: "Testimonials",
   };
+
+  const alumniStudentsMumbai = [
+    {
+      id: 1,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+      title: "Sukanya Ghosh",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 2,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+      title: "Nuruzzaman Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 3,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+      title: "Vaishnavi",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 4,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+      title: "Aniket Shome",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 5,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+      title: "Supratim Sen",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 6,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+      title: "Souvik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+    {
+      id: 7,
+      img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+      title: "Koushik Mondal",
+      subtitle: "Mumbai, India",
+      overlay:
+        "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+      titleStyle: "text-base font-medium",
+      subtitleStyle: "font-light leading-tight text-sm",
+    },
+  ];
 
   return (
     <main
@@ -505,7 +578,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
@@ -525,8 +598,8 @@ export default function page() {
       <div className="w-full bg-[#F4FBFE]">
         <Faqs faqs={faq} />
       </div>
-      <CoursesLandingFooter courseName="Data Science Course " />
-      <StickyCTAButton Courses="Data Science Course" />
+      <CoursesLandingFooter courseName="Data Science Course " {..._this}/>
+      <StickyCTAButton {..._this} />
     </main>
   );
 }

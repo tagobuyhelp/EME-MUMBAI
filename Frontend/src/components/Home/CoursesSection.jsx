@@ -52,7 +52,7 @@ export default function CoursesSection() {
       languages: ["Bengali", "English", "Hindi"],
       popular: true,
       popularText: "Most Popular",
-      link: "/data-analytics-course-in-kolkata",
+      link: "/data-analytics-course-in-mumbai",
       description: "Master Excel, SQL, Python, and Power BI with real-world projects.",
       features: ["100% Placement Support", "Industry Projects", "Expert Mentors"]
     },
@@ -70,7 +70,7 @@ export default function CoursesSection() {
       languages: ["Bengali", "English", "Hindi"],
       popular: true,
       popularText: "MNC Favorite",
-      link: "/maincourse/sap-training-kolkata",
+      link: "/maincourse/sap-training-mumbai",
       description: "Comprehensive SAP FICO, MM, SD training with S/4 HANA curriculum.",
       features: ["Global Certification", "Live Server Access", "MNC Hired Students"]
     },
@@ -88,7 +88,7 @@ export default function CoursesSection() {
       languages: ["Bengali", "English", "Hindi"],
       popular: true,
       popularText: "Trending",
-      link: "/maincourse/digital-marketing-course-in-kolkata",
+      link: "/maincourse/digital-marketing-course-in-mumbai",
       description: "Advanced SEO, SEM, Social Media, and Content Marketing with AI tools.",
       features: ["Live Ad Campaigns", "AI Marketing Tools", "Agency Experience"]
     },
@@ -104,7 +104,7 @@ export default function CoursesSection() {
       discountedPrice: 35000,
       saving: "12% OFF",
       languages: ["Bengali", "English", "Hindi"],
-      link: "/human-resource-course-in-kolkata",
+      link: "/human-resource-course-in-mumbai",
       description: "Master Payroll, Recruitment, Compliance, and Strategic HR Management.",
       features: ["Practical Payroll", "Corporate HR Skills", "Mock Interviews"]
     },
@@ -136,7 +136,7 @@ export default function CoursesSection() {
       discountedPrice: 40000,
       saving: "20% OFF",
       languages: ["Bengali", "English", "Hindi"],
-      link: "/data-science-course-in-kolkata",
+      link: "/data-science-course-in-mumbai",
       description: "Advanced Machine Learning, Deep Learning, and AI with Python.",
       features: ["Capstone Projects", "Statistical Analysis", "Research Support"]
     },
@@ -152,7 +152,7 @@ export default function CoursesSection() {
       discountedPrice: 25000,
       saving: "16% OFF",
       languages: ["Bengali", "English", "Hindi"],
-      link: "/maincourse/graphic-design-course-in-kolkata",
+      link: "/maincourse/graphic-design-course-in-mumbai",
       description: "Master Photoshop, Illustrator, InDesign for professional visual communication.",
       features: ["Creative Portfolio", "Design Principles", "Freelancing Tips"]
     },
@@ -168,7 +168,7 @@ export default function CoursesSection() {
       discountedPrice: 20000,
       saving: "20% OFF",
       languages: ["Bengali", "English", "Hindi"],
-      link: "/maincourse/business-accounting-course-in-kolkata",
+      link: "/maincourse/business-accounting-course-in-mumbai",
       description: "Practical Tally Prime, GST, Income Tax, and Financial Accounting.",
       features: ["GST Filing", "Taxation Skills", "Tally Certification"]
     },
@@ -251,7 +251,7 @@ export default function CoursesSection() {
             transition={{ delay: 0.2 }}
             className="text-gray-600 max-w-2xl text-base md:text-lg mb-8"
           >
-            Master in-demand skills with Kolkata&apos;s leading IT training institute. 
+            Master in-demand skills with Mumbai&apos;s leading IT training institute. 
             Join 5000+ successful alumni who have transformed their careers.
           </motion.p>
         </div>

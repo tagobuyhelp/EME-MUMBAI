@@ -72,7 +72,7 @@ export default function Trustedby() {
               transition={{ delay: 0.1 }}
               className="text-gray-600 text-[12px] md:text-sm leading-relaxed max-w-lg font-medium"
             >
-              Join Kolkata&apos;s highest-rated institute. Industry-focused excellence with expert mentorship and hands-on learning for your career success.
+              Join Mumbai&apos;s highest-rated institute. Industry-focused excellence with expert mentorship and hands-on learning for your career success.
             </motion.p>
 
             <motion.div

@@ -21,36 +21,36 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "UI UX Design Course in Kolkata and UI UX Course in Kolkata",
+  title: "UI UX Design Course in Mumbai and UI UX Course in Mumbai",
   description:
-    "Join the UI UX course in Kolkata and enhance your design skills with the best UI UX design course in Kolkata. Enroll now for expert training!",
+    "Join the UI UX course in Mumbai and enhance your design skills with the best UI UX design course in Mumbai. Enroll now for expert training!",
   keywords: [
-    "ui ux course in kolkata",
-    "ui ux design course in kolkata",
-    "ux design course in kolkata",
-    "ui ux design course kolkata",
+    "ui ux course in mumbai",
+    "ui ux design course in mumbai",
+    "ux design course in mumbai",
+    "ui ux design course mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/ui-ux-design-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/ui-ux-design-course-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Web Designing Training Course in Kolkata is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch and builds up to advanced web design concepts.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Web Designing Training Course in Mumbai is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch and builds up to advanced web design concepts.",
   },
   {
     id: 2,
     title:
-      "What is the fee structure for EME Academy’s Web Design Course in Kolkata?",
-    desc: "The web design course fee in Kolkata at EME Academy is structured to be affordable and flexible. The total course fee is ₹40,000, but with a limited-time discount, you can enroll for just ₹30,000. We also offer 0% interest EMI options, making it easier for students and working professionals to join one of the best web designing courses in Kolkata with placement support.",
+      "What is the fee structure for EME Academy Mumbai’s Web Design Course in Mumbai?",
+    desc: "The web design course fee in Mumbai at EME Academy Mumbai is structured to be affordable and flexible. The total course fee is ₹40,000, but with a limited-time discount, you can enroll for just ₹30,000. We also offer 0% interest EMI options, making it easier for students and working professionals to join one of the best web designing courses in Mumbai with placement support.",
   },
   {
     id: 3,
     title: "What tools and technologies will I learn in this course?",
-    desc: "You'll master top design tools like Figma, Adobe Photoshop, Adobe XD, and Illustrator. This positions this as one of the best Adobe Figma training institutes in Kolkata. You’ll also learn HTML, CSS, JavaScript, and Bootstrap.",
+    desc: "You'll master top design tools like Figma, Adobe Photoshop, Adobe XD, and Illustrator. This positions this as one of the best Adobe Figma training institutes in Mumbai. You’ll also learn HTML, CSS, JavaScript, and Bootstrap.",
   },
   {
     id: 4,
@@ -60,17 +60,17 @@ const faq = [
   {
     id: 5,
     title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy.",
+    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
   },
   {
     id: 6,
     title: "What kind of real-time projects will I work on?",
-    desc: "You’ll complete over 10+ portfolio projects, working on real-world scenarios like landing pages, e-commerce designs, mobile-responsive layouts, and interactive UI prototypes. This makes it one of the best web designing courses in Kolkata for practical learners.",
+    desc: "You’ll complete over 10+ portfolio projects, working on real-world scenarios like landing pages, e-commerce designs, mobile-responsive layouts, and interactive UI prototypes. This makes it one of the best web designing courses in Mumbai for practical learners.",
   },
   {
     id: 7,
     title: "Does the course include an internship or hands-on experience?",
-    desc: "Yes! This is one of the few web designing courses in Kolkata with placement and internship support. You'll complete a 1-month internship on live client projects to strengthen your skills and portfolio.",
+    desc: "Yes! This is one of the few web designing courses in Mumbai with placement and internship support. You'll complete a 1-month internship on live client projects to strengthen your skills and portfolio.",
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const faq = [
   {
     id: 9,
     title: "Do I need coding knowledge before joining?",
-    desc: "Not at all. Our UI/UX web design training institute in Kolkata offers beginner-friendly learning modules and step-by-step practical training, so no background is required.",
+    desc: "Not at all. Our UI/UX web design training institute in Mumbai offers beginner-friendly learning modules and step-by-step practical training, so no background is required.",
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const faq = [
   {
     id: 11,
     title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes. Our web designing training institute in Kolkata is built for working professionals who want to upskill without quitting their jobs.",
+    desc: "Yes, we provide flexible batches including weekend and evening classes. Our web designing training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs.",
   },
   {
     id: 12,
@@ -100,7 +100,7 @@ const faq = [
   {
     id: 13,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 export default function page() {
@@ -118,9 +118,9 @@ export default function page() {
   // Hero data
   const heroData = {
     badgeText: "Certified Web Designer in Just 6 Months!",
-    title: "Best Web Design Course in Kolkata",
+    title: "Best Web Design Course in Mumbai",
     description:
-      "Learn to create responsive layouts, UI/UX and interactive designs and earn up to ₹8 LPA! Become a certified web designer in just 6 months with EME Academy’s professional web designing course, featuring Figma, Adobe Photoshop, HTML, CSS, and Bootstrap, complete with 100% placement assistance and hands-on projects.",
+      "Learn to create responsive layouts, UI/UX and interactive designs and earn up to ₹8 LPA! Become a certified web designer in just 6 months with EME Academy Mumbai’s professional web designing course, featuring Figma, Adobe Photoshop, HTML, CSS, and Bootstrap, complete with 100% placement assistance and hands-on projects.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -146,7 +146,7 @@ export default function page() {
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/webdesignCard.png",
         description:
-          "Discover web designing courses in Kolkata for creative careers. EME Academy trains freshers and professionals in UI/UX, design tools & modern web technologies.",
+          "Discover web designing courses in Mumbai for creative careers. EME Academy Mumbai trains freshers and professionals in UI/UX, design tools & modern web technologies.",
 
         details: [
           {
@@ -168,11 +168,11 @@ export default function page() {
           },
           {
             label: "Languages",
-            value: "Bengali, English & Hindi",
+            value: "English & Hindi",
           },
         ],
         hookLine:
-          "Join the Leading Web Designing Training Institute in Kolkata!",
+          "Join the Leading Web Designing Training Institute in Mumbai!",
         topics: [
           {
             title: "Fundamentals of Web Design",
@@ -355,7 +355,7 @@ export default function page() {
     title:
       'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
     subtitle:
-      "After completing our Web Designing Training Course in Kolkata, you will explore the roles like:",
+      "After completing our Web Designing Training Course in Mumbai, you will explore the roles like:",
     careerRoles: [
       "Web Designer",
       "UI/UX Designer",
@@ -379,28 +379,28 @@ export default function page() {
         id: 1,
         name: "Rohan Mondal",
         rating: 5,
-        text: `"By far the best UI/UX design course Kolkata has to offer! Got my first internship during the course."`,
+        text: `"By far the best UI/UX design course Mumbai has to offer! Got my first internship during the course."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 2,
         name: "Shreya Banerjee",
         rating: 5,
-        text: `"The Figma and Adobe XD sessions were just incredible. Within 3 months, I landed my first freelance UI project! Definitely the best UI/UX design course in Kolkata!"`,
+        text: `"The Figma and Adobe XD sessions were just incredible. Within 3 months, I landed my first freelance UI project! Definitely the best UI/UX design course in Mumbai!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 3,
         name: "Rishi Ghosh",
         rating: 5,
-        text: `"EME Academy taught me how to turn wireframes into real user journeys. The trainers are super experienced and guide you patiently through each design concept."`,
+        text: `"EME Academy Mumbai taught me how to turn wireframes into real user journeys. The trainers are super experienced and guide you patiently through each design concept."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
         id: 4,
         name: "Poulami Mukherjee",
         rating: 5,
-        text: `"আমি ভাবিনি UI/UX শেখা এত interesting হতে পারে। Figma শেখার পর আমি নিজের portfolio বানিয়ে ক্লায়েন্ট পেয়েছি! ধন্যবাদ EME Academy."`,
+        text: `"আমি ভাবিনি UI/UX শেখা এত interesting হতে পারে। Figma শেখার পর আমি নিজের portfolio বানিয়ে ক্লায়েন্ট পেয়েছি! ধন্যবাদ EME Academy Mumbai."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -428,7 +428,7 @@ export default function page() {
         id: 8,
         name: "Tuhina Ghosh",
         rating: 5,
-        text: `"আমার কোনও ডিজাইন ব্যাকগ্রাউন্ড ছিল না, কিন্তু এই কোর্সে এমনভাবে শেখানো হয় যে এখন আমি পুরো একটা অ্যাপের UI ডিজাইন করে ফেলতে পারি!"`,
+        text: `"আমার কোনও ডিজাইন ব্যাকগ্রাউন্ড ছিল না, কিন্তু এই কোর্সে এমনভাবে শেখানো হয় যে এখন আমি পুরো একটা অ্যাপের UI ডিজাইন করে ফেলতে পারি! Thanks EME Academy Mumbai."`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {

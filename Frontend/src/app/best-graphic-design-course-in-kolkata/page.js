@@ -22,34 +22,34 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import CoursesHero from "@/components/global/CoursesHero";
 
 export const metadata = {
-  title: "Best Graphic Design courses and Training Institute in Kolkata",
+  title: "Best Graphic Design courses and Training Institute in Mumbai",
   description:
-    "Enroll in the best graphic design institute in Kolkata and master creativity with the best graphic design courses in Kolkata. Start your design journey today!",
+    "Enroll in the best graphic design institute in Mumbai and master creativity with the best graphic design courses in Mumbai. Start your design journey today!",
   keywords: [
-    "graphic design courses in kolkata",
-    "graphic design courses in kolkata fees",
-    "graphic design institutes in kolkata",
-    "graphic design courses fees in kolkata",
-    "best graphic design institute in kolkata",
-    "best graphic design courses in kolkata",
-    "best institute for graphic designing in kolkata",
-    "graphic design training institute in kolkata",
+    "graphic design courses in mumbai",
+    "graphic design courses in mumbai fees",
+    "graphic design institutes in mumbai",
+    "graphic design courses fees in mumbai",
+    "best graphic design institute in mumbai",
+    "best graphic design courses in mumbai",
+    "best institute for graphic designing in mumbai",
+    "graphic design training institute in mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/graphics-design-landing",
+    canonical: "https://mumbai.emeacademy.co.in/best-graphic-design-course-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Graphic Design Course in Kolkata is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Graphic Design Course in Mumbai is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch.",
   },
   {
     id: 2,
     title: "What is the duration and fee of the graphic design course?",
-    desc: "The course is 6 months long (including internship). The graphic design course fees in Kolkata at EME Academy is ₹35,000 after discount.",
+    desc: "The course is 6 months long (including internship). The graphic design course fees in Mumbai at EME Academy Mumbai is ₹35,000 after discount.",
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const faq = [
   {
     id: 5,
     title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy.",
+    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
   },
   {
     id: 6,
@@ -84,7 +84,7 @@ const faq = [
   {
     id: 9,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -92,9 +92,9 @@ const faq = [
 const heroData = {
   badgeText: "Learn & Get Hired in 6 Months!",
   title:
-    "Best Graphic Design Course in Kolkata- Master Photoshop, Illustrator, CoreIDRAW & More",
+    "Best Graphic Design Course in Mumbai- Master Photoshop, Illustrator, CoreIDRAW & More",
   description:
-    "Learn with EME Academy, the best graphic design institute in Kolkata, and gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom. Whether you dream of working in top design studios or want to earn from lucrative freelance projects, our graphic design training institute in Kolkata gives you the right skills to build a thriving career in creative design.",
+    "Learn with EME Academy Mumbai, the best graphic design institute in Mumbai, and gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom. Whether you dream of working in top design studios or want to earn from lucrative freelance projects, our graphic design training institute in Mumbai gives you the right skills to build a thriving career in creative design.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -103,15 +103,15 @@ const heroData = {
 const courseDetailsData = {
   courseName: "Graphic Design Course",
   subtitle:
-    "Learn with EME Academy and become a certified Graphic Designer with placement support!",
+    "Learn with EME Academy Mumbai and become a certified Graphic Designer with placement support!",
   courseData: [
     {
       id: 1,
       title: "Graphic Design Course Details",
       image:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCourseMain.png",
+        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCourseDetailsMain.png",
       description:
-        "Get certified with the best graphic design course in Kolkata. Gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom, and build a strong portfolio for freelance or studio work.",
+        "Get certified with the best graphic design course in Mumbai. Gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom, and build a strong portfolio for freelance or studio work.",
       details: [
         {
           label: "Duration",
@@ -132,11 +132,11 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
       hookLine:
-        "Become job-ready with the best institute for graphic designing in Kolkata with placement support!",
+        "Become job-ready with the best institute for graphic designing in Mumbai with placement support!",
       topics: [
         {
           title: "Design Principles & Typography",
@@ -149,7 +149,7 @@ const courseDetailsData = {
           title: "CorelDRAW Mastery",
           points: [
             "Vector illustration and logo creation",
-            "Write SQL queries for data extraction and reporting",
+            "Design custom icons, shapes, and complex layouts",
           ],
         },
         {
@@ -245,9 +245,9 @@ const courseCurriculumData = {
 // Career Prospects
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
-    "After completing EME Academy’s graphic design course in Kolkata, you&apos;ll be equipped to take up roles in both print and digital media across diverse industries:",
+    "After completing EME Academy Mumbai’s graphic design course in Mumbai, you&apos;ll be equipped to take up roles in both print and digital media across diverse industries:",
   careerRoles: [
     "Graphic Designer",
     "UI/UX Designer",
@@ -272,13 +272,13 @@ const testimonialsData = {
     {
       id: 1,
       name: "Ritika Mondal",
-      text: "The trainers at EME Academy are truly experts. I had no idea Photoshop could be this fun and powerful! This is the best graphic design course in Kolkata!",
+      text: "The trainers at EME Academy Mumbai are truly experts. I had no idea Photoshop could be this fun and powerful! This is the best graphic design course in Mumbai!",
       rating: 5,
     },
     {
       id: 2,
       name: "Ritwika Roy",
-      text: "Loved learning CorelDraw and Illustrator at EME. Got two freelancing projects before I even finished the course!",
+      text: "Loved learning CorelDraw and Illustrator at EME Academy Mumbai. Got two freelancing projects before I even finished the course!",
       rating: 5,
     },
     {
@@ -290,13 +290,13 @@ const testimonialsData = {
     {
       id: 4,
       name: "Priyanka Bar",
-      text: "Graphic design শেখার ইচ্ছা অনেকদিনের ছিল। EME Academy-র expert instructors আর practical classes আমাকে আজ independent designer বানিয়েছে।",
+      text: "Graphic design শেখার ইচ্ছা অনেকদিনের ছিল। EME Academy Mumbai-র expert instructors আর practical classes আমাকে আজ independent designer বানিয়েছে।",
       rating: 5,
     },
     {
       id: 5,
       name: "Animesh Das",
-      text: "From zero experience to earning ₹15,000 per month through freelance logo design! This is truly the best institute for graphic designing in Kolkata",
+      text: "From zero experience to earning ₹15,000 per month through freelance logo design! This is truly the best institute for graphic designing in Mumbai",
       rating: 5,
     },
     {
@@ -314,30 +314,30 @@ const testimonialsData = {
     {
       id: 8,
       name: "Sandeep Ghosh",
-      text: "Thanks to EME Academy’s graphic design institute in Kolkata, I cracked my first job as a junior designer within a week of completing the course!",
+      text: "Thanks to EME Academy Mumbai’s graphic design institute in Mumbai, I cracked my first job as a junior designer within a week of completing the course!",
       rating: 5,
     },
     {
       id: 9,
       name: "Simran Kaur",
-      text: "EME Academy offers the best graphic design courses in Kolkata. Their hands-on Adobe InDesign training helped me land a part-time job at a local print agency!",
+      text: "EME Academy Mumbai offers the best graphic design courses in Mumbai. Their hands-on Adobe InDesign training helped me land a part-time job at a local print agency!",
       rating: 5,
     },
     {
       id: 10,
       name: "Ananya Pal",
-      text: "If you're looking for the best graphic design training institute in Kolkata with placement, this is it! The trainers, the tools, the mentorship, everything’s perfect.",
+      text: "If you're looking for the best graphic design training institute in Mumbai with placement, this is it! The trainers, the tools, the mentorship, everything’s perfect.",
       rating: 5,
     },
   ],
 };
 
-const alumniStudents = [
+const alumniStudentsMumbai = [
   {
     id: 1,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
     title: "Sukanya Ghosh",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -347,7 +347,7 @@ const alumniStudents = [
     id: 2,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
     title: "Nuruzzaman Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -357,7 +357,7 @@ const alumniStudents = [
     id: 3,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
     title: "Vaishnavi",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -367,7 +367,7 @@ const alumniStudents = [
     id: 4,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
     title: "Aniket Shome",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -377,7 +377,7 @@ const alumniStudents = [
     id: 5,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
     title: "Supratim Sen",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -387,7 +387,7 @@ const alumniStudents = [
     id: 6,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
     title: "Souvik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -397,7 +397,7 @@ const alumniStudents = [
     id: 7,
     img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
     title: "Koushik Mondal",
-    subtitle: "Kolkata, India",
+    subtitle: "Mumbai, India",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -485,7 +485,7 @@ export default function page() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
           {..._this}
-          students={alumniStudents}
+          students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
@@ -506,7 +506,7 @@ export default function page() {
         <Faqs faqs={faq} />
       </div>
       <CoursesLandingFooter courseName="Graphics Designing Course"  {..._this}/>
-      <StickyCTAButton Courses="Graphics Designing Course" />
+      <StickyCTAButton {..._this} />
     </main>
   );
 }

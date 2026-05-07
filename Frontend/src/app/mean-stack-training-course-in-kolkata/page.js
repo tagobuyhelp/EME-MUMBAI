@@ -21,38 +21,38 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "MEAN Stack Course In Kolkata With 100% Placement Support",
+  title: "MEAN Stack Course In Mumbai With 100% Placement Support",
   description:
-    "Join Best MEAN Stack Training Course in Kolkata with 100% placement support at Top Mean Stack Training Institutes in Kolkata offering full MEAN Stack course.",
+    "Join Best MEAN Stack Training Course in Mumbai with 100% placement support at Top Mean Stack Training Institutes in Mumbai offering full MEAN Stack course.",
   keywords: [
-    "Best MEAN Stack Training Course in Kolkata",
-    "MEAN Stack Course In Kolkata With 100% Placement Support",
-    "Best MEAN Stack Full Course in Kolkata",
-    "Top Mean Stack Training Institutes in Kolkata",
-    "Mean Stack Development Course in Kolkata",
-    "Best Mean Stack Development Training Institute in Kolkata",
-    "MERN Stack Developer Certification Course in Kolkata",
+    "Best MEAN Stack Training Course in Mumbai",
+    "MEAN Stack Course In Mumbai With 100% Placement Support",
+    "Best MEAN Stack Full Course in Mumbai",
+    "Top Mean Stack Training Institutes in Mumbai",
+    "Mean Stack Development Course in Mumbai",
+    "Best Mean Stack Development Training Institute in Mumbai",
+    "MERN Stack Developer Certification Course in Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/mean-stack-training-course-in-kolkata",
+    canonical: "https://mumbai.emeacademy.co.in/mean-stack-training-course-in-mumbai",
   },
 };
 
 const faq = [
   {
     id: 1,
-    title: "Is this MEAN Stack course suitable for beginners in Kolkata?",
+    title: "Is this MEAN Stack course suitable for beginners in Mumbai?",
     decs: "Yes, absolutely. This course is beginner-friendly and starts from the fundamentals of front-end and back-end development before moving into full-stack projects and advanced deployment techniques.",
   },
   {
     id: 2,
     title: "Will I get a certificate after completing the MEAN Stack course?",
-    decs: " Definitely. You will receive an industry-recognized MEAN Stack Developer Certification from EME Academy, which is highly valued by IT companies and recruiters across India.",
+    decs: " Definitely. You will receive an industry-recognized MEAN Stack Developer Certification from EME Academy Mumbai, which is highly valued by IT companies and recruiters across India.",
   },
   {
     id: 3,
     title: "What technologies and tools will I learn in this course?",
-    decs: "The full MEAN Stack Development Course in Kolkata is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.You will master tools like HTML5, CSS3, JavaScript, Angular, TypeScript, Node.js, Express.js, MongoDB, Postman, JWT, GitHub, MongoDB Atlas, and more—covering everything from front-end UI to secure backend APIs.",
+    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.You will master tools like HTML5, CSS3, JavaScript, Angular, TypeScript, Node.js, Express.js, MongoDB, Postman, JWT, GitHub, MongoDB Atlas, and more—covering everything from front-end UI to secure backend APIs.",
   },
   {
     id: 4,
@@ -87,21 +87,21 @@ const faq = [
   {
     id: 10,
     title: "How can I enroll?",
-    decs: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    decs: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
   {
     id: 11,
     title:
-      "What is the duration and fee structure of the MEAN Stack course in Kolkata?",
-    decs: "The full MEAN Stack Development Course in Kolkata is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
+      "What is the duration and fee structure of the MEAN Stack course in Mumbai?",
+    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
   },
 ];
 
 const heroData = {
   badgeText: "Become a Certified MEAN Stack Developer in Just 6 Months!",
-  title: "Best MEAN Stack Training Course in Kolkata – 100% Job-Ready Program",
+  title: "Best MEAN Stack Training Course in Mumbai – 100% Job-Ready Program",
   description:
-    "Join EME Academy’s MEAN Stack Course in Kolkata with 100% Placement Support. Learn Angular, Node.js, Express.js & MongoDB through live projects, expert mentorship, and industry-backed curriculum. Earn your MEAN Stack Developer Certification and launch a high-growth tech career.",
+    "Join EME Academy Mumbai’s MEAN Stack Course in Mumbai with 100% Placement Support. Learn Angular, Node.js, Express.js & MongoDB through live projects, expert mentorship, and industry-backed curriculum. Earn your MEAN Stack Developer Certification and launch a high-growth tech career.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -109,7 +109,7 @@ const heroData = {
 const courseDetailsData = {
   courseName: "MEAN Stack Course",
   subtitle:
-    "Become a certified MEAN Stack Developer with EME Academy’s 100% Job-Ready Training Program in Kolkata. Learn Angular, Node.js, Express.js & MongoDB with live projects, expert mentorship, and placement support.",
+    "Become a certified MEAN Stack Developer with EME Academy Mumbai’s 100% Job-Ready Training Program in Mumbai. Learn Angular, Node.js, Express.js & MongoDB with live projects, expert mentorship, and placement support.",
   courseData: [
     {
       id: 1,
@@ -138,10 +138,10 @@ const courseDetailsData = {
         },
         {
           label: "Languages",
-          value: "Bengali, English & Hindi",
+          value: "English & Hindi",
         },
       ],
-      hookLine: "Learn from the Best MEAN Stack Training Institute in Kolkata!",
+      hookLine: "Learn from the Best MEAN Stack Training Institute in Mumbai!",
       topics: [
         {
           title: "Front-End Development with Angular",
@@ -309,7 +309,7 @@ const courseCurriculumData = {
 // Career prospects data
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Kolkata</span>',
+    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
   subtitle:
     "After completing this MEAN Stack Developer Certification Course, you’ll be ready for exciting roles like:",
   careerRoles: [
@@ -333,14 +333,14 @@ const testimonialsData = {
       id: 1,
       name: "Jayanta Mukherjee",
       rating: 5,
-      text: `"I was from a non-tech background and therefore, was unsure about the MEAN Stack course. But EME Academy has made Angular and backend development super easy for me. The live coding sessions have given me the confidence to build my first full-stack app!"`,
+      text: `"I was from a non-tech background and therefore, was unsure about the MEAN Stack course. But EME Academy Mumbai has made Angular and backend development super easy for me. The live coding sessions have given me the confidence to build my first full-stack app!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 2,
       name: "Neha Das",
       rating: 5,
-      text: `"EME Academy’s Full Stack courses are beginner-friendly and career-focused. I took the MEAN Stack course and learned how to build scalable apps, boosting my confidence for real-world projects."`,
+      text: `"EME Academy Mumbai’s Full Stack courses are beginner-friendly and career-focused. I took the MEAN Stack course and learned how to build scalable apps, boosting my confidence for real-world projects."`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -354,21 +354,21 @@ const testimonialsData = {
       id: 4,
       name: "Fatima Sheikh",
       rating: 5,
-      text: `"The best MEAN Stack development course in Kolkata! I landed my job after project presentation week!"`,
+      text: `"The best MEAN Stack development course in Mumbai! I landed my job after project presentation week!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 5,
       name: "Sanjana Paul",
       rating: 5,
-      text: `"Honestly, I was scared at first because I had no tech background. But the mentors at EME Academy explained everything so clearly—starting from how the web works to building full Angular projects. Now I can proudly say I'm a certified MEAN stack developer!"`,
+      text: `"Honestly, I was scared at first because I had no tech background. But the mentors at EME Academy Mumbai explained everything so clearly—starting from how the web works to building full Angular projects. Now I can proudly say I'm a certified MEAN stack developer!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 6,
       name: "Sayantan Ghosh",
       rating: 5,
-      text: `"আমি আগে শুধু একটু HTML জানতাম। JavaScript, Node.js, MongoDB—সব কিছু নতুন ছিল। কিন্তু EME Academy-তে ক্লাসগুলো এত সুন্দর ভাবে হয় যে ভয় পাইনি। এখন আমার নিজের GitHub আছে আর একটা full stack project বানিয়েছি!"`,
+      text: `"আমি আগে শুধু একটু HTML জানতাম। JavaScript, Node.js, MongoDB—সব কিছু নতুন ছিল। কিন্তু EME Academy Mumbai-তে ক্লাসগুলো এত সুন্দর ভাবে হয় যে ভয় পাইনি। এখন আমার নিজের GitHub আছে আর একটা full stack project বানিয়েছি!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
@@ -382,21 +382,21 @@ const testimonialsData = {
       id: 8,
       name: "Arpan Mukherjee",
       rating: 5,
-      text: `"আমি MBA করার পর বুঝলাম coding শেখা দরকার। EME Academy-র MEAN Stack course এ ভর্তি হই। ২ মাসের মধ্যে আমি একটা e-commerce site বানাতে শিখে যাই! এখন আমি নিজের agency শুরু করেছি!"`,
+      text: `"আমি MBA করার পর বুঝলাম coding শেখা দরকার। EME Academy Mumbai-র MEAN Stack course এ ভর্তি হই। ২ মাসের মধ্যে আমি একটা e-commerce site বানাতে শিখে যাই! এখন আমি নিজের agency শুরু করেছি!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 9,
       name: "Rik Mukherjee",
       rating: 5,
-      text: `"I’m a college student from Siliguri and couldn’t travel to Kolkata. The online classes, recordings, and project feedback really worked for me. আমি MongoDB আর Express.js দিয়ে একটা blog app তৈরি করেছি – যেটা এখন আমার resume-র highlight!"`,
+      text: `"I’m a college student from Siliguri and couldn’t travel to Mumbai. The online classes, recordings, and project feedback really worked for me. আমি MongoDB আর Express.js দিয়ে একটা blog app তৈরি করেছি – যেটা এখন আমার resume-র highlight!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
     {
       id: 10,
       name: "Tanaya Sen",
       rating: 5,
-      text: `"EME Academy truly cares about each student. When I was struggling with APIs, one of the mentors even did a 1-on-1 session. এখন আমি confidently REST API বানাতে পারি এবং GitHub এ upload করি। Course শেষে internship ও পেয়েছি!"`,
+      text: `"EME Academy Mumbai truly cares about each student. When I was struggling with APIs, one of the mentors even did a 1-on-1 session. এখন আমি confidently REST API বানাতে পারি এবং GitHub এ upload করি। Course শেষে internship ও পেয়েছি!"`,
       src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
     },
   ],

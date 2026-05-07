@@ -26,7 +26,7 @@ export const metadata = {
   description: "",
   keywords: [""],
   alternates: {
-    canonical: "https://emeacademy.co.in/sap-training-institute",
+    canonical: "https://mumbai.emeacademy.co.in/sap-training-institute",
   },
 };
 

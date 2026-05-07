@@ -115,7 +115,7 @@ function GDStudentPortfolio() {
             <div className="text-[#7F7879] text-[12px] font-normal">
               <p>
                 Secure 100% Placement Assistance Post-Graphic Design Course in
-                Kolkata
+                Mumbai
               </p>
             </div>
           </h2>

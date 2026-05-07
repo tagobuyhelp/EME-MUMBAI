@@ -170,7 +170,7 @@ export default function BoardOfAdvisor() {
                         
                         <div className="mt-3 pt-3 border-t border-gray-50">
                           <div className="flex items-center gap-1.5 text-[9px] font-black text-[#0057E2] uppercase tracking-tighter">
-                            Advisor <span className="h-1 w-1 rounded-full bg-blue-200" /> EME Academy
+                            Advisor <span className="h-1 w-1 rounded-full bg-blue-200" /> EME Academy Mumbai
                           </div>
                         </div>
                       </div>

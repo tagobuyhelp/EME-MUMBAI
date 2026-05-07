@@ -42,7 +42,7 @@ export default function SapHero({
           </h1>
           <p className="relative leading-[18.75px]  text-[#727272] text-[12px] md:text-[14px] text-center lg:text-left">
             GET AN ASSORTMENT of job-oriented SAP HCM TRAINING courses in
-            Kolkata
+            Mumbai
           </p>
           <div className="w-full flex flex-row items-start justify-center lg:justify-start gap-5 text-mini text-goldenrod font-font-awesome-5-free pt-[10px] pb-5">
             <div className="flex flex-row items-center justify-start gap-2">

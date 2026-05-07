@@ -8,15 +8,15 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP Analytics Cloud Training kolkata - EME Academy",
+  title: "Best SAP Analytics Cloud Training Mumbai - EME Academy Mumbai",
   description:
-    "Looking for the top place to learn SAP Analytics in kolkata? Explore our institute for the best training!",
+    "Looking for the top place to learn SAP Analytics in Mumbai? Explore our institute for the best training!",
   keywords: [
-    "Best SAP Analytics Cloud Training kolkata",
-    "SAP Analytics Cloud Training kolkata",
+    "Best SAP Analytics Cloud Training Mumbai",
+    "SAP Analytics Cloud Training Mumbai",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/course/sap-analytics",
+    canonical: "https://mumbai.emeacademy.co.in/course/sap-analytics",
   },
 };
 

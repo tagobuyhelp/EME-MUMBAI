@@ -12,9 +12,9 @@ const Noto = Noto_Sans({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title:
-    "Eastern India's No 1 Training Institute |  Kolkata's No.1 Job Oriented Training Institute - EME Academy",
+    "Mumbai's No 1 Training Institute | Mumbai's No.1 Job Oriented Training Institute - EME Academy Mumbai",
   description:
-    "We are job oriented training Institute. Best SAP Certification courses, advanced Digital Marketing, and hotel Management courses for career growth. Job-oriented & relevant courses in Kolkata at EME Academy.",
+    "We are job oriented training Institute in Mumbai. Best SAP Certification courses, advanced Digital Marketing, and HR Management courses for career growth. Job-oriented & relevant courses in Mumbai at EME Academy Mumbai.",
 };
 
 <link rel="icon" href="facicon.ico" sizes="any" />;
@@ -23,12 +23,12 @@ export default function RootLayout({ children }) {
   const educationalOrganizationSchema = {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    name: "EME Academy",
-    url: "https://emeacademy.co.in/",
+    name: "EME Academy Mumbai",
+    url: "https://mumbai.emeacademy.co.in/",
     telephone: "+919831284098",
-    email: "info@emeacademy.co.in",
+    email: "infomumbai@emeacademy.co.in",
     description:
-      "EME Academy offers professional courses in Digital Marketing, SAP, HR Management, and Data Analytics in Kolkata.",
+      "EME Academy Mumbai offers professional courses in Digital Marketing, SAP, HR Management, and Data Analytics in Mumbai.",
     logo: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png",
     founder: {
       "@type": "Person",
@@ -37,10 +37,10 @@ export default function RootLayout({ children }) {
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "5th Floor, TOWER-1, Globsyn Crystals, 505, EP Block, Sector V, Bidhannagar",
-      addressLocality: "Kolkata",
-      addressRegion: "West Bengal",
-      postalCode: "700091",
+        "Mumbai Branch",
+      addressLocality: "Mumbai",
+      addressRegion: "Maharashtra",
+      postalCode: "400001",
       addressCountry: "IN",
     },
     geo: {

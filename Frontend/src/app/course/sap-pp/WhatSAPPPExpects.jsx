@@ -30,7 +30,7 @@ export default function WhatSAPPPExpects() {
                     What You can Expect From The Course
                 </div>
                 <p className="mt-1 text-[12px] lg:text-[16px] text-[#727272] max-w-[637px] text-center">
-                    At EME Academy, our mission is to equip you with the skills needed to
+                    At EME Academy Mumbai, our mission is to equip you with the skills needed to
                     thrive in this competitive field.
                 </p>
             </div>
