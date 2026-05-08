@@ -30,6 +30,12 @@ export default function Header({ _this: parentThis, navItems }) {
     Courses = "Data Science Course";
   } else if (pathname === "/best-digital-marketing-course-in-mumbai") {
     Courses = "Digital Marketing Course";
+  } else if (pathname === "/best-graphic-design-course-in-mumbai") {
+    Courses = "Graphic Design Course";
+  } else if (pathname === "/animation-vfx-institute-mumbai") {
+    Courses = "Animation & VFX Course";
+  } else if (pathname === "/best-mern-stack-training-course-in-mumbai") {
+    Courses = "MERN Stack Course";
   }
 
   const email_sender = parentThis?.email_sender || "ALL";

@@ -48,11 +48,11 @@ export default function GraphicsDesignHero() {
                         </div>
 
                         <h1 className=' max-w-3xl text-[20px] lg:text-[24px] font-bold text-black text-left md:text-left md:pr-6'>
-                            Best Graphic Design Course in Kolkata- Master Photoshop, Illustrator, CoreIDRAW & More
+                            Best Graphic Design Course in Mumbai- Master Photoshop, Illustrator, CoreIDRAW & More
                         </h1>
 
                         <p className='max-w-3xl text-[10px] md:text-[14px] text-[#757575] leading-[20px] font-[500] md:pr-40'>
-                            Learn with EME Academy, the best graphic design institute in Kolkata, and gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom. Whether you dream of working in top design studios or want to earn from lucrative freelance projects, our graphic design training institute in Kolkata gives you the right skills to build a thriving career in creative design.
+                            Learn with EME Academy, the best graphic design institute in Mumbai, and gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom. Whether you dream of working in top design studios or want to earn from lucrative freelance projects, our graphic design training institute in Mumbai gives you the right skills to build a thriving career in creative design.
                         </p>
                     </div>
 

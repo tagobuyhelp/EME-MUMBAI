@@ -121,7 +121,7 @@ export default function WebDevelopmentBlog({
                     <h1 id="your-ultimate-guide-to-web-development-courses-at-eme-academy" className="text-[18px] font-[700] leading-[24px]">Your Ultimate Guide to Web Development Courses at EME Academy</h1>
                     <p>
                         Itching to learn more about the exciting subject of web development? It would be best to start at EME Academy.
-                        Voted the best web development school in Kolkata for a number of years running, it is well renowned
+                        Voted the best web development school in Mumbai for a number of years running, it is well renowned
                         for providing courses that give students job-relevant skills
                     </p>
                     <div className="w-full mx-auto flex justify-center  lg:hidden  ">
@@ -137,7 +137,7 @@ export default function WebDevelopmentBlog({
                         EME Academy provides an unparalleled learning experience. Additionally, our strong industry connections and
                         placement support help you transition smoothly into a rewarding career.
                         EME Academy would help transform your passion for web development into a successful profession.
-                        It is the best institute for web development course in Kolkata.
+                        It is the best institute for web development course in Mumbai.
                     </p>
                     <p></p>
                 </div>
@@ -170,7 +170,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Web Development Course Overview</h1>
                     <p>
-                        The web development courses offered by EME Academy have been tailored to meet a wide range of student needs. Each and every detail is covered in the web development course Kolkata, from fundamental HTML and CSS to complex JavaScript frameworks. The curriculum is regularly updated to stay in sync with the latest industry trends, ensuring that you receive the most current and relevant education possible.
+                        The web development courses offered by EME Academy have been tailored to meet a wide range of student needs. Each and every detail is covered in the web development course Mumbai, from fundamental HTML and CSS to complex JavaScript frameworks. The curriculum is regularly updated to stay in sync with the latest industry trends, ensuring that you receive the most current and relevant education possible.
                     </p>
                     <p>
                         With a focus on practical, hands-on learning experiences that enable you to apply what you learn in real-world circumstances, EME Academy is dedicated to providing its students with a cutting-edge education. Irrespective of previous skill levels, the courses will help anyone reach newer heights of success in the cutthroat industry of web development.
@@ -194,13 +194,13 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Carving a Successful Future</h1>
                     <p>
-                        The most extensive curriculum, under the guidance of knowledgeable teachers, and a strong support network can all be found at EME Academy, thetop web development school in Kolkata..
+                        The most extensive curriculum, under the guidance of knowledgeable teachers, and a strong support network can all be found at EME Academy, thetop web development school in Mumbai..
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Expert Instructors and Advanced Facilities</h1>
                     <p>
-                        The most extensive curriculum, under the guidance of knowledgeable teachers, and a strong support network can all be found at EME Academy, thetop web development school in Kolkata..
+                        The most extensive curriculum, under the guidance of knowledgeable teachers, and a strong support network can all be found at EME Academy, thetop web development school in Mumbai..
                     </p>
                     <p>
                         The academy boasts of modern infrastructure and cutting-edge tech to help disseminate content with the help of adaptive learning methodologies in interactive settings. The institute leverages its cutting-edge tech-enabled infrastructure and its seasoned faculty to offer the perfect study setting to its students, thus positioning them for professional success.
@@ -214,7 +214,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Affordable and Flexible Learning</h1>
                     <p>
-                        EME Academy offers online and offline modules for all of their courses, at very affordable prices. Their aim is to make quality education accessible to all. Every EME Academy student gets great value and a comprehensive education without compromising on quality thanks to the web development course fees in Kolkata.
+                        EME Academy offers online and offline modules for all of their courses, at very affordable prices. Their aim is to make quality education accessible to all. Every EME Academy student gets great value and a comprehensive education without compromising on quality thanks to the web development course fees in Mumbai.
                     </p>
                     <p>
                         The unique learning needs of the diverse group of students are met well through the flexible class schedules and hybrid medium. Students are able to juggle multiple responsibilities while pacing their studies at their convenience.
@@ -246,7 +246,7 @@ export default function WebDevelopmentBlog({
                     </p>
                     <h1 className="text-[18px] font-[700] leading-[24px]">Front-End Development</h1>
                     <p>
-                        In the web design and development course in Kolkata, students will learn the fundamentals of front-end development. One goes through HTML, CSS, and JavaScript, and popular frameworks like React and Angular. Additionally, user experience (UX) and user interface (UI) design is also taught, in order to create visually appealing and user-friendly websites.
+                        In the web design and development course in Mumbai, students will learn the fundamentals of front-end development. One goes through HTML, CSS, and JavaScript, and popular frameworks like React and Angular. Additionally, user experience (UX) and user interface (UI) design is also taught, in order to create visually appealing and user-friendly websites.
 
                     </p>
                     <p>
@@ -299,7 +299,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">WordPress Specialization</h1>
                     <p>
-                        The web design and development course in Kolkata also includes a specialized track for WordPress development. Students learn to create custom themes and plugins, optimise WordPress sites for performance, and ensure their security. Professionals looking to leverage WordPress in their web development career stand to benefit a lot from this specialisation. They learn how to craft powerful, customised websites for their clients.
+                        The web design and development course in Mumbai also includes a specialized track for WordPress development. Students learn to create custom themes and plugins, optimise WordPress sites for performance, and ensure their security. Professionals looking to leverage WordPress in their web development career stand to benefit a lot from this specialisation. They learn how to craft powerful, customised websites for their clients.
                     </p>
                 </div>
 
@@ -313,7 +313,7 @@ export default function WebDevelopmentBlog({
                         The EME Academy alumni have achieved remarkable career advancements, securing positions in leading companies thanks to the robust training and support they received.
                     </p>
                     <p>
-                        Essential knowledge and practical, real-world application of skills come alive during the course of the web development course in Kolkata with placement. EME Academy graduates are now thriving in top tech firms, and innovative startups. This reflects the high-quality education and hands-on experience they gained at EME Academy. They were well-trained for the demands and opportunities of the tech industry.
+                        Essential knowledge and practical, real-world application of skills come alive during the course of the web development course in Mumbai with placement. EME Academy graduates are now thriving in top tech firms, and innovative startups. This reflects the high-quality education and hands-on experience they gained at EME Academy. They were well-trained for the demands and opportunities of the tech industry.
                     </p>
                 </div>
 
@@ -321,16 +321,16 @@ export default function WebDevelopmentBlog({
                 <CompanyLogo _this={_this} />
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 id="join-the-best-web-development-training-in-kolkata" className="text-[18px] font-[700] leading-[24px]">Join the Best Web Development Training in Kolkata</h1>
+                    <h1 id="join-the-best-web-development-training-in-kolkata" className="text-[18px] font-[700] leading-[24px]">Join the Best Web Development Training in Mumbai</h1>
                     <p>
-                        If you’re looking for the best web development training institute in Kolkata, EME Academy is your ideal choice. Our courses, affordable fees, expert trainers, and strong placement support make us the best web development institute in Kolkata.
+                        If you’re looking for the best web development training institute in Mumbai, EME Academy is your ideal choice. Our courses, affordable fees, expert trainers, and strong placement support make us the best web development institute in Mumbai.
                     </p>
                     <p>
                         EME Academy helps students access abundant opportunities and a rewarding web development career.
                     </p>
                     <p>
                         EME Academy: Your Path to Success Starts Here
-                        EME Academy web design training institute Kolkata is the perfect launchpad for your career in tech. Priority is given to practical skills and real-world applications, ensuring that every graduate is fully prepared for the job market.
+                        EME Academy web design training institute Mumbai is the perfect launchpad for your career in tech. Priority is given to practical skills and real-world applications, ensuring that every graduate is fully prepared for the job market.
                     </p>
                     <p>
                         The strong industry connections help in networking while the new-age curriculum is designed to bridge the gap between theory and practice. Thus, students gain hands-on experience. that sets them apart from the competition.
@@ -348,7 +348,7 @@ export default function WebDevelopmentBlog({
                     <h1 className="text-[18px] font-[700] leading-[24px]">Online Vs Offline: Which Course To Pursue</h1>
                     <p>
                         In modern times, learners have started moving to online means of education.
-                        Here, you can have an overview of which means is better for data analytics training in Kolkata or anywhere.
+                        Here, you can have an overview of which means is better for data analytics training in Mumbai or anywhere.
                     </p>
                 </div>
                 <CTAButton name="Enquire Now"

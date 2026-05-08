@@ -1,19 +1,19 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import OurRecuiter from "@/components/common/OurRecuiter";
+
+import OurRecuiter from "../maincourse/digital-marketing-course-in-mumbai/OurRecuiter";
 import CTAButton from "@/components/common/CtaButton";
 
-export default function SapHero({
+export default function DiplomaDMHero({
     Courses,
     SelectCourses,
     email_sender,
     Brochure,
-    BrochureName,
-}) {
-
+    BrochureName,}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
     const [ctaType, setCtaType] = useState(null);
+
     const _this = {
         isModalOpen,
         setIsModalOpen,
@@ -29,19 +29,20 @@ export default function SapHero({
   return (
     <>
       <div className=" w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-[50px] items-start  py-[26px] px-[20px] md:px-24  max-w-[1380px] mx-auto ">
+        {/* <div className="absolute inset-0 filter blur-[1400px] rounded-[50%] bg-deepskyblue h-[495px] opacity-[0.68]"></div> */}
+
         <div className="w-full lg:w-[50%] pt-[18px] lg:pt-[30px] h-full flex flex-col item-center lg:items-start gap-y-4 lg:gap-[15px] text-steelblue">
-          <div className="relative rounded-md bg-lightblue flex flex-row items-center justify-center py-0.5 px-3 text-left text-[12px] text-steelblue ">
+          <div className=" relative rounded-md bg-lightblue flex flex-row items-center justify-center py-0.5 px-3 text-left text-[11px] text-steelblue ">
             <div className="relative leading-[30px] font-semibold text-center">
-              SAP (Systems Applications and Products)
+              Master Digital Marketing with AI
             </div>
           </div>
-          <h1 className="max-w-[374px] lg:w-full lg:h-auto text-[24px] lg:text-[40px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
-            Best SAP Training Institute in Kolkata
+          <h1 className="max-w-[730px] lg:w-full lg:h-auto text-[24px] lg:text-[35.5px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
+            Master Digital Marketing with AI Course
           </h1>
-          <p className="relative leading-[18.75px]  text-[#727272] text-[12px] lg:text-[16px] text-center lg:text-left">
-            SAP (Systems Applications and Products) is an internationally
-            renowned enterprise software that firms use to efficiently manage
-            business activities.
+          <p className="relative leading-[18.75px]  text-[#727272] text-[12px] md:text-[14px] text-center lg:text-left">
+            GET AN ASSORTMENT of job-oriented Digital Marketing TRAINING courses
+            in Mumbai
           </p>
 
           <div className="w-full flex flex-row items-start justify-center lg:justify-start gap-5 text-mini text-goldenrod font-font-awesome-5-free pt-[10px] pb-5">
@@ -60,7 +61,7 @@ export default function SapHero({
                   />
                 </svg>
               </div>
-              <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
+              <b className="relative leading-[18.75px]  text-[#24292D] text-[10px] md:text-[13px]">
                 4.5/5.0
               </b>
             </div>
@@ -79,7 +80,7 @@ export default function SapHero({
                   />
                 </svg>
               </div>
-              <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
+              <b className="relative leading-[18.75px]  text-[#24292D] text-[10px] md:text-[13px]">
                 12k Enrolled
               </b>
             </div>
@@ -98,28 +99,34 @@ export default function SapHero({
                   />
                 </svg>
               </div>
-              <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
+              <b className="relative leading-[18.75px]  text-[#24292D] text-[10px] md:text-[13px]">
                 English, Hindi
               </b>
             </div>
           </div>
 
-          <div className="flex justify-center">
-           
+          <div className="flex flex-row items-start justify-center lg:justify-start gap-3 lg:gap-5">
+            
             <CTAButton
-                    name="Register Now ->"
-                    styleClasses="flex flex-row text-[#fff] text-xs lg:text-[14px] rounded-md bg-[#0057E2] px-[10px] lg:px-[24px] py-[14px] font-[600] gap-2.5 group hover:text-white border-none hover:bg-[#0047C2]"
-                    _this={_this}
-                  />
+                                name="Register Now ->"
+                                styleClasses="flex flex-row text-[#fff] text-xs lg:text-[14px] rounded-md bg-[#0057E2] hover:bg-[#00a2e7]/90 px-[10px] lg:px-[24px] py-[14px] font-[600] gap-2.5 group hover:text-white border-none hover:bg-[#0047C2]"
+                                _this={_this}
+                              />
+                      
+                        <CTAButton
+                                name="Download curriculum ->"
+                                styleClasses="flex text-[#0057E2] text-xs lg:text-[14px] border-[1px] border-[#0057E2] rounded-md hover:bg-[#00a2e7]/90 hover:text-[#fff] hover:border-[#00a2e7]/90 px-[10px] lg:px-[24px] py-[13px] lg:py-[14px] lg:font-[600] font-[500]  justify-center items-center gap-2 group hover:text-white hover:bg-[#0047C2]  bg-transparent"
+                                _this={_this}
+                              />
           </div>
         </div>
 
-        <div className="w-full lg:w-[50%] flex items-center lg:items-start lg:pt-[30px] ">
+        <div className="w-full lg:w-[45%] flex items-center lg:items-start lg:pt-[40px] mt-2">
           <Image
             className="w-full h-full object-cover"
-            src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SAP_Course/SAP_Main/SAP_Main_Hero.svg"
-            width={30}
-            height={30}
+            src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Digital_Marketing_Course/DDMDCourseHero.svg"
+            height={100}
+            width={100}
             alt="team"
           />
         </div>

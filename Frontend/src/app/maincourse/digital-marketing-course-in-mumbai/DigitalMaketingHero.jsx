@@ -53,10 +53,10 @@ function DigitalMarketingHero() {
                             From Beginner to Job-Ready in Just 6 Months!
                         </div>
                         <h1 className='text-[24px] lg:text-[36px] font-extrabold text-[#ffffff] text-left md:text-left md:pr-6'>
-                            Best Digital Marketing Course in Kolkata- Master SEO, Google Ads & AI Tools
+                            Best Digital Marketing Course in Mumbai- Master SEO, Google Ads & AI Tools
                         </h1>
                         <p className='text-[12px] md:text-[16px] text-[#ffffff] leading-[20px] font-[500] md:pr-40'>
-                            Upskill with EME Academy’s Advanced and AI-Powered Digital Marketing Course in Kolkata. Learn Google Ads, Facebook Ads, Sales Funnels, AI-powered automation, SEO, WhatsApp Marketing, WordPress, and more – all in one place and earn up to ₹10 LPA!
+                            Upskill with EME Academy’s Advanced and AI-Powered Digital Marketing Course in Mumbai. Learn Google Ads, Facebook Ads, Sales Funnels, AI-powered automation, SEO, WhatsApp Marketing, WordPress, and more – all in one place and earn up to ₹10 LPA!
                         </p>
                     </div>
                     {/* Rating and Brochure */}

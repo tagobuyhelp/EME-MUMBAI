@@ -17,7 +17,7 @@ export const metadata = {
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/sap-mm-courses-in-kolkata",
+      "https://mumbai.emeacademy.co.in/blogs/sap-mm-courses-in-mumbai",
   },
 };
 

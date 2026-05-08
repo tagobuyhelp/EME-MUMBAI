@@ -94,9 +94,9 @@ export default function DigitalMarketing({
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    {/* <h1 className="text-[18px] font-[700] leading-[24px]">Best Digital Marketing Course in Kolkata</h1> */}
+                    {/* <h1 className="text-[18px] font-[700] leading-[24px]">Best Digital Marketing Course in Mumbai</h1> */}
                     <h1 id="best-digital-marketing-course-in-kolkata" className="text-[18px] font-[700] leading-[24px]">
-                        The Ultimate Guide to Finding the Best Digital Marketing Course in Kolkata : Fees, Career Scope & Placement Opportunities
+                        The Ultimate Guide to Finding the Best Digital Marketing Course in Mumbai : Fees, Career Scope & Placement Opportunities
                     </h1>
                     <p>
                         It is critical to master the art of online marketing in today’s day and age. Imperative to career growth, it is one of the most highly demanded skills. Businesses are increasingly shifting online and trying to join the bandwagon of uber cool new age products.
@@ -114,14 +114,14 @@ export default function DigitalMarketing({
                     </p>
 
                     <p>
-                        If you&apos;re looking for a digital marketing course in Kolkata, you’re making a wise career decision. With businesses shifting to online platforms, the demand for skilled digital marketers is at an all time high. From SEO and social media marketing to paid advertising and analytics, companies need professionals who can drive results.
+                        If you&apos;re looking for a digital marketing course in Mumbai, you’re making a wise career decision. With businesses shifting to online platforms, the demand for skilled digital marketers is at an all time high. From SEO and social media marketing to paid advertising and analytics, companies need professionals who can drive results.
                     </p>
                     <p>
-                        Kolkata, a city known for its growing digital ecosystem, offers numerous opportunities for digital marketing enthusiasts. Whether you’re a student, working professional, or entrepreneur, learning digital marketing can help you land a high-paying job, grow a business, or even work as a freelancer.
+                        Mumbai, a city known for its growing digital ecosystem, offers numerous opportunities for digital marketing enthusiasts. Whether you’re a student, working professional, or entrepreneur, learning digital marketing can help you land a high-paying job, grow a business, or even work as a freelancer.
 
                     </p>
                     <p>
-                        If you’re wondering which is the best digital marketing institute in Kolkata, look no further than EME Academy. Offering hands-on training, expert guidance, and placement assistance, EME Academy is your gateway to a successful digital marketing career.
+                        If you’re wondering which is the best digital marketing institute in Mumbai, look no further than EME Academy. Offering hands-on training, expert guidance, and placement assistance, EME Academy is your gateway to a successful digital marketing career.
 
                     </p>
                 </div>
@@ -148,7 +148,7 @@ export default function DigitalMarketing({
 
                         </li>
                         <li>
-                            ✅ Digital marketing course fees in Kolkata
+                            ✅ Digital marketing course fees in Mumbai
 
                         </li>
                         <li>
@@ -156,7 +156,7 @@ export default function DigitalMarketing({
 
                         </li>
                         <li>
-                            ✅ The benefits of learning digital marketing in Kolkata
+                            ✅ The benefits of learning digital marketing in Mumbai
 
                         </li>
                         <li></li>
@@ -187,7 +187,7 @@ export default function DigitalMarketing({
                     </p>
                     <h3 className="text-[18px] font-[700] leading-[24px]">Multiple Career Opportunities</h3>
                     <p>
-                        A digital marketing training institute in Kolkata with placement opens doors to diverse career paths, such as:
+                        A digital marketing training institute in Mumbai with placement opens doors to diverse career paths, such as:
                     </p>
 
                     <ul>
@@ -241,7 +241,7 @@ export default function DigitalMarketing({
                         With expertise in SEO, social media, and paid advertising, you can launch your own digital marketing agency or e-commerce business, offering services to clients worldwide.
                     </p>
                     <p>
-                        With these compelling reasons, investing in a digital marketing certificate course in Kolkata can be the best career decision you make!
+                        With these compelling reasons, investing in a digital marketing certificate course in Mumbai can be the best career decision you make!
                     </p>
                 </div>
 
@@ -254,10 +254,10 @@ export default function DigitalMarketing({
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 id="why-choose-eme-academy-for-a-digital-marketing-course-in-kolkata" className="text-[18px] font-[700] leading-[24px]">
-                        Why Choose EME Academy for a Digital Marketing Course in Kolkata?
+                        Why Choose EME Academy for a Digital Marketing Course in Mumbai?
                     </h1>
                     <p>
-                        If you’re searching for the best institute for digital marketing in Kolkata, EME Academy stands out due to its comprehensive training, expert faculty, and strong placement support.
+                        If you’re searching for the best institute for digital marketing in Mumbai, EME Academy stands out due to its comprehensive training, expert faculty, and strong placement support.
                     </p>
                     <h3 className="text-[18px] font-[700] leading-[24px]">What Makes EME Academy the Best?</h3>
                     <ul>
@@ -269,7 +269,7 @@ export default function DigitalMarketing({
                         <li>Affordable Fees & EMI Options – Budget-friendly pricing with installment plans.</li>
                     </ul>
                     <p>
-                        If you’re looking for the best digital marketing course in Kolkata with placement, EME Academy provides career-oriented, practical training to help you land your dream job.
+                        If you’re looking for the best digital marketing course in Mumbai with placement, EME Academy provides career-oriented, practical training to help you land your dream job.
                     </p>
                 </div>
 
@@ -284,7 +284,7 @@ export default function DigitalMarketing({
                         Digital Marketing Course Details at EME Academy
                     </h1>
                     <p>
-                        EME Academy offers a structured digital marketing training in Kolkata, covering all aspects of online marketing.
+                        EME Academy offers a structured digital marketing training in Mumbai, covering all aspects of online marketing.
                     </p>
                     <h3 className="text-[18px] font-[700] leading-[24px]">Course Modules & Topics Covered</h3>
                     <ul>
@@ -306,7 +306,7 @@ export default function DigitalMarketing({
                         <li>AI in Digital Marketing – Use artificial intelligence for automation & personalization.</li>
                     </ul>
                     <p>
-                        This advanced digital marketing certificate course in Kolkata provides real-world exposure through live projects and industry case studies.
+                        This advanced digital marketing certificate course in Mumbai provides real-world exposure through live projects and industry case studies.
                     </p>
                 </div>
 
@@ -316,14 +316,14 @@ export default function DigitalMarketing({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
 
                     <h1 id="digital-marketing-course-fees-in-kolkata-eme-academy" className="text-[18px] font-[700] leading-[24px]">
-                        Digital Marketing Course Fees in Kolkata (EME Academy)
+                        Digital Marketing Course Fees in Mumbai (EME Academy)
                     </h1>
                     <p>
-                        EME Academy offers some of the most affordable digital marketing course fees in Kolkata, making high-quality training accessible to students, working professionals, and business owners.
+                        EME Academy offers some of the most affordable digital marketing course fees in Mumbai, making high-quality training accessible to students, working professionals, and business owners.
                     </p>
                     <h3 className="text-[18px] font-[700] leading-[24px]">Course Fees Structure :</h3>
                     <p>
-                        EME Academy’s digital marketing course in Kolkata and course fees are structured to provide maximum ROI while keeping training affordable and job-oriented.
+                        EME Academy’s digital marketing course in Mumbai and course fees are structured to provide maximum ROI while keeping training affordable and job-oriented.
                     </p>
 
 
@@ -368,14 +368,14 @@ export default function DigitalMarketing({
 
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 className="text-[18px] font-[700] leading-[24px]">Online vs. Offline Digital Marketing Course in Kolkata</h1>
+                    <h1 className="text-[18px] font-[700] leading-[24px]">Online vs. Offline Digital Marketing Course in Mumbai</h1>
                     <p>EME Academy provides both online and offline digital marketing courses, giving students the flexibility to learn in their preferred format.</p>
-                    <h2>Online Digital Marketing Course in Kolkata</h2>
+                    <h2>Online Digital Marketing Course in Mumbai</h2>
                     <ul>
                         <li>Learn from home, access recorded sessions, and get digital study materials.</li>
                         <li>Best for working professionals, students, and freelancers.</li>
                     </ul>
-                    <h2>Offline Digital Marketing Course in Kolkata</h2>
+                    <h2>Offline Digital Marketing Course in Mumbai</h2>
                     <ul>
                         <li>Interactive classroom sessions with face-to-face mentorship.</li>
                         <li>Hands-on learning through live projects and case studies.</li>
@@ -388,11 +388,11 @@ export default function DigitalMarketing({
                         Success Stories from EME Academy
                     </h1>
                     <h2>Amit Roy – From Fresher to Digital Marketing Manager</h2>
-                    <p>Amit enrolled in our digital marketing training in Kolkata with zero experience. After completing the course, he landed a ₹6 LPA job as a Social Media Manager.</p>
+                    <p>Amit enrolled in our digital marketing training in Mumbai with zero experience. After completing the course, he landed a ₹6 LPA job as a Social Media Manager.</p>
                     <h2>Priya Sharma – Started Her Own Freelance Business</h2>
-                    <p>Priya took our online digital marketing course in Kolkata and now earns ₹1.2 lakh per month as a freelance SEO consultant.</p>
+                    <p>Priya took our online digital marketing course in Mumbai and now earns ₹1.2 lakh per month as a freelance SEO consultant.</p>
                     <h2>Rahul Das – Career Switch from Sales to Digital Marketing</h2>
-                    <p>Rahul worked in sales but wanted a career change. After our advanced digital marketing certificate course in Kolkata, he secured a ₹7 LPA role in Google Ads management.</p>
+                    <p>Rahul worked in sales but wanted a career change. After our advanced digital marketing certificate course in Mumbai, he secured a ₹7 LPA role in Google Ads management.</p>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 id="conclusion" className="text-[18px] font-[700] leading-[24px]">
@@ -403,7 +403,7 @@ export default function DigitalMarketing({
 
                     </p>
                     <p>
-                        EME Academy definitely stands out as the best institute for digital marketing in Kolkata, offering expert-led training, real-world projects, and 100% placement support. With affordable course fees, flexible learning options, and an industry-focused curriculum, EME Academy ensures you gain the practical skills and confidence to excel in the digital world.
+                        EME Academy definitely stands out as the best institute for digital marketing in Mumbai, offering expert-led training, real-world projects, and 100% placement support. With affordable course fees, flexible learning options, and an industry-focused curriculum, EME Academy ensures you gain the practical skills and confidence to excel in the digital world.
                     </p>
                     <p>
                         If you&apos;re ready to take control of your career and master the art of digital marketing, now is the perfect time to enroll. Don’t miss the opportunity to learn from industry experts and gain hands-on experience that will set you apart from the competition.

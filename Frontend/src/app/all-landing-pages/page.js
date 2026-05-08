@@ -12,7 +12,7 @@ export default function page() {
   const allCourses = [
     {
       name: "Landing Page - Data Analytics",
-      link: "/best-data-analytics-course-in-kolkata",
+      link: "/best-data-analytics-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/DataAnalyticsLandingCourse.jpg",
     },
     {
@@ -27,12 +27,12 @@ export default function page() {
     },
     {
       name: "Landing Page - HR Management",
-      link: "/best-hr-training-course-in-kolkata",
+      link: "/best-hr-training-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/HRMLandingImage.png",
     },
     {
       name: "Landing Page - Graphic Design",
-      link: "/best-graphic-design-course-in-kolkata",
+      link: "/best-graphic-design-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/graphicsDesignImage.jpg",
     },
     {
@@ -42,13 +42,13 @@ export default function page() {
     },
     {
       name: "Landing Page - Animation & VFX",
-      link: "/animation-vfx-institute-kolkata",
+      link: "/animation-vfx-institute-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/AVLandingCardImage.webp",
     },
 
     {
       name: "Landing Page - Data Science",
-      link: "/best-data-science-course-in-kolkata",
+      link: "/best-data-science-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/DataScienceLandingCourse.jpg",
     },
     {
@@ -91,22 +91,22 @@ export default function page() {
     },
     {
       name: "Landing Page - MEAN Stack",
-      link: "/mean-stack-training-course-in-kolkata",
+      link: "/mean-stack-training-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/MeanStackLandingImage.jpg",
     },
     {
       name: "Landing Page - MERN Stack",
-      link: "/best-mern-stack-training-course-in-kolkata",
+      link: "/best-mern-stack-training-course-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/MernStackLandingImage.jpg",
     },
     {
       name: "Landing Page - PHP MySql",
-      link: "/best-php-mysql-training-institute-in-kolkata",
+      link: "/best-php-mysql-training-institute-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/PhpMysqlLandingImage.jpg",
     },
     {
       name: "Landing Page - Wordpress Development",
-      link: "/wordpress-training-institute-in-kolkata",
+      link: "/wordpress-training-institute-in-mumbai",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/WordpressLandingImage.png",
     },
   ];

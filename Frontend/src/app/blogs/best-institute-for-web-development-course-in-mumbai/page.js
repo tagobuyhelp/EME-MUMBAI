@@ -8,26 +8,26 @@ import StickyCTAButton from "../Components/stickyCTAButton";
 import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 
 export const metadata = {
-  title: "Best Institute For Web Development Course in Kolkata",
+  title: "Best Institute For Web Development Course in Mumbai",
   description:
-    "We Provide the best web development institute in kolkata with placement, web development training in kolkata, web design and development course in kolkata.",
+    "We Provide the best web development institute in Mumbai with placement, web development training in Mumbai, web design and development course in Mumbai.",
   keywords: [
-    "web development course kolkata",
-    "best institute for web development course in kolkata",
-    "best web development institute in kolkata",
-    "best web development training institute in kolkata",
-    "web design and development course in kolkata",
-    "web design training institute in kolkata",
-    "web developer course in kolkata",
-    "web development course fees in kolkata",
-    "web development course in kolkata with placement",
-    "web development training in kolkata",
-    "web development training institute in kolkata",
-    "best web development institute in kolkata with placement",
+    "web development course Mumbai",
+    "best institute for web development course in Mumbai",
+    "best web development institute in Mumbai",
+    "best web development training institute in Mumbai",
+    "web design and development course in Mumbai",
+    "web design training institute in Mumbai",
+    "web developer course in Mumbai",
+    "web development course fees in Mumbai",
+    "web development course in Mumbai with placement",
+    "web development training in Mumbai",
+    "web development training institute in Mumbai",
+    "best web development institute in Mumbai with placement",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/best-institute-for-web-development-course-in-kolkata",
+      "https://mumbai.emeacademy.co.in/blogs/best-institute-for-web-development-course-in-mumbai",
   },
 };
 

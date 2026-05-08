@@ -146,7 +146,7 @@ export default function page() {
         width: 613,
         height: 180,
       },
-      // link: "/advanced-digital-marketing-certificate-course-in-kolkata",
+      link: "/advanced-digital-marketing-certificate-course-in-mumbai",
       imageBgColor: "#005CE2",
       title: "Advanced Digital Marketing (Facebook & Google Ads)",
       description:
@@ -258,7 +258,7 @@ export default function page() {
         width: 613,
         height: 180,
       },
-      // link: "/diploma-in-advance-digital-marketing-courses-in-kolkata",
+      link: "/diploma-in-advance-digital-marketing-courses-in-mumbai",
       imageBgColor: "#04142E",
       title: "Master Digital Marketing with AI",
       description:

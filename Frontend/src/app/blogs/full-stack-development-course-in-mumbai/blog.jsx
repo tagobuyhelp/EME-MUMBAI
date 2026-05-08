@@ -117,7 +117,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 id="your-ultimate-guide-to-full-stack-development-courses-at-eme-academy" className="text-[18px] font-[700] leading-[24px]">Your Ultimate Guide to Full Stack Development Courses at EME Academy</h1>
                     <p>
-                        Ready to dive into the dynamic world of web development? Look no further than EME Academy, <strong>the best institute for web development course in Kolkata.</strong>
+                        Ready to dive into the dynamic world of web development? Look no further than EME Academy, <strong>the best institute for web development course in Mumbai.</strong>
                     </p>
                     <div className="w-full mx-auto flex justify-center  lg:hidden  ">
                         <BlogAdmissionForm {..._this} />
@@ -148,7 +148,7 @@ export default function WebDevelopmentBlog({
                     </p>
                     <h3 className="font-[600] leading-[24px]">Full Stack Web Development Course</h3>
                     <p>
-                        Our <strong>full stack web development course in Kolkata</strong> is designed to cover all aspects of web development. From HTML, CSS, and JavaScript to Node.js, Express, and MongoDB, this course ensures you gain a thorough understanding of both front-end and back-end technologies. With hands-on projects and real-world assignments, you will develop the practical skills needed to succeed in the industry.
+                        Our <strong>full stack web development course in Mumbai</strong> is designed to cover all aspects of web development. From HTML, CSS, and JavaScript to Node.js, Express, and MongoDB, this course ensures you gain a thorough understanding of both front-end and back-end technologies. With hands-on projects and real-world assignments, you will develop the practical skills needed to succeed in the industry.
                     </p>
 
                     <NewsLogo />
@@ -157,7 +157,7 @@ export default function WebDevelopmentBlog({
                         Full Stack Developer Course with Placement
                     </h3>
                     <p>
-                        The <strong>full stack developer course in Kolkata with placement</strong> at EME Academy guarantees job support to help you secure a position after graduation. Our dedicated placement cell works with top companies to provide you with the best job opportunities, ensuring a smooth transition from education to employment.
+                        The <strong>full stack developer course in Mumbai with placement</strong> at EME Academy guarantees job support to help you secure a position after graduation. Our dedicated placement cell works with top companies to provide you with the best job opportunities, ensuring a smooth transition from education to employment.
                     </p>
                     <h3 className="font-[600] leading-[24px]">Specialized Training Programs to Enhance Skills Further</h3>
                     <p>
@@ -171,17 +171,17 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 id="mean-stack-training" className="text-[18px] font-[700] leading-[24px]">MEAN Stack Training</h1>
                     <p>
-                        Our <strong>mean stack training in Kolkata</strong> focuses on MongoDB, Express.js, Angular, and Node.js. This popular stack is used by many companies for its efficiency and scalability. The course includes in-depth training on each component, preparing you to build robust, high-performance web applications.
+                        Our <strong>mean stack training in Mumbai</strong> focuses on MongoDB, Express.js, Angular, and Node.js. This popular stack is used by many companies for its efficiency and scalability. The course includes in-depth training on each component, preparing you to build robust, high-performance web applications.
                     </p>
                     <h3 className="font-[600] leading-[24px]">Flexible and Affordable Full Stack Courses: Learn at your own Pace</h3>
                     <p>
-                        At EME Academy, we understand the importance of affordability and flexibility. Our <strong>full stack developer course in Kolkata</strong> are designed to be competitive, offering great value for the comprehensive education you receive. We provide both online and offline learning options, ensuring you can balance your studies with other commitments.
+                        At EME Academy, we understand the importance of affordability and flexibility. Our <strong>full stack developer course in Mumbai</strong> are designed to be competitive, offering great value for the comprehensive education you receive. We provide both online and offline learning options, ensuring you can balance your studies with other commitments.
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Student Success Stories Success Stories: From EME Academy to Top Tech Firms</h1>
                     <p>
-                        Our students’ success is our pride. Graduates from EME Academy have gone on to work with leading companies, thanks to the robust training and support they received. The full stack developer course in Kolkata with placement ensures that you are not just learning, but also applying your knowledge in real-world scenarios. Our alumni network is a testament to the quality education we provide.
+                        Our students’ success is our pride. Graduates from EME Academy have gone on to work with leading companies, thanks to the robust training and support they received. The full stack developer course in Mumbai with placement ensures that you are not just learning, but also applying your knowledge in real-world scenarios. Our alumni network is a testament to the quality education we provide.
                     </p>
 
                 </div>
@@ -198,7 +198,7 @@ export default function WebDevelopmentBlog({
                     </p>
                     <h3 className="font-[600] leading-[24px]">Expert Trainers and State-of-the-Art Facilities</h3>
                     <p>
-                        EME Academy is recognized as the <strong>full stack developer course in Kolkata</strong> due to our commitment to excellence. Our courses are taught by industry experts who bring real-world experience into the classroom. Our state-of-the-art facilities provide an ideal learning environment, equipped with the latest tools and technologies.
+                        EME Academy is recognized as the <strong>full stack developer course in Mumbai</strong> due to our commitment to excellence. Our courses are taught by industry experts who bring real-world experience into the classroom. Our state-of-the-art facilities provide an ideal learning environment, equipped with the latest tools and technologies.
                     </p>
                     <div>
                         <Cards cards={placementCards} id={2} _this={_this}/>
@@ -211,7 +211,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Transform your Future: Start your Journey at EME Academy</h1>
                     <p>
-                        If you’re looking for the <strong>best web development training institute in Kolkata,</strong> EME Academy is your ideal choice. Our courses, affordable fees, expert trainers, and strong placement support make us the <strong>best web development institute in Kolkata with placement.</strong> Don’t miss out on the opportunity to transform your future. Enroll today and take the first step towards a rewarding career in web development.
+                        If you’re looking for the <strong>best web development training institute in Mumbai,</strong> EME Academy is your ideal choice. Our courses, affordable fees, expert trainers, and strong placement support make us the <strong>best web development institute in Mumbai with placement.</strong> Don’t miss out on the opportunity to transform your future. Enroll today and take the first step towards a rewarding career in web development.
                     </p>
                 </div>
 
@@ -222,7 +222,7 @@ export default function WebDevelopmentBlog({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 id="your-path-to-success-starts-here" className="text-[18px] font-[700] leading-[24px]">Your Path to Success Starts Here</h1>
                     <p>
-                        EME Academy is more than just a <strong>web development training institute in Kolkata;</strong> we are your partners in building a successful career. With a focus on practical skills, real-world applications, and strong industry connections, we ensure that you are job-ready upon graduation. Our <strong>full stack training in Kolkata</strong> is designed to provide you with all the tools you need to succeed in the competitive field of web development.
+                        EME Academy is more than just a <strong>web development training institute in Mumbai;</strong> we are your partners in building a successful career. With a focus on practical skills, real-world applications, and strong industry connections, we ensure that you are job-ready upon graduation. Our <strong>full stack training in Mumbai</strong> is designed to provide you with all the tools you need to succeed in the competitive field of web development.
                     </p>
                     <p>
                         For more information and to enroll in our courses, visit the EME Academy Web Development Courses.
@@ -242,7 +242,7 @@ export default function WebDevelopmentBlog({
                     {/* Company Logo  */}
                     <CompanyLogo _this={_this} />
                     <p>
-                        Essential knowledge and practical, real-world application of skills come alive during the course of the full stack training in Kolkata with placement. EME Academy graduates are now thriving in top tech firms, and innovative startups. This reflects the high-quality education and hands-on experience they gained at EME Academy. They were well-trained for the demands and opportunities of the tech industry.
+                        Essential knowledge and practical, real-world application of skills come alive during the course of the full stack training in Mumbai with placement. EME Academy graduates are now thriving in top tech firms, and innovative startups. This reflects the high-quality education and hands-on experience they gained at EME Academy. They were well-trained for the demands and opportunities of the tech industry.
                     </p>
                 </div>
 

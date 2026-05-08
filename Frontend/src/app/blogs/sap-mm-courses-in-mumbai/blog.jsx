@@ -74,7 +74,7 @@ export default function SAPMMBlog({
             className="w-full rounded-md"
             width={500}
             height={500}
-            src="/assets/images/blog/SAP_MM_Course_In_Kolkata.jpeg"
+            src="/assets/images/blog/SAP_MM_Course_In_Mumbai.jpeg"
             alt="Blog Image"
           />
           <div>
@@ -128,7 +128,7 @@ export default function SAPMMBlog({
               href="https://emeacademy.co.in/course/sap-mm"
               target="_blank"
             >
-              SAP MM course in Kolkata
+              SAP MM course in Mumbai
             </Link>
             , then this blog is perfect for you. So let&apos;s start together.
           </p>
@@ -262,8 +262,8 @@ export default function SAPMMBlog({
             procurement and inventory to vendor and compliance management, SAP
             MM offers end-to-end solutions that can lead to operational
             excellence. So, if you are ready to boost your career in SAP, then
-            enroll in a SAP MM course in Kolkata to fulfil your dream. To learn
-            about the SAP MM course fees in Kolkata, you can check out our
+            enroll in a SAP MM course in Mumbai to fulfil your dream. To learn
+            about the SAP MM course fees in Mumbai, you can check out our
             website,{" "}
             <Link
               className="text-[#0057E2] underline"

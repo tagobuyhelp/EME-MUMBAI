@@ -8,22 +8,22 @@ import StickyCTAButton from "../Components/stickyCTAButton";
 import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 
 export const metadata = {
-  title: "Full stack web development course in kolkata with placement",
+  title: "Full stack web development course in Mumbai with placement",
   description:
-    "We Provide the Full stack web development course in Kolkata with placement, full stack developer course in Kolkata, full stack training in Kolkata.",
+    "We Provide the Full stack web development course in Mumbai with placement, full stack developer course in Mumbai, full stack training in Mumbai.",
   keywords: [
-    "full stack developer course in kolkata",
-    "full stack web development course in kolkata",
-    "full stack development course in kolkata",
-    "full stack training in kolkata",
-    "mean stack training in kolkata",
-    "full stack developer course in kolkata with placement",
-    "full stack development course in kolkata with placement",
-    "full stack web development course in kolkata with placement",
+    "full stack developer course in Mumbai",
+    "full stack web development course in Mumbai",
+    "full stack development course in Mumbai",
+    "full stack training in Mumbai",
+    "mean stack training in Mumbai",
+    "full stack developer course in Mumbai with placement",
+    "full stack development course in Mumbai with placement",
+    "full stack web development course in Mumbai with placement",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/full-stack-development-course-in-kolkata",
+      "https://mumbai.emeacademy.co.in/blogs/full-stack-development-course-in-mumbai",
   },
 };
 
