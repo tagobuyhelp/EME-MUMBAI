@@ -92,7 +92,7 @@ export default function PowerBiBlog({
                         As businesses are growing progressively, they are becoming more and more dependent on
                         data to drive decision-making, and the demand for professionals with robust data analysis
                         skills is on the rise. Power BI, a leading business analytics tool by Microsoft allows users to
-                        connect, visualize and share data insights with simple steps. Enrolling in a <Link className="text-[#0057E2] underline" href="https://emeacademy.co.in/power-bi-course-in-kolkata" target="_blank">Power BI course in Kolkata</Link> could be the ideal choice for 2025 if you want to improve your professional
+                        connect, visualize and share data insights with simple steps. Enrolling in a <Link className="text-[#0057E2] underline" href="https://mumbai.emeacademy.co.in/power-bi-course-in-mumbai" target="_blank">Power BI course in Mumbai</Link> could be the ideal choice for 2025 if you want to improve your professional
                         prospects and hone your analytical skills.
                     </p>
                     <div className="w-full mx-auto flex justify-center  lg:hidden  ">
@@ -202,7 +202,7 @@ export default function PowerBiBlog({
                     <p>
                         In 2025, as businesses continue to embrace digital transformation, the need for
                         professionals skilled in data analysis tools like Power BI will only increase. Enrolling in a
-                        Power BI course in Kolkata at <Link className="text-[#0057E2] underline" href="https://www.google.com/search?num=10&sca_esv=3ece70b1d1e0fb0d&rlz=1C1RXQR_enIN1008IN1008&sxsrf=AHTn8zr-w4E45PEXf0GdlUYBrVaJwREmOg:1743505216187&kgmid=/g/11y6_bpjy4&q=EME+Academy+-+Professional+SAP+%7C+Digital+Marketing+%7C+Web+Development+%7C+Data+Analytics+%7C+Graphic+Designing+Institute&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=e4811c546e9a29cf" target="_blank">EME Academy</Link> will not only equip you with the technical skills
+                        Power BI course in Mumbai at <Link className="text-[#0057E2] underline" href="https://www.google.com/search?num=10&sca_esv=3ece70b1d1e0fb0d&rlz=1C1RXQR_enIN1008IN1008&sxsrf=AHTn8zr-w4E45PEXf0GdlUYBrVaJwREmOg:1743505216187&kgmid=/g/11y6_bpjy4&q=EME+Academy+-+Professional+SAP+%7C+Digital+Marketing+%7C+Web+Development+%7C+Data+Analytics+%7C+Graphic+Designing+Institute&shndl=30&shem=lcuae,uaasie&source=sh/x/loc/uni/m1/1&kgs=e4811c546e9a29cf" target="_blank">EME Academy</Link> will not only equip you with the technical skills
                         required to work with data but also position you as a valuable asset in your organization or
                         job market.
                     </p>

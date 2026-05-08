@@ -42,7 +42,7 @@ export default function MarketingAdvancedDigialHero({
           </h1>
           <p className="w-full relative leading-[18.75px]  text-[#727272] text-[12px] md:text-[14px] text-center lg:text-left">
             GET AN ASSORTMENT of job-oriented Digital Marketing TRAINING courses
-            in Kolkata
+            in Mumbai
           </p>
 
           <div className="w-full flex flex-row items-start justify-center lg:justify-start gap-5 text-mini text-goldenrod font-font-awesome-5-free pt-[10px] pb-5">

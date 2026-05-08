@@ -9,13 +9,13 @@ import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 
 export const metadata = {
   title:
-    "Advance Your Career with Executive HR Programs in Kolkata | EME Academy",
+    "Advance Your Career with Executive HR Programs in Mumbai | EME Academy",
   description:
-    "Explore EME Academy’s executive HR courses in Kolkata designed for working professionals. Learn recruitment, employee relations, performance management, and leadership skills to thrive in top HR roles.",
+    "Explore EME Academy’s executive HR courses in Mumbai designed for working professionals. Learn recruitment, employee relations, performance management, and leadership skills to thrive in top HR roles.",
   keywords: [""],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/executive-human-resources-programs",
+      "https://mumbai.emeacademy.co.in/blogs/executive-human-resources-programs",
   },
 };
 

@@ -32,7 +32,7 @@ export default function LeftSection() {
                                 "Course Offerings",
                                 "Course Fees Structure",
                                 "Student Success Stories",
-                                "Join the Best Web Development Training in Kolkata",
+                                "Join the Best Web Development Training in Mumbai",
                             ].map((item) => {
                                 // Create slug from title
                                 const slug = item

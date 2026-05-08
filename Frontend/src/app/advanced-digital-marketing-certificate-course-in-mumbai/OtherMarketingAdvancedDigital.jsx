@@ -26,7 +26,7 @@ export default function OtherMarketingAdvancedDigital() {
             assistance2: "Assistance",
             decsTwo: "Certification Assistance",
             decsThree: "Cutting-edge Curriculum.",
-            link: "/diploma-in-advance-digital-marketing-courses-in-kolkata",
+            link: "/diploma-in-advance-digital-marketing-courses-in-mumbai",
         },
         {
             name: "Advanced",
@@ -41,7 +41,7 @@ export default function OtherMarketingAdvancedDigital() {
             assistance2: "Assistance",
             decsTwo: "Certification Assistance",
             decsThree: "Cutting-edge Curriculum.",
-            link: "/advanced-digital-marketing-certificate-course-in-kolkata",
+            link: "/advanced-digital-marketing-certificate-course-in-mumbai",
         },
     ];
 

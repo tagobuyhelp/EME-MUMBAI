@@ -28,7 +28,7 @@ export default function LeftSection() {
                     <ScrollArea className="h-40">
                         <ul className="space-y-3 text-sm text-[#7F7F7F]">
                             {[
-                                "Executive HR Programs in Kolkata: Advancing Your Career",
+                                "Executive HR Programs in Mumbai: Advancing Your Career",
                                 "Why Choose the HR Programs?",
                                 "What you could learn in the HR course?",
                                 "Seamless Recruitment and Talent Acquisition:",

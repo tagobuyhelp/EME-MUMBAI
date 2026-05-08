@@ -321,7 +321,7 @@ export default function WebDevelopmentBlog({
                 <CompanyLogo _this={_this} />
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 id="join-the-best-web-development-training-in-kolkata" className="text-[18px] font-[700] leading-[24px]">Join the Best Web Development Training in Mumbai</h1>
+                    <h1 id="join-the-best-web-development-training-in-mumbai" className="text-[18px] font-[700] leading-[24px]">Join the Best Web Development Training in Mumbai</h1>
                     <p>
                         If you’re looking for the best web development training institute in Mumbai, EME Academy is your ideal choice. Our courses, affordable fees, expert trainers, and strong placement support make us the best web development institute in Mumbai.
                     </p>

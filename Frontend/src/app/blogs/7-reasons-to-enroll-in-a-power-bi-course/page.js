@@ -10,11 +10,11 @@ import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 export const metadata = {
   title: "Top 7 Benefits of Learning Power BI for Career Growth - EME Academy",
   description:
-    "Want to grow your career in data analytics? Discover 7 reasons to take a Power BI course in Kolkata 2025 and gain in-demand skills!",
+    "Want to grow your career in data analytics? Discover 7 reasons to take a Power BI course in Mumbai 2025 and gain in-demand skills!",
   keywords: [""],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/7-reasons-to-enroll-in-a-power-bi-course",
+      "https://mumbai.emeacademy.co.in/blogs/7-reasons-to-enroll-in-a-power-bi-course",
   },
 };
 
