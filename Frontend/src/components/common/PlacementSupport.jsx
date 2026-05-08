@@ -35,7 +35,7 @@ export default function PlacementSupport({
   const features = [
     {
       id: 1,
-      title: "Resume & LinkedIn",
+      title: "Profile & Brand Building",
       icon: FileText,
       color: "text-blue-500",
       bg: "bg-blue-50",
@@ -47,7 +47,7 @@ export default function PlacementSupport({
     },
     {
       id: 2,
-      title: "Aptitude Training",
+      title: "Cognitive & Aptitude Prep",
       icon: Brain,
       color: "text-purple-500",
       bg: "bg-purple-50",
@@ -59,7 +59,7 @@ export default function PlacementSupport({
     },
     {
       id: 3,
-      title: "Interview Mastery",
+      title: "Interview Confidence",
       icon: MessagesSquare,
       color: "text-orange-500",
       bg: "bg-orange-50",
@@ -71,7 +71,7 @@ export default function PlacementSupport({
     },
     {
       id: 4,
-      title: "Expert Mentorship",
+      title: "Dedicated Career Coaching",
       icon: UserCheck,
       color: "text-green-500",
       bg: "bg-green-50",
@@ -83,7 +83,7 @@ export default function PlacementSupport({
     },
     {
       id: 5,
-      title: "Hiring Network",
+      title: "Exclusive Corporate Network",
       icon: Briefcase,
       color: "text-indigo-500",
       bg: "bg-indigo-50",
@@ -95,7 +95,7 @@ export default function PlacementSupport({
     },
     {
       id: 6,
-      title: "Portfolio Building",
+      title: "Real-World Portfolio",
       icon: Layout,
       color: "text-pink-500",
       bg: "bg-pink-50",
@@ -123,7 +123,7 @@ export default function PlacementSupport({
             className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
           >
             <Briefcase className="h-3.5 w-3.5" />
-            Career Excellence
+            Your Bridge to the Corporate World
           </motion.div>
 
           <motion.h2 
@@ -133,10 +133,7 @@ export default function PlacementSupport({
             transition={{ delay: 0.1 }}
             className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
           >
-            Placement <span className="text-[#0057E2]">Support</span>
-            <span className="block text-base md:text-xl text-gray-500 font-bold mt-0.5">
-              to Land Your Dream Job
-            </span>
+            Placement Support to <span className="text-[#0057E2]">Secure Your Dream Role</span>
           </motion.h2>
 
           <motion.div

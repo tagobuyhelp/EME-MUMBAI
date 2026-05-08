@@ -116,7 +116,7 @@ export default function PodcastHome() {
       {/* Title */}
       <div className="text-center max-w-2xl mb-8">
         <h2 className="flex flex-col items-center text-[#4B4B4B] text-lg md:text-2xl font-bold">
-          <span>What Our Students Say</span>
+          <span>Real Stories of Career Transformations</span>
           <Image
             src="/assets/images/Home/icons/StudentsLineVector.svg"
             alt="decorative line"
@@ -126,8 +126,9 @@ export default function PodcastHome() {
           />
         </h2>
         <p className="text-[#454545] text-sm md:text-base mt-3 leading-relaxed">
-          Many of our learners began their journey with zero knowledge and
-          graduate as skilled professionals with real-world portfolios and MNC job offers.
+          Watch how countless fresh graduates and beginners started their journey
+          from scratch and evolved into highly sought-after professionals,
+          walking away with undeniable portfolios and lucrative MNC job offers.
         </p>
       </div>
 
@@ -228,7 +229,7 @@ export default function PodcastHome() {
         <CarouselPrevious className="absolute -left-3 md:-left-8 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-all" />
         <CarouselNext className="absolute -right-3 md:-right-8 top-1/2 -translate-y-1/2 bg-white rounded-full shadow-md hover:bg-gray-100 transition-all" />
       </Carousel>
-      <CTAButton name="Book a Free Demo"
+      <CTAButton name="Enroll Now"
         styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-50 rounded-lg"
         _this={_this}
       />

@@ -72,7 +72,8 @@ export default function Trustedby() {
               transition={{ delay: 0.1 }}
               className="text-gray-600 text-[12px] md:text-sm leading-relaxed max-w-lg font-medium"
             >
-              Join Mumbai&apos;s highest-rated institute. Industry-focused excellence with expert mentorship and hands-on learning for your career success.
+              Empowering Career Growth through Hands-On Expert Mentorship. Join
+              Mumbai&apos;s highest-rated institute for industry-focused excellence.
             </motion.p>
 
             <motion.div

@@ -27,6 +27,11 @@ const courseCategories = [
     name: "Digital Marketing",
     link: "/maincourse/digital-marketing-course-in-mumbai",
   },
+  {
+    id: 5,
+    name: "Full-Stack IT",
+    link: "/maincourse/web-development",
+  },
 ];
 
 // Stats for the hero section
@@ -73,7 +78,7 @@ export const Hero = () => {
     "Prompt Engineering with AI Course",
     "LinkedIn Course",
   ];
-  const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
+  const Brochure = "https://drive.google.com/file/d/1eGFi7GlCRTLehu5nljGHAwOyFvdwUFiJ/view?usp=sharing";
   const BrochureName = "EME-brochure-2024.pdf";
   const _this = {
     isModalOpen,
@@ -128,12 +133,12 @@ export const Hero = () => {
                   priority
                 />
               </span>{" "}
-              Career Building Program
+              Explore Courses
             </div>
 
             <div className="space-y-3">
               <h1 className="text-[22px] flex flex-wrap gap-1 font-bold tracking-tight sm:text-[22px] md:text-[42px] leading-[1]">
-                Learn from Western{" "}
+                EME Academy Mumbai | Western{" "}
                 <span className="text-orange-500 relative flex flex-col">
                   India’s No. 1
                   <motion.span
@@ -152,11 +157,13 @@ export const Hero = () => {
                     />
                   </motion.span>
                 </span>{" "}
-                Professional Training Institute
+                Professional Training Institute
               </h1>
               <p className="text-muted-foreground text-[14px] md:text-[16px]">
-                Future-Proof Your Career with Industry-Oriented Courses Designed
-                for High Placement Success
+                Future-proof your career with Mumbai's leading IT training
+                institute. EME Academy offers industry-oriented courses and
+                guaranteed support from a top placement institute. Book a free
+                demo today!
               </p>
             </div>
 
@@ -362,7 +369,7 @@ export const Hero = () => {
                     </div>
                     <div className="flex flex-col items-end">
                       <span className="text-xs md:text-sm font-semibold text-[#111827]">
-                        5000+ successful careers
+                        5,000+ successful careers
                       </span>
                       <span className="text-[10px] md:text-[11px] text-[#6B7280]">
                         Join our next placement batch

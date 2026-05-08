@@ -82,17 +82,20 @@ export default function FeaturedIn({
     <div className="w-full max-w-[1200px] gap-4 md:gap-10 flex flex-col md:flex-row justify-center md:justify-between items-center py-4 md:py-10 px-6 mx-auto">
       <div className="flex flex-col justify-center items-center md:items-start ">
         <h2 className="text-[18px] md:text-[26px] font-black text-[#232D63] leading-tight text-center md:text-left">
-          When the Media Takes Notice
+          Making Headlines for Transforming Careers
         </h2>
         <p className="text-[#0057E2] font-bold text-[12px] md:text-[14px] mt-1 text-center md:text-left">
-          They Trusted Us — So Can You
+          Backed by India’s Leading News Networks
         </p>
         <p className="text-[#4B4B4B] font-medium text-[12px] md:text-[14px] mt-2 max-w-[520px] text-center md:text-left">
-          From Times of India to TV9 Bangla — the media has noticed why EME Academy works.
+          From The Times of India to top national broadcasters, the press is
+          talking about how Mumbai&apos;s premier IT training institute is
+          reshaping the tech hiring landscape. We don&apos;t just promise
+          results; we make the news for actually delivering them.
         </p>
 
         <CTAButton
-          name="Check My Eligibility →"
+          name="Evaluate My Eligibility →"
           styleClasses="mt-4 bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-50 text-white rounded-xl font-bold text-[12px] md:text-[14px] px-8 h-11"
           _this={_this}
         />

@@ -68,7 +68,7 @@ function PlacementPartners() {
                         Our Students are
                     </div>
                     <div className="text-[#2251FF] lg:leading-5 lg:text-xl  font-bold">
-                        <span className="text-[#E87D1A]">W</span>orking In
+                        <span className="text-[#E87D1A]">Placed</span> In
                     </div>
                 </div>
 

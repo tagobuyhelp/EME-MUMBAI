@@ -103,7 +103,8 @@ export default function CoursesSection() {
       originalPrice: 40000,
       discountedPrice: 35000,
       saving: "12% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Strategic Learning",
       link: "/human-resource-course-in-mumbai",
       description: "Master Payroll, Recruitment, Compliance, and Strategic HR Management.",
       features: ["Practical Payroll", "Corporate HR Skills", "Mock Interviews"]
@@ -119,7 +120,8 @@ export default function CoursesSection() {
       originalPrice: 50000,
       discountedPrice: 40000,
       saving: "20% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Job Ready",
       link: "/maincourse/web-development",
       description: "Full Stack Development using MERN stack - MongoDB, Express, React, Node.",
       features: ["Real-world Apps", "GitHub Portfolio", "Agile Training"]
@@ -135,7 +137,8 @@ export default function CoursesSection() {
       originalPrice: 50000,
       discountedPrice: 40000,
       saving: "20% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Elite Tech",
       link: "/data-science-course-in-mumbai",
       description: "Advanced Machine Learning, Deep Learning, and AI with Python.",
       features: ["Capstone Projects", "Statistical Analysis", "Research Support"]
@@ -151,7 +154,8 @@ export default function CoursesSection() {
       originalPrice: 30000,
       discountedPrice: 25000,
       saving: "16% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Creative Excellence",
       link: "/maincourse/graphic-design-course-in-mumbai",
       description: "Master Photoshop, Illustrator, InDesign for professional visual communication.",
       features: ["Creative Portfolio", "Design Principles", "Freelancing Tips"]
@@ -167,7 +171,8 @@ export default function CoursesSection() {
       originalPrice: 25000,
       discountedPrice: 20000,
       saving: "20% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Practical Finance",
       link: "/maincourse/business-accounting-course-in-mumbai",
       description: "Practical Tally Prime, GST, Income Tax, and Financial Accounting.",
       features: ["GST Filing", "Taxation Skills", "Tally Certification"]
@@ -183,7 +188,8 @@ export default function CoursesSection() {
       originalPrice: 30000,
       discountedPrice: 25000,
       saving: "16% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      popular: true,
+      popularText: "Career Growth",
       link: "/best-linkedin-course-for-career-hiring-growth",
       description: "Master LinkedIn for career growth, personal branding, and lead generation.",
       features: ["Personal Branding", "Lead Generation", "Career Growth Strategies"]
@@ -251,8 +257,10 @@ export default function CoursesSection() {
             transition={{ delay: 0.2 }}
             className="text-gray-600 max-w-2xl text-base md:text-lg mb-8"
           >
-            Master in-demand skills with Mumbai&apos;s leading IT training institute. 
-            Join 5000+ successful alumni who have transformed their careers.
+            Master in-demand skills with Mumbai&apos;s leading IT training
+            institute. Join 5,000+ successful alumni who have transformed their
+            careers through our job-ready curriculum and dedicated placement
+            support.
           </motion.p>
         </div>
 

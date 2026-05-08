@@ -113,7 +113,7 @@ export function NewsHomeLanding({
       {/* Title */}
       <div className="flex flex-col items-center justify-center gap-x-2 text-[#042A76] text-[18px] leading-10 lg:text-[22px] font-bold">
         <div>
-          In The<span className="text-[#E87D1A]"> News</span>
+          Front-Page Impact: The<span className="text-[#E87D1A]"> EME Story</span>
         </div>
       </div>
 

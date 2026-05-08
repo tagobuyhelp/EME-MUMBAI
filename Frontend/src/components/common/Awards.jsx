@@ -6,10 +6,10 @@ function Awards() {
     <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-center py-4 lg:py-6 px-5 md:px-24">
       <div className="w-full flex flex-col items-center text-center gap-2 mb-5 md:mb-7">
         <div className="text-[#232D63] text-[18px] md:text-[26px] font-black leading-tight">
-          We Don&apos;t Just Talk — We Have Proof
+          Recognized by Experts, Proven by Results
         </div>
         <div className="text-[#E87D1A] text-[12px] md:text-[14px] font-bold">
-          The Industry Noticed. So Should You.
+          Excellence That Speaks for Itself.
         </div>
       </div>
       <div className="w-full h-auto md:h-[350px]   bg-white  shadow-xl  rounded-xl flex flex-col md:flex-row gap-4 items-center overflow-hidden">
@@ -23,9 +23,8 @@ function Awards() {
               className="w-15 h-15 md:w-30 md:h-30"
             />
             <div className=" text-[#232D63] leading-8 text-[20px] lg:text-[22px] font-bold text-start">
-              Proudly recognized as an
-              <span className="text-[#E87D1A]"> award-winning</span>
-              <span> Academy</span>
+              Celebrated Nationwide for
+              <span className="text-[#E87D1A]"> Educational Excellence</span>
               <span className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -53,8 +52,7 @@ function Awards() {
             />
 
             <p className="text-[12px] md:text-[16px] font-semibold text-[#232D63] md:leading-[24px]">
-              Best <span className="text-[#2251FF]">Placement Institute</span>{" "}
-              of the year - 2024
+              Crowned as the <span className="text-[#2251FF]">Best Placement Institute</span> of the year - 2024 (Leadership Award presented by India News Business & NewsX)
             </p>
           </Card>
         </div>

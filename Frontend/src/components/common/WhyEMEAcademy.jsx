@@ -17,43 +17,43 @@ import {
 const features = [
   {
     icon: Award,
-    title: "Expert Mentors",
-    subtitle: "In-depth knowledge from certified professionals with real-world industry insights.",
+    title: "Industry-Expert Mentors",
+    subtitle: "Learn directly from certified experts who bring years of actual corporate experience into the classroom, not just textbook theory.",
     color: "text-blue-500",
     bg: "bg-blue-50",
   },
   {
     icon: Target,
     title: "100% Placement",
-    subtitle: "Resume building, interview prep, and direct job referrals until you get hired.",
+    subtitle: "We stand by you with rigorous interview coaching, resume optimization, and direct referrals to hiring partners until you secure an offer.",
     color: "text-orange-500",
     bg: "bg-orange-50",
   },
   {
     icon: Clock,
-    title: "Flexible Schedule",
-    subtitle: "Learn at your convenience with batch timings for professionals and students.",
+    title: "Adaptive Timings",
+    subtitle: "Designed to fit your life. Whether you are a college student or a working professional, our flexible batches ensure learning never stops.",
     color: "text-green-500",
     bg: "bg-green-50",
   },
   {
     icon: Zap,
-    title: "Hands-on Learning",
-    subtitle: "Enhance your skills with practical capstone projects to apply concepts confidently.",
+    title: "Project-Based Curriculum",
+    subtitle: "Stop memorizing and start executing. Build a compelling portfolio of projects that prove your skills to recruiters.",
     color: "text-purple-500",
     bg: "bg-purple-50",
   },
   {
     icon: LifeBuoy,
-    title: "Career Assistance",
-    subtitle: "Continuous mentorship, skill updates, and career guidance throughout your journey.",
+    title: "Career Guidance",
+    subtitle: "Your journey doesn't end with a certificate. Get continuous mentorship, upskilling advice, and career roadmaps even after you graduate.",
     color: "text-indigo-500",
     bg: "bg-indigo-50",
   },
   {
     icon: CreditCard,
-    title: "Easy EMI Options",
-    subtitle: "Make learning affordable with flexible monthly installment plans tailored to you.",
+    title: "EMI Options",
+    subtitle: "Enjoy affordable learning with easy, no-cost monthly EMI options. Invest in your future with easy monthly installments.",
     color: "text-pink-500",
     bg: "bg-pink-50",
   },
@@ -98,7 +98,7 @@ export default function WhyEMEAcademy() {
               className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
             >
               <CheckCircle2 className="h-3.5 w-3.5" />
-              The EME Advantage
+              The EME Edge
             </motion.div>
 
             <motion.h2 
@@ -108,7 +108,7 @@ export default function WhyEMEAcademy() {
               transition={{ delay: 0.1 }}
               className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
             >
-              Why Choose <span className="text-[#0057E2]">EME Academy Mumbai</span>?
+              What Makes EME Academy the <span className="text-[#0057E2]">Smart Choice</span>?
             </motion.h2>
 
             <motion.div

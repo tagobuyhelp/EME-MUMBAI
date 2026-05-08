@@ -84,7 +84,7 @@ export default function BoardOfAdvisor() {
             className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
           >
             <Users className="h-3.5 w-3.5" />
-            Guidance & Excellence
+            Strategic Leadership
           </motion.div>
 
           <motion.h2 
@@ -94,7 +94,7 @@ export default function BoardOfAdvisor() {
             transition={{ delay: 0.1 }}
             className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
           >
-            Meet Our Board of <span className="text-[#0057E2]">Advisors</span>
+            Meet Our <span className="text-[#0057E2]">World-Class Advisory Board</span>
           </motion.h2>
 
           <motion.div

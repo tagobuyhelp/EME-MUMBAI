@@ -24,9 +24,9 @@ const WhyEMEAcademy = dynamic(() => import("@/components/common/WhyEMEAcademy"))
 
 export const metadata = {
   title:
-    "Mumbai's No 1 Training Institute | Mumbai's No.1 Job Oriented Training Institute - EME Academy Mumbai",
+    "EME Academy Mumbai | Western India’s No. 1 Professional Training Institute",
   description:
-    "We are job oriented training Institute in Mumbai. Best SAP Certification courses, advanced Digital Marketing, and HR Management courses for career growth. Job-oriented & relevant courses in Mumbai at EME Academy Mumbai.",
+    "Future-proof your career with Mumbai's leading IT training institute. EME Academy offers industry-oriented courses and guaranteed support from a top placement institute. Book a free demo today!",
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in",
   },
@@ -34,53 +34,53 @@ export const metadata = {
 const faqs = [
   {
     id: 1,
-    title: "What professional courses does EME Academy Mumbai offer in Mumbai?",
-    desc: "We offer job-oriented IT training in Mumbai, including web development, web designing, data analytics, data science, and digital marketing courses, with expert guidance and placement support."
+    title: "1. What professional courses does EME Academy offer in Mumbai?",
+    desc: "Also, industry-aligned courses for high employability (IB Global, n.d.). Our core programs include Data Analytics, SAP Training (FICO, MM, SD), Digital Marketing, Full Stack Web Development (MERN), HR Management, and Data Science."
   },
   {
     id: 2,
-    title: "Do I need any technical background to enroll in your IT courses?",
-    desc: "No! All our programs including the data analyst course in Mumbai and UI/UX design course are beginner-friendly and perfect for students, freshers, or working professionals looking to upskill."
+    title: "2. Do I need any technical background to enroll in your IT courses?",
+    desc: "Not at all. Whether you are a commerce graduate, an arts student, or only looking for a career change, our curriculum is built from the ground up. Step-by-step, we take you from the basics to execution at a high, practical level."
   },
   {
     id: 3,
-    title: "Will I receive an industry-recognized certificate after course completion?",
-    desc: "Absolutely! EME Academy Mumbai provides globally valid certifications for all our programs, including the best web development course in Mumbai with placement and advanced digital marketing certification."
+    title: "3. Will I receive an industry-recognized certificate after course completion?",
+    desc: "Yes. EME Academy is a certified, award-winning placement institute recognized under MSME, ISO, and Startup India. In addition to EME Academy’s own certification, specific certifications help one become certified in world-recognized certifications like SAP, which multinational corporations actively seek."
   },
   {
     id: 4,
-    title: "What is the course duration and fee structure?",
-    desc: "Our course durations range from 4 to 6 months, depending on the program."
+    title: "4. What is the course duration and fee structure?",
+    desc: "Course lengths usually vary between 3 and 6 months, depending on the course's comprehensiveness. Fees vary by course and range from ₹20,000 to ₹40,000, and are offered with flexible and 0% EMI options so that learners can concentrate on learning, and not on financial troubles."
   },
   {
     id: 5,
-    title: "Do you offer placement support for all courses?",
-    desc: "Yes! We are known as the best institute for digital marketing and web development in Mumbai with placement. Our support includes resume building, interview prep, job referrals, and mock interviews."
+    title: "5. Do you offer placement support for all courses?",
+    desc: "Yes! Yes! 100% placement assistance is given in all the professional training programs. This includes resume building, mock interview preparations, and referrals to more than 50 hiring partners until a placement is made (Talent500, n.d.)."
   },
   {
     id: 6,
-    title: "Can I get a demo class before joining?",
-    desc: "Of course! We offer a free demo session so you can experience our professional web design, data analytics, or digital marketing course before enrolling."
+    title: "6. Can I get a demo class before joining?",
+    desc: "For sure. We encourage it! We want you to feel how our pragmatic methodologies work and communicate with our skilled guides yourself. When it comes to it, just hit the ‘Book a Free Demo’ option on the site to get your session scheduled."
   },
   {
     id: 7,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning"
+    title: "7. What if I miss a class or need revision?",
+    desc: "Not to worry! You will have access to class recordings, study material, and regular doubt-clearing sessions so that you never fall behind, no matter your schedule."
   },
   {
     id: 8,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes. Our data analytics training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs."
+    title: "8. I’m working full-time. Can I still join this course?",
+    desc: "Yes, many of our students are working professionals. We have evening and weekend batches primarily tailored to fit your hectic work schedule, so you can upskill yourself."
   },
   {
     id: 9,
-    title: "How does EME Academy Mumbai ensure practical learning?",
-    desc: "Our curriculum includes live projects, capstone assignments and real-world problem-solving."
+    title: "9. How does EME Academy ensure practical learning?",
+    desc: "We ditch the heavy theory. Our training is focused on execution in the real world, including access to a live server, capstone projects that require active participation, and actual ad campaign creation. That portfolio will be your proof for employers."
   },
   {
     id: 10,
-    title: "How can I enroll in a course at EME Academy Mumbai?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website."
+    title: "10. How can I enroll in a course at EME Academy?",
+    desc: "Enrolling is easy. You can apply now, schedule a free demo, or get in touch with our Mumbai career counselors. We will help you with course selection and admissions, step-by-step."
   },
 ]
 
@@ -150,9 +150,10 @@ export default function Home() {
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent  {..._this}
           students={alumniStudents}
-          title={"Our Alumni "}
-          titleHighlight={"Leading the World"}
-          subtitle={"750+ Students placed last year alone!"}   
+          badgeText="Authentic Success Stories. Zero Fluff."
+          title={"Launching Careers Across "}
+          titleHighlight={"Top Global MNCs"}
+          subtitle={"750+ fresh graduates transitioned into the corporate world last year"}   
         />
       </div>
 
