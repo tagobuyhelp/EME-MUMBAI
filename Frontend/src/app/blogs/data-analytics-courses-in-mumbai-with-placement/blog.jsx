@@ -122,7 +122,7 @@ export default function DataAnalyticsBlog({
                         Best Data Analytics Course
                     </h1>
                     <p>
-                        Master data capabilities through the best data analytics courses in Kolkata.
+                        Master data capabilities through the best data analytics courses in Mumbai.
                         In a modern data-driven environment, people need to master analytics abilities to make smart decisions,
                         strengthen business approaches, and discover essential information.
                         The appropriate course provides learners at every skill level with training in data visualization,
@@ -135,7 +135,7 @@ export default function DataAnalyticsBlog({
                         Expert data analytics skills enable you to read complex information while using modern tools that boost your professional opportunities across industries,
                         including finance, healthcare and marketing.
                         Embark on your data expert training through a data analyst course in
-                        Kolkata now to maintain leadership in today&apos;s rapidly developing digital environment.
+                        Mumbai now to maintain leadership in today&apos;s rapidly developing digital environment.
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
@@ -171,7 +171,7 @@ export default function DataAnalyticsBlog({
                         The mastery of analytical skills enables you to remain connected to current data-driven business operations.
                     </p>
                     <p>
-                        Here are the top benefits of studying from the best institute for data analyst courses in Kolkata.
+                        Here are the top benefits of studying from the best institute for data analyst courses in Mumbai.
                     </p>
                 </div>
                 {/* News Logo  */}
@@ -217,16 +217,16 @@ export default function DataAnalyticsBlog({
 
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 id="discover-top-data-analytics-courses-in-kolkata" className="text-[18px] font-[700] leading-[24px]">
-                        Discover Top Data Analytics Courses in Kolkata
+                    <h1 id="discover-top-data-analytics-courses-in-mumbai" className="text-[18px] font-[700] leading-[24px]">
+                        Discover Top Data Analytics Courses in Mumbai
                     </h1>
                     <p>
-                        In Kolkata, students can access reputable data analytics training programs that teach needed abilities for dynamic field success.
+                        In Mumbai, students can access reputable data analytics training programs that teach needed abilities for dynamic field success.
                         The following list contains leading institutions that deliver complete data analytics programs:
                     </p>
                     <h1 className="text-[18px] font-[700] leading-[24px]">EME</h1>
                     <p>
-                        The EME Academy stands as an acknowledged academic institution that provides diverse data analytics courses in Kolkata with placement.
+                        The EME Academy stands as an acknowledged academic institution that provides diverse data analytics courses in Mumbai with placement.
                         The curriculum provides in-depth Python as well as Machine Learning education combined with SQL, Tableau Power BI and Data Visualization skills.
                         Through their program, students get access to relevant industrial internships and lifetime career resource support which includes
                         interview training and continuous professional development sessions. Students gain a better educational experience through the blended learning format,
@@ -248,7 +248,7 @@ export default function DataAnalyticsBlog({
                     </p>
                     <h1 className="text-[18px] font-[700] leading-[24px]">DataMites</h1>
                     <p>
-                        DataMites, the best data analytics institute in Kolkata, provides an IABAC-accredited Certified Data Analyst program at its Kolkata location. Students in the six-month program get more than 200 learning hours of education that includes fundamental concepts about data analysis and the CRISP-DM model along with univariate methods while learning Excel, MySQL, Tableau, and Power BI.
+                        DataMites, the best data analytics institute in Mumbai, provides an IABAC-accredited Certified Data Analyst program at its Mumbai location. Students in the six-month program get more than 200 learning hours of education that includes fundamental concepts about data analysis and the CRISP-DM model along with univariate methods while learning Excel, MySQL, Tableau, and Power BI.
                     </p>
                 </div>
 
@@ -284,7 +284,7 @@ export default function DataAnalyticsBlog({
                     <p>
                         Data Analytics programs charge different amounts of fees based on the educational institution
                         choice and training length selection and whether the instruction is synchronous or synchronized.
-                        The data analyst course fee in Kolkata and Indian educational institutions span from ₹10,000 to ₹2,50,000.
+                        The data analyst course fee in Mumbai and Indian educational institutions span from ₹10,000 to ₹2,50,000.
                         Students need to pay ₹10,000 to ₹30,000 for short-term certification from FITA Academy,
                         but Full courses at ExcelR and DataMites and Analytics Educator fall under ₹40,000 to ₹70,000.
                     </p>
@@ -297,7 +297,7 @@ export default function DataAnalyticsBlog({
                     <h1 className="text-[18px] font-[700] leading-[24px]">Online Vs Offline: Which Course To Pursue</h1>
                     <p>
                         In modern times, learners have started moving to online means of education.
-                        Here, you can have an overview of which means is better for data analytics training in Kolkata or anywhere.
+                        Here, you can have an overview of which means is better for data analytics training in Mumbai or anywhere.
                     </p>
                 </div>
 
@@ -332,7 +332,7 @@ export default function DataAnalyticsBlog({
                         Conclusion
                     </h1>
                     <p>
-                        Kolkata delivers a selection of prestigious Data Analytics programs that match individual learning necessities together with financial capabilities.
+                        Mumbai delivers a selection of prestigious Data Analytics programs that match individual learning necessities together with financial capabilities.
                         Students can find high-quality data-driven courses at three leading educational institutions: EME, DataMites and Analytics Educator.
                         The Hands-on School of Data Science provides an extensive industry-oriented data science course featuring premium pricing.
                         Affordable education delivers students a solid introduction to foundational learning.

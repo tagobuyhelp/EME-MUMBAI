@@ -191,7 +191,7 @@ export const Footer = () => {
                       </div>
                     </Link>
 
-                    <Link href={"/maincourse/graphic-design"}>
+                    <Link href={"/maincourse/graphic-design-course-in-mumbai"}>
                       <div className='hover:underline cursor-pointer '>
 
                         Graphic Design Course

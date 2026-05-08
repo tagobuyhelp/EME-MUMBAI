@@ -95,7 +95,7 @@ export default function SAP_HCM_Blog({
                         <BlogAdmissionForm {..._this} />
                     </div>
                     <p>
-                        Before you look for the <a href="https://emeacademy.co.in/course/sap-hcm" target="_blank" rel="noopener noreferrer" className="text-[#0057E2] underline">SAP HMC training courses in Kolkata</a>, you should know a little more about this course.
+                        Before you look for the <a href="https://mumbai.emeacademy.co.in/course/sap-hcm" target="_blank" rel="noopener noreferrer" className="text-[#0057E2] underline">SAP HMC training courses in Mumbai</a>, you should know a little more about this course.
                     </p>
                 </div>
 
@@ -141,7 +141,7 @@ export default function SAP_HCM_Blog({
                         well-reputed organizations, particularly big ones, use SAP HCM to handle their HR requirements, and
                         they positively look for competent people who are familiar with these systems. You will position yourself
                         as a highly sought-after HR specialist and help yourself to increase your chances of securing lucrative
-                        employment prospects in top businesses by taking SAP HCM training courses in Kolkata.
+                        employment prospects in top businesses by taking SAP HCM training courses in Mumbai.
                     </p>
                     <div>
                         <Cards cards={placementCards} id={2} _this={_this} />
@@ -164,7 +164,7 @@ export default function SAP_HCM_Blog({
                     <p>
                         Being progressive of the curve is very important in the ever-evolving HR industry. You should learn
                         about the latest trends and best modern practices in HR technology with SAP HCM training classes in
-                        Kolkata. Gaining proficiency in SAP HCM will put you in a strong position to implement new HR
+                        Mumbai. Gaining proficiency in SAP HCM will put you in a strong position to implement new HR
                         procedures and support businesses in maintaining their competitiveness in a dynamic market.
                     </p>
 
@@ -173,7 +173,7 @@ export default function SAP_HCM_Blog({
                     <p>
                         In a competitive job market, professional development is key to advancing your career. With the
                         increasing reliance on technology in the HR field, mastering SAP HCM can significantly boost your career
-                        prospects. By enrolling in SAP HCM training courses in Kolkata from <a href={addressUrl} target="_blank" className="text-[#0057E2] underline">
+                        prospects. By enrolling in SAP HCM training courses in Mumbai from <a href={addressUrl} target="_blank" className="text-[#0057E2] underline">
                             EME Academy
                         </a>,you’ll gain the skills
                         needed to optimize HR processes, enhance your value to employers, and unlock exciting job

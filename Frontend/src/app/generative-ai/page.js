@@ -22,13 +22,13 @@ import WhyChooseEMECard from "@/components/common/WhyChooseEMECard";
 
 
 export const metadata = {
-  title: "Generative AI Course Training in kolkata- EME Academy",
+  title: "Generative AI Course Training in Mumbai- EME Academy",
   description:
-    "Enroll in EME Academy's artificial intelligence course training in kolkata. Master cutting-edge AI technologies with expert-led training, practical projects, and industry-focused curriculum to advance your career",
+    "Enroll in EME Academy's artificial intelligence course training in Mumbai. Master cutting-edge AI technologies with expert-led training, practical projects, and industry-focused curriculum to advance your career",
   keywords: [
-    "generative ai course training in kolkata",
-    "artificial intelligence course training in kolkata",
-    "generative ai training in kolkata",
+    "generative ai course training in Mumbai",
+    "artificial intelligence course training in Mumbai",
+    "generative ai training in Mumbai",
   ],
   alternates: {
     canonical:
@@ -39,14 +39,14 @@ export const metadata = {
 const GenAIfaq = [
   {
     id: 1,
-    title: "Is this course for beginners in Kolkata?",
-    desc: "Yes! Our Generative AI course in Kolkata is beginner-friendly. We start from the basics and build up to advanced tools like LLMs, GANs, and LangChain.",
+    title: "Is this course for beginners in Mumbai?",
+    desc: "Yes! Our Generative AI course in Mumbai is beginner-friendly. We start from the basics and build up to advanced tools like LLMs, GANs, and LangChain.",
   },
   {
     id: 2,
     title:
-      "What is the duration and fee structure of the Generative AI course in Kolkata?",
-    desc: "The course is 6 months long (including internship). The generative AI course fees in Kolkata at EME Academy is ₹40,000, currently offered at a discounted fee of ₹30,000.",
+      "What is the duration and fee structure of the Generative AI course in Mumbai?",
+    desc: "The course is 6 months long (including internship). The generative AI course fees in Mumbai at EME Academy is ₹40,000, currently offered at a discounted fee of ₹30,000.",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ const GenAIfaq = [
   {
     id: 11,
     title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at info@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 
@@ -130,9 +130,9 @@ export default function page() {
   const heroData = {
     badgeText: "Master Generative AI in Just 6 Months",
     title:
-      "Best Generative AI Course in Kolkata – Master LLMs, Prompt Engineering, and AI Tools.",
+      "Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
     description:
-      "Learn from experts at EME Academy – the best generative AI training institute in Kolkata. Our hands-on course covers Large Language Models (LLMs), Prompt Engineering, LangChain, AI app building, and much more.",
+      "Learn from experts at EME Academy – the best generative AI training institute in Mumbai. Our hands-on course covers Large Language Models (LLMs), Prompt Engineering, LangChain, AI app building, and much more.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
@@ -148,11 +148,11 @@ export default function page() {
       imageBgColor: "#04142E",
       title: "Generative AI Course",
       description:
-        "Get certified with one of the most advanced generative AI certification courses in Kolkata, covering everything from GPT to LangChain and model customization.",
+        "Get certified with one of the most advanced generative AI certification courses in Mumbai, covering everything from GPT to LangChain and model customization.",
       descriptionAlert:
-        "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+        "Become job-ready with the best generative AI certification course in Mumbai with hands-on tools and real-world application!",
       hookLine:
-        "Become job-ready with the best generative AI certification course in Kolkata with hands-on tools and real-world application!",
+        "Become job-ready with the best generative AI certification course in Mumbai with hands-on tools and real-world application!",
       topics: [
           {
             title: "Generative AI Fundamentals",
@@ -363,7 +363,7 @@ export default function page() {
     title:
       'Future Prospect of a <span class="text-[#f97316]">Prompt Engineering with AI Course</span>',
     subtitle:
-      "After completing the generative AI course in Kolkata, you'll be ready for exciting roles like:",
+      "After completing the generative AI course in Mumbai, you'll be ready for exciting roles like:",
     careerRoles: [
       "AI Engineer",
       "Prompt Engineer",
@@ -385,7 +385,7 @@ export default function page() {
         id: 1,
         name: "Sayantika Ghosh",
         rating: 5,
-        text: `"I never thought I’d understand terms like transformers or GANs, but EME Academy made it super clear. The trainers explained everything step-by-step. Easily the best generative AI course in Kolkata!"`,
+        text: `"I never thought I’d understand terms like transformers or GANs, but EME Academy made it super clear. The trainers explained everything step-by-step. Easily the best generative AI course in Mumbai!"`,
         src: "/assets/images/Data_Analytics_Landing/icons/MainIcon.png",
       },
       {
@@ -461,7 +461,7 @@ export default function page() {
       id: 1,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
       title: "Sukanya Ghosh",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -471,7 +471,7 @@ export default function page() {
       id: 2,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
       title: "Nuruzzaman Mondal",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -481,7 +481,7 @@ export default function page() {
       id: 3,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
       title: "Vaishnavi",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -491,7 +491,7 @@ export default function page() {
       id: 4,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
       title: "Aniket Shome",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -501,7 +501,7 @@ export default function page() {
       id: 5,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
       title: "Supratim Sen",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -511,7 +511,7 @@ export default function page() {
       id: 6,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
       title: "Souvik Mondal",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -521,7 +521,7 @@ export default function page() {
       id: 7,
       img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
       title: "Koushik Mondal",
-      subtitle: "Kolkata, India",
+      subtitle: "Mumbai, India",
       overlay:
         "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
       titleStyle: "text-base font-medium",
@@ -553,7 +553,7 @@ export default function page() {
       <div id="CourseCurriculum" className="flex justify-center bg-[#ffffff]">
         <CourseDetailsGrid
           title="Explore the Best Generative AI"
-          subtitle="Course in Kolkata"
+          subtitle="Course in Mumbai"
           brochureInfo={{
             Courses: "Prompt Engineering with AI Course",
             email_sender: "ALL",

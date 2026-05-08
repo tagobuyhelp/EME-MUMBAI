@@ -27,7 +27,7 @@ export const metadata = {
   description: "",
   keywords: [""],
   alternates: {
-    canonical: "https://emeacademy.co.in/devops-landing",
+    canonical: "https://mumbai.emeacademy.co.in/devops-landing",
   },
 };
 
@@ -35,7 +35,7 @@ const faq = [
   {
     id: 1,
     title: "Why should I choose EME Academy for DevOps training?",
-    desc: "EME Academy has some of the best faculty members not only in Kolkata but in entire eastern India. Added to this there is our placement guarantee. We have a high-success rate in our DevOps Course."
+    desc: "EME Academy has some of the best faculty members not only in Mumbai but in entire eastern India. Added to this there is our placement guarantee. We have a high-success rate in our DevOps Course."
   },
   {
     id: 2,

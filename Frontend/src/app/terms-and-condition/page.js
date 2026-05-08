@@ -158,7 +158,7 @@ export default function page() {
         <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
           <h2 className="text-[#232D63] text-xl font-semibold">o) Governing Law & Jurisdiction</h2>
           <p className="text-[#727272] text-[12px] lg:text-[16px]">
-            These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising shall be subject to the exclusive jurisdiction of the courts in Kolkata, West Bengal.
+            These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra.
           </p>
         </section>
 
@@ -171,7 +171,7 @@ export default function page() {
           <p>
             <strong className='text-[#0057E2]'>Address: </strong>
             <Link href={addressUrl} target="_blank" className='flex gap-2 cursor-pointer'>
-               EME Academy, 5th Floor, TOWER-1, Globsyn Crystals, 505, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal
+               EME Academy Mumbai, 5th Floor, Mumbai Branch, Maharashtra, India.
             </Link> 
           </p>
           <p>
@@ -184,8 +184,8 @@ export default function page() {
           </p>
           <p>
             <strong className='text-[#0057E2]'>Email: </strong>
-            <a href="mailto:info@emeacademy.co.in" className='hover:underline cursor-pointer'>
-              info@emeacademy.co.in
+            <a href="mailto:infomumbai@emeacademy.co.in" className='hover:underline cursor-pointer'>
+              infomumbai@emeacademy.co.in
             </a>
           </p>
         </section>

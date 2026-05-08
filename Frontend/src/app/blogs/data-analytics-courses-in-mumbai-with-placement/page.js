@@ -8,22 +8,22 @@ import StickyCTAButton from "../Components/stickyCTAButton";
 import { NewsHomeLanding } from "@/components/common/NewsHomeLanding";
 
 export const metadata = {
-  title: "Best Data Analytics Courses in Kolkata With Placement",
+  title: "Best Data Analytics Courses in Mumbai With Placement",
   description:
-    "Join the best data analytics courses in Kolkata at a top data analytics institute in Kolkata with affordable data analyst course fees in Kolkata. Enroll now!",
+    "Join the best data analytics courses in Mumbai at a top data analytics institute in Mumbai with affordable data analyst course fees in Mumbai. Enroll now!",
   keywords: [
-    "data analytics courses in kolkata",
-    "data analyst course in kolkata",
-    "data analytics courses in kolkata with placement",
-    "data analyst course fee in kolkata",
-    "best data analytics courses in kolkata",
-    "data analytics institute in kolkata",
-    "data analytics training in kolkata",
-    "best institute for data analyst course in kolkata",
+    "data analytics courses in Mumbai",
+    "data analyst course in Mumbai",
+    "data analytics courses in Mumbai with placement",
+    "data analyst course fee in Mumbai",
+    "best data analytics courses in Mumbai",
+    "data analytics institute in Mumbai",
+    "data analytics training in Mumbai",
+    "best institute for data analyst course in Mumbai",
   ],
   alternates: {
     canonical:
-      "https://emeacademy.co.in/blogs/data-analytics-courses-in-kolkata-with-placement",
+      "https://mumbai.emeacademy.co.in/blogs/data-analytics-courses-in-mumbai-with-placement",
   },
 };
 

@@ -95,7 +95,7 @@ export default function DigitalMarketing({
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     {/* <h1 className="text-[18px] font-[700] leading-[24px]">Best Digital Marketing Course in Mumbai</h1> */}
-                    <h1 id="best-digital-marketing-course-in-kolkata" className="text-[18px] font-[700] leading-[24px]">
+                    <h1 id="best-digital-marketing-course-in-mumbai" className="text-[18px] font-[700] leading-[24px]">
                         The Ultimate Guide to Finding the Best Digital Marketing Course in Mumbai : Fees, Career Scope & Placement Opportunities
                     </h1>
                     <p>
@@ -253,7 +253,7 @@ export default function DigitalMarketing({
                 </div>
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 id="why-choose-eme-academy-for-a-digital-marketing-course-in-kolkata" className="text-[18px] font-[700] leading-[24px]">
+                    <h1 id="why-choose-eme-academy-for-a-digital-marketing-course-in-mumbai" className="text-[18px] font-[700] leading-[24px]">
                         Why Choose EME Academy for a Digital Marketing Course in Mumbai?
                     </h1>
                     <p>
@@ -315,7 +315,7 @@ export default function DigitalMarketing({
 
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
 
-                    <h1 id="digital-marketing-course-fees-in-kolkata-eme-academy" className="text-[18px] font-[700] leading-[24px]">
+                    <h1 id="digital-marketing-course-fees-in-Mumbai-eme-academy" className="text-[18px] font-[700] leading-[24px]">
                         Digital Marketing Course Fees in Mumbai (EME Academy)
                     </h1>
                     <p>
@@ -354,7 +354,7 @@ export default function DigitalMarketing({
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
                     <h1 className="text-[18px] font-[700] leading-[24px]">Career Opportunities & Salary Trends After Digital Marketing Training</h1>
                     <p>High-Paying Job Roles</p>
-                    <p>After completing your digital marketing training institute in kolkata with placement, you can apply for high-paying jobs, such as:</p>
+                    <p>After completing your digital marketing training institute in Mumbai with placement, you can apply for high-paying jobs, such as:</p>
                     <ul>
                         <li>SEO Specialist – ₹3-6 LPA</li>
                         <li>Google Ads Expert – ₹4-8 LPA</li>

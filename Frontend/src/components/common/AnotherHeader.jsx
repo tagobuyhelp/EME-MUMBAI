@@ -566,7 +566,7 @@ export const AnotherHeader = () => {
                           main courses
                         </div>
                         <Link
-                          href="/maincourse/graphic-design"
+                          href="/maincourse/graphic-design-course-in-mumbai"
                           className="block px-2 py-1.5 text-sm text-gray-600 hover:bg-[#EDFAFF] hover:text-blue-600 rounded-md"
                         >
                           Graphic Design Main Course

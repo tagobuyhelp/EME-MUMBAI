@@ -27,13 +27,13 @@ export default function LeftSection() {
                         <ScrollArea className="h-40">
                             <ul className="space-y-2 text-sm text-[#7F7F7F]">
                                 {[
-                                    "Best Digital Marketing Course in Kolkata",
+                                    "Best Digital Marketing Course in Mumbai",
                                     "Introduction",
                                     "In this guide, we will cover",
                                     "Why is Digital Marketing the Future?",
-                                    "Why Choose EME Academy for a Digital Marketing Course in Kolkata?",
+                                    "Why Choose EME Academy for a Digital Marketing Course in Mumbai?",
                                     "Digital Marketing Course Details at EME Academy",
-                                    "Digital Marketing Course Fees in Kolkata (EME Academy)",
+                                    "Digital Marketing Course Fees in Mumbai (EME Academy)",
                                     "Success Stories from EME Academy",
                                     "Conclusion",
                                     "Frequently Asked Questions (FAQs)",

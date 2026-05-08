@@ -11,9 +11,9 @@ const blogsData = [
   {
     "_id": "1",
     "image": "/assets/images/blog/digital_marketing_hero.jpg",
-    "title": "The Ultimate Guide to Finding the Best Digital Marketing Course in Kolkata : Fees, Career Scope & Placement Opportunities",
+    "title": "The Ultimate Guide to Finding the Best Digital Marketing Course in Mumbai : Fees, Career Scope & Placement Opportunities",
     "meta_description": "It is critical to master the art of online marketing in today’s day and age. Imperative to career growth, it is one of the most highly demanded skills. Businesses are increasingly shifting....",
-    "url": "blogs/digital-marketing-training-institute-in-kolkata-with-placement"
+    "url": "blogs/digital-marketing-training-institute-in-mumbai-with-placement"
   },
 
   {
@@ -21,27 +21,27 @@ const blogsData = [
     "image": "/assets/images/blog/Web_Development_Career.svg",
     "title": "Your Ultimate Guide to Web Development Courses at EME Academy",
     "meta_description": "EME Academy aims to impart essential skills and knowledge known to be crucial for success in the tech industry. The courses are tailored to meet the unique needs of both amateurs and professionals.",
-    "url": "blogs/best-institute-for-web-development-course-in-kolkata"
+    "url": "blogs/best-institute-for-web-development-course-in-mumbai"
   },
   {
     "_id": "3",
     "image": "/assets/images/blog/dataanalytics.jpg",
-    "title": "Best Data Analytics Course in Kolkata",
-    "meta_description": "Master data capabilities through the best data analytics courses in Kolkata. In a modern data-driven environment, people need to master analytics abilities to make smart decisions....",
-    "url": "blogs/data-analytics-courses-in-kolkata-with-placement"
+    "title": "Best Data Analytics Course in Mumbai",
+    "meta_description": "Master data capabilities through the best data analytics courses in Mumbai. In a modern data-driven environment, people need to master analytics abilities to make smart decisions....",
+    "url": "blogs/data-analytics-courses-in-mumbai-with-placement"
   },
   {
     "_id": "4",
     "image": "/assets/images/blog/FullStack Development Courses.png",
     "title": "Kickstart Your Career with Full Stack Development: Discover Premier Courses at EME Academy",
     "meta_description": "Mastering full-stack development can be a boon to your career. Most tech-driven sectors see such talents as a valuable addition to their company. You would become capable of handling diverse tasks and solving complex problems. Such talents are considered indispensable in the job market these days - a great asset to any organisation looking to recruit or retain you.",
-    "url": "blogs/full-stack-development-course-in-kolkata"
+    "url": "blogs/full-stack-development-course-in-mumbai"
   },
   {
     "_id": "5",
     "image": "/assets/images/blog/Power_BI_Course _Blog_Features_Image.jpg",
     "title": "Top 7 Benefits of Learning Power BI for Career Growth - EME Academy",
-    "meta_description": "Want to grow your career in data analytics? Discover 7 reasons to take a Power BI course in Kolkata 2025 and gain in-demand skills!",
+    "meta_description": "Want to grow your career in data analytics? Discover 7 reasons to take a Power BI course in Mumbai 2025 and gain in-demand skills!",
     "url": "blogs/7-reasons-to-enroll-in-a-power-bi-course"
   },
   {
@@ -53,17 +53,17 @@ const blogsData = [
   },
   {
     "_id": "7",
-    "image": "/assets/images/blog/Executive_HR_Programs_in_Kolkata.png",
-    "title": "Advance Your Career with Executive HR Programs in Kolkata | EME Academy",
-    "meta_description": "Explore EME Academy’s executive HR courses in Kolkata designed for working professionals. Learn recruitment, employee relations, performance management, and leadership skills to thrive in top HR roles.",
+    "image": "/assets/images/blog/Executive_HR_Programs_in_Mumbai.png",
+    "title": "Advance Your Career with Executive HR Programs in Mumbai | EME Academy",
+    "meta_description": "Explore EME Academy’s executive HR courses in Mumbai designed for working professionals. Learn recruitment, employee relations, performance management, and leadership skills to thrive in top HR roles.",
     "url": "blogs/executive-human-resources-programs"
   },
   {
     "_id": "8",
-    "image": "/assets/images/blog/SAP_MM_Course_In_Kolkata.jpeg",
+    "image": "/assets/images/blog/SAP_MM_Course_In_Mumbai.jpeg",
     "title": "Top 5 Benefits of SAP MM for Revolutionising Supply Chain Management Process",
     "meta_description": "Top 5 benefits of SAP MM in transforming supply chain management, enhancing efficiency, transparency, and overall operational success.",
-    "url": "blogs/sap-mm-courses-in-kolkata"
+    "url": "blogs/sap-mm-courses-in-mumbai"
   },
 
 ];

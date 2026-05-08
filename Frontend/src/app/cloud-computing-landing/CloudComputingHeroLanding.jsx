@@ -35,7 +35,7 @@ function CloudComputingHeroLanding({
                     <span className="text-[#E87D1A]">T</span>he Best Institute for
                 </div>
                 <div className='w-full text-[#00A2E7] text-xl font-bold text-nowrap text-center '>
-                    Cloud Computing in Kolkata
+                    Cloud Computing in Mumbai
                 </div>
                 <div className='w-full text-[#232D63] text-base   font-bold flex justify-center gap-x-1 lg:gap-x-2 text-center pt-1'>
                     <div><span className="text-[#E87D1A]">J</span>oin to Ensure a Bright and Shining 
@@ -105,7 +105,7 @@ function CloudComputingHeroLanding({
             <div className='hidden w-[70%] lg:flex flex-col gap-y-10 items-start justify-start '>
                 <div className='w-full hidden lg:inline'>
                     <div className='w-full text-[#232D63] lg:leading-10 lg:text-3xl  font-bold text-nowrap text-start '>
-                        <span className="text-[#E87D1A]">T</span>he Best Institute for <span className='text-[#00A2E7]'>Cloud Computing in Kolkata</span>
+                        <span className="text-[#E87D1A]">T</span>he Best Institute for <span className='text-[#00A2E7]'>Cloud Computing in Mumbai</span>
 
                     </div>
                     <div className='w-full text-[#232D63] lg:leading-10 lg:text-3xl  font-extrabold flex justify-start gap-x-2 text-start '>

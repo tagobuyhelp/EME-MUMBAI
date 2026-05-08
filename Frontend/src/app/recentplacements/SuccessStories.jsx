@@ -9,7 +9,7 @@ const successStoriesData = [
     {
     id: 1,
     name: "Rahul Singh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulSingh.svg",
     beforeStatus: "Fresher",
@@ -19,7 +19,7 @@ const successStoriesData = [
   {
     id: 2,
     name: "Aitrik Banerjee",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Aitrik.svg",
     beforeStatus: "Fresher",
@@ -29,7 +29,7 @@ const successStoriesData = [
     {
     id: 3,
     name: "Rahul Rana",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRana.svg",
     beforeStatus: "Fresher",
@@ -39,7 +39,7 @@ const successStoriesData = [
   {
     id: 4,
     name: "Ankita Biswas",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Ankita_Biswas_HR.webp",
     beforeStatus: "Fresher",
     afterCompany: "Human Settlement Planning Centre",
@@ -48,7 +48,7 @@ const successStoriesData = [
   {
     id: 5,
     name: "Rahul Routh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/RahulRouth.svg",
     beforeStatus: "Fresher",
@@ -58,7 +58,7 @@ const successStoriesData = [
   {
     id: 6,
     name: "Sreenanda Ghosh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Sreenanda_Ghosh_DM_Lead Height.webp",
     beforeStatus: "Fresher",
     afterCompany: "Lead Heights",
@@ -67,7 +67,7 @@ const successStoriesData = [
   {
     id: 7,
     name: "Subhadeep Bose",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Subhadeep_Bose_HR_Vivre_Panels.webp",
     beforeStatus: "Fresher",
     afterCompany: "Vivre Panels",
@@ -76,7 +76,7 @@ const successStoriesData = [
   {
     id: 8,
     name: "Shubham Sarkar",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Subham_Sarkar_BBC.webp",
     beforeStatus: "Fresher",
     afterCompany: "BBC",
@@ -85,7 +85,7 @@ const successStoriesData = [
   {
     id: 8,
     name: "Laiba Noor",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Laiba_Noor_DM_Lead_Height.webp",
     beforeStatus: "Fresher",
     afterCompany: "2coms",
@@ -94,7 +94,7 @@ const successStoriesData = [
   {
     id: 8,
     name: "Amit Singh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "/assets/images/Home/hero/Amit_Singh_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
     beforeStatus: "Fresher",
@@ -104,7 +104,7 @@ const successStoriesData = [
   {
     id: 9,
     name: "Sayan Mujumder",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Sayan_Mujumder_Gowebbo_&_co.webp",
     beforeStatus: "Fresher",
     afterCompany: "Gowebbo & co.",
@@ -113,7 +113,7 @@ const successStoriesData = [
   {
     id: 9,
     name: "Adrija Bose",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Adrija_Bose_DM_Lead_Height.webp",
     beforeStatus: "Fresher",
     afterCompany: "Lead Heights",
@@ -122,7 +122,7 @@ const successStoriesData = [
   {   
     id: 10,
     name: "Jayita Halder",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Jayita_Halder_HR_Onemed_Billing.webp",
     beforeStatus: "Fresher",
     afterCompany: "Trustklub",
@@ -131,7 +131,7 @@ const successStoriesData = [
   {
     id: 11,
     name: "Avick Chakraborty",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Avick.svg",
     beforeStatus: "Fresher",
@@ -141,7 +141,7 @@ const successStoriesData = [
   {
     id: 12,
     name: "Abhishek Majumder",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Abhishek_Majumder_DM_Lead Height.webp",
     beforeStatus: "Fresher",
     afterCompany: "Lead Heights",
@@ -150,7 +150,7 @@ const successStoriesData = [
   {
     id: 13,
     name: "Keya Sharma",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "/assets/images/Home/hero/Keya_Sharma_SAP FICO_Hamilton_Reserch_PVT_Ltd.webp",
     beforeStatus: "Fresher",
@@ -160,7 +160,7 @@ const successStoriesData = [
   {
     id: 14,
     name: "Krishna Das Ghosh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/Krishna_Das_Ghosh_DM_Lead Height.webp",
     beforeStatus: "Fresher",
     afterCompany: "Genius Consultant",
@@ -169,7 +169,7 @@ const successStoriesData = [
   {
     id: 15,
     name: "Sukanya Ghosh",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-4.svg",
     beforeStatus: "Fresher",
@@ -179,7 +179,7 @@ const successStoriesData = [
   {
     id: 16,
     name: "Souvik Mondal",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Souvik.svg",
     beforeStatus: "Fresher",
@@ -189,7 +189,7 @@ const successStoriesData = [
   {
     id: 17,
     name: "Aniket Shome",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-3.svg",
     beforeStatus: "Fresher",
@@ -199,7 +199,7 @@ const successStoriesData = [
   {
     id: 18,
     name: "ERA Saha",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage: "/assets/images/Home/hero/ERA_SAHA_DM.webp",
     beforeStatus: "Fresher",
     afterCompany: "Not Specified",
@@ -208,7 +208,7 @@ const successStoriesData = [
   {
     id: 19,
     name: "Nuruzzaman Mondal",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-5.svg",
     beforeStatus: "Fresher",
@@ -218,7 +218,7 @@ const successStoriesData = [
   {
     id: 20,
     name: "Koushik Mondal",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Kousik.svg",
     beforeStatus: "Fresher",
@@ -242,7 +242,7 @@ const successStoriesData = [
   {
     id: 11,
     name: "Vashanvee Kumari",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-1.svg",
     beforeStatus: "Fresher",
@@ -255,7 +255,7 @@ const successStoriesData = [
   {
     id: 15,
     name: "Supratim Sen",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/student-6.svg",
     beforeStatus: "Fresher",
@@ -265,7 +265,7 @@ const successStoriesData = [
   {
     id: 16,
     name: "Ujjal Sutradhar",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Ujjal.svg",
     beforeStatus: "Fresher",
@@ -277,7 +277,7 @@ const successStoriesData = [
   {
     id: 20,
     name: "Subham Sambui",
-    location: "Kolkata, India",
+    location: "Mumbai, India",
     profileImage:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SuccessStories/Shuvam.svg",
     beforeStatus: "Fresher",

@@ -78,7 +78,7 @@ export default function HrBlog({
                         className="w-full rounded-md"
                         width={500}
                         height={500}
-                        src="/assets/images/blog/Executive_HR_Programs_in_Kolkata.png"
+                        src="/assets/images/blog/Executive_HR_Programs_in_Mumbai.png"
                         alt="Blog Image"
                     />
                     <div>
@@ -91,7 +91,7 @@ export default function HrBlog({
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 text-[14px] font-[300] leading-[26px]">
-                    <h1 id="executive-hr-programs-in-kolkata-advancing-your-career" className="text-[18px] font-[700] leading-[24px]">Executive HR Programs in Kolkata: Advancing Your Career</h1>
+                    <h1 id="executive-hr-programs-in-mumbai-advancing-your-career" className="text-[18px] font-[700] leading-[24px]">Executive HR Programs in Mumbai: Advancing Your Career</h1>
                     <p>
                         HR management has become an essential function for many businesses across all industries. It
                         not just hiring and managing employee, but it is about calculated decision making, taking huge
@@ -104,8 +104,8 @@ export default function HrBlog({
                         <BlogAdmissionForm {..._this} />
                     </div>
                     <p>
-                        For people who are aiming for this course to elevate their career prospects, the executive <Link className="text-[#0057E2] underline" href="https://emeacademy.co.in/human-resource-course-in-kolkata" target="_blank">HR
-                            courses in Kolkata</Link> offers a perfect opportunity to gain human resource specialized knowledge,
+                        For people who are aiming for this course to elevate their career prospects, the executive <Link className="text-[#0057E2] underline" href="https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai" target="_blank">HR
+                            courses in Mumbai</Link> offers a perfect opportunity to gain human resource specialized knowledge,
                         build leadership capabilities, and open doors to new career advancements.
                     </p>
                 </div>
@@ -215,10 +215,10 @@ export default function HrBlog({
                     <h3 id="final-words" className="text-[18px] font-[700] leading-[24px]">Final Words</h3>
                     <p>
 
-                        For professionals seeking to accelerate their careers in HR, enrolling in an executive <Link className="text-[#0057E2] underline" href="https://emeacademy.co.in/human-resource-course-in-kolkata" target="_blank">HR course in Kolkata</Link> can be a game-changer. With its focus on leadership development, industry-
+                        For professionals seeking to accelerate their careers in HR, enrolling in an executive <Link className="text-[#0057E2] underline" href="https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai" target="_blank">HR course in Mumbai</Link> can be a game-changer. With its focus on leadership development, industry-
                         relevant knowledge, and flexible learning options, these programs offer the tools and resources
                         needed to thrive in today&#39;s competitive job market. Whether you&#39;re looking to climb the
-                        corporate ladder or gain specialized knowledge, an executive HR program in Kolkata is a step in
+                        corporate ladder or gain specialized knowledge, an executive HR program in Mumbai is a step in
                         the right direction to advancing your career.
                     </p>
                 </div>

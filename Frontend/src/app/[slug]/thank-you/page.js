@@ -221,7 +221,7 @@ export default function ThankYou() {
                         <Globe className="w-4 h-4" /> emeacademy.co.in
                       </div>
                       <div className="flex flex-row gap-2 items-center justify-center">
-                        <Mail className="w-4 h-4" /> info@emeacademy.co.in
+                        <Mail className="w-4 h-4" /> infomumbai@emeacademy.co.in
                       </div>
                     </div>
                   </div>

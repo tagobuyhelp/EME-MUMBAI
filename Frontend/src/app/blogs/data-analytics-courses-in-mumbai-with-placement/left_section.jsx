@@ -33,7 +33,7 @@ export default function LeftSection() {
                                 "Best Data Analytics Course",
                                 "Introduction to Data Analytics",
                                 "Why Pursue Data Analytics Benefits of Becoming a Data Analyst",
-                                "Discover Top Data Analytics Courses in Kolkata",
+                                "Discover Top Data Analytics Courses in Mumbai",
                                 "Data Analytics Course Fee",
                                 "Conclusion",
                             ].map((item) => {

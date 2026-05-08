@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import OurRecuiter from "../maincourse/digital-marketing-course-in-kolkata/OurRecuiter";
+import OurRecuiter from "../maincourse/digital-marketing-course-in-mumbai/OurRecuiter";
 import CTAButton from "@/components/common/CtaButton";
 
 export default function MarketingAdvancedDigialHero({

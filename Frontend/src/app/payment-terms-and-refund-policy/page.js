@@ -44,7 +44,7 @@ export default function page() {
             <p className="text-[#727272] text-[12px] lg:text-[16px]">
             <strong>(b) Refund Approval</strong>
             <ul>
-                <li>•	All refund requests must be submitted in writing to <Link className="text-[#0057E2] underline" href="mailto:info@emeacademy.co.in" target="_blank">info@emeacademy.co.in</Link> within the 3-day window.</li>
+                <li>•	All refund requests must be submitted in writing to <Link className="text-[#0057E2] underline" href="mailto:infomumbai@emeacademy.co.in" target="_blank">infomumbai@emeacademy.co.in</Link> within the 3-day window.</li>
                 <li>•	Refunds are subject to internal review and approval. EME Academy may deduct applicable processing fees or bank charges, as per internal policy.</li>
             </ul>
             </p>
@@ -81,8 +81,8 @@ export default function page() {
             </p>
           </section>
           <p>
-          <strong className='text-[#0057E2]'>Email: </strong><a href="mailto:info@emeacademy.co.in" className='hover:underline cursor-pointer'>
-                           info@emeacademy.co.in
+          <strong className='text-[#0057E2]'>Email: </strong><a href="mailto:infomumbai@emeacademy.co.in" className='hover:underline cursor-pointer'>
+                           infomumbai@emeacademy.co.in
                         </a>
           </p>
           <p>

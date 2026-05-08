@@ -41,7 +41,7 @@ export const CloudComputingLandingTestimonials = () => {
     {
       id: 5,
       Name: "Rahul Rana",
-      decs: "“I had no idea that one of the best institutes for learning Cloud Computing in eastern India, is so near to my home in Kolkata. When I came to know it, and I got admitted and utilised the advantage. I am working as a Senior Cloud Consultant now. I am really indebted to EME Academy.”",
+      decs: "“I had no idea that one of the best institutes for learning Cloud Computing in eastern India, is so near to my home in Mumbai. When I came to know it, and I got admitted and utilised the advantage. I am working as a Senior Cloud Consultant now. I am really indebted to EME Academy.”",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RahulRana.webp",
     },
   ];

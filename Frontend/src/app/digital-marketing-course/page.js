@@ -663,7 +663,7 @@ export default function page() {
             id: 2,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
             title: "Nuruzzaman Mondal",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -673,7 +673,7 @@ export default function page() {
             id: 3,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
             title: "Vaishnavi",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -683,7 +683,7 @@ export default function page() {
             id: 4,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
             title: "Aniket Shome",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -693,7 +693,7 @@ export default function page() {
             id: 5,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
             title: "Supratim Sen",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -703,7 +703,7 @@ export default function page() {
             id: 6,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
             title: "Souvik Mondal",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",
@@ -713,7 +713,7 @@ export default function page() {
             id: 7,
             img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
             title: "Koushik Mondal",
-            subtitle: "Kolkata, India",
+            subtitle: "Mumbai, India",
             overlay:
                 "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
             titleStyle: "text-base font-medium",

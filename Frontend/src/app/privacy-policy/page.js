@@ -10,7 +10,7 @@ export const metadata = {
     "",
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/privacy-policy",
+    canonical: "https://mumbai.emeacademy.co.in/privacy-policy",
   },
 };
 
