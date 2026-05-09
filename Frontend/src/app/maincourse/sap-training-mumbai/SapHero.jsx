@@ -28,20 +28,21 @@ export default function SapHero({
 
   return (
     <>
+      <div className="w-full bg-[#0057E2] py-2 text-white text-center text-[10px] md:text-xs font-bold tracking-wider uppercase">
+        ✦ Western India’s No. 1 Professional Training Institute ✦ +91 9831284098 ✦
+      </div>
       <div className=" w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-[50px] items-start  py-[26px] px-[20px] md:px-24  max-w-[1380px] mx-auto ">
         <div className="w-full lg:w-[50%] pt-[18px] lg:pt-[30px] h-full flex flex-col item-center lg:items-start gap-y-4 lg:gap-[15px] text-steelblue">
           <div className="relative rounded-md bg-lightblue flex flex-row items-center justify-center py-0.5 px-3 text-left text-[12px] text-steelblue ">
-            <div className="relative leading-[30px] font-semibold text-center">
-              SAP (Systems Applications and Products)
+            <div className="relative leading-[30px] font-semibold text-center uppercase tracking-wide">
+              SAP (Systems Applications and Products) Enterprise Training
             </div>
           </div>
-          <h1 className="max-w-[374px] lg:w-full lg:h-auto text-[24px] lg:text-[40px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
-            Best SAP Training Institute in Mumbai
+          <h1 className="max-w-[674px] lg:w-full lg:h-auto text-[24px] lg:text-[40px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
+            Become a Certified Consultant at the Best SAP Training Institute in Mumbai
           </h1>
           <p className="relative leading-[18.75px]  text-[#727272] text-[12px] lg:text-[16px] text-center lg:text-left">
-            SAP (Systems Applications and Products) is an internationally
-            renowned enterprise software that firms use to efficiently manage
-            business activities.
+            SAP is the backbone of the world's top MNCs, and learning it shouldn't be limited to textbook theory. Experience practical, live-server execution with the most comprehensive SAP Course in Mumbai. Whether you are seeking a foundational SAP Course for Freshers or upgrading your skills with an advanced SAP S4 HANA Course, our curriculum is built for the real corporate world. Get industry-ready with a highly recognized SAP Course with Certificate, backed by our 100% dedicated placement support.
           </p>
 
           <div className="w-full flex flex-row items-start justify-center lg:justify-start gap-5 text-mini text-goldenrod font-font-awesome-5-free pt-[10px] pb-5">
@@ -61,7 +62,7 @@ export default function SapHero({
                 </svg>
               </div>
               <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
-                4.5/5.0
+                4.8/5.0 Rating
               </b>
             </div>
             <div className="flex flex-row items-center justify-start gap-2 text-darkorange">
@@ -80,7 +81,7 @@ export default function SapHero({
                 </svg>
               </div>
               <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
-                12k Enrolled
+                12k+ Careers Transformed
               </b>
             </div>
             <div className="flex flex-row items-center justify-start gap-2 text-cadetblue">
@@ -99,16 +100,22 @@ export default function SapHero({
                 </svg>
               </div>
               <b className="relative leading-[18.75px]  text-[#24292D] text-[12px] lg:text-[15px]">
-                English, Hindi
+                English, Hindi, Marathi
               </b>
             </div>
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex flex-col md:flex-row justify-center lg:justify-start gap-4">
            
             <CTAButton
-                    name="Register Now ->"
+                    name="Register Now →"
                     styleClasses="flex flex-row text-[#fff] text-xs lg:text-[14px] rounded-md bg-[#0057E2] px-[10px] lg:px-[24px] py-[14px] font-[600] gap-2.5 group hover:text-white border-none hover:bg-[#0047C2]"
+                    _this={_this}
+                  />
+            <CTAButton
+                    name="Download SAP Course Fees & Syllabus"
+                    ctaType="brochure"
+                    styleClasses="flex flex-row text-[#0057E2] text-xs lg:text-[14px] rounded-md bg-white border border-[#0057E2] px-[10px] lg:px-[24px] py-[14px] font-[600] gap-2.5 group hover:bg-[#F0F7FF]"
                     _this={_this}
                   />
           </div>

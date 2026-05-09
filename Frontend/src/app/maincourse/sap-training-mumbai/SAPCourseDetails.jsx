@@ -20,7 +20,7 @@ export default function SAPCourseDetails() {
   const courses = [
     {
       name: "SAP FICO Course",
-      decs_name: "SAP FICO",
+      decs_name: "SAP FICO Course in Mumbai",
       id: 1,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -30,13 +30,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Industry “Co-Op” programme",
+      decsTwo: "Global Certification Assistance",
+      decsThree: "Cutting-edge S/4 HANA Curriculum",
       link: "/course/sap-fico",
     },
     {
       name: "SAP MM Course",
-      decs_name: "SAP MM (Material Management)",
+      decs_name: "SAP MM Course in Mumbai",
       id: 2,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -46,13 +47,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Live Procurement Scenarios",
+      decsTwo: "Material Management Execution",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-mm",
     },
     {
       name: "SAP SD Course",
-      decs_name: "SAP SD (Sales & Distribution)",
+      decs_name: "SAP SD Course in Mumbai",
       id: 3,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -62,29 +64,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Real-world Order-to-Cash Lifecycles",
+      decsTwo: "Sales & Distribution Mastery",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-sd",
     },
     {
-      name: "SAP PP Course",
-      decs_name: "SAP PP (Production Planning)",
-      id: 4,
-      student: "80% Students",
-      student2: "Hired by MNCs",
-      job: "1000+",
-      job2: "Employment Generated",
-      duration: "4 Months",
-      time: "",
-      assistance: "100%",
-      assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
-      link: "/course/sap-pp",
-    },
-    {
       name: "SAP ABAP Course",
-      decs_name: "SAP ABAP",
+      decs_name: "SAP ABAP Course in Mumbai",
       id: 5,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -94,13 +81,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Advanced System Programming",
+      decsTwo: "Real-world Coding Projects",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-abap",
     },
     {
       name: "SAP HCM Course",
-      decs_name: "SAP HCM (Human Capital Management)",
+      decs_name: "SAP HCM Course in Mumbai",
       id: 6,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -110,14 +98,15 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Core HR & Payroll Systems",
+      decsTwo: "Practical Corporate Implementation",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-hcm",
     },
     {
-      name: "SAP SF Course",
-      decs_name: "SAP SF (Success Factors)",
-      id: 7,
+      name: "SAP PP Course",
+      decs_name: "SAP PP Course in Mumbai",
+      id: 4,
       student: "80% Students",
       student2: "Hired by MNCs",
       job: "1000+",
@@ -126,13 +115,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
-      link: "/course/sap-success",
+      decsOne: "Production Planning Strategies",
+      decsTwo: "Manufacturing Workflows",
+      decsThree: "Global Certification Assistance",
+      link: "/course/sap-pp",
     },
     {
       name: "SAP Basis Course",
-      decs_name: "SAP Basis",
+      decs_name: "SAP Basis Course in Mumbai",
       id: 8,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -142,13 +132,14 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Live Server Administration",
+      decsTwo: "System Architecture Management",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-basis",
     },
     {
-      name: "SAP Analytics Course ",
-      decs_name: "SAP Analytics",
+      name: "SAP Analytics Course",
+      decs_name: "SAP Analytics Course in Mumbai",
       id: 9,
       student: "80% Students",
       student2: "Hired by MNCs",
@@ -158,8 +149,9 @@ export default function SAPCourseDetails() {
       time: "",
       assistance: "100%",
       assistance2: "Placement Assistance",
-      decsTwo: "Certification Assistance",
-      decsThree: "Cutting-edge Curriculum.",
+      decsOne: "Real-time Business Intelligence",
+      decsTwo: "Corporate Data Reporting",
+      decsThree: "Global Certification Assistance",
       link: "/course/sap-analytics",
     },
   ];
@@ -167,12 +159,10 @@ export default function SAPCourseDetails() {
   return (
     <div className="w-full max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-24">
       <h2 className="text-4xl font-bold text-center text-[#232D63] leading-snug tracking-tight">
-        SAP Modules at <span className="text-[#00A2E7]">EME Academy</span>
+        Master Highly-Paid Specializations: <span className="text-[#00A2E7]">SAP Modules at EME Academy Mumbai</span>
       </h2>
-      <p className="text-center text-[#727272] font-medium text-base md:text-lg mt-3">
-        You might be looking to specialize in a particular SAP module. Perhaps
-        wanting comprehensive SAP training? We have you covered. Take a look at
-        an overview of what we offer.
+      <p className="text-center text-[#727272] font-medium text-base md:text-lg mt-3 max-w-[900px]">
+        General knowledge won't cut it in the corporate world. To land high-paying roles, you need to specialize. Whether you are looking to dominate finance, supply chain, or HR, we have you covered. Dive into our comprehensive, hands-on module training and become the exact specialist that top MNCs in Mumbai are desperately looking to hire.
       </p>
 
       {/* Carousel */}
@@ -242,9 +232,7 @@ export default function SAPCourseDetails() {
 
                     {/* Points */}
                     <ul className="mt-3 flex flex-col gap-1 text-xs text-[#121112]">
-                      <li>
-                        Industry <strong>“Co-Op”</strong> programme
-                      </li>
+                      <li>{course.decsOne}</li>
                       <li>{course.decsTwo}</li>
                       <li>{course.decsThree}</li>
                     </ul>

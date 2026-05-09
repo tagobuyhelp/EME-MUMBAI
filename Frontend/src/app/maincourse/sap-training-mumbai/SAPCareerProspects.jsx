@@ -28,13 +28,12 @@ export default function SAPCareerProspects({
     };
 
   const data = [
-    "SAP Consultant",
-    "SAP SD Consultant",
+    "SAP Functional Consultant (FICO, MM, SD, HR)",
+    "SAP S/4 HANA Architect",
+    "SAP ABAP Developer / Consultant",
     "SAP Project Manager",
     "SAP Basis Administrator",
-    "SAP ABAP Consultant",
-    "SAP MM Consultant",
-    "SAP Hana Architect",
+    "SAP Data & Analytics Specialist",
   ];
 
   return (
@@ -43,22 +42,18 @@ export default function SAPCareerProspects({
       <div className="h-auto flex flex-col items-start">
         {/* Heading */}
         <div className="w-full flex justify-start">
-          <h1 className="text-[#00A2E7] text-[16px] lg:text-2xl font-bold">
-            Career Prospects
-            <span className="text-[#232D63] p-1 lg:p-4 lg:inline">
-              After The Course
-            </span>
-          </h1>
+          <h2 className="text-[#232D63] text-[24px] lg:text-[40px] font-[700] leading-tight">
+            High-Paying Career Paths <span className="text-[#00A2E7]">You Will Unlock</span>
+          </h2>
         </div>
 
         {/* Description */}
         <p className="text-[#727272] text-[12px] lg:text-[16px] leading-[22px] lg:w-[637px] mt-[12px] lg:mt-3">
-          Unlock Boundless Opportunities: Your Gateway to a Thriving Career with
-          EME Academy
+          Top-tier MNCs and agencies aren't looking for generic graduates—they are aggressively hunting for certified SAP specialists who can execute from day one. Completing this SAP Consultant Course doesn't just add a line to your resume; it makes you an undeniable asset. Backed by the most reliable SAP Course with Placement in Mumbai, you will be primed to step directly into elite, high-paying corporate roles.
         </p>
 
         {/* Career List */}
-        <div className="w-[355px] md:w-auto grid grid-cols-2 gap-x-5 gap-y-3 lg:gap-y-2 lg:gap-x-10 mt-[30px] lg:mt-2">
+        <div className="w-[355px] md:w-auto grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-3 lg:gap-y-2 lg:gap-x-10 mt-[30px] lg:mt-2">
           {data.map((item, index) => (
             <div key={index} className="flex items-center gap-2 lg:gap-2.5">
               <CheckCircle2 size={18} className="text-[#14CE03]" />{" "}
@@ -71,10 +66,10 @@ export default function SAPCareerProspects({
         </div>
 
         {/* Enquire Now Button */}
-        <div className="flex justify-center items-center mt-14 lg:mt-20">
+        <div className="flex justify-center items-center mt-10 lg:mt-14">
           
           <CTAButton
-                    name="Enquire Now ->"
+                    name="Speak to a Placement Expert →"
                     styleClasses="flex justify-center items-center text-white text-xs lg:text-[14px] rounded-md bg-[#0057E2] hover:bg-[#00a2e7]/90 px-[10px] lg:px-[24px] py-[14px] font-[600] gap-2.5 transition-all border-none hover:bg-[#0047C2] hover:text-white"
                     _this={_this}
                   />

@@ -22,7 +22,7 @@ export default function FoundersMessage() {
     "Cloud Computing Course",
     "Prompt Engineering with AI Course"
   ];
-  const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing"; //needed
+  const Brochure = "https://drive.google.com/file/d/1eGFi7GlCRTLehu5nljGHAwOyFvdwUFiJ/view?usp=sharing"; //needed
   const BrochureName = "EME-brochure-2024.pdf";
   const _this = {
     isModalOpen,
@@ -76,23 +76,20 @@ export default function FoundersMessage() {
           alt="Ticked"
           className="h-8 w-8 mr-1"
         />
-        <h2 className="text-[18px] md:text-[24px] font-bold text-gray-800">
-          Education is the key to the future
+        <h2 className="text-[18px] md:text-[24px] font-bold text-gray-800 italic">
+          "The industry doesn't hire degrees. It hires execution."
         </h2>
         <p className="text-[#757575] text-[16px]">
-          At EME Academy Mumbai, we believe that education should not only to provide
-          information but to ensure transformation. Since day one, our mission
-          has been to enable every learner with contemporary & futuristic
-          skills. With industry demand driven training and global opportunities,
-          we’re committed to building the career of our students. Success of our
-          students is our greatest reward
+          When I established EME Academy, I noticed a massive disconnect in the market. Traditional institutions were busy handing out degrees, but agencies, startups, and MNCs were starving for talent that could actually sit down and do the work.
+          <br /><br />
+          I didn't want to build just another corporate training center. I wanted to build an execution hub. Our entire philosophy at EME Academy is rooted in practical application and agency-style leadership. We go far beyond sharing information; we bridge the gap between textbook theory and profitable, real-world skills. When you join us, you aren't just a student—you are a future professional in training, and your ability to drive actual results is our ultimate metric of success.
         </p>
         <div>
           <h3 className="text-[#0057E2] text-[20px] font-[700]">
             Kazi Mahasin Azim
           </h3>
           <p className="text-[#757575] text-[14px]">
-            Founder & Chairman, EME Academy Mumbai
+            Founder & Chairman, EME Academy
           </p>
         </div>
       </div>

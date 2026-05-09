@@ -11,51 +11,50 @@ import PlacementIcon from "../../../../public/assets/images/Web_Development/Grou
 export default function WhatSAPExpect() {
     const data = [
         {
-            title: "Expert Trainers",
+            title: "Mentored by Industry Veterans",
             description:
-              "Our SAP instructors are all industry veterans who bring years of real-world experience to the classroom. The course has been tailored as per the standards they dictated. This helps you match the parameters needed at top companies.",
-            icon: <Image width={50} height={50} src={ExpertIcon} alt="24/7 Server Access"/>,
+              "Forget academic professors. You are trained by active corporate experts who have executed massive enterprise projects. This isn't just a class; it's an elite SAP Consultant Course where you learn the exact parameters and frameworks used at top MNCs.",
+            icon: <Image width={50} height={50} src={ExpertIcon} alt="Expert Trainers"/>,
           },
           {
-            title: "Contemporary Curriculum",
+            title: "Next-Gen S/4 HANA Curriculum",
             description:
-              "EME Academy's SAP training modules all follow the latest S/4 HANA curriculum. Thus our students learn the most relevant and up-to-date skills that industries are actively seeking.",
-            icon: <Image width={50} height={50} src={ContempCurrIcon} alt="24/7 Server Access"/>, 
+              "The industry is evolving, and so are we. Our syllabus strictly follows the latest global standards, making us the ultimate destination for an advanced SAP S4 HANA Course in Mumbai. Learn the up-to-date skills that tech giants are aggressively hiring for right now.",
+            icon: <Image width={50} height={50} src={ContempCurrIcon} alt="Next-Gen Curriculum"/>, 
           },
           {
-            title: "24/7 Server Access",
+            title: "24/7 Live Server Access",
             description:
-              "We provide our students with continuous server access. This helps them practice skills and complete projects anytime. We prioritize remote learning and flexibility.",
+              "Theory alone won't get you hired. We provide continuous, round-the-clock remote server access so you can practice your configurations, run real-time business scenarios, and build a tangible portfolio whenever inspiration strikes.",
             icon: <Image width={50} height={50} src={ServerIcon} alt="24/7 Server Access"/>, 
           },
           {
-            title: "Global Certification Guidance",
+            title: "Global Certification Readiness",
             description:
-              "We at EME Academy get you ready for internationally recognized SAP certifications that prove your abilities and improve your job prospects.",
-            icon: <Image width={50} height={50} src={GlobalIcon} alt="24/7 Server Access"/>, 
+              "We prepare you for more than just a local job. Our rigorous training modules ensure you are fully equipped to clear internationally recognized SAP certification exams, instantly elevating your global job prospects and salary brackets.",
+            icon: <Image width={50} height={50} src={GlobalIcon} alt="Global Certification"/>, 
           },
           {
-            title: "Flexible Learning Modes",
+            title: "Adaptive Learning for Your Lifestyle",
             description:
-              "Students and working professionals can conveniently learn at their own speed and comfort level with our range of online and offline learning choices.",
-            icon: <Image width={50} height={50} src={FlexibleIcon} alt="24/7 Server Access"/>, 
+              "Whether you need an SAP Course for Freshers in Mumbai with in-person mentoring or a flexible SAP Course Online Mumbai format, we have tailored tracks. It is the perfect SAP Course for Working Professionals looking to upskill seamlessly at their own pace.",
+            icon: <Image width={50} height={50} src={FlexibleIcon} alt="Flexible Learning"/>, 
           },
           {
-            title: "Endless Placement Support",
+            title: "Unmatched Placement Support",
             description:
-              "With resume-building seminars, simulated interviews, hiring partners from a variety of industries, and 100% placement support, EME Academy makes sure you not only learn but also get your ideal career.",
-            icon: <Image width={50} height={50} src={PlacementIcon} alt="24/7 Server Access"/>, 
+              "Your success is our ultimate metric. From resume-building and simulated HR interviews to direct referrals with our corporate hiring partners, we offer the most reliable SAP Course with Placement Mumbai has to offer. We stand by you until you get the offer letter.",
+            icon: <Image width={50} height={50} src={PlacementIcon} alt="Placement Support"/>, 
           },
     ]
   return (
       <div className='w-full  max-w-[1380px] mx-auto mt- flex flex-col items-start gap-5 md:gap-10 py-10 md:py-15  px-5 md:px-24 '>
           <div className="w-full flex flex-col justify-center items-center">
-                  <div className=" flex flex-col justify-center text-center text-[#232D63] text-[16px] lg:text-[22px] font-[700]">
-                      What You can Expect From The Course
-                  </div>
-                  <p className="mt-4 text-[12px] lg:text-[16px] text-[#727272] max-w-[637px] text-center">
-                      At EME Academy, our mission is to equip you with the skills needed to
-                      thrive in this competitive field.
+                  <h2 className=" flex flex-col justify-center text-center text-[#232D63] text-[24px] lg:text-[40px] font-[700] leading-tight">
+                      What to Expect from Mumbai’s Premier SAP Program
+                  </h2>
+                  <p className="mt-4 text-[12px] lg:text-[16px] text-[#727272] max-w-[800px] text-center">
+                      We don't just teach software; we engineer careers. Here is exactly how we transform you from a beginner into a highly paid SAP specialist ready to dominate the corporate landscape.
                   </p>
           </div>
 

@@ -22,79 +22,83 @@ import { AnotherHeader } from "@/components/common/AnotherHeader";
 import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
-  title: "Best Graphic Design courses and Training Institute in Mumbai",
+  title:
+    "Best Graphic Design Course in Mumbai - Master Visual Design - EME Academy Mumbai",
   description:
-    "Enroll in the best graphic design institute in Mumbai and master creativity with the best graphic design courses in Mumbai. Start your design journey today!",
+    "Master Professional Graphic Design (Photoshop, Illustrator, InDesign) with Mumbai's leading institute. Get 100% placement support and build a creative portfolio.",
   keywords: [
-    "graphic design courses in Mumbai",
-    "graphic design courses in Mumbai fees",
-    "graphic design institutes in Mumbai",
-    "graphic design courses fees in Mumbai",
-    "best graphic design institute in Mumbai",
-    "best graphic design courses in Mumbai",
-    "best institute for graphic designing in Mumbai",
-    "graphic design training institute in Mumbai",
+    "best graphic design course in Mumbai",
+    "graphic design institute in Mumbai",
+    "graphic design course with placement in Mumbai",
+    "advanced graphic design course in Mumbai",
+    "Photoshop course in Mumbai",
+    "Illustrator course in Mumbai",
   ],
   alternates: {
-    canonical: "https://mumbai.emeacademy.co.in/maincourse/graphic-design",
+    canonical:
+      "https://mumbai.emeacademy.co.in/maincourse/graphic-design-course-in-mumbai",
   },
 };
 
 const faq = [
   {
-    id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! Our Graphic Design Course in Mumbai is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch.",
+    id: "1",
+    title: "I can't even draw a straight line. Can I still become a designer?",
+    desc: "100%. Modern graphic design is about visual problem solving and logic, not just hand-drawing. Our Graphic Design Course for Beginners Mumbai starts with the absolute basics of design software and theory, assuming you have zero prior experience, making it the perfect Graphic Design Course for Freshers Mumbai.",
   },
   {
-    id: 2,
-    title: "What is the duration and fee of the graphic design course?",
-    desc: "The course is 6 months long (including internship). The graphic design course fees in Mumbai at EME Academy Mumbai is ₹35,000 after discount.",
+    id: "2",
+    title: "Will I learn the entire Adobe Creative Cloud?",
+    desc: "We focus on the tools that actually get you hired. You will master the industry-standard 'Big Three'—Photoshop, Illustrator, and InDesign—through our comprehensive Adobe Suite Course Mumbai. We also include CorelDRAW Course in Mumbai modules to ensure you are ready for both digital and print production agencies.",
   },
   {
-    id: 3,
-    title: "Will I learn all the Adobe tools in this course?",
-    desc: "Yes, we cover Adobe Photoshop, Illustrator, InDesign, and Lightroom in detail, along with CorelDraw.",
+    id: "3",
+    title: "How do you help me get a job in a design studio?",
+    desc: "Your portfolio is your passport. As the provider of the most Practical Graphic Design Course with Placement in Mumbai, we don't just teach tools; we help you build a professional-grade portfolio of real-world client projects. Our placement cell then routes your work directly to our network of 50+ premium design agencies.",
   },
   {
-    id: 4,
-    title: "Do I get placement support after completing the course?",
-    desc: "Absolutely. We offer 100% placement assistance including job referrals, direct interview calls, resume building, and mock interviews.",
+    id: "4",
+    title: "I am a working professional. Are there flexible timings?",
+    desc: "Yes. We specifically designed our Graphic Design Course for Working Professionals Mumbai to slot around office hours. With highly adaptable weekend batches and evening sessions, you can transition into a creative career without leaving your current job.",
   },
   {
-    id: 5,
-    title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
+    id: "5",
+    title: "Do I need a high-end computer to start?",
+    desc: "While a decent laptop helps, our Mumbai campus is equipped with agency-level infrastructure and high-performance workstations. You have full access to our labs for practice, making this the most accessible Graphic Design Training Institute in Mumbai.",
   },
   {
-    id: 6,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    id: "6",
+    title: "What is the difference between Graphic Design and UI/UX?",
+    desc: "Graphic design focuses on visual communication (branding, ads, layout), while UI/UX focuses on digital product experience. Our program provides a solid foundation in visual design that serves as the perfect springboard into our specialized UI UX Design Course in Mumbai.",
   },
   {
-    id: 7,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes.",
+    id: "7",
+    title: "Will I receive a recognized certificate?",
+    desc: "Yes. Upon graduation, you will receive a prestigious Graphic Design Course with Certificate Mumbai from EME Academy. This credential, backed by our ISO and MSME certifications, carries significant weight in the corporate and agency hiring world.",
   },
   {
-    id: 8,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
+    id: "8",
+    title: "Can I earn money as a freelancer after this course?",
+    desc: "Definitely. We include dedicated modules on the business of design, teaching you how to find clients and price your work. This is widely considered the best Portfolio Design Course Mumbai for students looking to dominate the freelance market.",
   },
   {
-    id: 9,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    id: "9",
+    title: "What are the course fees, and is there an EMI option?",
+    desc: "We maintain highly transparent and competitive Graphic Design Course Fees Mumbai, with packages starting at ₹25,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus on your creativity instead of financial stress.",
+  },
+  {
+    id: "10",
+    title: "What makes EME Academy the best institute for design?",
+    desc: "We are an agency first and an academy second. You don't learn from academic professors; you learn from active Art Directors and senior designers. As the Best Graphic Design Institute in Western India, we focus entirely on the execution skills and portfolio-building that recruiters actually care about.",
   },
 ];
 
 // Hero Data
 const heroData = {
-  badgeText: "Learn & Get Hired in 6 Months!",
-  title:
-    "Best Graphic Design Course in Mumbai- Master Photoshop, Illustrator, CoreIDRAW & More",
+  badgeText: "Turn Your Creativity into a Career in 6 Months!",
+  title: "Dominate Visual Communication with the Best Graphic Design Course in Mumbai",
   description:
-    "Learn with EME Academy Mumbai, the best graphic design institute in Mumbai, and gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom. Whether you dream of working in top design studios or want to earn from lucrative freelance projects, our graphic design training institute in Mumbai gives you the right skills to build a thriving career in creative design.",
+    "Stop just making \"pretty pictures\" and start designing for impact. Upskill with EME Academy’s Professional Graphic Design Course in Mumbai. Master Photoshop, Illustrator, InDesign, and CorelDRAW through a curriculum built strictly around agency-level execution and commercial design principles. We offer the most reliable Graphic Design Course with Placement in Mumbai. Step out of the classroom, build a high-caliber portfolio of real-world projects, and unlock creative roles earning up to ₹8 LPA!",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -102,27 +106,24 @@ const heroData = {
 // Course details data
 const courseDetailsData = {
   courseName: "Graphic Design Course",
-  subtitle:
-    "Learn with EME Academy Mumbai and become a certified Graphic Designer with placement support!",
+  subtitle: "Choose Your Focus: Specialized Graphic & Visual Design Courses in Mumbai",
+  description: "Don't just learn to use software. Learn the exact design theory, typography rules, and visual psychology used by global brand agencies. Whether you want to master print media or design for the digital-first era, we have the ultimate blueprint.",
   courseData: [
     {
       id: 1,
-      title: "Graphic Design Course Details",
-      image:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCourseMain.png",
-      description:
-        "Get certified with the best graphic design course in Mumbai. Gain hands-on expertise in CorelDraw, Adobe Photoshop, Illustrator, InDesign, and Lightroom, and build a strong portfolio for freelance or studio work.",
+      title: "Advanced Graphic Design (Print & Branding)",
+      image: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCourseMain.png",
+      description: "Master the fundamentals of color theory, typography, and layout through high-intensity branding projects. This track serves as a complete Adobe Illustrator Course in Mumbai and Adobe Photoshop Course in Mumbai.",
       details: [
         {
           label: "Duration",
-          value: "6 months",
+          value: "4 months",
         },
         {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹30,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
+              <span className="line-through text-[#FF0000]">₹35,000</span> ₹25,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -130,13 +131,8 @@ const courseDetailsData = {
           label: "Mode of Training",
           value: "Online and classroom sessions are available.",
         },
-        {
-          label: "Languages",
-          value: "Bengali, English & Hindi",
-        },
       ],
-      hookLine:
-        "Become job-ready with the best institute for graphic designing in Mumbai with placement support!",
+      hookLine: "Master Visual Identity & Print Media Architecture.",
       topics: [
         {
           title: "Design Principles & Typography",
@@ -146,38 +142,44 @@ const courseDetailsData = {
           ],
         },
         {
-          title: "CorelDRAW Mastery",
-          points: [
-            "Vector illustration and logo creation",
-            "Write SQL queries for data extraction and reporting",
-          ],
-        },
-        {
-          title: "Adobe Photoshop",
-          points: [
-            "Image retouching, photo manipulation, and compositing",
-            "Social media creatives, poster design, and mockups",
-          ],
-        },
-        {
-          title: "Adobe Illustrator",
+          title: "Adobe Illustrator & Photoshop",
           points: [
             "Vector graphics, logo design, and brand identity",
-            "Icons, infographics, and scalable visuals",
+            "Image retouching, photo manipulation, and compositing",
           ],
         },
+      ],
+    },
+    {
+      id: 2,
+      title: "Master Creative Suite (Social Media & UX)",
+      image: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCourseMain.png",
+      description: "Learn to design for the digital-first era, mastering social media aesthetics, UI foundations, and complex multi-page layouts, including advanced InDesign Course in Mumbai and CorelDRAW Course in Mumbai.",
+      details: [
         {
-          title: "Adobe InDesign",
+          label: "Duration",
+          value: "6 months",
+        },
+        {
+          label: "Affordable Fees",
+          value: (
+            <>
+              <span className="line-through text-[#FF0000]">₹40,000</span> ₹30,000 <span className="text-[#00A51E]">after discount</span>
+            </>
+          ),
+        },
+        {
+          label: "Mode of Training",
+          value: "Online and classroom sessions are available.",
+        },
+      ],
+      hookLine: "Premier Adobe Suite & Portfolio Design Course.",
+      topics: [
+        {
+          title: "Adobe InDesign & CorelDRAW",
           points: [
             "Magazine, eBook, and brochure layouts",
             "Print production & publishing workflow",
-          ],
-        },
-        {
-          title: "Adobe Lightroom",
-          points: [
-            "Color grading, tone correction, and image enhancement",
-            "Portfolio-ready photo editing and visual storytelling",
           ],
         },
         {
@@ -245,23 +247,22 @@ const courseCurriculumData = {
 // Career Prospects
 const careerProspectsData = {
   title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
+    'High-Paying Creative Roles <span class="text-[#f97316]">You Will Dominate</span>',
   subtitle:
-    "After completing EME Academy Mumbai’s graphic design course in Mumbai, you&apos;ll be equipped to take up roles in both print and digital media across diverse industries:",
+    "Design studios aren't looking for average software operators; graduating from the premier Graphic Design Institute in Mumbai unlocks the doors to the most lucrative creative roles.",
   careerRoles: [
-    "Graphic Designer",
-    "UI/UX Designer",
-    "Logo Designer",
-    "Creative Executive",
-    "Freelance Illustrator",
-    "Print Media Designer",
-    "Book Cover Illustrator",
+    "Brand Identity Designer",
+    "UI & Visual Interface Designer",
+    "Editorial & Layout Artist",
+    "Social Media Content Creator",
+    "Packaging & Print Specialist",
+    "Freelance Creative Consultant",
   ],
   salaryInfo:
-    'Average Salary in India: <strong class="font-bold">₹5 - 8 LPA</strong> (as per industry standard)',
+    "Average Salary in India: ₹5 - 8 LPA (As per industry standards.) Backed by a recognized Graphic Design Course with Certificate Mumbai, your creative potential is virtually limitless.",
   image:
     "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Graphic_Designing/GDCareerProspectsImage.png",
-  buttonText: "Check Eligibility",
+  buttonText: "Download Career Guide",
 };
 
 // Testimonials
@@ -408,7 +409,7 @@ export default function page() {
         <TalkToOurCareerExpert {..._this} />
       </div>
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport {..._this} mode="graphic-design" />
       </div>
       <div id="" className="flex w-full p-6">
         <NeedToKnowMore {..._this} />
@@ -433,8 +434,39 @@ export default function page() {
       <div id="awards" className="flex w-full  bg-white">
         <Awards />
       </div>
-      <div className="w-full bg-[#F4FBFE]">
-        <Faqs faqs={faq} />
+      <div className="w-full bg-gradient-to-r bg-[#F4FBFE] mt-6">
+        <div className="max-w-[1200px] mx-auto flex flex-col gap-3 md:gap-4 px-4 py-8">
+          {/* GD Overview */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              The EME Advantage: Why We Are the Best Graphic Design Institute in Western India
+            </h2>
+            <p>
+              Breaking into the creative ecosystem requires more than just knowing software shortcuts. You need hands-on exposure, agency-level mentorship, and aggressive industry backing. Here is exactly why ambitious designers choose EME Academy for the most High-ROI Graphic Design Course in Mumbai.
+            </p>
+            <p>
+              <strong>Mentorship from Active Art Directors -</strong> We skip the academic lectures. Your training is led by industry veterans who bring real-world design projects, global brand experience, and insider agency knowledge straight into the classroom.
+            </p>
+            <p>
+              <strong>Execution-First, Portfolio Training -</strong> Say goodbye to theoretical fluff. We focus entirely on live corporate case studies and actual commercial design projects. You will acquire the tangible, hands-on execution skills that prove to employers you are workforce-ready from day one.
+            </p>
+            <p>
+              <strong>Unrivaled Placement Assistance -</strong> As the leading provider of a Graphic Design Course with Placement Mumbai relies on, we don't just train you—we launch you. Our dedicated placement cell aggressively leverages our vast corporate network to land you high-paying roles in prestigious studios.
+            </p>
+          </section>
+
+          {/* Recognized Section */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              Recognized by Experts, Proven by Results
+            </h2>
+            <p>
+              Excellence That Speaks for Itself. Celebrated nationwide for educational excellence, EME Academy was crowned as the <strong>Best Placement Institute of the Year – 2024</strong> (Leadership Award presented by India News Business & NewsX). Graduate from the Best Graphic Design Institute in Mumbai and join an elite league of creative professionals.
+            </p>
+          </section>
+
+          <Faqs faqs={faq} />
+        </div>
       </div>
       <Footer />
       <StickyCTAButton Courses="Graphics Designing Course" />

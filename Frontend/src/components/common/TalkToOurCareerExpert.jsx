@@ -12,6 +12,9 @@ export default function TalkToOurCareerExpert({
   email_sender,
   Brochure,
   BrochureName,
+  buttonText,
+  title,
+  description,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -32,15 +35,19 @@ export default function TalkToOurCareerExpert({
       {/* Featured In Section */}
       <div className="text-center md:text-start p-4">
         <h2 className="text-[16px] md:text-[22px] text-[#232D63] font-bold text-gray-900">
-          Need guidance?{" "}
-          <span className="text-[#FF7A00]">Talk to our career expert!</span>
+          {title || (
+            <>
+              Need guidance?{" "}
+              <span className="text-[#FF7A00]">Talk to our career expert!</span>
+            </>
+          )}
         </h2>
         <p className="text-[#454545] font-[400] text-[12px] md:text-[14px] mt-2 mx-auto">
-          Get in touch with our program advisor & get your queries resolved.
+          {description || "Get in touch with our program advisor & get your queries resolved."}
         </p>
         <div className="w-full flex justify-center md:justify-start mt-4">
           <CTAButton
-            name="Download Brochure"
+            name={buttonText || "Download Brochure"}
             styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 rounded-full border-none"
             _this={_this}
           />

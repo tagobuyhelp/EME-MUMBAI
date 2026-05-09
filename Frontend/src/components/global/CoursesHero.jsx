@@ -27,6 +27,7 @@ function CoursesHero({
     ctaSecondaryLabel,
     ctaSecondaryHref,
     ctaBelowText,
+    ctaRatingsLabel,
     showRatings = true,
     showCertifications = true,
     showBottomCtaCard = true }) {
@@ -143,7 +144,7 @@ function CoursesHero({
                     {/* Rating and Brochure */}
                     {showRatings ? (
                         <div className='w-full flex flex-row justify-center md:justify-start items-center gap-2 text-[#fff] text-[12px]'>
-                            <CTAButton name="Download Brochure ->"
+                            <CTAButton name={ctaRatingsLabel || "Download Brochure ->"}
                                 styleClasses="hidden md:block text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 rounded-full !px-4 border-none"
                                 _this={_this}
                             />

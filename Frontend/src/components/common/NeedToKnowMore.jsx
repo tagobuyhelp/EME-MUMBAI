@@ -13,6 +13,9 @@ export default function NeedToKnowMore({
   Brochure,
   BrochureName,
   formVariant,
+  buttonText,
+  title,
+  description,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -33,13 +36,13 @@ export default function NeedToKnowMore({
       {/* Featured In Section */}
       <div className="flex flex-col justify-center items-center md:items-start md:justify-start text-center md:text-start">
         <h2 className="text-[16px] md:text-[22px] font-bold text-gray-900">
-          Need to know more? <span className="text-[#FF7A00]"></span>
+          {title || "Need to know more?"} <span className="text-[#FF7A00]"></span>
         </h2>
         <p className="text-[#454545] font-[400] text-[12px] md:text-[14px] mt-2 mx-auto">
-          Get to know the course in-depth by downloading the course brochure.
+          {description || "Get to know the course in-depth by downloading the course brochure."}
         </p>
         <CTAButton
-          name="Download Brochure"
+          name={buttonText || "Download Brochure"}
           styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 rounded-full border-none mt-4"
           _this={_this}
         />

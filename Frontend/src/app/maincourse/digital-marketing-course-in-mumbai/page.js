@@ -21,10 +21,31 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Digital Marketing Course in Mumbai with Placement - EME Academy Mumbai",
+    "Best Digital Marketing Course in Mumbai - Master SEO, Ads & AI - EME Academy Mumbai",
   description:
-    "Are you searching for an Advanced Digital Marketing Course in Mumbai? Join the EME Academy Mumbai Advance Digital Marketing Training Program and become a Certified Digital Marketer. Enroll Today: +91-9093926145",
-  keywords: [""],
+    "Master Advanced Digital Marketing (SEO, Google Ads, Meta Ads, AI) with Mumbai's leading institute. Get 100% placement support and run live campaigns.",
+  keywords: [
+    "best digital marketing course in Mumbai",
+    "digital marketing institute in Mumbai",
+    "digital marketing course with placement in Mumbai",
+    "advanced digital marketing course in Mumbai",
+    "digital marketing course for beginners Mumbai",
+    "google ads course in Mumbai",
+    "facebook ads course in Mumbai",
+    "SEO course in Mumbai",
+    "digital marketing course with certificate Mumbai",
+    "digital marketing course fees Mumbai",
+    "AI digital marketing course Mumbai",
+    "social media marketing course Mumbai",
+    "digital marketing course for freshers Mumbai",
+    "digital marketing course for working professionals Mumbai",
+    "PPC course in Mumbai",
+    "content marketing course Mumbai",
+    "digital marketing freelancing course Mumbai",
+    "wordpress course Mumbai",
+    "digital marketing course online Mumbai",
+    "best digital marketing institute western India",
+  ],
   alternates: {
     canonical:
       "https://mumbai.emeacademy.co.in/maincourse/digital-marketing-course-in-mumbai",
@@ -34,12 +55,12 @@ export const metadata = {
 // Hero data
 const heroData = {
   badgeText: "From Beginner to Job-Ready in Just 6 Months!",
-  title:
-    "Best Digital Marketing Course in Mumbai - Master SEO, Google Ads & AI Tools",
+  title: "Dominate the Digital Space with the Best Digital Marketing Course in Mumbai",
   description:
-    "Upskill with EME Academy Mumbai’s Advanced and AI-Powered Digital Marketing Course in Mumbai. Learn Google Ads, Facebook Ads, Sales Funnels, AI-powered automation, SEO, WhatsApp Marketing, WordPress, and more – all in one place and earn up to ₹10 LPA!",
+    "Stop just consuming content and start monetizing it. Upskill with EME Academy’s Advanced Digital Marketing Course in Mumbai. Master Technical SEO, Google & Meta Ads, AI-powered automation, sales funnels, and WordPress—all in one place. Built strictly around live campaigns and actual performance marketing strategies, we offer the most reliable Digital Marketing Course with Placement in Mumbai. Step out of the classroom, build an undeniable portfolio, and unlock tech-driven marketing roles earning up to ₹10 LPA!",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
+  ctaRatingsLabel: "Download Syllabus & Brochure →",
 };
 
 const toolsData = {
@@ -240,21 +261,21 @@ const toolsData = {
 
 const careerProspectsData = {
   title:
-    'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
+    'High-Paying Agency Roles <span class="text-[#f97316]">You Will Dominate</span>',
   subtitle:
-    "After completing our Digital Marketing Course in Mumbai, you will unlock diverse career opportunities:",
+    "Brands are not looking for average textbook graduates; they want marketers who can execute live campaigns and drive measurable ROI. Whether you are stepping into the industry through our Digital Marketing Course for Freshers Mumbai or scaling up your current salary bracket with our Digital Marketing Course for Working Professionals Mumbai, graduating from the premier Digital Marketing Institute in Mumbai opens the doors to the most lucrative roles in the corporate world.",
   careerRoles: [
-    "Digital Marketing Executive",
-    "DEO/PPC Specialist",
-    "Social Media Manager",
-    "Content Marketer",
-    "Marketing Automation Specialist",
-    "Freelancer/ Entrepreneur",
+    "SEO & Search Visibility Expert: Command local search rankings and master technical SEO.",
+    "PPC & Performance Marketing Specialist: Manage brand budgets and maximize conversions.",
+    "Social Media & Community Manager: Engineer viral hooks and dominate platform algorithms.",
+    "AI-Driven Content Marketer: Scale your output with LLMs and AI automation.",
+    "Freelancer / Solo Agency Owner: Design high-converting landing pages and build your agency.",
+    "Marketing Automation Specialist: Build WhatsApp sales funnels and CRM integrations.",
   ],
   salaryInfo:
-    'Average Salary in India: <strong class="font-bold">₹4 - 12 LPA</strong> (as per industry standard)',
+    "Average Salary in India: ₹4 - 12 LPA (As per industry standards.) Backed by a globally recognized Digital Marketing Course with a Certificate in Mumbai, your earning potential is virtually limitless. Don't wait for opportunities—create them.",
   image: "/assets/images/Digital_Marketing_Landing/CareerProspectsDM.webp",
-  buttonText: "Check Eligibility",
+  buttonText: "Download Free Career Guide & Brochure",
 };
 
 // Testimonials data
@@ -393,69 +414,54 @@ const testimonialsData = {
 
 const DMfaq = [
   {
-    id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! All our courses are perfect for beginners.",
+    id: "1",
+    title: "I have zero marketing experience. Is this course right for me?",
+    desc: "Absolutely. We don't expect you to know the algorithm on day one. Our Digital Marketing Course for Beginners Mumbai takes you from absolute scratch to advanced campaign execution. We build your foundational knowledge first, making it the ultimate Digital Marketing Course for Freshers Mumbai looking to launch a high-paying career.",
   },
   {
-    id: 2,
-    title:
-      "What is the duration and fee structure for digital marketing courses?",
-    desc: (
-      <>
-        <p>
-          Our digital marketing courses in Mumbai range from 4 to 6 months,
-          including internship. The course fees are mentioned below:
-        </p>
-        <p>● Advanced Digital Marketing (Facebook & Google Ads)- ₹30,000</p>
-        <p>● Master Digital Marketing with AI- ₹40,000</p>
-      </>
-    ),
+    id: "2",
+    title: "Will I learn practical skills or just textbook theory?",
+    desc: "We despise outdated textbook theory. As the provider of the Best Digital Marketing Course in Mumbai, we operate like a live marketing agency. You will build actual sales funnels, spend real ad budgets, and analyze live website traffic through our Advanced Digital Marketing Course Mumbai. You graduate with a portfolio, not just notes.",
   },
   {
-    id: 3,
-    title: "Do I get placement support after completing the course?",
-    desc: "Absolutely. We offer 100% placement assistance including job referrals, direct interview calls, resume building, and mock interviews.",
+    id: "3",
+    title: "I work a 9-to-5 job. Can I still enroll without quitting?",
+    desc: "Yes. We specifically engineered our Digital Marketing Course for Working Professionals Mumbai to adapt to busy corporate schedules. We offer highly flexible weekend batches, evening sessions, and a fully interactive Digital Marketing Course Online Mumbai format so you can upskill seamlessly.",
   },
   {
-    id: 4,
-    title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
+    id: "4",
+    title: "How does your placement assistance actually work?",
+    desc: "We measure our success by your offer letters. Recognized for offering the most aggressive Digital Marketing Course with Placement Mumbai has to offer, our dedicated career cell actively optimizes your resume, conducts rigorous mock client pitches, and routes your profile directly to our network of 50+ hiring agencies.",
   },
   {
-    id: 5,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    id: "5",
+    title: "Do you teach paid advertising like Meta and Google Ads?",
+    desc: "100%. You won't just learn what a click is; you will learn how to drive high-converting traffic. Our program includes an intensive Google Ads Course in Mumbai and a deep-dive Facebook Ads Course in Mumbai. You will master bidding strategies, retargeting, and audience psychology, making this a complete, high-level PPC Course in Mumbai.",
   },
   {
-    id: 6,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes. Our digital marketing training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs.",
+    id: "6",
+    title: "Will I learn how to rank websites on Google?",
+    desc: "Yes! Organic traffic is the lifeblood of modern brands. Our curriculum includes a comprehensive SEO Course in Mumbai that goes far beyond basic keywords. You will master technical site health, backlink strategies, and Generative Engine Optimization (GEO) to dominate the search results.",
   },
   {
-    id: 7,
-    title: "Will I learn advanced tools and strategies during the course?",
-    desc: "Yes. As part of our advanced digital marketing training institute in Mumbai, you’ll get hands-on experience with ChatGPT, SEMrush, Meta Ads, Google Ads, Mailchimp, WordPress, and more.",
+    id: "7",
+    title: "Does this program cover the latest AI marketing tools?",
+    desc: "The industry is evolving, and generic marketers are being replaced. This is a premier AI Digital Marketing Course Mumbai. You will learn to leverage Large Language Models (LLMs), AI automation, and advanced prompt engineering to scale your output, perfectly complementing our modern Content Marketing Course Mumbai.",
   },
   {
-    id: 8,
-    title: "Will I learn to run real-world campaigns and ads?",
-    desc: "Definitely! Our curriculum includes practical training where you’ll run live Facebook and Google ads, analyze results, and optimize campaigns for real clients.",
+    id: "8",
+    title: "Can I start my own freelance business after graduating?",
+    desc: "Definitely. Many of our students choose the entrepreneurial route. We teach you how to build custom client websites from scratch through our WordPress Course Mumbai, and how to package and sell your services, making this the perfect Digital Marketing Freelancing Course Mumbai.",
   },
   {
-    id: 9,
-    title: "Can I work on freelance projects after this course?",
-    desc: "Yes! Our digital marketing course in Mumbai with placement also covers freelancing strategies. We’ll help you build a client-ready portfolio and pitch confidently.",
+    id: "9",
+    title: "What is the cost of the program, and do you offer EMI?",
+    desc: "We believe elite, agency-level education should be accessible. We maintain highly transparent and competitive Digital Marketing Course Fees Mumbai, with options starting at ₹30,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your campaigns instead of your finances.",
   },
   {
-    id: 10,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
-  },
-  {
-    id: 11,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    id: "10",
+    title: "Will I receive an industry-recognized certificate?",
+    desc: "Yes. You will graduate from the leading Digital Marketing Institute in Mumbai with a prestigious Digital Marketing Course with Certificate Mumbai. Furthermore, we rigorously prepare you to clear official Google, HubSpot, and Meta blueprint certifications, making you an undeniable asset to the Best Digital Marketing Institute in Western India and beyond.",
   },
 ];
 
@@ -463,19 +469,17 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Digital_Marketing_Course/MainCourse/AdVDMCard1.png",
-      alt: "Advanced Digital Marketing",
+      alt: "Advanced Digital Marketing (Facebook & Google Ads)",
       width: 613,
       height: 180,
     },
     link: "/advanced-digital-marketing-certificate-course-in-mumbai",
     imageBgColor: "#005CE2",
     title: "Advanced Digital Marketing (Facebook & Google Ads)",
-    description:
-      "Master the art of running high-converting ad campaigns on Facebook, Instagram, and Google. Learn targeting, bidding, optimization, and retargeting strategies used by top marketers.",
+    description: "The Ultimate PPC Course in Mumbai & Social Media Marketing Course Mumbai",
+    hookLine: "Stop wasting ad spend. Master Meta & Google Ads for massive ROI.",
     descriptionAlert:
-      "Our comprehensive advanced digital marketing course in Mumbai covers all aspects, including Google Ads, Facebook Ads, and advanced strategies. Learn to drive conversions, optimize ROI, and grow your digital marketing skills with hands-on projects and industry-relevant tools.",
-    hookLine:
-      "Enroll now and become a certified digital marketing expert with Facebook & Google Ads mastery!",
+      "Master the exact Meta Ads strategies, audience targeting, and Google PPC bidding systems that drive massive ROI. Go beyond the basics by learning how to craft viral short-form video hooks and optimize technical website health. This intensive track serves as a complete Facebook Ads Course in Mumbai and Google Ads Course in Mumbai.",
     topics: [
       {
         title: "Fundamentals of Digital Marketing",
@@ -503,48 +507,6 @@ const courses = [
         subpoints: [
           "Structure campaigns for maximum ROI.",
           "Use A/B testing, landing pages, and budget management.",
-        ],
-      },
-      {
-        title: "Advanced Audience Targeting",
-        subpoints: [
-          "Segment and target audiences based on interests, behaviors, and demographics.",
-          "Leverage remarketing techniques to re-engage lost users.",
-        ],
-      },
-      {
-        title: "Keyword Research & Ad Copywriting",
-        subpoints: [
-          "Use tools like SEMrush to find high-performing keywords.",
-          "Write compelling headlines and CTAs to boost CTR.",
-        ],
-      },
-      {
-        title: "Retargeting & Pixel Tracking",
-        subpoints: [
-          "Implement Facebook Pixel and Google Tag Manager.",
-          "Track conversions and behavior flow for smarter decisions.",
-        ],
-      },
-      {
-        title: "Smart Bidding Strategies",
-        subpoints: [
-          "Use automated and manual bidding for better cost control.",
-          "Learn about CPC, CPM, and CPA models.",
-        ],
-      },
-      {
-        title: "YouTube Growth",
-        subpoints: [
-          "Promote channels and increase views using in-stream and bumper ads.",
-          "Analyze audience retention and engagement metrics.",
-        ],
-      },
-      {
-        title: "Conversion Tracking",
-        subpoints: [
-          "Set up goals and events in Google Analytics.",
-          "Optimize conversions by measuring ad performance effectively.",
         ],
       },
     ],
@@ -582,12 +544,10 @@ const courses = [
     link: "/diploma-in-advance-digital-marketing-courses-in-mumbai",
     imageBgColor: "#04142E",
     title: "Master Digital Marketing with AI",
-    description:
-      "Explore the future of digital marketing with advanced AI tools, automation, SEO, funnel building, and content strategies. Perfect for professionals, freelancers, and business owners.",
+    description: "Premier AI Digital Marketing Course Mumbai & Content Marketing Course Mumbai",
+    hookLine: "Future-proof your career with AI-powered marketing and SEO.",
     descriptionAlert:
-      "Transform your marketing approach with AI-powered tools and strategies at the best digital marketing institute in Mumbai — the EME Academy Mumbai. This course covers SEO, sales funnel optimization, and content marketing, ideal for entrepreneurs, freelancers, and professionals looking to scale their digital marketing efforts.",
-    hookLine:
-      "Enroll now and become a certified digital marketing expert with AI-powered skills!",
+      "Learn to seamlessly integrate Large Language Models (LLMs), AI humanizer tools, and advanced prompt engineering to scale your content output. This track includes an elite SEO Course in Mumbai covering foundational rankings to cutting-edge Generative Engine Optimization (GEO). It is the perfect Digital Marketing Freelancing Course Mumbai for those looking to build a solo agency.",
     topics: [
       {
         title: "AI-Driven Digital Marketing Fundamentals",
@@ -597,80 +557,24 @@ const courses = [
         ],
       },
       {
-        title: "Building a Web Presence",
-        subpoints: [
-          "Learn to build landing pages, blogs, and microsites.",
-          "Use WordPress and custom design templates.",
-        ],
-      },
-      {
-        title: "E-commerce Fundamentals",
-        subpoints: [
-          "Set up online stores using WooCommerce and Shopify.",
-          "Learn product listings, payment gateways, and funnel analytics.",
-        ],
-      },
-      {
         title: "Search Engine Optimization (SEO)",
         subpoints: [
-          "Learn technical SEO, on-page/off-page strategies, and local SEO.",
-          "Use tools like Google Search Console and Ahrefs.",
-        ],
-      },
-      {
-        title: "Sales Funnel & Conversion Strategy",
-        subpoints: [
-          "Understand customer journeys and build high-converting funnels.",
-          "Use lead magnets, email sequences, and exit-intent popups.",
-        ],
-      },
-      {
-        title: "Advanced Copywriting & Content Marketing",
-        subpoints: [
-          "Master persuasive writing for blogs, ads, and landing pages.",
-          "Build a content calendar and learn content repurposing.",
-        ],
-      },
-      {
-        title: "WhatsApp & Email Marketing Automation",
-        subpoints: [
-          "Automate campaigns using tools like Mailchimp and WhatsApp API.",
-          "Build subscriber lists and segment audiences effectively.",
-        ],
-      },
-      {
-        title: "Video Sales Letters (VSLs)",
-        subpoints: [
-          "Script and produce engaging marketing videos.",
-          "Understand voiceovers, visuals, and call-to-action placement.",
-        ],
-      },
-      {
-        title: "Online Reputation Management (ORM)",
-        subpoints: [
-          "Manage reviews, ratings, and brand mentions.",
-          "Learn crisis handling and review responses.",
+          "Technical SEO, on-page/off-page, and local SEO.",
+          "Generative Engine Optimization (GEO) fundamentals.",
         ],
       },
       {
         title: "AI Tools for Marketing",
         subpoints: [
-          "Use ChatGPT for ad copy, content generation, and customer support.",
-          "Leverage AI for campaign optimization and audience insights.",
+          "Use ChatGPT for ad copy, content, and customer support.",
+          "Leverage LLMs for campaign optimization.",
         ],
       },
       {
-        title: "Google My Business (GMB) & Local Marketing",
+        title: "Freelance Domination",
         subpoints: [
-          "Optimize listings, post updates, and collect reviews.",
-          "Rank locally for location-specific queries.",
-        ],
-      },
-      {
-        title: "WordPress for Marketers",
-        subpoints: [
-          "Design, edit, and maintain SEO-friendly websites.",
-          "Use plugins for speed, security, and form integrations.",
+          "Build high-converting landing pages.",
+          "Package and sell your services as a solo agency.",
         ],
       },
     ],
@@ -737,8 +641,9 @@ export default function page() {
       </div>
       <div className="flex justify-center bg-[#ffffff]">
         <CourseDetailsGrid
-          title="Explore the Best Digital Marketing"
-          subtitle="Course in Mumbai"
+          title="Choose Your Arsenal: Specialized Digital Marketing"
+          subtitle="Courses in Mumbai"
+          description="Don't just learn outdated theory. Learn the exact technical frameworks, high-converting ad strategies, and automation tactics used by top-tier marketing agencies. Whether you want to master performance marketing or future-proof your career with artificial intelligence, we have the ultimate blueprint."
           brochureInfo={{
             Courses: "Digital Marketing Course",
             email_sender: "info@emeacademy.com",
@@ -761,7 +666,87 @@ export default function page() {
       </div>
 
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport 
+          {..._this} 
+          mode="digital-marketing"
+          badge="Career Excellence"
+          title="100% Dedicated Placement Support to Launch Your Agency Career"
+          description="We don't just teach you how to run ads; we teach you how to get hired. As the premier Digital Marketing Institute in Mumbai, our commitment to your success doesn't end with a certificate. When you enroll in our Digital Marketing Course with Placement in Mumbai, you unlock an elite, career-building ecosystem designed to bypass the traditional HR queue and place you directly in front of top agency directors and corporate recruiters."
+          customFeatures={[
+            {
+              id: 1,
+              title: "Resume & LinkedIn Optimization",
+              icon: "FileText",
+              color: "text-blue-500",
+              bg: "bg-blue-50",
+              points: [
+                "Craft job-ready, ATS-friendly professional marketing resumes.",
+                "Recruiter-focused LinkedIn profile optimization.",
+                "Strategic campaign, ROI, and skill showcasing."
+              ],
+            },
+            {
+              id: 2,
+              title: "Analytical Aptitude Training",
+              icon: "Brain",
+              color: "text-purple-500",
+              bg: "bg-purple-50",
+              points: [
+                "Daily data interpretation & reasoning practice.",
+                "Full-length analytical mock tests for top-tier agencies.",
+                "Speed and accuracy enhancement for media buying math."
+              ],
+            },
+            {
+              id: 3,
+              title: "Interview Mastery",
+              icon: "MessagesSquare",
+              color: "text-orange-500",
+              bg: "bg-orange-50",
+              points: [
+                "Weekly rigorous HR and technical marketing mocks.",
+                "Personalized performance feedback from senior strategists.",
+                "Real-world client pitch and campaign scenario prep."
+              ],
+            },
+            {
+              id: 4,
+              title: "Expert Career Mentorship",
+              icon: "UserCheck",
+              color: "text-green-500",
+              bg: "bg-green-50",
+              points: [
+                "1-on-1 career counseling tailored to your specific niche.",
+                "Insider insights on the latest algorithm updates & hiring trends.",
+                "Professional salary negotiation tactics to maximize your CTC."
+              ],
+            },
+            {
+              id: 5,
+              title: "Elite Hiring Network",
+              icon: "Briefcase",
+              color: "text-indigo-500",
+              bg: "bg-indigo-50",
+              points: [
+                "Access to 50+ premium marketing and agency hiring partners.",
+                "Exclusive access to our internal, unlisted job portal.",
+                "Direct corporate interview referrals to fast-track your hiring."
+              ],
+            },
+            {
+              id: 6,
+              title: "Live Portfolio Building",
+              icon: "Layout",
+              color: "text-pink-500",
+              bg: "bg-pink-50",
+              points: [
+                "Develop real-world, data-backed capstone campaigns.",
+                "Guided, mentor-led case study development.",
+                "Build an employer-ready showcase proving your actual ROI generation."
+              ],
+            },
+          ]}
+        />
       </div>
 
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
@@ -783,7 +768,12 @@ export default function page() {
       </div>
 
       <div id="" className="flex w-full p-6">
-        <TalkToOurCareerExpert {..._this} />
+        <TalkToOurCareerExpert 
+          {..._this} 
+          buttonText="Download Detailed Brochure →" 
+          title="Stop Guessing. Start Executing. Talk to a Career Expert!"
+          description="Whether you need a flexible Digital Marketing Course Online Mumbai format or intense classroom training, we will help you map out the exact path to hit your salary goals with the Best Digital Marketing Institute in Western India."
+        />
       </div>
       <div id="testimonials" className="flex w-full  bg-white">
         <CoursesTestimonials {...testimonialsData} />
@@ -792,13 +782,52 @@ export default function page() {
         <Awards />
       </div>
       <div id="" className="flex w-full p-6">
-        <NeedToKnowMore {..._this} />
+        <NeedToKnowMore 
+          {..._this} 
+          buttonText="Download Complete Brochure" 
+          title="Ready to Build a Marketing Career?"
+          description="Review our transparent Digital Marketing Course Fees Mumbai, and see exactly how our globally recognized Digital Marketing Course with Certificate Mumbai can fast-track your journey into top-tier MNCs."
+        />
       </div>
       <div className="flex flex-col justify-center w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
         <NewsHomeLanding {..._this} />
       </div>
-      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
-        <Faqs faqs={DMfaq} />
+      <div className="w-full bg-gradient-to-r bg-[#F4FBFE] mt-6">
+        <div className="max-w-[1200px] mx-auto flex flex-col gap-3 md:gap-4 px-4 py-8">
+          {/* DM Overview */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              The EME Advantage: Why We Are the Best Digital Marketing Institute in Western India
+            </h2>
+            <p>
+              Breaking into the digital ecosystem requires more than just reading blog posts. You need hands-on exposure, agency-level infrastructure, and aggressive industry backing. Here is exactly why ambitious professionals choose EME Academy for the most High-ROI Digital Marketing Course in Mumbai.
+            </p>
+            <p>
+              <strong>100% Agency-Style Execution -</strong> We despise outdated textbook theory. You will build actual sales funnels, spend real ad budgets, and analyze live website traffic through our Advanced Digital Marketing Course Mumbai.
+            </p>
+            <p>
+              <strong>Advanced AI Integration -</strong> Master the latest LLMs and AI automation tools to scale content, optimize bidding, and dominate the modern marketing landscape through our AI Digital Marketing Course Mumbai.
+            </p>
+            <p>
+              <strong>Strategic Portfolio Building -</strong> Graduate with a track record of live case studies, sales funnels, and ranking reports that prove to employers you are workforce-ready from day one.
+            </p>
+            <p>
+              <strong>Unrivaled Placement Assistance -</strong> Recognized for offering the most aggressive Digital Marketing Course with Placement Mumbai relies on, we route your profile directly to our network of 50+ hiring agencies.
+            </p>
+          </section>
+
+          {/* Recognized Section */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              Recognized by Experts, Proven by Results
+            </h2>
+            <p>
+              Excellence That Speaks for Itself. Celebrated nationwide for educational excellence, EME Academy was crowned as the <strong>Best Placement Institute of the Year – 2024</strong> (Leadership Award presented by India News Business & NewsX). We are proud to be certified by <strong>MSME | ISO | #startupindia</strong>, ensuring your credentials carry global weight.
+            </p>
+          </section>
+
+          <Faqs faqs={DMfaq} />
+        </div>
       </div>
       <Footer />
       <StickyCTAButton {..._this} />

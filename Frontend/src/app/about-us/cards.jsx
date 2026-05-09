@@ -57,13 +57,11 @@ export default function Cards() {
           </div>
 
           <p className="text-gray-600 text-center md:text-start text-[14px] md:text-[16px] text-[#4B4B4B] ">
-            To be a leading Institute in India, recognized for empowering
-            individuals with the knowledge, skills and values necessary to excel
-            in their careers and contribute to the nation’s growth.
+            We see a future where a college degree is just the starting line, not the finish line. Our vision is to completely eradicate the gap between textbook theory and real-world execution. We aim to be Western India’s ultimate career launchpad—a place where fresh graduates don't just learn syllabuses but transform into agency-ready professionals equipped to drive actual business ROI from day one.
           </p>
           <div className="w-full flex">
             <CTAButton
-              name="Talk to our expert"
+              name="Talk to Our Expert"
               styleClasses="mt-4 text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-50 rounded-xl z-30 border-none !px-12 "
               _this={_this}
             />
@@ -114,15 +112,10 @@ export default function Cards() {
           </div>
 
           <p className="text-gray-600 text-center md:text-start text-[14px] md:text-[16px] text-[#4B4B4B]">
-            To provide high-quality, industry-relevant training programs that
-            foster lifelong learning and professional development. Institute is
-            committed to: Delivering innovative and practical learning solutions
-            through experienced educators and leveraging advanced technologies.
-            Creating a supportive and inclusive learning environment that
-            nurtures talent and encourages personal and professional growth.
+            We are on a mission to eliminate the "fresher" struggle. Our daily goal is to take ambitious graduates who have zero corporate experience and fast-track them into highly capable professionals. We do this by ditching outdated theoretical lectures and replacing them with hands-on, agency-level execution. From managing live campaigns to building real-world projects under the guidance of industry veterans, our mission is simple: to build your portfolio, prep you for the toughest interviews, and directly connect you with top hiring companies across the country.
           </p>
           <CTAButton
-            name="Talk to our expert"
+            name="Get Free Career Guidance"
             styleClasses="mt-4 text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-50 rounded-xl z-30 border-none !px-12 "
             _this={_this}
           />

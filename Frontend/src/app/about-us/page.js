@@ -10,9 +10,9 @@ import { Card } from "@/components/ui/card";
 import AllLocation from "@/components/common/all-location";
 import WhyEMEAcademy from "@/components/common/WhyEMEAcademy";
 export const metadata = {
-  title: "About Us - EME Academy Mumbai",
+  title: "About Us | EME Academy Mumbai - Shaping the Next Generation",
   description:
-    "Know the story behind EME Academy Mumbai. Learn about our mission, values, and the team dedicated to providing exceptional services in Mumbai. Find out why we're passionate about making a difference.",
+    "Discover EME Academy Mumbai's mission to bridge the gap between degree and career. Learn how Western India's No. 1 professional training institute transforms graduates into industry-ready experts.",
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/about-us",
   },
@@ -74,7 +74,11 @@ export default function About() {
         <Cards />
       </div>
       <div className="flex w-full justify-center items-center bg-[#ffffff] md:p-6">
-        <WhyEMEAcademy />
+        <WhyEMEAcademy 
+          badge="Beyond the Syllabus"
+          title={<>Why <span className="text-[#0057E2]">Choose</span> EME Academy?</>}
+          mode="about"
+        />
       </div>
       <div className="flex w-full bg-[#F4FBFE] bg-[url('/assets/images/Home/background1.png')] bg-fit bg-top md:bg-right bg-no-repeat">
         <FoundersMessage />

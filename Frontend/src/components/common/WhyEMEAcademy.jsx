@@ -14,52 +14,102 @@ import {
   CheckCircle2 
 } from "lucide-react";
 
-const features = [
-  {
-    icon: Award,
-    title: "Industry-Expert Mentors",
-    subtitle: "Learn directly from certified experts who bring years of actual corporate experience into the classroom, not just textbook theory.",
-    color: "text-blue-500",
-    bg: "bg-blue-50",
-  },
-  {
-    icon: Target,
-    title: "100% Placement",
-    subtitle: "We stand by you with rigorous interview coaching, resume optimization, and direct referrals to hiring partners until you secure an offer.",
-    color: "text-orange-500",
-    bg: "bg-orange-50",
-  },
-  {
-    icon: Clock,
-    title: "Adaptive Timings",
-    subtitle: "Designed to fit your life. Whether you are a college student or a working professional, our flexible batches ensure learning never stops.",
-    color: "text-green-500",
-    bg: "bg-green-50",
-  },
-  {
-    icon: Zap,
-    title: "Project-Based Curriculum",
-    subtitle: "Stop memorizing and start executing. Build a compelling portfolio of projects that prove your skills to recruiters.",
-    color: "text-purple-500",
-    bg: "bg-purple-50",
-  },
-  {
-    icon: LifeBuoy,
-    title: "Career Guidance",
-    subtitle: "Your journey doesn't end with a certificate. Get continuous mentorship, upskilling advice, and career roadmaps even after you graduate.",
-    color: "text-indigo-500",
-    bg: "bg-indigo-50",
-  },
-  {
-    icon: CreditCard,
-    title: "EMI Options",
-    subtitle: "Enjoy affordable learning with easy, no-cost monthly EMI options. Invest in your future with easy monthly installments.",
-    color: "text-pink-500",
-    bg: "bg-pink-50",
-  },
-];
+export default function WhyEMEAcademy({ 
+  badge = "The EME Edge", 
+  title = <>What Makes EME Academy the <span className="text-[#0057E2]">Smart Choice</span>?</>,
+  mode = "home"
+}) {
+  const homeFeatures = [
+    {
+      icon: Award,
+      title: "Industry-Expert Mentors",
+      subtitle: "Learn directly from certified experts who bring years of actual corporate experience into the classroom, not just textbook theory.",
+      color: "text-blue-500",
+      bg: "bg-blue-50",
+    },
+    {
+      icon: Target,
+      title: "100% Placement",
+      subtitle: "We stand by you with rigorous interview coaching, resume optimization, and direct referrals to hiring partners until you secure an offer.",
+      color: "text-orange-500",
+      bg: "bg-orange-50",
+    },
+    {
+      icon: Clock,
+      title: "Adaptive Timings",
+      subtitle: "Designed to fit your life. Whether you are a college student or a working professional, our flexible batches ensure learning never stops.",
+      color: "text-green-500",
+      bg: "bg-green-50",
+    },
+    {
+      icon: Zap,
+      title: "Project-Based Curriculum",
+      subtitle: "Stop memorizing and start executing. Build a compelling portfolio of projects that prove your skills to recruiters.",
+      color: "text-purple-500",
+      bg: "bg-purple-50",
+    },
+    {
+      icon: LifeBuoy,
+      title: "Career Guidance",
+      subtitle: "Your journey doesn't end with a certificate. Get continuous mentorship, upskilling advice, and career roadmaps even after you graduate.",
+      color: "text-indigo-500",
+      bg: "bg-indigo-50",
+    },
+    {
+      icon: CreditCard,
+      title: "EMI Options",
+      subtitle: "Enjoy affordable learning with easy, no-cost monthly EMI options. Invest in your future with easy monthly installments.",
+      color: "text-pink-500",
+      bg: "bg-pink-50",
+    },
+  ];
 
-export default function WhyEMEAcademy() {
+  const aboutFeatures = [
+    {
+      icon: Award,
+      title: "Industry Experts",
+      subtitle: "You’ll be mentored by active agency leads and corporate professionals who teach you the exact frameworks working in the market today.",
+      color: "text-blue-500",
+      bg: "bg-blue-50",
+    },
+    {
+      icon: Target,
+      title: "100% Placement Support",
+      subtitle: "We don't just hand out advice; we hand out opportunities. With relentless interview training and direct referrals for fresh graduates, we back your job hunt until you are hired.",
+      color: "text-orange-500",
+      bg: "bg-orange-50",
+    },
+    {
+      icon: Clock,
+      title: "Flexible Schedule",
+      subtitle: "Whether you are finishing your final semester or juggling a day job, our adaptive batch timings ensure you never have to choose between your current life and your future career.",
+      color: "text-green-500",
+      bg: "bg-green-50",
+    },
+    {
+      icon: Zap,
+      title: "Real Practical Training",
+      subtitle: "You will spend your time building live portfolios and executing real-world capstone projects that make corporate recruiters instantly take notice.",
+      color: "text-purple-500",
+      bg: "bg-purple-50",
+    },
+    {
+      icon: LifeBuoy,
+      title: "Career Mentorship",
+      subtitle: "We stand by even after your course ends. We offer ongoing career roadmaps, salary negotiation tactics, and upskilling advice as you climb the corporate ladder.",
+      color: "text-indigo-500",
+      bg: "bg-indigo-50",
+    },
+    {
+      icon: CreditCard,
+      title: "Zero Financial Stress",
+      subtitle: "A premium education shouldn't drain your savings. We offer seamless, 0% EMI payment plans so you can focus 100% of your energy on mastering your skills.",
+      color: "text-pink-500",
+      bg: "bg-pink-50",
+    },
+  ];
+
+  const features = mode === "about" ? aboutFeatures : homeFeatures;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
   const Courses = "All Course";
@@ -98,7 +148,7 @@ export default function WhyEMEAcademy() {
               className="inline-flex items-center gap-2 rounded-full border border-blue-100 px-3 py-1 text-[10px] md:text-xs text-[#0057E2] font-bold bg-blue-50/50"
             >
               <CheckCircle2 className="h-3.5 w-3.5" />
-              The EME Edge
+              {badge}
             </motion.div>
 
             <motion.h2 
@@ -108,7 +158,7 @@ export default function WhyEMEAcademy() {
               transition={{ delay: 0.1 }}
               className="text-xl md:text-3xl font-black text-gray-900 leading-tight"
             >
-              What Makes EME Academy the <span className="text-[#0057E2]">Smart Choice</span>?
+              {title}
             </motion.h2>
 
             <motion.div

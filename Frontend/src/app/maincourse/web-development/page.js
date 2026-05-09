@@ -21,13 +21,15 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Web Development Course in Mumbai - Get Job in 6 Months - - EME Academy Mumbai",
+    "Best Web Development Course in Mumbai - Launch Your Tech Career - EME Academy Mumbai",
   description:
-    "Best Website Development course in Mumbai. Get 100% Job just in 6 months. Lifetime job placement from EME Academy Mumbai. Learn from the best professional faculties. Join EME Academy Mumbai Now!",
+    "Master Full Stack Web Development (MERN, MEAN, PHP, WordPress) with the best course in Mumbai. Get 100% placement support and build a live portfolio.",
   keywords: [
     "best web development course in Mumbai",
     "web development course in Mumbai",
     "website development course in Mumbai",
+    "full stack development course in Mumbai",
+    "MERN stack course in Mumbai",
   ],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/maincourse/web-development",
@@ -37,111 +39,53 @@ export const metadata = {
 const webdevfaq = [
   {
     id: "1",
-    title:
-      "What is the duration and fee structure for web development courses?",
-    desc: "The MERN, MEAN, PHP & MySQL, and WordPress courses range from 4 to 6 months. Fees are affordable, with instalment options available.",
+    title: "Can I enroll in this program with no coding background?",
+    desc: "Yes. We’ve designed our Web Development Course for Beginners in Mumbai to transform you from scratch to a hire-ready developer. We assume zero knowledge. HTML, CSS, and JavaScript build your fundamental logic before you advance to complex backend architectures, making this the ultimate Web Development Course for Freshers Mumbai.",
   },
   {
     id: "2",
-    title: "What are the eligibility criteria for these courses?",
-    desc: "Anyone interested in web development can join. No prior coding experience is required for WordPress Web Development, but basic programming knowledge is helpful for MERN, MEAN, and PHP & MySQL courses.",
+    title: "How does the placement support actually work?",
+    desc: "Students getting a job offer is the only success metric we have. The most aggressive Web Development Course with Placement in Mumbai, we don’t simply hand you an e-certificate. Our placement cell hyper-optimizes your GitHub portfolio, conducts technical mock interviews, and routes your profile directly to our network of 50+ hiring tech companies till you’re placed.",
   },
   {
     id: "3",
-    title: "Will I receive a certification upon course completion?",
-    desc: "Yes, a globally recognised certification is awarded after completing the course.",
+    title: "Should I do the MERN or MEAN stack?",
+    desc: "Both are equally powerful and highly paid! If you want to build dynamic user-facing interfaces using React, go with our MERN Stack Course in Mumbai. If you prefer the robust, enterprise-level framework of Angular, go with our MEAN Stack Course in Mumbai. Our career counselors will help you choose the exact path based on your goals in your free demo.",
   },
   {
     id: "4",
-    title: "Is there an internship included in the courses?",
-    desc: "Yes, we provide internships for Full Stack Web Development, PHP & MySQL, and WordPress courses to give students real-world project experience.",
+    title: "I have a full-time 9-to-5. Can I take this course?",
+    desc: "Yes. We specifically engineered our Web Development Course for Working Professionals Mumbai to slot around busy office hours. Highly flexible weekend batches, evening sessions, and a fully interactive Web Development Course Online Mumbai format ensure you can switch to tech without leaving your job.",
   },
   {
     id: "5",
-    title: "Does EME Academy provide online classes?",
-    desc: "Yes, we offer both online and offline training with live instructor-led sessions and recorded materials.",
+    title: "Do you teach React and Node.js in-depth?",
+    desc: "100%. We don’t just skim the surface. Our full-stack track includes a comprehensive, deep-dive React JS Course in Mumbai for frontend mastery and an intensive Node JS Course in Mumbai for backend execution, ensuring you master the modern JavaScript ecosystem that top MNCs demand.",
   },
   {
     id: "6",
-    title: "Will I get placement support after the course?",
-    desc: "Absolutely! We provide 100% placement support, resume-building assistance, and mock interview preparation.",
+    title: "Can I specialize in just Frontend or Backend instead of Full Stack?",
+    desc: "Yes! While we highly recommend the complete Full Stack Development Course in Mumbai for maximum salary potential, you can choose to hyper-specialize. You can enroll purely in our Frontend Development Course Mumbai to focus on UI/UX and React, or our Backend Development Course Mumbai to master server logic and databases.",
   },
   {
     id: "7",
-    title: "Do I need prior experience for the MERN Stack course?",
-    desc: "No prior experience is needed! Basic knowledge of HTML, CSS, and JavaScript is helpful, but our beginner-friendly training covers everything.",
+    title: "Are PHP and WordPress still relevant for getting hired?",
+    desc: "More than ever. Over 40% of the internet is powered by WordPress! Our specialized PHP MySQL Course in Mumbai and WordPress Development Course Mumbai are extremely popular for students who want to dominate the freelance market, start their own digital agencies, or work in fast-paced e-commerce companies.",
   },
   {
     id: "8",
-    title: "Do you provide placement assistance?",
-    desc: "Yes, we offer 100% placement support, including resume building, mock interviews, and job referrals to top tech companies.",
+    title: "What are the course fees, and do you offer EMI?",
+    desc: "We believe elite tech education should be accessible. Our Web Development Course Fees Mumbai are fully transparent, starting between ₹35,000 and ₹40,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your coding projects instead of financial stress.",
   },
   {
     id: "9",
-    title: "How does EME Academy ensure practical learning?",
-    desc: "Our curriculum includes live projects, capstone assignments and real-world problem-solving.",
+    title: "Will I get a recognized certificate when I finish?",
+    desc: "Yes. Upon graduation, you will receive an industry-recognized Web Development Course with Certificate Mumbai. More importantly, because we are certified by MSME, ISO, and #startupindia, your credentials carry significant weight when placed on your resume and LinkedIn profile.",
   },
   {
     id: "10",
-    title: "What technologies and programming languages will I learn?",
-    desc: "You’ll gain expertise in HTML, CSS, JavaScript, React, Node.js, MongoDB, PHP, MySQL, and WordPress.",
-  },
-  {
-    id: "11",
-    title: "What are the course fees, and are there any discounts?",
-    desc: (
-      <>
-        <p>Yes, there are</p>
-        <p>
-          Full Stack (MERN)Web Development Course Fee - Rs.50,000 (Rs 40,000
-          after discount){" "}
-        </p>
-        <p>
-          Full Stack (MEAN)Web Development Course Fee - Rs.50,000 (Rs 40,000
-          after discount)
-        </p>
-        <p>PHP & MySQL Course Fee - Rs.35,000 (Rs. 25,000 after discount) </p>
-        <p>
-          WordPress Development Course Fee - Rs. 30,000 (Rs. 20,000 after
-          discount)
-        </p>
-      </>
-    ),
-  },
-  {
-    id: "12",
-    title: " What kind of projects will I work on?",
-    desc: (
-      <>
-        <p>Students work on real-world projects, including:</p>
-        <p>
-          Full Stack Web Development: MERN & MEAN Stack, Full-stack
-          applications, admin panels, and dynamic websites
-        </p>
-        <p>
-          PHP & MySQL: CMS, eCommerce sites, and database-driven applications
-        </p>
-        <p>WordPress: Custom websites, blogs, and eCommerce sites</p>
-      </>
-    ),
-  },
-  {
-    id: "13",
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
-  },
-  {
-    id: "14",
-    title: "How can I enroll?",
-    desc: (
-      <>
-        <p>
-          To enroll, contact us at 9093926145/9831284098 or email at
-          infomumbai@emeacademy.co.in. You can also register online through our
-          website.
-        </p>
-      </>
-    ),
+    title: "What makes you the best institute for Web Development?",
+    desc: "We just can’t stand the thought of teaching outdated textbook theory. Why? Because as the Best Full Stack Institute in Western India, we’re a tech agency, not a training center. You learn from living, breathing developers, create a live portfolio of deployable applications, and graduate with the practical execution skills that force recruiters to take you seriously.",
   },
 ];
 
@@ -149,74 +93,25 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MERNBanner2.svg",
-      alt: "Full Stack (MERN) Web Development Course in Mumbai",
+      alt: "MERN Stack Course in Mumbai",
       width: 437,
       height: 180,
     },
     link: "/best-mern-stack-development-course-in-mumbai",
     imageBgColor: "#0F2633",
-    title: "Full Stack (MERN) Web Development Course in Mumbai",
-    description: "MERN Stack - MongoDB, Express.js, React.js, Node.js",
+    title: "MERN Stack Course in Mumbai",
+    description: "Master MongoDB, Express.js, React.js, and Node.js",
     hookLine:
-      "Enroll now and become a certified full stack developer with placement support!",
+      "Deep dive into modern web architecture with our intensive React & Node JS Course.",
     descriptionAlert:
-      "Discover the Best Full Stack Web Development Course in Mumbai with EME Academy Mumbai, designed to make you industry-ready. Master the MERN stack (MongoDB, Express.js, React, Node.js) and build dynamic applications from the scratch.",
+      "This track includes intensive, hands-on modules acting as a complete React JS Course in Mumbai and Node JS Course in Mumbai. Build scalable, single-page applications from scratch.",
     topics: [
       "Frontend Development with React.js: Component-based architecture, state management, and API integration.",
       "Backend Development with Node.js & Express.js: RESTful API creation, authentication, and database management.",
       "MongoDB Database: CRUD operations, schema modeling with Mongoose, and aggregation framework.",
       "Version Control & Deployment: GitHub, deployment strategies, and cloud hosting.",
     ],
-    accordionItems: [
-      {
-        value: "mongo",
-        trigger: "MongoDB (Database)",
-        content: (
-          <p>
-            <br />• NoSQL database fundamentals.
-            <br />• CRUD Operations with MongoDB.
-            <br />• Mongoose for schema modeling.
-            <br />• Aggregation Framework.
-          </p>
-        ),
-      },
-      {
-        value: "express",
-        trigger: "Express.js",
-        content: (
-          <p>
-            <br />• Building RESTful APIs.
-            <br />• Middleware and routing.
-            <br />• Authentication with JWT.
-            <br />• Error Handling and security best practices.
-          </p>
-        ),
-      },
-      {
-        value: "react",
-        trigger: "React.js",
-        content: (
-          <p>
-            <br />• React components and state management.
-            <br />• React hooks and context API.
-            <br />• React Router for navigation.
-            <br />• Integrating REST APIs.
-            <br />• Redux For State Management.
-          </p>
-        ),
-      },
-      {
-        value: "node",
-        trigger: "Node.js",
-        content: (
-          <p>
-            <br />• File System and Modules in Node.js
-            <br />• Working with APIs and third-party packages.
-            <br />• WebSockets for real-time applications.
-          </p>
-        ),
-      },
-    ],
+    accordionItems: [],
     details: [
       {
         icon: "/assets/icons/DurationIcon.svg",
@@ -243,17 +138,17 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/MEAN2.svg",
-      alt: "Full Stack (MEAN) Web Development Course in Mumbai",
+      alt: "MEAN Stack Course in Mumbai",
       width: 613,
       height: 180,
     },
     link: "/best-mean-stack-training-course-in-mumbai",
     imageBgColor: "#01363E",
-    title: "Full Stack (MEAN) Web Development Course in Mumbai",
-    description: "MEAN Stack - MongoDB, Express.js, Angular.js, Node.js",
-    hookLine: "Learn from the Best MEAN Stack Training Institute in Mumbai!",
+    title: "MEAN Stack Course in Mumbai",
+    description: "Master MongoDB, Express.js, Angular.js, and Node.js",
+    hookLine: "The ultimate enterprise-level stack for high-performance apps.",
     descriptionAlert:
-      "Master the MEAN Stack (MongoDB, Express.js, Angular, Node.js) with EME Academy Mumbai’s Best Full Stack Development Course in Mumbai with Placement. Gain practical coding experience with real-world projects.",
+      "Learn how to engineer heavy-duty, data-driven applications used by top MNCs. Become a highly sought-after backend and frontend problem solver.",
     topics: [
       "Frontend with Angular: TypeScript, two-way data binding, and modular design.",
       "Backend with Node.js & Express.js: Robust server-side applications.",
@@ -287,17 +182,18 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/PHP2.svg",
-      alt: "PHP & MySQL Development Intensive Course in Mumbai",
+      alt: "PHP MySQL Course in Mumbai",
       width: 613,
       height: 180,
     },
     link: "/php-mysql-training-institute-in-mumbai",
     imageBgColor: "#1F77A2",
-    title: "PHP & MySQL Development Intensive Course in Mumbai",
+    title: "PHP MySQL Course in Mumbai",
+    description: "Intensive Backend Architecture & Database Management",
     hookLine:
-      "Join the Top PHP MySQL Training Institute in Mumbai with Placement Support.",
+      "Power the web's backend with server-side scripting and secure databases.",
     descriptionAlert:
-      "Enhance your programming skills with the Best PHP & MySQL Course Training in Mumbai. Learn backend development, database management, and server-side scripting.",
+      "Master server-side scripting, relational databases, dynamic content delivery, and secure authentication to build bulletproof web applications.",
     topics: [
       "PHP fundamentals, functions, arrays, and control structures.",
       "Creating MySQL Databases and handling database operations.",
@@ -331,17 +227,17 @@ const courses = [
   {
     image: {
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/WordPress2.svg",
-      alt: "WordPress Development",
+      alt: "WordPress Development Course Mumbai",
       width: 613,
       height: 180,
     },
     link: "/wordpress-development-training-institute-in-mumbai",
     imageBgColor: "#22769B",
-    title: "WordPress Development",
-    hookLine:
-      "Join the Best WordPress Training Institute in Mumbai with Placement Support.",
+    title: "WordPress Development Course Mumbai",
+    description: "Advanced CMS & Custom E-Commerce Development",
+    hookLine: "Dominate the freelance and agency market with custom WordPress.",
     descriptionAlert:
-      "Become a professional WordPress developer with our Best WordPress Developer Course in Mumbai. Gain hands-on experience in website creation, customization, and plugin management.",
+      "Go far beyond drag-and-drop page builders. Learn custom theme creation, advanced plugin architecture, and full-scale WooCommerce integration.",
     topics: [
       "Introduction to WordPress, Themes, and Plugins.",
       "Managing Pages, Posts, Widgets, and Menus.",
@@ -509,24 +405,21 @@ const toolsData = {
 
 const careerProspectsData = {
   title:
-    'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
+    'High-Paying Tech Roles <span class="text-[#f97316]">You Will Dominate</span>',
   subtitle:
-    "After completing our Web Development Course in Mumbai, you will unlock diverse career opportunities:",
+    "MNCs and startups are hunting for specialized problem-solvers. Whether you are a fresher or a working professional, graduating from Mumbai's premier institute unlocks the industry's most lucrative titles.",
   careerRoles: [
-    "Frontend Developer",
-    "Backend Developer",
-    "Full Stack Developer",
-    "PHP Developer",
-    "WordPress Developer",
-    "UI/UX Designer",
-    "MERN/MEAN Stack Developer",
-    "Web Developer & Designer",
+    "Frontend Developer & UI Engineer: Master client-side logic and pixel-perfect interfaces.",
+    "Backend Architect: Command server-side operations and database management.",
+    "Full Stack Developer: Handle both client and server-side operations seamlessly.",
+    "MERN / MEAN Stack Specialist: Master modern tech ecosystems and frameworks.",
+    "PHP & WordPress Developer: Dominate freelance, agency, and e-commerce markets.",
   ],
   salaryInfo:
-    "As the industry evolves with <strong>AI, Web3,</strong> and <strong>Progressive Web Apps (PWAs)</strong>, developers will have endless opportunities to innovate and build cutting-edge digital solutions — ensuring a future-proof and rewarding career in web development.",
+    "Future-Proof Your Income: As the landscape evolves with AI and Web3, our recognized certification ensures you have the foundation to innovate and command top-tier salaries.",
   image:
     "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Web_Development/pictures/CareerProspectsImage.svg",
-  buttonText: "Check Eligibility",
+  buttonText: "Download Free Career Guide & Brochure",
 };
 
 // Testimonials data
@@ -609,9 +502,9 @@ const testimonialsData = {
 
 const heroData = {
   badgeText: "Get Job-Ready in Just 6 Months!",
-  title: "Best Web Development Course in Mumbai",
+  title: "Launch Your Tech Career with the Best Web Development Course in Mumbai",
   description:
-    "Explore Full Stack Web Development with MERN, MEAN, PHP & MySQL, and WordPress. Earn up to ₹12 LPA with the best course in Mumbai, designed to launch your tech career.",
+    "Stop getting stuck in \"tutorial hell\" and start building real, deployable applications. Dive into our comprehensive Full Stack Development Course in Mumbai and master MERN, MEAN, PHP & MySQL, and WordPress from scratch. Designed to turn absolute beginners into highly paid programmers, we offer the most reliable Web Development Course with Placement in Mumbai. Build a live portfolio and unlock elite tech roles, earning up to ₹12 LPA!",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -656,8 +549,9 @@ export default function page() {
       </div>
       <div className="flex justify-center bg-[#ffffff]">
         <CourseDetailsGrid
-          title="Our Web Development"
-          subtitle="Courses"
+          title="Choose Your Stack: Specialized Web Development"
+          subtitle="Courses in Mumbai"
+          description="Don't settle for basic HTML and CSS. To secure high-paying tech roles, you need to master modern frameworks and full-stack architectures. Choose the exact Full Stack Web Development Course Mumbai IT companies are hiring for, and start building live, deployable applications."
           brochureInfo={{
             Courses: "Web Development Course",
             email_sender: "ALL",
@@ -677,7 +571,7 @@ export default function page() {
         <CoursesCurriculum {...toolsData} {..._this} />
       </div>
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport {..._this} mode="web-dev" />
       </div>
       <div className="w-full p-6">
         <NeedToKnowMore {..._this} />
@@ -723,7 +617,53 @@ export default function page() {
         <NewsHomeLanding {..._this} />
       </div>
       <div className="w-full bg-gradient-to-r bg-[#F4FBFE] mt-6">
-        <Faqs faqs={webdevfaq} />
+        <div className="max-w-[1200px] mx-auto flex flex-col gap-3 md:gap-4 px-4 py-8">
+          {/* Web Dev Overview */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              The EME Advantage: Why We Are the Best Web Development Institute in Western India
+            </h2>
+            <p>
+              Breaking into the tech ecosystem requires more than just watching video tutorials. You need hands-on exposure, agency-level mentorship, and aggressive placement backing. Here is exactly why ambitious developers choose EME Academy for the most Practical Web Development Course in Mumbai.
+            </p>
+            <p>
+              <strong>Mentorship from Active Developers -</strong> We skip the academic lectures. Your training is led by industry veterans who bring real-world coding projects, enterprise-level architecture, and insider tech knowledge straight into the classroom.
+            </p>
+            <p>
+              <strong>Comprehensive, High-Demand Stacks -</strong> We don't just offer generic overviews. Whether you want to specialize with our MERN Stack Course in Mumbai, or master enterprise architecture through our MEAN Stack track, our curriculum is laser-focused on the exact technologies MNCs are hiring for right now.
+            </p>
+            <p>
+              <strong>Execution-First, Portfolio Training -</strong> Say goodbye to theoretical fluff. We focus entirely on live corporate case studies and actual deployable applications. You will acquire the tangible, hands-on execution skills that prove to employers you are workforce-ready from day one.
+            </p>
+            <p>
+              <strong>Unrivaled Placement Assistance -</strong> As the leading provider of a Web Development Course with Placement Mumbai relies on, we don't just train you—we launch you. Our dedicated placement cell aggressively leverages our vast corporate network to land you high-paying roles in prestigious organizations.
+            </p>
+            <p>
+              <strong>Flexible Learning for Busy Professionals -</strong> Upskill without putting your life on hold. We offer highly adaptable weekend and weekday batches, making this the perfect Web Development Course for Working Professionals in Mumbai.
+            </p>
+          </section>
+
+          {/* Recognized Section */}
+          <section className="flex flex-col gap-3 md:gap-4 text-[#727272] text-[12px] lg:text-[16px]">
+            <h2 className="text-[#232D63] text-xl font-semibold">
+              Recognized by Experts, Proven by Results
+            </h2>
+            <h3 className="text-[#0057E2] font-bold">
+              Excellence That Speaks for Itself.
+            </h3>
+            <p className="font-bold text-gray-800">
+              Celebrated Nationwide for Educational Excellence
+            </p>
+            <div className="bg-white p-4 border-l-4 border-[#0057E2] shadow-sm italic">
+              Crowned as the Best Placement Institute of the Year – 2024 (Leadership Award presented by India News Business & NewsX)
+            </div>
+            <p>
+              Graduate from the Best Web Development Institute in Mumbai and join an elite league of professionals.
+            </p>
+          </section>
+
+          <Faqs faqs={webdevfaq} />
+        </div>
       </div>
       <Footer />
       <StickyCTAButton Courses="Web Development Course" />
