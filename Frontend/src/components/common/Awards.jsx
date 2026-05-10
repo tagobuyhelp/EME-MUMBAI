@@ -5,12 +5,12 @@ function Awards() {
   return (
     <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-center py-4 lg:py-6 px-5 md:px-24">
       <div className="w-full flex flex-col items-center text-center gap-2 mb-5 md:mb-7">
-        <div className="text-[#232D63] text-[18px] md:text-[26px] font-black leading-tight">
-          Recognized by Experts, Proven by Results
-        </div>
-        <div className="text-[#E87D1A] text-[12px] md:text-[14px] font-bold">
-          Excellence That Speaks for Itself.
-        </div>
+        <h2 className="text-[#232D63] text-[24px] md:text-[34px] font-extrabold leading-tight">
+          We Don't Just Talk — <span className="text-[#0057E2]">We Have Proof</span>
+        </h2>
+        <p className="text-[#454545] text-[14px] md:text-[18px] font-medium max-w-[800px]">
+          The Tech Industry Noticed. So Should You.
+        </p>
       </div>
       <div className="w-full h-auto md:h-[350px]   bg-white  shadow-xl  rounded-xl flex flex-col md:flex-row gap-4 items-center overflow-hidden">
         <div className="md:w-[50%]  h-[50%] md:h-full flex flex-col justify-center gap-y-2 md:gap-y-4 px-4 md:px-14 py-2 items-center ">
@@ -23,8 +23,8 @@ function Awards() {
               className="w-15 h-15 md:w-30 md:h-30"
             />
             <div className=" text-[#232D63] leading-8 text-[20px] lg:text-[22px] font-bold text-start">
-              Celebrated Nationwide for
-              <span className="text-[#E87D1A]"> Educational Excellence</span>
+              Proudly Recognized as an
+              <span className="text-[#E87D1A]"> Award-Winning Academy</span>
               <span className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ function Awards() {
             />
 
             <p className="text-[12px] md:text-[16px] font-semibold text-[#232D63] md:leading-[24px]">
-              Crowned as the <span className="text-[#2251FF]">Best Placement Institute</span> of the year - 2024 (Leadership Award presented by India News Business & NewsX)
+              Best Placement Institute of the Year - 2024
             </p>
           </Card>
         </div>

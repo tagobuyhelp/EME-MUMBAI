@@ -30,7 +30,14 @@ function CoursesHero({
     ctaRatingsLabel,
     showRatings = true,
     showCertifications = true,
-    showBottomCtaCard = true }) {
+    showBottomCtaCard = true,
+    theme = "dark" }) {
+
+    const isLight = theme === "light";
+    const textColorClass = isLight ? "text-[#232D63]" : "text-[#FFF5ED]";
+    const subTextColorClass = isLight ? "text-[#727272]" : "text-[#FFF5ED]";
+    const badgeBgClass = isLight ? "bg-[#CAE5FF]" : "bg-[#FFF5ED]";
+    const cardBgClass = isLight ? "bg-white border-gray-200" : "border-white/10 bg-white/10 backdrop-blur";
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [ctaType, setCtaType] = useState(null);
@@ -53,19 +60,19 @@ function CoursesHero({
             <div className="w-full flex flex-col lg:flex-row md:justify-between gap-1 lg:gap-[10px] items-center py-[8px] px-[20px] md:px-28 max-w-[1380px] mx-auto">
 
                 {/* left content */}
-                <div className='flex flex-col  md:items-start justify-center mt-2 md:mt-8 gap-4 md:gap-6 text-[#FAF9F9]'>
+                <div className={`flex flex-col md:items-start justify-center mt-2 md:mt-8 gap-4 md:gap-6 ${isLight ? "text-[#232D63]" : "text-[#FAF9F9]"}`}>
                     <div className='flex flex-col gap-2'>
                         {badgeText ? (
-                            <div className="text-[11px] text-[#E87D1A] font-semibold bg-[#FFF5ED] py-1 px-4 rounded-lg w-fit">
+                            <div className={`text-[11px] text-[#E87D1A] font-semibold ${badgeBgClass} py-1 px-4 rounded-lg w-fit`}>
                                 {badgeText}
                             </div>
                         ) : null}
 
-                        <h1 className='text-[24px] lg:text-[34px] font-extrabold text-[#FFF5ED] text-left md:text-left md:pr-6'>
+                        <h1 className={`text-[24px] lg:text-[34px] font-extrabold ${textColorClass} text-left md:text-left md:pr-6`}>
                             {title}
                         </h1>
 
-                        <p className='text-[12px] md:text-[16px] text-[#FFF5ED] leading-[20px] font-[500] md:pr-40'>
+                        <p className={`text-[12px] md:text-[16px] ${textColorClass} leading-[20px] font-[500] md:pr-40`}>
                             {description}
                         </p>
                     </div>
@@ -84,14 +91,14 @@ function CoursesHero({
                                     <Button
                                         variant="outline"
                                         asChild
-                                        className="rounded-full bg-transparent text-[#FFF5ED] border-white/40 hover:bg-white/10 hover:text-[#FFF5ED]"
+                                        className={`rounded-full bg-transparent ${isLight ? "text-[#0057E2] border-[#0057E2]/40 hover:bg-[#0057E2]/10" : "text-[#FFF5ED] border-white/40 hover:bg-white/10 hover:text-[#FFF5ED]"}`}
                                     >
                                         <a href={ctaSecondaryHref}>{ctaSecondaryLabel}</a>
                                     </Button>
                                 ) : null}
                             </div>
                             {ctaBelowText ? (
-                                <div className="text-[#FFF5ED] text-[12px] font-[500]">
+                                <div className={`${textColorClass} text-[12px] font-[500]`}>
                                     {ctaBelowText}
                                 </div>
                             ) : null}
@@ -99,7 +106,7 @@ function CoursesHero({
                     ) : null}
 
                     {heroStatsTitle ? (
-                        <div className="text-[#FFF5ED] text-[14px] md:text-[16px] font-extrabold ">
+                        <div className={`${textColorClass} text-[14px] md:text-[16px] font-extrabold `}>
                             {heroStatsTitle}
                         </div>
                     ) : null}
@@ -109,7 +116,7 @@ function CoursesHero({
                             {heroStats.map((stat, idx) => (
                                 <div
                                     key={`${stat?.value ?? "stat"}-${idx}`}
-                                    className="flex items-start gap-2 rounded-xl border  border-white/10 bg-white/10 backdrop-blur px-3 py-2"
+                                    className={`flex items-start gap-2 rounded-xl border ${cardBgClass} px-3 py-2`}
                                 >
                                     {stat?.iconSrc ? (
                                         <Image
@@ -120,18 +127,18 @@ function CoursesHero({
                                             className="mt-0.5"
                                         />
                                     ) : stat?.materialIcon ? (
-                                        <span className="material-symbols-outlined text-white text-[18px] leading-none relative top-[1px]">
+                                        <span className={`material-symbols-outlined ${isLight ? "text-[#0057E2]" : "text-white"} text-[18px] leading-none relative top-[1px]`}>
                                             {stat.materialIcon}
                                         </span>
                                     ) : stat?.icon ? (
                                         <div className="text-base leading-none">{stat.icon}</div>
                                     ) : null}
                                     <div className="flex flex-col leading-tight">
-                                        <div className="text-[12px] md:text-[13px] font-extrabold text-[#FFF5ED]">
+                                        <div className={`text-[12px] md:text-[13px] font-extrabold ${textColorClass}`}>
                                             {stat.value}
                                         </div>
                                         {stat.label ? (
-                                            <div className="text-[10px] md:text-[11px] font-semibold text-white/80">
+                                            <div className={`text-[10px] md:text-[11px] font-semibold ${isLight ? "text-[#727272]" : "text-white/80"}`}>
                                                 {stat.label}
                                             </div>
                                         ) : null}
@@ -143,22 +150,22 @@ function CoursesHero({
 
                     {/* Rating and Brochure */}
                     {showRatings ? (
-                        <div className='w-full flex flex-row justify-center md:justify-start items-center gap-2 text-[#fff] text-[12px]'>
+                        <div className={`w-full flex flex-row justify-center md:justify-start items-center gap-2 ${isLight ? "text-[#232D63]" : "text-[#fff]"} text-[12px]`}>
                             <CTAButton name={ctaRatingsLabel || "Download Brochure ->"}
                                 styleClasses="hidden md:block text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 rounded-full !px-4 border-none"
                                 _this={_this}
                             />
 
-                            <div className='flex flex-row items-center gap-2  border border-1 border-[#bebebe] text-[#000000] rounded-[67px] px-4 py-2'>
+                            <div className={`flex flex-row items-center gap-2  border border-1 ${isLight ? "border-gray-200 bg-white" : "border-[#bebebe]"} text-[#000000] rounded-[67px] px-4 py-2`}>
                                 <Image src="/assets/icons/googleLogo.svg" alt='Google Logo' width={17} height={17} />
-                                <div className='flex items-center font-[500] text-white'>
+                                <div className={`flex items-center font-[500] ${isLight ? "text-[#232D63]" : "text-white"}`}>
                                     {googleRating} <Image src="/assets/icons/startIcon.svg" alt='star' width={10} height={10} />
                                 </div>
                             </div>
 
-                            <div className='flex flex-row items-center gap-2  border border-1 border-[#bebebe] text-[#000000] rounded-[67px] px-4 py-2'>
+                            <div className={`flex flex-row items-center gap-2  border border-1 ${isLight ? "border-gray-200 bg-white" : "border-[#bebebe]"} text-[#000000] rounded-[67px] px-4 py-2`}>
                                 <Image src="/assets/icons/JustDialLogo.svg" alt='JustDial Logo' width={40} height={40} />
-                                <div className='flex items-center font-[500] text-white'>
+                                <div className={`flex items-center font-[500] ${isLight ? "text-[#232D63]" : "text-white"}`}>
                                     {justdialRating} <Image src="/assets/icons/startIcon.svg" alt='star' width={10} height={10} />
                                 </div>
                             </div>

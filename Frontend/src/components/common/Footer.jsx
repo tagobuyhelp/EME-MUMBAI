@@ -183,7 +183,7 @@ export const Footer = () => {
 
                       </div>
                     </Link>
-                    <Link href={"/data-science-course-in-mumbai"}>
+                    <Link href={"/maincourse/data-science-course-in-mumbai"}>
                       <div className='hover:underline cursor-pointer'>
 
                         Data Science

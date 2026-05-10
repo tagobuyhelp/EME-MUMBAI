@@ -34,14 +34,21 @@ export default function TalkToOurCareerExpert({
     <Card className="w-full max-w-[1140px] shadow-none border-[#EEEEEE] md:gap-10 flex flex-col md:flex-row rounded-[26px] justify-between items-center px-3 md:px-5 pt-3 md:pl-5 mx-auto">
       {/* Featured In Section */}
       <div className="text-center md:text-start p-4">
-        <h2 className="text-[16px] md:text-[22px] text-[#232D63] font-bold text-gray-900">
-          {title || (
-            <>
-              Need guidance?{" "}
-              <span className="text-[#FF7A00]">Talk to our career expert!</span>
-            </>
-          )}
-        </h2>
+        {typeof title === "string" ? (
+          <h2
+            className="text-[16px] md:text-[22px] text-[#232D63] font-bold"
+            dangerouslySetInnerHTML={{ __html: title }}
+          />
+        ) : (
+          <h2 className="text-[16px] md:text-[22px] text-[#232D63] font-bold text-gray-900">
+            {title || (
+              <>
+                Need guidance?{" "}
+                <span className="text-[#FF7A00]">Talk to our career expert!</span>
+              </>
+            )}
+          </h2>
+        )}
         <p className="text-[#454545] font-[400] text-[12px] md:text-[14px] mt-2 mx-auto">
           {description || "Get in touch with our program advisor & get your queries resolved."}
         </p>

@@ -413,6 +413,81 @@ export default function PlacementSupport({
     },
   ];
 
+  const dataScienceFeatures = [
+    {
+      id: 1,
+      title: "AI-Optimized Resume & LinkedIn",
+      icon: FileText,
+      color: "text-blue-500",
+      bg: "bg-blue-50",
+      points: [
+        "Craft job-ready, ATS-friendly professional Data Science resumes.",
+        "Strategic GitHub and Kaggle portfolio optimization.",
+        "High-impact technical project and ROI showcasing."
+      ],
+    },
+    {
+      id: 2,
+      title: "Analytical & Technical Mocks",
+      icon: Brain,
+      color: "text-purple-500",
+      bg: "bg-purple-50",
+      points: [
+        "Daily technical reasoning & data logic practice.",
+        "Full-length coding mock tests for top-tier tech firms.",
+        "Speed and accuracy drills for statistical modeling."
+      ],
+    },
+    {
+      id: 3,
+      title: "Technical Interview Mastery",
+      icon: MessagesSquare,
+      color: "text-orange-500",
+      bg: "bg-orange-50",
+      points: [
+        "Weekly rigorous HR and technical marketing mocks.",
+        "Personalized performance feedback from senior strategists.",
+        "Real-world client pitch and campaign scenario prep."
+      ],
+    },
+    {
+      id: 4,
+      title: "Expert Career Mentorship",
+      icon: UserCheck,
+      color: "text-green-500",
+      bg: "bg-green-50",
+      points: [
+        "1-on-1 career counseling tailored to your specific niche.",
+        "Insider insights on the latest algorithm updates & hiring trends.",
+        "Professional salary negotiation tactics to maximize your CTC."
+      ],
+    },
+    {
+      id: 5,
+      title: "Elite Hiring Network",
+      icon: Briefcase,
+      color: "text-indigo-500",
+      bg: "bg-indigo-50",
+      points: [
+        "Access to 50+ premium marketing and agency hiring partners.",
+        "Exclusive access to our internal, unlisted job portal.",
+        "Direct corporate interview referrals to fast-track your hiring."
+      ],
+    },
+    {
+      id: 6,
+      title: "Live Project Portfolio Building",
+      icon: Layout,
+      color: "text-pink-500",
+      bg: "bg-pink-50",
+      points: [
+        "Develop real-world, data-backed capstone campaigns.",
+        "Guided, mentor-led case study development.",
+        "Build an employer-ready showcase proving your actual ROI generation."
+      ],
+    },
+  ];
+
   const features = customFeatures || (mode === "web-dev" 
     ? webDevFeatures 
     : mode === "digital-marketing"
@@ -421,6 +496,8 @@ export default function PlacementSupport({
     ? graphicDesignFeatures
     : mode === "sap"
     ? sapFeatures
+    : mode === "data-science"
+    ? dataScienceFeatures
     : defaultFeatures);
 
   const iconMap = {

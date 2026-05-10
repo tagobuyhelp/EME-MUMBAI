@@ -522,7 +522,7 @@ export const Header = () => {
                   </div>
 
                   <Link
-                    href="/data-science-course-in-mumbai"
+                    href="/maincourse/data-science-course-in-mumbai"
                     className="flex items-center gap-2 p-2 rounded-md hover:bg-[#EDFAFF]"
                   >
                     <span className=" p-1 rounded-md">
