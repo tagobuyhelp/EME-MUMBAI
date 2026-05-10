@@ -110,29 +110,8 @@ const heroData = {
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
   ctaRatingsLabel: "Download Brochure →",
-  heroStatsTitle: "Course Highlights",
-  heroStats: [
-    {
-      label: "Duration",
-      value: "6 Months",
-      materialIcon: "schedule",
-    },
-    {
-      label: "Mode of Training",
-      value: "Online & Classroom",
-      materialIcon: "laptop_mac",
-    },
-    {
-      label: "Fees (Save ₹10,000)",
-      value: "₹40,000",
-      materialIcon: "payments",
-    },
-    {
-      label: "Languages",
-      value: "English, Hindi",
-      materialIcon: "translate",
-    },
-  ],
+
+  
 };
 
 const toolsData = {
