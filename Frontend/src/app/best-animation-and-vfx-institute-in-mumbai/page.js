@@ -722,7 +722,7 @@ export default function page() {
   ];
 
   return (
-    <main className="flex flex-col justify-start items-center w-full overflow-x-hidden min-h-screen bg-white">
+    <main className="flex flex-col justify-start items-center w-full min-h-screen">
       <AnotherHeader />
       <div id="home" className="w-full">
         <InfiniteCall />
@@ -731,7 +731,6 @@ export default function page() {
         <CoursesHero
           {...heroData}
           {..._this}
-          ctaPrimaryLabel="Download Brochure"
           showCertifications={true}
           showBottomCtaCard={true}
         />
