@@ -4,6 +4,7 @@ import KeyHigh2 from "../../../public/assets/images/common/KeyHighTwo.svg";
 
 export default function KeyHighlight({ mode }) {
   const isSap = mode === "sap";
+  const isAiml = mode === "aiml";
 
   const sapPoints = {
     col1: [
@@ -17,7 +18,7 @@ export default function KeyHighlight({ mode }) {
       "Elite SAP Course with Placement in Mumbai",
       "Live-Server, Agency-Style Corporate Environment",
       "Flexible Formats: In-Class or SAP Course Online Mumbai",
-      "Adaptive Batch Timings (Weekend & Evening Available)",
+      "Adaptive Batch Formats (Weekend & Evening Available)",
       "1-on-1 Dedicated Mentor Doubt-Clearing Sessions",
     ],
     col3: [
@@ -25,6 +26,34 @@ export default function KeyHighlight({ mode }) {
       "Industry-Vetted Curriculum (Including S/4 HANA integration)",
       "Taught by Active Corporate Experts (SAP Consultant Course level)",
       "Transparent SAP Course Fees in Mumbai with No-Cost EMI Options",
+    ],
+  };
+
+  const aimlPoints = {
+    col1: [
+      "Designed for Beginners, Freshers & Working Professionals",
+      "Hands-On Training with Real AI Projects",
+      "Industry-Focused Generative AI Curriculum",
+      "Certification After Successful Completion",
+      "ChatGPT, LLMs, NLP & Prompt Engineering",
+      "2000+ Successful Students",
+    ],
+    col2: [
+      "100+ Placement Support & Interview Preparation",
+      "Resume Building & Portfolio Guidance",
+      "Mock Interviews with Industry Experts",
+      "100+ Hiring & Industry Connections",
+      "Career Support for Freelancing & Jobs",
+      "Flexible Batch Online & Offline Classrooms",
+    ],
+    col3: [
+      "Build AI Apps Using Modern Tools",
+      "Portfolio-Ready AI Projects",
+      "Prepare for Real AI Job Roles",
+      "Industry Expert Mentors & Trainers",
+      "Regular Doubt-Clearing & Mentorship Sessions",
+      "Latest AI Trends-Based Curriculum",
+      "No Cost EMI Options Available",
     ],
   };
 
@@ -51,7 +80,7 @@ export default function KeyHighlight({ mode }) {
     ],
   };
 
-  const points = isSap ? sapPoints : defaultPoints;
+  const points = isSap ? sapPoints : (isAiml ? aimlPoints : defaultPoints);
 
   return (
     <div className="w-full max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-[40px] px-[20px] md:px-24 ">
@@ -63,6 +92,10 @@ export default function KeyHighlight({ mode }) {
               <p className="text-[14px] md:text-[16px] text-[#727272] font-normal mt-2 max-w-[800px]">
                 See exactly why ambitious learners and top recruiters consider us the Best SAP Institute in Western India. We don't just provide lessons; we build corporate-ready consultants.
               </p>
+            </>
+          ) : isAiml ? (
+            <>
+              Why <span className="text-[#00A2E7] px-2">Students Choose Us?</span>
             </>
           ) : (
             <>

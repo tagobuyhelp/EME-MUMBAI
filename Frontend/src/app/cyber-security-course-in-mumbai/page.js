@@ -23,13 +23,26 @@ export const metadata = {
   description:
     "Join cyber security course in Mumbai at best cyber security institute in Mumbai with affordable cyber security course fees in Mumbai and expert training.",
   keywords: [
-    "cyber security course in Mumbai",
-    "cyber security course in Mumbai fees",
-    "best cyber security institute in Mumbai",
-    "cyber security course fees in Mumbai",
-    "best cyber security courses in Mumbai",
-    "cyber crime courses in Mumbai",
-    "cyber forensics courses in Mumbai",
+    "Best Cyber Security Course in Mumbai",
+    "Cyber Security Institute in Mumbai",
+    "Ethical Hacking Course in Mumbai",
+    "Penetration Testing Course Mumbai",
+    "Cyber Security Training in Mumbai",
+    "Ethical Hacking Course for Beginners",
+    "Network Security Course mumbai",
+    "Web Application Security Course",
+    "Malware Analysis Course mumbai",
+    "Cyber Forensics Course mumbai",
+    "Cyber Security Course with Placement",
+    "Cyber Security Course with Internship",
+    "Cyber Security Course with Certificate",
+    "Kali Linux Training mumbai",
+    "Bug Bounty Course mumbai",
+    "Cyber Security Analyst Course",
+    "Cyber Security Course Fees mumbai",
+    "Online Cyber Security Course mumbai",
+    "Best Cyber Security Institute western India",
+    "Cyber Security Course for Freshers"
   ],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/cyber-security-course-in-mumbai",
@@ -39,80 +52,71 @@ export const metadata = {
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! Our Cyber Security Course in Mumbai is beginner-friendly. We have a structured learning approach that makes complex concepts like ethical hacking, penetration testing, and cryptography easy to grasp.",
+    title: "Who can join this Cyber Security Course in Mumbai?",
+    desc: "Anyone interested in cyber security can join this course, including students, freshers, graduates, working professionals, and IT enthusiasts. This program is also suitable as an Ethical Hacking Course for Beginners.",
   },
   {
     id: 2,
-    title: "What is the duration and fee of the Cyber Security course?",
-    desc: "The cyber security course fees is ₹30,000 after discount. It’s duration is 6 months (5 months of intensive training + 1-month internship).",
+    title: "Is this a beginner-friendly cyber security course?",
+    desc: "Yes, our training starts from basic concepts and gradually moves to advanced topics like Ethical Hacking, Penetration Testing, Web Application Security, and Malware Analysis.",
   },
   {
     id: 3,
-    title: "Will I learn hands-on experience with real-world hacking tools?",
-    desc: "Absolutely. This is one of the best cyber security courses in Mumbai with practical labs. You’ll work on tools like Kali Linux, Burp Suite, Nmap, Wireshark, Metasploit, and more.",
+    title: "Do you provide placement assistance after the course?",
+    desc: "Yes, we offer complete placement support, including resume building, mock interviews, career guidance, and job assistance through our Cyber Security Course with Placement program.",
   },
   {
     id: 4,
-    title: "Do I get placement support after completing the course?",
-    desc: "Yes! EME Academy Mumbai provides 100% placement assistance, including job referrals, resume building, mock interviews, and access to our hiring partners network. Our course is designed for real-world job readiness.",
+    title: "Will I get a certificate after completing the course?",
+    desc: "Yes, students receive an industry-recognised Cyber Security Course with Certificate after completing the training program.",
   },
   {
     id: 5,
-    title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
+    title: "Is internship support available?",
+    desc: "Yes, we provide internship opportunities and practical exposure through live projects as part of our Cyber Security Course with Internship.",
   },
   {
     id: 6,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    title: "What topics are covered in the course?",
+    desc: "The course includes Ethical Hacking, Penetration Testing, Network Security, Web Application Security, Kali Linux Training, Vulnerability Assessment, Malware Analysis, Cyber Forensics, and Bug Bounty concepts.",
   },
   {
     id: 7,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes.",
-  },
-  {
-    id: 8,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
-  },
-  {
-    id: 9,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    title: "Do you offer online classes?",
+    desc: "Yes, we provide both classroom and Online Cyber Security Course Mumbai training options for flexible learning.",
   },
 ];
 
 const heroData = {
-  badgeText: "Learn & Get Hired in 6 Months!",
+  badgeText: "Learn, Hack & Build Your Cyber Security Career in 6 Months",
   title:
-    "Best Cyber Security Course in Mumbai – Master Ethical Hacking, Networking, and Penetration Testing",
+    "Best Cyber Security Course in Mumbai – Master Ethical Hacking, Penetration Testing & Network Security",
   description:
-    "Join EME Academy Mumbai, the best cyber security institute in Mumbai, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
+    "Join the best Cyber Security Course in Mumbai and learn Ethical Hacking, Penetration Testing, Web Application Security, Malware Analysis, Cyber Forensics, and Network Security through professional training. Work with real-world Cyber Security tools, including Kali Linux, Burp Suite, Metasploit, and Wireshark, while building the skills required for high-demand Cyber Security careers, internships, freelancing, and placement opportunities.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
+  ctaRatingsLabel: "Download Brochure →",
 };
 
 const courseDetailsData = {
-  courseName: "Cyber Security Course",
+  courseName: "Explore The Best Cyber Security Course in Mumbai",
   subtitle:
-    "Advance your career with our comprehensive Cyber Security training in Mumbai, designed for freshers and professionals.",
+    "Strengthen your growth with our professional Cyber Security Training in Mumbai at EME Academy, providing you with a secure future.",
   courseData: [
     {
       id: 1,
-      title: "Cyber Security Course",
+      title: "Cyber Security Analyst Course",
       image:
         "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Cyber_Security/CyberSecurityCourseMain.png",
       description:
-        "Join EME Academy Mumbai, the best cyber security institute in Mumbai, and learn Ethical Hacking, Web Application & Network Penetration Testing, Malware Analysis, and Cryptography. This course includes internship, certification, and access to real-world tools and trains the students for MNCs or to launch a freelance career in ethical hacking or cyber forensics.",
+        "Join our leading Cyber Security Institute in Mumbai and master Ethical Hacking, Network Security, Penetration Testing, Malware Analysis, and Cyber Forensics through hands-on training. This comprehensive Cyber Security Analyst Course covers everything from beginner fundamentals to advanced security practices, making it the ideal Ethical Hacking Course for Beginners with professionals looking to upskill.\n\nWhether you want to become a Cyber Security Analyst, Ethical Hacker, Penetration Tester, Security Consultant, or Bug Bounty Hunter, this course is designed to prepare you for real-world challenges and high-paying job roles.",
       details: [
         {
           label: "Duration",
-          value: "6 months",
+          value: "6 Months",
         },
         {
-          label: "Affordable Fees",
+          label: "Fees",
           value: (
             <>
               <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
@@ -122,10 +126,10 @@ const courseDetailsData = {
         },
         {
           label: "Mode of Training",
-          value: "Online and classroom sessions are available.",
+          value: "Online & Classroom Sessions Available",
         },
         {
-          label: "Languages",
+          label: "Language",
           value: "English & Hindi",
         },
       ],
@@ -137,37 +141,37 @@ const courseDetailsData = {
           points: [
             "Introduction to Ethical Hacking & Hacker Types",
             "Footprinting, Scanning, Vulnerability Analysis",
-            "Malware Analysis, Sniffing, DoS Attacks",
+            "System Hacking, Sniffing, DoS Attacks",
             "SQL Injection, XSS, Web Server & Cloud Hacking",
             "Android & IoT Security",
             "Cryptography, Honeypots, and Firewalls",
           ],
         },
         {
-          title: "Networking",
+          title: "Penetration Testing",
+          points: [
+            "Kali Linux Training, Password Attacks, AD Exploits",
+            "Linux/Windows Penetration",
+            "Lateral Movement, CTF Simulations",
+            "Final Assessment & Report Writing",
+          ],
+        },
+        {
+          title: "Network Security",
           points: [
             "OSI & TCP/IP Models, IP Subnetting",
-            "Routing, Switching, VLAN, NAT, SNMP",
-            "DHCP, IPv6, Wireless, Network Automation",
+            "Routing, Switching, VLAN, NAT, firewalls, VPNs",
+            "IDS/IPS tools, wireless, network automation",
             "Cloud Networking & Security Tools",
           ],
         },
         {
-          title: "Web Application Penetration Testing (WAPT)",
+          title: "Web Application Security",
           points: [
-            "Burp Suite, XSS, CSRF, Injection Attacks",
+            "Burp Suite, OWASP Top 10 Vulnerabilities",
             "Session Hijacking, Webshells, URL Redirects",
             "Manual & Automated Vulnerability Testing",
-            "OWASP Top 10 Vulnerabilities",
-          ],
-        },
-        {
-          title: "Network Penetration Testing (NPT)",
-          points: [
-            "Kali Linux, Password Attacks, AD Exploits",
-            "Linux/Windows Penetration",
-            "Lateral Movement, CTF Simulations",
-            "Final Assessment Report Writing",
+            "Bug Bounty concepts & practices",
           ],
         },
       ],
@@ -269,29 +273,115 @@ const toolsData = {
 
 // Career prospects data
 const careerProspectsData = {
-  title:
-    'Future Prospects of this <span class="text-[#f97316]">Course in Mumbai</span>',
+  title: "Career Opportunities With The Best Cyber Security Course in Mumbai",
   subtitle:
-    "After completing EME Academy Mumbai’s Cyber Security course in Mumbai, you'll be equipped to take up roles in both print and digital media across diverse industries:",
+    "Build a successful future in the rapidly growing cybersecurity industry with our industry-oriented Cyber Security Training in Mumbai. After completing this program, students, freshers, and working professionals can explore high-paying job opportunities in IT companies, MNCs, startups, banks, government sectors, and Cyber Security firms across India and abroad.",
+  description:
+    "Our practical-based training program covers Ethical Hacking, Penetration Testing, Network Security, Malware Analysis, Web Application Security, Cyber Forensics, and Kali Linux Training to help you become job-ready from day one. This Cyber Security Course with Placement is specially designed for beginners as well as professionals who want to build a strong career in ethical hacking and information security.",
   careerRoles: [
     "Cyber Security Analyst",
     "Ethical Hacker",
     "Penetration Tester",
     "Security Consultant",
-    "Cyber Forensics Analyst",
-    "Cyber Security Engineer",
-    "Freelance Illustrator",
-    "Security Architect",
-    "Network Security Specialist/Engineer",
-    "Security Systems Administrator",
     "Information Security Analyst",
+    "Cyber Security Engineer",
+    "SOC Analyst",
+    "Network Security Specialist / Engineer",
+    "Security Systems Administrator",
+    "Security Architect",
+    "Web Application Security Tester",
+    "Malware Analyst",
+    "Cyber Forensics Analyst",
+    "Bug Bounty Hunter",
   ],
   salaryInfo:
     'Average Salary in India: <strong class="font-bold">₹5 - 12 LPA</strong> (as per industry standard)',
   image:
     "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Cyber_Security/CSCareerProspectsImage.svg",
-  buttonText: "Check Eligibility",
+  name: "Download Brochure",
 };
+
+const placementFeatures = [
+  {
+    id: 1,
+    title: "Resume & LinkedIn",
+    icon: "FileText",
+    color: "text-blue-500",
+    bg: "bg-blue-50",
+    points: [
+      "ATS-friendly Cyber Security resumes for freshers & professionals",
+      "LinkedIn optimization for recruiters hiring in Mumbai",
+      "Showcase ethical hacking, SOC & penetration testing projects",
+      "Build a strong profile for internships and placements for students joining the Best Cyber Security Course in Mumbai"
+    ],
+  },
+  {
+    id: 2,
+    title: "Aptitude Training",
+    icon: "Brain",
+    color: "text-purple-500",
+    bg: "bg-purple-50",
+    points: [
+      "Daily logical reasoning & analytical problem-solving sessions",
+      "Practice tests designed for IT & Cyber Security job roles",
+      "Improve speed, accuracy & technical aptitude confidence",
+      "Special preparation for fresher placement drives under the Cyber Security Course for Freshers program"
+    ],
+  },
+  {
+    id: 3,
+    title: "Interview Mastery",
+    icon: "MessagesSquare",
+    color: "text-orange-500",
+    bg: "bg-orange-50",
+    points: [
+      "HR & technical mock interviews by industry experts",
+      "Hands-on interview preparation for SOC Analyst & Security Analyst roles in the Cyber Security Analyst Course",
+      "Real-world Ethical Hacking Course in Mumbai and Penetration Testing Course Mumbai scenarios",
+      "Personalized feedback to crack top company interviews"
+    ],
+  },
+  {
+    id: 4,
+    title: "Expert Mentorship",
+    icon: "UserCheck",
+    color: "text-green-500",
+    bg: "bg-green-50",
+    points: [
+      "1-on-1 mentorship from certified Cyber Security professionals at a leading Cyber Security Institute in Mumbai",
+      "Career guidance for ethical hacking & Cyber Security domains",
+      "Industry insights on Malware Analysis Course Mumbai, Network Security Course Mumbai, & Cyber Forensics Course Mumbai",
+      "Salary negotiation and career growth support"
+    ],
+  },
+  {
+    id: 5,
+    title: "Hiring Network",
+    icon: "Briefcase",
+    color: "text-indigo-500",
+    bg: "bg-indigo-50",
+    points: [
+      "Placement assistance through our Cyber Security Course with Placement program",
+      "Internship opportunities included in the Cyber Security Course with Internship",
+      "Direct interview referrals for eligible candidates",
+      "Access to exclusive Cyber Security job updates in Mumbai"
+    ],
+  },
+  {
+    id: 6,
+    title: "Portfolio Building",
+    icon: "Layout",
+    color: "text-pink-500",
+    bg: "bg-pink-50",
+    points: [
+      "Real-world projects in Web Application Security Course & penetration testing",
+      "Hands-on Kali Linux Training Mumbai and Bug Bounty Course Mumbai practice",
+      "Guided capstone projects for employer-ready portfolios",
+      "Practical learning with Cyber Security Training in Mumbai modules",
+      "Certification preparation for the Cyber Security Course with Certificate"
+    ],
+  },
+];
 
 // Testimonials data
 const testimonialsData = {
@@ -372,76 +462,76 @@ const testimonialsData = {
 };
 
 const alumniStudents = [
-      {
-        id: 1,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
-        title: "Sukanya Ghosh",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 2,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
-        title: "Nuruzzaman Mondal",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 3,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
-        title: "Vaishnavi",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 4,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
-        title: "Aniket Shome",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 5,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
-        title: "Supratim Sen",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 6,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
-        title: "Souvik Mondal",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
-      {
-        id: 7,
-        img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
-        title: "Koushik Mondal",
-        subtitle: "Mumbai, India",
-        overlay:
-          "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
-        titleStyle: "text-base font-medium",
-        subtitleStyle: "font-light leading-tight text-sm",
-      },
+  {
+    id: 1,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-1.png",
+    title: "Sukanya Ghosh",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 2,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-2.png",
+    title: "Nuruzzaman Mondal",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 3,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-3.png",
+    title: "Vaishnavi",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 4,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-4.png",
+    title: "Aniket Shome",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 5,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-5.png",
+    title: "Supratim Sen",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 6,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-6.png",
+    title: "Souvik Mondal",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
+  {
+    id: 7,
+    img: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/RecentPlacements/alumni-7.png",
+    title: "Koushik Mondal",
+    subtitle: "Mumbai, India",
+    overlay:
+      "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
+    titleStyle: "text-base font-medium",
+    subtitleStyle: "font-light leading-tight text-sm",
+  },
 ];
 
 export default function page() {
@@ -458,7 +548,7 @@ export default function page() {
 
   return (
     <main
-      className={`flex flex-col justify-start items-center w-full min-h-screen`}
+      className="flex flex-col justify-start items-center w-full min-h-screen"
     >
       <AnotherHeader />
       <div id="home" className="w-full ">
@@ -495,13 +585,19 @@ export default function page() {
         <WhyChooseEMECard
           {..._this}
           backgroundImage="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Cyber_Security/CSWhyChoose.png"
+          title="Why Choose Our Cyber Security Training in Mumbai?"
+          description="Our training methodology combines live projects, real-world cyber attack simulations, expert mentorship, and placement-focused learning to help you build a successful career in Cyber Security. Whether you are enrolling in an Ethical Hacking Course in Mumbai, a Penetration Testing Course Mumbai, or an Online Cyber Security Course Mumbai, our goal is to provide hands-on skills that match current industry requirements."
         />
       </div>{" "}
       <div id="" className="flex w-full p-6">
         <TalkToOurCareerExpert {..._this} />
       </div>
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport 
+          {..._this}
+          title="Placement Support to Strengthen Your Dream of Cyber Security Analyst"
+          customFeatures={placementFeatures}
+        />
       </div>
       <div id="" className="flex w-full p-6">
         <NeedToKnowMore {..._this} />

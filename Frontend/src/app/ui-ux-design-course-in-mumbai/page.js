@@ -21,14 +21,30 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "UI UX Design Course in Mumbai and UI UX Course in Mumbai",
+  title: "Architect the Digital World with the Best Web Design Course in Mumbai",
   description:
-    "Join the UI UX course in Mumbai and enhance your design skills with the best UI UX design course in Mumbai. Enroll now for expert training!",
+    "Stop relying on basic templates and start coding custom, high-converting digital experiences. Train with the premier Web Designing Institute in Mumbai and master the art of creating stunning, user-centric websites. Dive deep into responsive layouts and interactive prototyping with our integrated UI UX Design Course in Mumbai. You will gain hands-on, agency-level expertise through our dedicated Figma Course in Mumbai and foundational HTML CSS Course Mumbai.",
   keywords: [
-    "ui ux course in mumbai",
-    "ui ux design course in mumbai",
-    "ux design course in mumbai",
-    "ui ux design course mumbai",
+    "Best Web Design Course in mumbai",
+    "UI UX Design Course in mumbai",
+    "Web Designing Institute in mumbai",
+    "UI UX Course in mumbai",
+    "Figma Course in mumbai",
+    "Web Design Course for Beginners mumbai",
+    "Responsive Web Design Course mumbai",
+    "Frontend Development Course mumbai",
+    "Web Design Course with Placement mumbai",
+    "Web Design Course with Certificate mumbai",
+    "HTML CSS Course mumbai",
+    "Adobe XD Course mumbai",
+    "Web Design Course for Freshers mumbai",
+    "Freelance Web Designer Course mumbai",
+    "Web Design Course Fees mumbai",
+    "UI UX Design Course with Placement mumbai",
+    "Web Design Course Online mumbai",
+    "Bootstrap Course mumbai",
+    "Web Design Course for Working Professionals",
+    "Best UI UX Institute in mumbai"
   ],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/ui-ux-design-course-in-mumbai",
@@ -38,71 +54,56 @@ export const metadata = {
 const faq = [
   {
     id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! Our Web Designing Training Course in Mumbai is perfect for beginners. Whether you're a student, career switcher, or creative enthusiast, the course starts from scratch and builds up to advanced web design concepts.",
+    title: "I don't have an IT background and I can't code. Is this course right for me?",
+    desc: "Absolutely. You do not need prior programming knowledge. Our Web Design Course for Beginners Mumbai is designed to take you from absolute scratch to a confident digital creator. We cover basic tech literacy first, making it the ultimate Web Design Course for Freshers Mumbai looking to break into the tech industry.",
   },
   {
     id: 2,
-    title:
-      "What is the fee structure for EME Academy Mumbai’s Web Design Course in Mumbai?",
-    desc: "The web design course fee in Mumbai at EME Academy Mumbai is structured to be affordable and flexible. The total course fee is ₹40,000, but with a limited-time discount, you can enroll for just ₹30,000. We also offer 0% interest EMI options, making it easier for students and working professionals to join one of the best web designing courses in Mumbai with placement support.",
+    title: "How exactly does your placement support guarantee work?",
+    desc: "We don't just teach you how to code; we launch your tech career. Recognized as the Best UI UX Institute in Mumbai, our dedicated placement cell optimizes your technical resume, conducts live-coding mock interviews, and routes your Behance/GitHub portfolio to 50+ hiring tech agencies. This is a complete Web Design Course with Placement Mumbai and UI UX Design Course with Placement Mumbai.",
   },
   {
     id: 3,
-    title: "What tools and technologies will I learn in this course?",
-    desc: "You'll master top design tools like Figma, Adobe Photoshop, Adobe XD, and Illustrator. This positions this as one of the best Adobe Figma training institutes in Mumbai. You’ll also learn HTML, CSS, JavaScript, and Bootstrap.",
+    title: "What specific software, tools, and languages will I master?",
+    desc: "You will learn the exact stack used by modern tech startups. The curriculum functions as an intensive Figma Course in Mumbai and Adobe XD Course Mumbai for prototyping, seamlessly integrated with a deep-dive HTML CSS Course Mumbai for structural coding.",
   },
   {
     id: 4,
-    title: "Do I get placement support after completing the course?",
-    desc: "Absolutely. We offer 100% placement assistance including job referrals, direct interview calls, resume building, and mock interviews.",
+    title: "Will I learn both the visual design and the actual coding part?",
+    desc: "Yes. Great websites require both aesthetics and logic. This program combines the deep psychological principles of a UI UX Design Course in Mumbai with the structural execution of a high-level Frontend Development Course Mumbai, making you a highly versatile full-stack web designer.",
   },
   {
     id: 5,
-    title: "What kind of certification will I receive?",
-    desc: "After successful completion, you will receive a globally recognized certification from EME Academy Mumbai.",
+    title: "Do you teach how to make websites work on mobile phones?",
+    desc: "100%. Mobile-first design is no longer optional; it is mandatory. You will master fluid grids and media queries in our Responsive Web Design Course Mumbai, and learn to build lightning-fast mobile frameworks through our dedicated Bootstrap Course Mumbai.",
   },
   {
     id: 6,
-    title: "What kind of real-time projects will I work on?",
-    desc: "You’ll complete over 10+ portfolio projects, working on real-world scenarios like landing pages, e-commerce designs, mobile-responsive layouts, and interactive UI prototypes. This makes it one of the best web designing courses in Mumbai for practical learners.",
+    title: "Can I take this course if I want to work independently from home?",
+    desc: "Yes. Many of our tech students prefer the freedom of remote work. We teach you how to package your web services, pitch to international clients, and build a high-ticket digital portfolio, making this the perfect Freelance Web Designer Course Mumbai.",
   },
   {
     id: 7,
-    title: "Does the course include an internship or hands-on experience?",
-    desc: "Yes! This is one of the few web designing courses in Mumbai with placement and internship support. You'll complete a 1-month internship on live client projects to strengthen your skills and portfolio.",
+    title: "I currently work a full-time job. Do you offer flexible batch timings?",
+    desc: "We do. We specifically engineered our Web Design Course for Working Professionals to adapt to demanding corporate schedules. You can choose flexible weekend classroom batches or opt for our fully interactive Web Design Course Online Mumbai format so you can upskill without quitting your current role.",
   },
   {
     id: 8,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    title: "What is the cost of the program, and are there payment plans?",
+    desc: "We believe elite tech education should be accessible to everyone. We maintain highly transparent Web Design Course Fees Mumbai, with the complete 6-month diploma priced at just ₹35,000 after our special discount. We also offer 0% No-Cost EMI options.",
   },
   {
     id: 9,
-    title: "Do I need coding knowledge before joining?",
-    desc: "Not at all. Our UI/UX web design training institute in Mumbai offers beginner-friendly learning modules and step-by-step practical training, so no background is required.",
+    title: "Will I get a recognized certificate after completing the training?",
+    desc: "Yes. Upon graduation, you will receive a highly respected Web Design Course with Certificate Mumbai. Because EME Academy is MSME, ISO, and #startupindia certified, your credentials instantly validate your expertise to tech recruiters as a graduate of the Best Web Design Course in Mumbai.",
   },
   {
     id: 10,
-    title: "How does EME Academy ensure practical learning?",
-    desc: "Our curriculum includes live projects, capstone assignments and real-world problem-solving.",
-  },
-  {
-    id: 11,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes. Our web designing training institute in Mumbai is built for working professionals who want to upskill without quitting their jobs.",
-  },
-  {
-    id: 12,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
-  },
-  {
-    id: 13,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    title: "Why is EME Academy considered the top web design institute?",
+    desc: "Because we teach commercial execution, not just copy-paste tutorials. As the premier Web Designing Institute in Mumbai, we simulate a live tech agency environment. You manage real-world server uploads and client briefs in our UI UX Course in Mumbai, graduating with the exact practical skills that force top-tier tech companies to hire you.",
   },
 ];
+
 export default function page() {
   const Courses = "UI UX Course";
   const email_sender = "ALL";
@@ -118,57 +119,48 @@ export default function page() {
   // Hero data
   const heroData = {
     badgeText: "Certified Web Designer in Just 6 Months!",
-    title: "Best Web Design Course in Mumbai",
+    title: "Architect the Digital World with the Best Web Design Course in Mumbai",
     description:
-      "Learn to create responsive layouts, UI/UX and interactive designs and earn up to ₹8 LPA! Become a certified web designer in just 6 months with EME Academy Mumbai’s professional web designing course, featuring Figma, Adobe Photoshop, HTML, CSS, and Bootstrap, complete with 100% placement assistance and hands-on projects.",
+      "Train with the premier Web Designing Institute in Mumbai and master custom layouts, UI/UX prototyping on Figma, and responsive development. Graduate with an elite portfolio and get 100% placement support to secure high-paying tech roles up to ₹8 LPA.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
+    ctaRatingsLabel: "Download Syllabus & Brochure →",
   };
 
   // Course details data
   const courseDetailsData = {
-    courseName: "Web Design Course",
-    subtitle: (
-      <>
-        Master modern web design through our comprehensive training program.
-        This course is ideal for beginners, creatives, freelancers, and
-        professionals looking to break into the industry or level up their
-        skills to
-        <br />
-        break into the industry or level up their skills.
-      </>
-    ),
-
+    courseName: "Explore Our Web Design Course in Mumbai",
+    subtitle:
+      "Master the architecture of the modern web through our comprehensive, agency-grade training program. Whether you are a creative looking for a structured Web Design Course for Beginners in Mumbai, or an IT professional leveling up your skills to break into high-end tech firms, this curriculum bridges the gap between visual aesthetics and flawless digital execution.",
     courseData: [
       {
         id: 1,
-        title: "Web Design",
+        title: "Advanced Web & UI/UX Design",
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/webdesignCard.png",
         description:
-          "Discover web designing courses in Mumbai for creative careers. EME Academy Mumbai trains freshers and professionals in UI/UX, design tools & modern web technologies.",
-
+          "Stop relying on basic tutorials and enroll in the premier UI UX Design Course in Mumbai. EME Academy transforms freshers and professionals into elite digital architects. Gain hands-on mastery over modern web technologies through an intensive Frontend Development Course Mumbai curriculum. You will execute pixel-perfect layouts via our HTML CSS Course Mumbai, build mobile-first frameworks in our Bootstrap Course Mumbai, and design stunning, user-centric prototypes through our integrated Adobe XD Course Mumbai. Build an undeniable portfolio and step into top tech studios with absolute confidence.",
         details: [
           {
             label: "Duration",
             value: "6 Months",
           },
           {
-            label: "Affordable Fees",
+            label: "Transparent Web Design Course Fees Mumbai",
             value: (
               <>
-                <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">after discount</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
+                ₹35,000 <span className="text-[#00A51E]">(after discount)</span>
               </>
             ),
           },
           {
             label: "Mode of Training",
-            value: "Online and classroom sessions are available.",
+            value: "Flexible Web Design Course Online Mumbai and immersive classroom sessions available.",
           },
           {
             label: "Languages",
-            value: "English & Hindi",
+            value: "English, Hindi",
           },
         ],
         hookLine:
@@ -353,20 +345,19 @@ export default function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Career Prospects & <span class="text-[#f97316]">Future Opportunities</span>',
+      'Career Prospects & <span style="color: #0057E2;">High-Paying</span> <span style="color: #f97316;">Tech Roles</span>',
     subtitle:
-      "After completing our Web Designing Training Course in Mumbai, you will explore the roles like:",
+      "After mastering your craft at EME Academy, you won't just be building standard pages—you will be architecting high-converting digital products. Whether you are launching your tech journey through our Web Design Course for Freshers Mumbai or upgrading your agency skills as an IT professional, graduating from the Best UI UX Institute in Mumbai equips you to dominate the digital landscape.",
     careerRoles: [
-      "Web Designer",
       "UI/UX Designer",
       "Frontend Developer",
-      "Graphic & Web Designer",
-      "E-commerce Web Designer",
+      "Senior Web Designer",
       "Freelance Web Designer",
-      "Digital Marketing Designer",
+      "E-commerce Web Designer",
+      "Graphic & Digital Marketing Designer",
     ],
     salaryInfo:
-      'Average Salary in India: <strong class="font-bold">₹3.5 LPA to ₹8 LPA</strong> (as per industry standard)',
+      "Average Salary in India: ₹3.5 LPA to ₹8 LPA (as per industry standard)",
     image:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/UI_UX_Landing/CareerProspectsUI_UX.webp",
     buttonText: "Check Eligibility",
@@ -459,7 +450,7 @@ export default function page() {
       <div className="w-full bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/UI_UX_Landing/UI_UX_Hero.webp')] xs:h-[460px] md:h-[490px] bg-cover bg-center bg-no-repeat">
         <CoursesHero {...heroData} {..._this} />
       </div>
-      <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
+      <div className="flex w-full flex-col h-full bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={Courses}
           brochure={Brochure}
@@ -489,7 +480,85 @@ export default function page() {
       </div>
 
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport
+          {..._this}
+          badge="Tech Career Excellence"
+          title="100% Dedicated Placement Support to Launch Your UI/UX Career"
+          customFeatures={[
+            {
+              id: 1,
+              title: "Resume, LinkedIn & Behance",
+              icon: "FileText",
+              color: "text-blue-500",
+              bg: "bg-blue-50",
+              points: [
+                "Craft ATS-optimized resumes tailored for frontend and UI/UX roles.",
+                "Strategic LinkedIn and Behance profile optimization for tech recruiters.",
+                "Highlight your mastery of responsive layouts and interactive prototyping."
+              ],
+            },
+            {
+              id: 2,
+              title: "Technical Design Aptitude",
+              icon: "Brain",
+              color: "text-purple-500",
+              bg: "bg-purple-50",
+              points: [
+                "Daily logic, wireframing challenges, and UI/UX audit practice.",
+                "Full-length aptitude mock exams for top-tier IT and design firms.",
+                "Speed and accuracy enhancement for competitive live-coding rounds."
+              ],
+            },
+            {
+              id: 3,
+              title: "Technical Interview Mastery",
+              icon: "MessagesSquare",
+              color: "text-orange-500",
+              bg: "bg-orange-50",
+              points: [
+                "Weekly rigorous mock interviews focusing on design rationale.",
+                "Personalized whiteboard and live UI-challenge feedback.",
+                "Real-world scenario prep for portfolio defense and client pitching."
+              ],
+            },
+            {
+              id: 4,
+              title: "Expert Tech Mentorship",
+              icon: "UserCheck",
+              color: "text-green-500",
+              bg: "bg-green-50",
+              points: [
+                "1-on-1 career counseling with senior frontend developers and UI leads.",
+                "Insider insights on the latest web architecture and design systems.",
+                "Professional salary negotiation tactics to maximize your tech CTC."
+              ],
+            },
+            {
+              id: 5,
+              title: "Elite Tech Hiring Network",
+              icon: "Briefcase",
+              color: "text-indigo-500",
+              bg: "bg-indigo-50",
+              points: [
+                "Access to 50+ premium tech startups, digital agencies, and IT partners.",
+                "Exclusive access to our internal, unlisted developer job portal.",
+                "Direct technical interview referrals to fast-track your onboarding."
+              ],
+            },
+            {
+              id: 6,
+              title: "Live Portfolio Building",
+              icon: "Layout",
+              color: "text-pink-500",
+              bg: "bg-pink-50",
+              points: [
+                "Develop real-world capstone projects (Figma prototypes, Bootstrap sites).",
+                "Guided, mentor-led resolution of complex UX flows and HTML/CSS bugs.",
+                "Build an employer-ready digital showcase proving your web mastery."
+              ],
+            },
+          ]}
+        />
       </div>
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent
@@ -507,7 +576,12 @@ export default function page() {
         />
       </div>
       <div id="" className="flex w-full p-6">
-        <TalkToOurCareerExpert {..._this} />
+        <TalkToOurCareerExpert
+          {..._this}
+          title='Stop Guessing. Start Building. <span style="color: #FF7A00;">Talk to a Web & UI/UX Career Expert!</span>'
+          description="Breaking into the Mumbai tech scene requires a strategic portfolio, not just basic coding tutorials. Connect with our veteran UI/UX advisors for a free 1-on-1 career mapping session."
+          buttonText="Download Full Syllabus & Brochure →"
+        />
       </div>
 
       <div id="testimonials" className="flex w-full  bg-white">
@@ -518,7 +592,12 @@ export default function page() {
         <Awards />
       </div>
       <div id="" className="flex w-full p-6">
-        <NeedToKnowMore {..._this} />
+        <NeedToKnowMore
+          {..._this}
+          title="Ready to Architect the Modern Web?"
+          description="Stop hesitating and start coding. Download our complete syllabus to explore our hands-on UI/UX and Frontend development modules."
+          buttonText="Download Complete Tech Brochure"
+        />
       </div>
       <div className="flex flex-col justify-center w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
         <NewsHomeLanding {..._this} />

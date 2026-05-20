@@ -2,10 +2,10 @@
 import Image from "next/image";
 import { use, useState } from "react";
 
-export default function WhyChooseEMELatest({ name, image, thisObject }) {
+export default function WhyChooseEMELatest({ name, image, thisObject, title, description, customFeatures }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const _this = { isModalOpen, setIsModalOpen, ...thisObject };
-  const features = [
+  const features = customFeatures || [
     {
       id: 1,
       icon: "industry-certified",
@@ -95,9 +95,18 @@ export default function WhyChooseEMELatest({ name, image, thisObject }) {
             {/* Header */}
             <div className="mb-8 text-center lg:text-left">
               <h2 className="text-[16px] md:text-[22px] font-bold text-[#232D63] mb-4">
-                Why Choose EME Academy for{" "}
-                <span className="text-[#E87D1A]">{name}</span>?
+                {title || (
+                  <>
+                    Why Choose EME Academy for{" "}
+                    <span className="text-[#E87D1A]">{name}</span>?
+                  </>
+                )}
               </h2>
+              {description && (
+                <p className="text-[12px] md:text-[14px] text-gray-600 leading-relaxed text-left">
+                  {description}
+                </p>
+              )}
             </div>
 
             {/* Features Grid */}
@@ -113,7 +122,7 @@ export default function WhyChooseEMELatest({ name, image, thisObject }) {
                       className={`flex-shrink-0 w-12 h-12 ${feature.bgColor} rounded-lg flex items-center justify-center md:mb-4`}
                     >
                       <Image
-                        src={icons[feature.icon]}
+                        src={icons[feature.icon] || feature.iconSrc || "/assets/icons/Icon2.svg"}
                         alt={feature.title}
                         width={24}
                         height={24}
@@ -126,6 +135,11 @@ export default function WhyChooseEMELatest({ name, image, thisObject }) {
                       <h3 className="text-[12px] md:text-[14px] font-bold text-[#232D63] leading-tight">
                         {feature.title}
                       </h3>
+                      {feature.desc && (
+                        <p className="text-[11px] md:text-[12px] text-gray-500 mt-1 leading-snug">
+                          {feature.desc}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>

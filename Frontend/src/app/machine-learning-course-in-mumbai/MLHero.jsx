@@ -38,11 +38,10 @@ export default function MLHero({
             </div>
           </div>
           <h1 className="max-w-[800px] lg:w-full lg:h-auto text-[24px] lg:text-[40px] leading-[28px] lg:leading-[52px] font-extrabold  text-[#262626] text-center lg:text-left flex justify-center item-center">
-            Best Machine Learning & Artificial Intelligence Institute in Mumbai
+            Turn Curiosity into Real Skills with the Best Generative AI Course in Mumbai
           </h1>
           <p className="relative leading-[18.75px]  text-[#727272] text-[12px] lg:text-[16px] text-center lg:text-left">
-            Begin Your Journey In The World Of AI & ML With Mumbai’s No.1
-            Institute It’s Time To Explore Your Passions & Discover Strengths
+            Don’t Just Use AI, Learn to Build with it. Begin shaping your future with an advanced Machine Learning and Generative AI course in Mumbai.
           </p>
 
           <div className="w-full flex flex-row items-start justify-center lg:justify-start gap-5 text-mini text-goldenrod font-font-awesome-5-free pt-[10px] pb-5">

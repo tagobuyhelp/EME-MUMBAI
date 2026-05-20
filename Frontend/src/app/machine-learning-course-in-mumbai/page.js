@@ -10,64 +10,81 @@ import Faqs from "@/components/common/Faqs";
 import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "Machine Learning Course | Best Machine Learning institute in Mumbai - EME Academy Mumbai",
+  title: "Turn Curiosity into Real Skills with the Best Generative AI Course in Mumbai",
   description:
-    "Join the best machine learning training in Mumbai and enhance your skills with an expert-led machine learning course in Mumbai for career growth. Enroll now!",
+    "Don’t Just Use AI, Learn to Build with it. Begin shaping your future with an advanced Machine Learning and Generative AI course in Mumbai.",
   keywords: [
-    "machine learning training in Mumbai",
-    "machine learning course in Mumbai",
-    "machine learning institute in Mumbai",
+    "Best Generative AI Course in mumbai",
+    "Generative AI Institute in mumbai",
+    "Prompt Engineering Course in mumbai",
+    "LLM Course in mumbai",
+    "AI Course in mumbai",
+    "LangChain Course mumbai",
+    "Generative AI Certification Course mumbai",
+    "Generative AI Course for Beginners",
+    "Generative AI Course with Placement",
+    "Prompt Engineer Course mumbai",
+    "ChatGPT Course mumbai",
+    "Generative AI Course for Freshers",
+    "AI App Development Course mumbai",
+    "Generative AI Course with Certificate",
+    "Generative AI Course Fees mumbai",
+    "NLP Course mumbai",
+    "Generative AI Course for Working Professionals",
+    "Generative AI Freelancing Course mumbai",
+    "Best AI Training Institute mumbai",
+    "Generative AI Course Online mumbai"
   ],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/machine-learning-course-in-mumbai",
   },
 };
 
-  const faqs = [
-    {
-      id: 1,
-      question: "Is AI & ML a good course to boost your career?",
-      answer:
-        "Definitely, if you are a person having an inquisitive bent of mind, wanting to bring about landmark changes in the way things run, you are the person who can boost his/her career with AI & ML course.",
-    },
-    {
-      id: 2,
-      question: "What has AI & ML to do with the industries?",
-      answer:
-        "You will get to learn Network Security, Encryption, Malware Analysis, Ethical Hacking, and more.",
-    },
-    {
-      id: 3,
-      question: "Why choose AI & ML at EME Academy Mumbai?",
-      answer:
-        "No, you do not. We have designed our course to accommodate beginners as well. Experience is recommended, but not mandatory. EME Academy Mumbai provides the best hands-on training.",
-    },
-    {
-      id: 4,
-      question: "Who is eligible for the course?",
-      answer:
-        "All of our students get to work on simulations that mimic real-world cyberattacks to build their skills.",
-    },
-    {
-      id: 5,
-      question: "What are the job opportunities available after pursuing a course?",
-      answer:
-        "Absolutely! We offer full placement support with a network of hiring partners in top companies.",
-    },
-    {
-      id: 6,
-      question: "How flexible are training schedules at EME Academy?",
-      answer:
-        "Our training schedules at EME Academy Mumbai are designed to be flexible, allowing students to balance learning with their existing commitments.",
-    },
-    {
-      id: 7,
-      question: "What makes the faculty at EME Academy qualified to teach AI & ML course?",
-      answer:
-        "Our faculty members at EME Academy Mumbai are highly qualified professionals with extensive experience in AI & ML, ensuring top-quality mentorship and practical insights.",
-    },
-  ];
+const faqs = [
+  {
+    id: 1,
+    question: "How can an AI course build career growth?",
+    answer:
+      "In Today’s digital era, AI is taking over all the industries and businesses. Learning AI skills, including App Development, Prompt Engineering, LLM, and more, can secure your future and strengthen your career.",
+  },
+  {
+    id: 2,
+    question: "Which is the best Generative AI course in Mumbai?",
+    answer:
+      "The best Generative AI Course in Mumbai should include practical training in ChatGPT, Prompt Engineering, LLMs, LangChain, NLP, and AI App Development, along with real-world projects and placement support. Our course is designed to help beginners and professionals build industry-ready AI skills through hands-on learning.",
+  },
+  {
+    id: 3,
+    question: "Is this Generative AI course suitable for beginners?",
+    answer:
+      "Absolutely, yes, this course is designed for beginners, freshers, students, and working professionals. You do not need advanced technical knowledge to start Machine Learning and AI tools.",
+  },
+  {
+    id: 4,
+    question: "What topics are covered in the Generative AI course in Mumbai at EME Academy?",
+    answer:
+      "At EME Academy in Mumbai, the Generative AI Course with Certificate includes Generative AI fundamentals, Prompt Engineering, ChatGPT, Machine Learning, NLP, LLMs, LangChain, Python for AI, AI automation, and AI App Development with practical projects.",
+  },
+  {
+    id: 5,
+    question: "Do I get a certificate after completing the course?",
+    answer:
+      "Yes, students receive a course completion certificate after completing the Generative AI and ML training program and projects. Moreover, we give placement support and portfolio guidance.",
+  },
+  {
+    id: 6,
+    question: "Is placement assistance available after the course?",
+    answer:
+      "Yes, our Generative AI Certification Course Mumbai provide placement assistance, including resume building, interview preparation, mock interviews, portfolio guidance, and career support for AI-related job roles.",
+  },
+  {
+    id: 7,
+    question: "Do you teach ChatGPT and Prompt Engineering course in Mumbai?",
+    answer:
+      "Yes, Prompt Engineering and ChatGPT are important parts of the course. Students learn how to create effective prompts, automate workflows, and build AI-powered solutions with our Prompt Engineering Course in Mumbai.",
+  },
+];
+
 export default function page() {
   const Courses = "AI & ML Course";
   const email_sender = "ALL";
@@ -82,13 +99,13 @@ export default function page() {
   };
 
   return (
-    <main className="flex flex-col justify-start items-center w-full min-h-screen bg-[#070B23]">
+    <main className="flex flex-col justify-start items-center w-full overflow-x-hidden min-h-screen bg-[#070B23]">
       <AnotherHeader />
       <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% ">
         <MLHero {..._this}/>
       </div>
       <div className="flex w-full  bg-[#ffffff] ">
-        <KeyHighlight />
+        <KeyHighlight mode="aiml" />
       </div>
       <div className="flex w-full  bg-[#ffffff] ">
         <MLCourseDetails {..._this}/>

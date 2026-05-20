@@ -8,6 +8,7 @@ import CTAButton from "../common/CtaButton";
 function CoursesCareerProsoects({
   title = "Complete the Course. Set Your Career.",
   subtitle = "Whether You're a Parent or a Graduate — These Paths Are Yours.",
+  description = "Parents who want to set their child's career, or graduates looking for their first job — all these options are open for you:",
   careerRoles = [
     "Digital Marketing Executive",
     "SEO/PPC Specialist",
@@ -56,7 +57,7 @@ function CoursesCareerProsoects({
                 {subtitle}
               </p>
               <p className="text-[#4B4B4B] font-medium text-[12px] md:text-[14px] leading-relaxed">
-                Parents who want to set their child&apos;s career, or graduates looking for their first job — all these options are open for you:
+                {description}
               </p>
             </div>
 

@@ -20,6 +20,27 @@ export const metadata = {
   title: "Best LinkedIn Course for Career & Hiring Growth",
   description:
     "Master LinkedIn from beginner to advance in 24 AI-powered classes. Build your brand, generate leads, attract recruiters and convert connections into real revenue. Enroll in India's most complete LinkedIn course by EME Academy.",
+  keywords: [
+    "Best LinkedIn Course for Career",
+    "LinkedIn Training for HR",
+    "LinkedIn Course for Sales Professionals",
+    "LinkedIn Marketing Course",
+    "LinkedIn Profile Optimization Course",
+    "LinkedIn Lead Generation Course",
+    "LinkedIn Course for Freelancers",
+    "LinkedIn Course for Business Owners",
+    "LinkedIn AI Course",
+    "LinkedIn Content Strategy Course",
+    "LinkedIn Course with Certificate",
+    "Sales Navigator Training",
+    "Boolean Search Course LinkedIn",
+    "LinkedIn Outreach Automation Course",
+    "LinkedIn Personal Branding Course",
+    "LinkedIn Course for Job Seekers",
+    "LinkedIn Social Selling Course",
+    "LinkedIn Growth Hacking Course",
+    "Online LinkedIn Course India"
+  ],
   alternates: {
     canonical: "https://emeacademy.co.in/best-linkedin-course-for-career-hiring-growth",
   },
@@ -28,63 +49,63 @@ export const metadata = {
 const faqs = [
   {
     id: "faq-1",
-    title: "Q: Is this course suitable for complete beginners or do I need LinkedIn experience?",
-    desc: "A: It is designed for everyone from beginner to advanced (50 to 5,000+ connections). It starts with foundations in Module 1 and progresses to advanced AI automation by Module 6. You only need a LinkedIn account and a willingness to implement.",
+    title: "Who is this LinkedIn course designed for?",
+    desc: "This program is built for professionals who want to grow on LinkedIn strategically. It is ideal for job seekers, recruiters, HR professionals, founders, freelancers, consultants, and sales teams looking for a practical Best LinkedIn Course for Career and business growth.",
   },
   {
     id: "faq-2",
-    title: "Q: How is this different from free LinkedIn tips on YouTube or Google?",
-    desc: "A: Unlike scattered free tactics, this is a structured, sequenced system with accountability, live feedback, and real deliverables (like a personalized DM library and CRM sheet) that YouTube doesn't provide.",
+    title: "Is this suitable for beginners on LinkedIn?",
+    desc: "Yes. The course starts with fundamentals like profile setup and optimization, then gradually moves into advanced strategies such as content systems, networking, outreach, and automation. It works well as both a beginner-friendly and advanced Online LinkedIn Course India.",
   },
   {
     id: "faq-3",
-    title: "Q: Are the classes live or pre-recorded? What if I miss one?",
-    desc: "A: All 24 classes are live 2-hour sessions conducted online. If you miss a class, recordings are provided so you can stay caught up.",
+    title: "What will I learn inside this LinkedIn training?",
+    desc: "You’ll learn profile optimization, personal branding, content strategy, lead generation, outreach automation, and prospecting. Modules include LinkedIn Profile Optimization Course, LinkedIn Lead Generation Course, LinkedIn Content Strategy Course, and LinkedIn Personal Branding Course frameworks.",
   },
   {
     id: "faq-4",
-    title: "Q: How much time do I need to commit every week?",
-    desc: "A: Plan for 3–4 hours per week. This includes 2 hours for the live class and 1–2 hours for the practical task. It is designed to be manageable for busy professionals with full-time jobs.",
+    title: "Does the course include AI tools and automation training?",
+    desc: "Yes. This is a practical LinkedIn AI Course where you’ll learn how to use AI for content creation, messaging workflows, outreach personalization, and automation systems to save time and improve results.",
   },
   {
     id: "faq-5",
-    title: "Q: I've never used AI tools before. Will I be able to keep up?",
-    desc: "A: Yes. No prior AI experience is required. The course introduces tools like ChatGPT, Claude, and Canva AI gradually with guided walkthroughs and a ready-to-use prompt library.",
+    title: "Is this course useful for recruiters and HR professionals?",
+    desc: "Absolutely. The course includes dedicated strategies for recruiters, making it valuable as LinkedIn Training for HR. You’ll also learn sourcing methods, candidate discovery, and advanced Boolean Search Course LinkedIn techniques.",
   },
   {
     id: "faq-6",
-    title: "Q: Do I need LinkedIn Premium or Sales Navigator to join?",
-    desc: "A: No. A free account is sufficient. While Sales Navigator is covered in Module 5, the course teaches you how to simulate its features using free filters.",
+    title: "Will I learn LinkedIn Sales Navigator?",
+    desc: "Yes. We cover prospecting workflows, account research, and lead management through hands-on Sales Navigator Training so you can find and engage high-quality prospects efficiently.",
   },
   {
     id: "faq-7",
-    title: "Q: Will I have access to the materials after the course ends?",
-    desc: "A: Yes. You keep all templates, prompt libraries, CRM sheets, and frameworks forever. Recordings are also available for a limited time after the cohort ends.",
+    title: "Is this course useful for sales professionals and business owners?",
+    desc: "Yes. Whether you’re looking for a LinkedIn Course for Sales Professionals or a LinkedIn Course for Business Owners, you’ll learn social selling, authority building, lead generation, and client acquisition systems.",
   },
   {
     id: "faq-8",
-    title: "Q: I'm in HR. Is this course relevant for me or is it built for sales people?",
-    desc: "A: It is highly relevant. There is a dedicated HR learning track covering employer branding, talent outreach, and AI-driven screening. There are also specific tracks for Sales, Marketing, Freelancers, and Lead Gen.",
+    title: "Do I get a certificate after completion?",
+    desc: "Yes. After completing the program, you’ll receive a LinkedIn Course with Certificate, which you can showcase on your LinkedIn profile and resume.",
   },
   {
     id: "faq-9",
-    title: "Q: How soon can I expect to see real results on LinkedIn?",
-    desc: "A: Many students see profile improvements within 2 weeks. Content traction usually grows by Month 2–3. Results compound over the full 6-month program.",
+    title: "How is this different from other LinkedIn courses?",
+    desc: "Unlike theory-heavy programs, this course focuses on implementation. You get templates, assignments, workflows, and action plans across content, outreach, branding, and growth strategies.",
   },
   {
     id: "faq-10",
-    title: "Q: What exactly will I walk away with at the end?",
-    desc: "A: Tangible assets: an optimized profile, 30-day content calendar, DM script library, CRM pipeline, lead funnel blueprint, and a Certificate of Completion.",
+    title: "Can freelancers and job seekers benefit from this course?",
+    desc: "Definitely. This course includes strategies tailored for both LinkedIn Course for Freelancers and LinkedIn Course for Job Seekers, helping you attract clients, build credibility, and unlock career opportunities.",
   },
   {
     id: "faq-11",
-    title: "Q: Is there a group or community for students?",
-    desc: "A: Yes. Enrolled students join a dedicated peer community to share work, ask questions, and network with other professionals.",
+    title: "Does the course cover content creation on LinkedIn?",
+    desc: "Yes. You’ll learn a repeatable posting framework inside the LinkedIn Marketing Course and content modules to help you grow visibility, authority, and engagement consistently.",
   },
   {
     id: "faq-12",
-    title: "Q: What do I need to do to earn the certificate?",
-    desc: "A: You must score 60% or above based on: Attendance (30%), Weekly Tasks (30%), Mid-Course Assignment (10%), and a Final Project/Presentation (30%).",
+    title: "Will I learn outreach and automation systems?",
+    desc: "Yes. The course includes a practical LinkedIn Outreach Automation Course where you’ll learn messaging systems, follow-up workflows, and ethical automation practices.",
   },
 ];
 
@@ -116,14 +137,6 @@ export default function page() {
     BrochureName,
   };
 
-  const programStats = [
-    "24+ LIVE CLASSES",
-    "6 POWER MODULES",
-    "5 ROLE TRACKS",
-    "48HRS OF LEARNING",
-    "AI PROMPTS & TOOLS",
-  ];
-
   const coreTopics = [
     "• LinkedIn Algorithm",
     "• Sales Navigator",
@@ -152,52 +165,60 @@ export default function page() {
   ];
 
   const struggles = [
-    "Your LinkedIn profile exists, but no one reaches out — no recruiters, no leads, no clients",
-    "You stare at a blank page every time you try to write a LinkedIn post and give up",
-    "Your connection requests go ignored or never go anywhere meaningful",
-    "You've heard \"use AI\" but have no idea how to actually apply it to LinkedIn",
-    "Your posts get 3 likes (all family) while others seem to go viral effortlessly",
-    "You're in HR or Sales but your LinkedIn doesn't attract the right candidates or clients",
-    "You run a placement institute but companies won't take your calls seriously",
-    "You're a freelancer or founder with skills, but no consistent lead flow from LinkedIn",
-    "Recruiters can't find you because your profile has zero search visibility",
-    "You have no system to track conversations, follow-ups or your pipeline — it's all chaos",
-    "You're posting inconsistently because you don't have a strategy or content calendar",
-    "You know LinkedIn is powerful but can't figure out how to turn it into real results",
+    "Your LinkedIn profile looks inactive even though you’re highly skilled",
+    "You post regularly but barely get views, likes or engagement",
+    "Recruiters visit your profile but never message you back",
+    "Your LinkedIn profile doesn’t attract quality job opportunities",
+    "You’re in HR but struggling to find the right candidates quickly",
+    "Your sales outreach gets ignored by potential clients",
+    "You send connection requests, but nobody responds",
+    "Your competitors generate leads from LinkedIn, while you don’t",
+    "You want to build a personal brand, but don’t know where to start",
+    "Your LinkedIn content gets lost without visibility or reach",
+    "You run a business, but LinkedIn isn’t bringing leads or conversions",
+    "You’re a freelancer struggling to get high-paying international clients",
+    "You don’t know how to use LinkedIn AI tools effectively",
+    "Your profile doesn’t rank in LinkedIn search results",
+    "You’re applying for jobs daily, but getting zero interview calls",
+    "You have no strategy for LinkedIn networking or outreach",
+    "You struggle to write professional LinkedIn posts consistently",
+    "Your team doesn’t know how to use Sales Navigator properly",
+    "You want to grow on LinkedIn but don’t understand the algorithm",
+    "You know LinkedIn is powerful, but you’re not using it to its full potential",
   ];
 
   const whatYouBuild = [
     {
       title: "01 — A Fully Optimized LinkedIn Profile",
-      desc: "Headlines, About section, banner, SEO keywords and visual brand — all working together to attract the right people 24/7.",
+      desc: "Build a recruiter-ready profile with headline optimization, SEO keywords, banners, featured sections & positioning strategies from our LinkedIn Profile Optimization Course and LinkedIn Personal Branding Course.",
     },
     {
       title: "02 — 30-Day AI-Powered Content Calendar",
-      desc: "A ready-to-publish content plan with AI prompts, post templates, hooks and Canva visual assets.",
+      desc: "Create a complete content strategy with AI prompts, viral hooks, post templates & engagement systems from the LinkedIn Content Strategy Course and LinkedIn AI Course.",
     },
     {
       title: "03 — Reusable AI Prompt Library",
-      desc: "10+ battle-tested AI prompts to write posts, outreach messages, job descriptions, proposals, and content outlines in minutes.",
+      desc: "Access high-converting AI prompts for LinkedIn posts, outreach messages, hiring, lead generation & branding workflows used in our LinkedIn Growth Hacking Course.",
     },
     {
       title: "04 — Target Company & Recruiter Database",
-      desc: "A structured list of 20–50 companies, recruiters, or ideal clients, built using Boolean search, LinkedIn filters and intent signals.",
+      desc: "Build a targeted recruiter & client database using advanced filters, intent signals & techniques taught inside the Boolean Search Course LinkedIn and Sales Navigator Training modules.",
     },
     {
       title: "05 — DM Script & Outreach Library",
-      desc: "Role-specific messaging scripts for HR, Sales, Founders and Freelancers — like connection requests, follow-ups and pitch sequences.",
+      desc: "Get proven outreach templates for HRs, founders, freelancers & sales teams through the LinkedIn Outreach Automation Course and LinkedIn Social Selling Course.",
     },
     {
       title: "06 — CRM Pipeline & Tracking Sheet",
-      desc: "A Google Sheet CRM to track every conversation, follow-up touchpoint and lead status. No more losing leads in the chat pile.",
+      desc: "Track leads, conversations, follow-ups & hiring pipelines with easy CRM systems designed for the LinkedIn Lead Generation Course and LinkedIn Course for Sales Professionals.",
     },
     {
       title: "07 — Lead Funnel & Conversion Blueprint",
-      desc: "A complete funnel from awareness to close, including lead magnets, webinar frameworks, DM nurture sequences and KPI dashboards.",
+      desc: "Build a LinkedIn funnel for personal branding, lead generation & conversions with frameworks from the LinkedIn Marketing Course and LinkedIn Course for Business Owners.",
     },
     {
       title: "08 — 90-Day Post-Program Growth Plan",
-      desc: "A personalized roadmap to keep growing after the course ends, with weekly actions, KPIs, and your LinkedIn strategy on autopilot.",
+      desc: "Get a step-by-step roadmap for networking, job search, client acquisition & profile growth with the Best LinkedIn Course for Career, LinkedIn Course for Freelancers and LinkedIn Course for Job Seekers.",
     },
   ];
   const whatYouBuildMaterialIcons = [
@@ -214,13 +235,15 @@ export default function page() {
   const modules = [
     {
       key: "mod-01",
-      title: "MOD 01: Foundation, Profile Authority & AI Positioning",
-      meta: "Classes 1–4 · Month 1",
+      title: "MOD 01: LinkedIn Foundation, Profile Authority & AI Positioning",
+      meta: "Classes 1–4 • Month 1",
       bullets: [
-        "• LinkedIn ecosystem, algorithm & market realities",
-        "• High-converting headline & About section frameworks",
-        "• SEO keywords, banner & visual branding",
-        "• Persona clarity & positioning statement",
+        "• Understanding LinkedIn algorithm, reach & growth strategy",
+        "• Build a high-converting profile with the LinkedIn Profile Optimization Course framework",
+        "• Headline, About section, featured section & SEO optimization",
+        "• AI-powered personal branding strategies from the LinkedIn AI Course",
+        "• Profile positioning for recruiters, clients & business growth",
+        "• Visual branding, banners & authority-building systems",
       ],
       extra: [],
     },
@@ -311,22 +334,23 @@ export default function page() {
 
   const whyDifferent = [
     {
-      title: "1. Deliverables After Every Single Module",
-      desc: "You don't just learn, you build. Every module ends with real assets: content calendars, CRM sheets, DM libraries, funnels and playbooks you keep forever.",
+      title: "1. Action Templates in Every Module",
+      desc: "Get ready-to-use templates, scripts, and workflows inside this Best LinkedIn Course for Career so you can implement faster without starting from scratch.",
     },
     {
-      title: "2. AI Engineered Classes",
-      desc: "Every class has an AI insight, an AI tool and an AI-powered task. You'll leave with a personal AI workflow that makes your LinkedIn 10x more efficient.",
+      title: "2. AI + LinkedIn Practical Training",
+      desc: "Learn smarter with our hands-on LinkedIn AI Course, covering automation, content systems, and prospecting tools for faster growth.",
     },
     {
-      title: "3. Practical Task After Every Class",
-      desc: "No passive watching. After every 2-hour class, you complete a real task that reinforces the lesson — like profile rewrites, outreach sends, content creation and more.",
+      title: "3. Real Assignments & Weekly Tasks",
+      desc: "Every lesson includes practical exercises from LinkedIn Profile Optimization Course, LinkedIn Content Strategy Course, and outreach modules to build real skills.",
     },
     {
-      title: "4. Beginner to Advanced in One Journey",
-      desc: "Whether you've never posted on LinkedIn or have 5,000 connections, this program meets you where you are and takes you to mastery across all 6 modules.",
+      title: "4. Career to Business Growth Path",
+      desc: "Whether you need LinkedIn Training for HR, a LinkedIn Course for Sales Professionals, or a LinkedIn Course for Business Owners, this program supports every stage of growth.",
     },
   ];
+
   const testimonialsData = {
     title: "Student",
     titleHighlight: "Testimonials",
@@ -368,7 +392,7 @@ export default function page() {
   };
 
   return (
-    <main className={` flex flex-col justify-start items-center w-full min-h-screen `}>
+    <main className="flex flex-col justify-start items-center w-full min-h-screen">
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
@@ -383,10 +407,10 @@ export default function page() {
         <div className="relative z-10">
           <CoursesHero
             {..._this}
-            badgeText={"Learn & Get Hired in 6 Months!"}
-            title={"Master LinkedIn. Generate Real Results."}
+            badgeText={"Learn & Grow Your Career with LinkedIn in 6 Months!"}
+            title={"Master LinkedIn. Build Your Brand. Generate Real Opportunities."}
             description={
-              "The most complete LinkedIn course built for HR, Sales, Marketing, Freelancers & Business Owners, powered by AI at every step. Go from invisible to irresistible."
+              "The most advanced Best LinkedIn Course for Career growth designed for professionals, HR teams, freelancers, marketers, sales experts & business owners. Learn AI-powered LinkedIn strategies to grow visibility, generate leads, build authority & unlock career opportunities."
             }
             googleRating={"4.8"}
             justdialRating={""}
@@ -396,22 +420,22 @@ export default function page() {
             ctaPrimaryLabel={
               <span className="inline-flex items-center gap-2">
                 <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">rocket_launch</span>
-                Enrol now
+                Enrol Now
               </span>
             }
             ctaSecondaryLabel={
               <span className="inline-flex items-center gap-2">
                 <span className="material-symbols-outlined text-[18px] leading-none relative top-[1px]">menu_book</span>
-                Curriculum
+                View Curriculum
               </span>
             }
             ctaSecondaryHref={"#CourseCurriculum"}
             heroStats={[
-              { materialIcon: "school", value: "24+ LIVE CLASSES" },
-              { materialIcon: "view_module", value: "6 POWER MODULES" },
-              { materialIcon: "account_tree", value: "5 ROLE TRACKS" },
-              { materialIcon: "schedule", value: "48HRS OF LEARNING" },
-              { materialIcon: "smart_toy", value: "AI PROMPTS & TOOLS" },
+              { materialIcon: "school", value: "24+ Live Interactive Sessions" },
+              { materialIcon: "view_module", value: "6 Industry-Focused Power Modules" },
+              { materialIcon: "account_tree", value: "5 Career & Business Growth Tracks" },
+              { materialIcon: "schedule", value: "48+ Hours of Practical Learning" },
+              { materialIcon: "smart_toy", value: "AI Prompts, Automation & LinkedIn Tools" },
             ]}
           />
         </div>
@@ -478,11 +502,11 @@ export default function page() {
           <div className="flex items-center gap-3">
             <div className="h-8 w-1 rounded-full bg-[#E87D1A]" />
             <h2 className="text-[#232D63] text-[18px] md:text-[26px] font-bold">
-              What you&apos;ll <span className="text-[#E87D1A]">build</span> inside this program
+              Real LinkedIn <span className="text-[#E87D1A]">Assets You’ll Build During Training</span>
             </h2>
           </div>
-          <div className="text-gray-600">
-            Not theory. Not slides. Real systems, assets and workflows you keep forever.
+          <div className="text-gray-600 font-medium">
+            Go beyond theory with practical LinkedIn systems, automation workflows and proven growth strategies used by professionals & businesses.
           </div>
           <div className="flex gap-4 overflow-x-auto md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-6 snap-x pb-2">
             {whatYouBuild.map((item, idx) => {
@@ -515,14 +539,14 @@ export default function page() {
         <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-4 py-10 md:py-14 px-[20px] md:px-28">
           <div className="flex flex-col gap-2">
             <div className="text-[#232D63] text-[18px] md:text-[26px] font-bold">
-              Our Flagship <span className="text-[#E87D1A]">LinkedIn Program</span>
+              Our Flagship <span className="text-[#E87D1A]">LinkedIn Growth Program</span>
             </div>
             <div className="w-fit rounded-full border border-[#E6F3FA] bg-white px-4 py-1.5 text-[#232D63] font-semibold text-[12px] md:text-[14px]">
-              6 Modules. 24 Classes. Zero Fluff.
+              6 Power Modules. 24 Live Classes. Practical Learning.
             </div>
           </div>
           <div className="text-gray-600">
-            Every class is 2 hours. Every class has a practical task. Every module ends with deliverables.
+            Every session is focused on practical LinkedIn growth strategies, AI tools, lead generation systems, personal branding & career acceleration with hands-on implementation tasks.
           </div>
           <ModulesCarouselSection modules={modules} />
 
@@ -539,12 +563,14 @@ export default function page() {
         <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-4 py-10 md:py-14 px-[20px] md:px-28">
           <div className="flex flex-col gap-2">
             <div className="text-[#232D63] text-[18px] md:text-[26px] font-bold">
-              <span className="text-[#E87D1A]">AI-Powered</span> Throughout
+              AI Meets <span className="text-[#E87D1A]">LinkedIn Growth</span>
             </div>
-            <div className="text-[#232D63] font-semibold">AI isn&apos;t a bonus. It&apos;s baked into every single class.</div>
+            <div className="w-fit rounded-full border border-[#E6F3FA] bg-[#F4FBFE] px-4 py-1 text-[#0057E2] font-semibold text-[12px] md:text-[14px]">
+              Turn effort into results with smarter systems.
+            </div>
           </div>
           <div className="text-gray-600">
-            You&apos;ll learn to use the best AI tools available to write faster, prospect smarter, automate follow-ups and scale your LinkedIn presence — ethically and effectively.
+            Master profile optimization, lead generation, and content strategy with this complete LinkedIn Marketing Course. Learn Sales Navigator, outreach automation, and personal branding inside a hands-on LinkedIn AI Course designed for career and business growth.
           </div>
           <Marquee speed={28} gradient={false} autoFill>
             <div className="flex gap-6 pr-6">
@@ -572,9 +598,9 @@ export default function page() {
         <div className="w-full max-w-[1380px] mx-auto flex flex-col gap-4 py-10 md:py-14 px-[20px] md:px-28">
           <div className="flex flex-col gap-2">
             <div className="text-[#232D63] text-[18px] md:text-[26px] font-bold">
-              Why different from <span className="text-[#E87D1A]">everything else?</span>
+              What Makes This <span className="text-[#E87D1A]">Course Stand Out?</span>
             </div>
-            <div className="text-gray-600">Most LinkedIn courses give you generic advice. This one builds you an actual system.</div>
+            <div className="text-gray-600">More than theory; get frameworks, tools, and real execution systems.</div>
           </div>
           <WhyDifferentFlipCards items={whyDifferent} />
         </div>

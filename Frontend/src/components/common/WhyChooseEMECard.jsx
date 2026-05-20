@@ -53,7 +53,7 @@ const features = [
   },
 ];
 
-export default function WhyChooseEMECard({ Courses, SelectCourses = [], email_sender, Brochure, BrochureName, backgroundImage }) {
+export default function WhyChooseEMECard({ Courses, SelectCourses = [], email_sender, Brochure, BrochureName, backgroundImage, title = <>Why Choose <span className="text-blue-400">EME</span> Methodology?</>, description }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
   const _this = {
@@ -98,8 +98,20 @@ export default function WhyChooseEMECard({ Courses, SelectCourses = [], email_se
               transition={{ delay: 0.1 }}
               className="text-xl md:text-3xl font-black text-white leading-tight"
             >
-              Why Choose <span className="text-blue-400">EME</span> Methodology?
+              {title}
             </motion.h2>
+
+            {description && (
+              <motion.p 
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.15 }}
+                className="text-white/90 text-xs md:text-sm max-w-3xl mt-2 leading-relaxed"
+              >
+                {description}
+              </motion.p>
+            )}
           </div>
 
           {/* Features Grid */}

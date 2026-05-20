@@ -31,7 +31,7 @@ export default function MLCourseDetails({
             
             <div className='w-full flex justify-center items-center'>
                 <div className=' text-[22px] font-[700] leading-[52px] text-[#232D63]'>
-                    Course Details
+                    AI & ML Course Structure & Learning Path
                 </div>
             </div>
             <div className='w-full h-auto border-[1px] border-[#EEEEEE] rounded-[16px] overflow-hidden'>
@@ -58,9 +58,6 @@ export default function MLCourseDetails({
                                 <div className='font-[600] text-[14px]'>
                                     6 Months
                                 </div>
-                                {/* <div>
-                                    Total 32 hours
-                                </div> */}
                             </div>
                         </div>
 
@@ -96,7 +93,7 @@ export default function MLCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                    Total Fee - INR.  45,000
+                                    Total Fee - INR. 45,000
                                 </div>
                                 <div>
                                     Full Course
@@ -110,7 +107,7 @@ export default function MLCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                    Discounted Fee - INR.  35,000
+                                    Discounted Fee - INR. 35,000
                                 </div>
                                 <div>
                                     Discounted Price
@@ -133,27 +130,27 @@ export default function MLCourseDetails({
                     <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 px-[22px] lg:px-[40px] items-start text-[14px] font-[460]'>
                         <div className=' flex flex-row items-center gap-2 '>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Introduction to AI and ML</p>
+                            <p>Foundation of AI and ML</p>
                         </div>
                         <div className=' flex flex-row items-center gap-2 '>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Python for AI/ML</p>
+                            <p>Python Programming for AI/ML</p>
                         </div>
                         <div className='flex flex-row items-center gap-2'>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Unsupervised Learning and Basics of Deep Learning</p>
+                            <p>AI Automation & Deep Learning Concepts</p>
                         </div>
                         <div className='flex flex-row items-center gap-2'>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Supervised Learning</p>
+                            <p>Professional Guidance</p>
                         </div>
                         <div className=' flex flex-row items-center gap-2 '>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Advanced Topics</p>
+                            <p>Real-World Projects & Future Trends</p>
                         </div>
                         <div className=' flex flex-row items-center gap-2 '>
                             <CheckCircle size={18} className='text-[#14CE03]' />
-                            <p>Capstone Project and Future Trends</p>
+                            <p>Capstone Training & Career Preparation</p>
                         </div>
 
                     </div>
@@ -209,12 +206,11 @@ export default function MLCourseDetails({
                     </div>
                 </div>
                 <div className="flex lg:justify-start justify-center px-[26px] my-6">
-                    
                     <CTAButton
-                                        name="Explore Now ->"
-                                        styleClasses="flex text-[#fff] text-xs lg:text-[14px] rounded-md bg-[#0057E2] hover:bg-[#00a2e7]/90 px-[10px] lg:px-[160px] py-[12px] lg:py-[16px] font-[600] gap-2.5 group hover:text-white border-none hover:bg-[#0047C2]"
-                                        _this={_this}
-                                        />
+                        name="Reserve Your Seat"
+                        styleClasses="flex text-[#fff] text-xs lg:text-[14px] rounded-md bg-[#0057E2] hover:bg-[#00a2e7]/90 px-[10px] lg:px-[160px] py-[12px] lg:py-[16px] font-[600] gap-2.5 group hover:text-white border-none hover:bg-[#0047C2]"
+                        _this={_this}
+                    />
                 </div>
             </div>
         </div>

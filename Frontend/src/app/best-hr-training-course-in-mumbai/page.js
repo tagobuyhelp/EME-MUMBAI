@@ -18,9 +18,30 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 
 export const metadata = {
-  title: "Best HR Training Course in Mumbai with Placement Support",
-  description: "Enroll in the best HR training course in Mumbai and master human resource management with placement support. Start your HR journey today!",
-  keywords: ["hr training course in mumbai", "best hr training institute in mumbai", "hr management course in mumbai"],
+  title: "Best HR Course in Mumbai | 100% Placement Support",
+  description: "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement support and launch your corporate career today!",
+  keywords: [
+    "Best HR Course in mumbai",
+    "Human Resource Course in mumbai",
+    "HR Training Institute in mumbai",
+    "HR Course with Placement mumbai",
+    "HRM Course in mumbai",
+    "HR Course for Beginners mumbai",
+    "Talent Acquisition Course mumbai",
+    "Payroll Training Course mumbai",
+    "HR Course for Freshers mumbai",
+    "HR Management Course mumbai",
+    "HR Course with Certificate mumbai",
+    "HRMS Software Training mumbai",
+    "HR Recruiter Course mumbai",
+    "HR Compliance Course mumbai",
+    "HR Analytics Course mumbai",
+    "AI in HR Course mumbai",
+    "HR Course Fees mumbai",
+    "HR Course for Working Professionals mumbai",
+    "HR Course Online mumbai",
+    "Best Human Resource Institute mumbai"
+  ],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/best-hr-training-course-in-mumbai",
   },
@@ -29,58 +50,53 @@ export const metadata = {
 const faqs = [
   {
     id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! Our Human Resource course in Mumbai is ideal for students, fresh graduates, or anyone switching careers. The curriculum starts from the basics and gradually covers advanced HR tools and industry practices.",
+    title: "I have zero corporate experience. Is this course right for me?",
+    desc: "Absolutely. We built our HR Course for Beginners Mumbai to take you from an absolute scratch to a highly capable corporate executive. We cover foundational business communication and operational logic first, making it the ultimate HR Course for Freshers in Mumbai looking to launch a stable, high-paying career.",
   },
   {
     id: 2,
-    title: "What is the duration and fee of the HR course?",
-    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Mumbai at EME Academy Mumbai is ₹20,000 after discount. EMI options are also available.",
+    title: "How exactly does your placement support work?",
+    desc: "We don't just hand you a certificate and wish you luck. As the Best Human Resource Institute Mumbai relies on, our HR Course with Placement Mumbai features a dedicated career cell that optimizes your executive resume, conducts rigorous mock corporate interviews, and routes your profile directly to our network of 50+ hiring MNCs and startups.",
   },
   {
     id: 3,
-    title: "Will I learn about payroll and compliance like PF, ESI, and tax?",
-    desc: "Absolutely! This is a complete Human Resource training course in Mumbai that includes salary structure design, PF/ESI calculations, Form 16, and compliance using real-world Excel-based systems.",
+    title: "Will I learn how to calculate salaries and handle legal labor laws?",
+    desc: "Yes. Administrative theory is useless without execution. Our curriculum includes an intensive Payroll Training Course Mumbai, where you will process live salary structures, alongside a rigorous HR Compliance Course Mumbai to ensure you can confidently navigate PF, ESI, and corporate labor laws.",
   },
   {
     id: 4,
-    title: "Do I get placement support after completing the course?",
-    desc: "Absolutely. We offer 100% placement assistance including job referrals, direct interview calls, resume building, and mock interviews.",
+    title: "Does the curriculum cover modern hiring and headhunting?",
+    desc: "100%. Finding top-tier talent is a highly paid skill. This program serves as a comprehensive Talent Acquisition Course Mumbai and an advanced HR Recruiter Course Mumbai, teaching you how to source, interview, and onboard elite candidates efficiently.",
   },
   {
     id: 5,
-    title: "Will I get trained on modern HR tools and HRMS software?",
-    desc: "Yes! You’ll learn Zoho People, KEKA, and applicant tracking systems (ATS) — all the important tools used in today’s HR departments across industries.",
+    title: "Do you teach modern HR technology, or just outdated textbook methods?",
+    desc: "We only teach what modern corporations actually use. You will receive hands-on HRMS Software Training in Mumbai to manage employee data systems. Furthermore, we are one of the only institutes to feature a dedicated AI in HR Course Mumbai module, teaching you how to automate recruitment and onboarding using cutting-edge artificial intelligence.",
   },
   {
     id: 6,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    title: "I want to move into management. Will I learn how to use workforce data?",
+    desc: "Yes, data-driven decision-making is the future of leadership. Our curriculum includes a highly specialized HR Analytics Course in Mumbai, teaching you how to measure employee performance, retention rates, and workforce efficiency, making this a truly elite Human Resource Course in Mumbai.",
   },
   {
     id: 7,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes.",
+    title: "I currently work full-time. Do you have flexible batch timings?",
+    desc: "We do. We specifically engineered our HR Course for Working Professionals in Mumbai to adapt to demanding corporate schedules. You can choose highly flexible weekend classroom batches or opt for our fully interactive HR Course Online Mumbai format so you can upskill without interrupting your current career.",
   },
   {
     id: 8,
-    title: "Will I receive a certificate after course completion?",
-    desc: "Yes, a globally recognised Human Resource certification will be issued by EME Academy Mumbai upon successful completion of the course.",
+    title: "What is the cost of the program, and do you offer payment plans?",
+    desc: "We believe elite corporate education should be accessible, which is why we maintain highly transparent HR Course Fees Mumbai. Better yet, we offer zero-interest, No-Cost EMI options so you can focus entirely on mastering your HR Management Course Mumbai rather than stressing over upfront costs.",
   },
   {
     id: 9,
-    title: "Is this course good for freelancing or consulting in HR?",
-    desc: "Yes! We include modules on freelancing as an HR consultant and real-world client case studies to help you start your own independent career if you wish.",
+    title: "Will I get a recognized certificate after completing the training?",
+    desc: "Yes. Upon graduation, you will receive a highly respected HR Course with a Certificate Mumbai. Because EME Academy is MSME, ISO, and #startupindia certified, your credentials carry severe weight and instantly validate your expertise as a graduate of the Best HR Course in Mumbai.",
   },
   {
     id: 10,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
-  },
-  {
-    id: 11,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    title: "Why is EME Academy considered the top HR institute in the city?",
+    desc: "Because we teach corporate execution, not classroom theory. As the premier HR Training Institute in Mumbai, we simulate a live corporate environment. You manage real-world case studies in our HRM Course in Mumbai, graduating with the exact practical, operational skills that force top-tier companies to hire you on the spot.",
   },
 ];
 
@@ -98,52 +114,49 @@ export default function page() {
 
   // Hero data
   const heroData = {
-    badgeText: "Learn & Get Hired in 4 Months!",
-    title: "Best HR Training Course in Mumbai with Placement Support",
+    badgeText: "Learn & Get Hired in Just 4 Months!",
+    title: "Step Up as a Corporate Leader with the Best HR Course in Mumbai",
     description:
-      "Learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and even AI in HR with expert guidance and hands-on training.",
+      "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement support and launch your corporate career today!",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
+    ctaRatingsLabel: "Download Syllabus & Brochure →",
   };
 
   const courseDetailsData = {
-    courseName: "HR Management Course",
+    courseName: "Explore Our Complete HR Management Course in Mumbai",
     subtitle:
-      "Advance your career in Human Resource with industry-focused HR training designed for freshers and working professionals.",
+      "Advance your career in corporate operations with industry-focused, practical training. Whether you are stepping into the corporate world and need a foundational HR Course for Beginners Mumbai, or you are upgrading your skills to secure a management role, this intensive curriculum is designed to make you an indispensable asset to any organization.",
     courseData: [
       {
         id: 1,
-        title: "Human Resource Course",
+        title: "Certified Human Resource Course in Mumbai",
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/HR_Management/HRCourseDetailsMain.png",
         description:
-          "Master every HR domain from core functions to emerging AI tools used by modern HR professionals.",
+          "From statutory compliance to emerging AI recruitment tools, this 4-month track guarantees you graduate 100% placement-ready.",
         details: [
           {
             label: "Duration",
-            value: (
-              <span>
-                <span className="text-black">4 months</span>
-              </span>
-            ),
+            value: "4 Months",
           },
           {
-            label: "Affordable Fees",
+            label: "Transparent HR Course Fees Mumbai",
             value: (
               <>
-                <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">Save ₹5,000/-</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
+                ₹35,000 <span className="text-[#00A51E]">(Save ₹5,000/- Special Discount)</span>
               </>
             ),
           },
           {
             label: "Mode of Training",
-            value: "Online and classroom sessions are available.",
+            value: "Flexible HR Course Online Mumbai and immersive classroom sessions available.",
           },
           {
-          label: "Languages",
-          value: "English & Hindi",
-        },
+            label: "Languages",
+            value: "English, Hindi",
+          },
         ],
         hookLine:
           "Become job-ready with the best institute for Human Resource in Mumbai!",
@@ -219,27 +232,21 @@ export default function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospects of this <span className="text-[#f97316]">Course in Mumbai</span>',
+      'Elite Career <span style="color: #0057E2;">Prospects</span> & <span style="color: #f97316;">High-Paying</span> Corporate HR Roles',
     subtitle:
-      "After completing EME Academy Mumbai’s Human Resource course in Mumbai, you’ll be eligible for various HR roles across top industries:",
+      "After completing the premier HR Management Course in Mumbai, you won't just be participating in the corporate world—you will be running it. Whether you are launching your career via our HR Course for Freshers Mumbai or stepping into leadership as an experienced professional, graduating from the Best Human Resource Institute in Mumbai makes you highly eligible for impact-driven roles across top MNCs and global startups.",
     careerRoles: [
-      "HR Specialist/Executive",
-      "IT Recruiter",
-      "Compensation Specialist",
-      "HR Recruiter",
-      "Benefits Specialist",
-      "Labor Relations Officer",
-      "HR Manager",
-      "Job Analysis Specialist",
-      "Training and Development Manager",
-      "Training and Development Specialist",
+      "HR Manager & Executive Specialist",
+      "IT & Corporate HR Recruiter",
+      "Compensation & Benefits Specialist",
+      "Labor Relations & Compliance Officer",
+      "Job Analysis & HR Analytics Specialist",
+      "Training & Development Manager",
     ],
     salaryInfo:
-      'Average Salary in India: <strong class="font-bold">₹5 - 12 LPA</strong> (as per industry standard)',
-    // image: "/assets/images/HR_Management/HRCareerProspectsImageMain.png",
+      "Average Salary in India: ₹5 - 12 LPA (as per industry standard)",
     image:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/HR_Management/HRCareerProspectsImageMain.png",
-
     buttonText: "Check Eligibility",
   };
 
@@ -405,7 +412,7 @@ export default function page() {
       <div className="w-full bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/HR_Management/HRMaincourseHero.png')] xs:h-[460px] md:h-[490px] bg-cover bg-center bg-no-repeat">
         <CoursesHero {...heroData} {..._this} />
       </div>
-      <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
+      <div className="flex w-full flex-col h-full bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={Courses}
           brochure={Brochure}
@@ -433,13 +440,101 @@ export default function page() {
         />
       </div>{" "}
       <div id="" className="flex w-full p-6">
-        <TalkToOurCareerExpert {..._this} />
+        <TalkToOurCareerExpert
+          {..._this}
+          title='Stop Guessing. Start Leading. <span style="color: #FF7A00;">Talk to a Corporate HR Career Expert!</span>'
+          description="Climbing the corporate ladder requires strategy, not just luck. Connect with our veteran HR advisors for a free 1-on-1 career mapping session."
+          buttonText="Download Full Syllabus & Brochure →"
+        />
       </div>
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport
+          {..._this}
+          badge="Corporate Career Excellence"
+          title="100% Dedicated Placement Support to Secure Your HR Leadership Role"
+          customFeatures={[
+            {
+              id: 1,
+              title: "Executive Resume & LinkedIn",
+              icon: "FileText",
+              color: "text-blue-500",
+              bg: "bg-blue-50",
+              points: [
+                "Craft ATS-optimized resumes tailored specifically for HR management roles.",
+                "Strategic LinkedIn profile optimization to attract corporate headhunters.",
+                "Highlight your core competencies in talent acquisition and payroll execution."
+              ],
+            },
+            {
+              id: 2,
+              title: "Corporate Aptitude Training",
+              icon: "Brain",
+              color: "text-purple-500",
+              bg: "bg-purple-50",
+              points: [
+                "Daily logic, reasoning, and Situational Judgment Test (SJT) practice.",
+                "Full-length aptitude mock exams for top-tier corporate firms.",
+                "Speed and accuracy enhancement for competitive executive screening rounds."
+              ],
+            },
+            {
+              id: 3,
+              title: "HR Interview Mastery",
+              icon: "MessagesSquare",
+              color: "text-orange-500",
+              bg: "bg-orange-50",
+              points: [
+                "Weekly rigorous mock interviews focusing on complex HR scenarios.",
+                "Personalized performance feedback from veteran HR Directors.",
+                "Real-world scenario prep for compliance defense and conflict resolution."
+              ],
+            },
+            {
+              id: 4,
+              title: "Expert Corporate Mentorship",
+              icon: "UserCheck",
+              color: "text-green-500",
+              bg: "bg-green-50",
+              points: [
+                "1-on-1 career counseling aligned with your specific HR niche (e.g., Payroll vs. Talent).",
+                "Insider insights on the latest corporate hiring and AI recruitment trends.",
+                "Professional salary negotiation tactics to maximize your own CTC."
+              ],
+            },
+            {
+              id: 5,
+              title: "Elite Corporate Network",
+              icon: "Briefcase",
+              color: "text-indigo-500",
+              bg: "bg-indigo-50",
+              points: [
+                "Access to 50+ premium MNCs, global startups, and corporate hiring partners.",
+                "Exclusive access to our internal, unlisted corporate HR job portal.",
+                "Direct executive interview referrals to fast-track your onboarding."
+              ],
+            },
+            {
+              id: 6,
+              title: "Real-World HR Case Studies",
+              icon: "Layout",
+              color: "text-pink-500",
+              bg: "bg-pink-50",
+              points: [
+                "Develop real-world capstone projects (live payroll setups, recruitment drives).",
+                "Guided, mentor-led resolution of complex statutory compliance audits.",
+                "Build an employer-ready showcase proving your HR operational mastery."
+              ],
+            },
+          ]}
+        />
       </div>
       <div id="" className="flex w-full p-6">
-        <NeedToKnowMore {..._this} />
+        <NeedToKnowMore
+          {..._this}
+          title="Ready to Command the Corporate Workforce?"
+          description="discover exactly how earning an industry-recognized HR Course with Certificate Mumbai can fast-track your journey into top-tier corporate management."
+          buttonText="Download Complete Brochure"
+        />
       </div>
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent

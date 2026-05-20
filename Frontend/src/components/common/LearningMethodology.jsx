@@ -7,7 +7,20 @@ import { CheckCircle2, Sparkles, PlayCircle, BookOpen, Award, Briefcase, Users, 
 
  
 
-export default function LearningMethodology ({ Courses, email_sender, Brochure, BrochureName, items, backgroundImage, variant, formVariant }){
+export default function LearningMethodology ({
+  Courses,
+  email_sender,
+  Brochure,
+  BrochureName,
+  items,
+  backgroundImage,
+  variant,
+  formVariant,
+  badgeText = "Why Is This Course So Effective?",
+  headline = "Not Just Theory — Real Work Happens Here",
+  description = "We run real campaigns in the classroom. Live projects. Learning from industry experts. By the time you finish — your portfolio is ready, and so are you.",
+  ctaName = "Yes, I'm Ready — Enroll Now →"
+}){
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [ctaType, setCtaType] = useState(null);
     const _this = {
@@ -65,17 +78,17 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
             <div className="flex flex-col items-start text-left gap-2">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 backdrop-blur px-3 py-1 text-[10px] md:text-xs font-black tracking-wide">
                 <Sparkles className="h-3.5 w-3.5 text-[#00A2E7]" />
-                Why Is This Course So Effective?
+                {badgeText}
               </div>
               <h2 className="text-[20px] md:text-[28px] font-black leading-tight">
-                Not Just Theory — Real Work Happens Here
+                {headline}
               </h2>
               <p className="text-white/85 text-[12px] md:text-[14px] font-medium leading-relaxed max-w-[520px]">
-                We run real campaigns in the classroom. Live projects. Learning from industry experts. By the time you finish — your portfolio is ready, and so are you.
+                {description}
               </p>
               <div className="pt-1">
                 <CTAButton
-                  name="Yes, I'm Ready — Enroll Now →"
+                  name={ctaName}
                   styleClasses="h-10 md:h-11 px-8 md:px-10 bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-black text-[12px] md:text-[14px] shadow-lg shadow-blue-900/30 border-none"
                   _this={_this}
                 />
@@ -109,7 +122,7 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 backdrop-blur px-4 py-1.5 text-[10px] md:text-xs font-black tracking-wide"
               >
                 <Sparkles className="h-3.5 w-3.5 text-[#00A2E7]" />
-                Why Is This Course So Effective?
+                {badgeText}
               </motion.div>
               <motion.h2
                 initial={{ opacity: 0, y: 10 }}
@@ -118,7 +131,7 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
                 transition={{ delay: 0.05 }}
                 className="text-[22px] md:text-[34px] font-black leading-tight"
               >
-                Not Just Theory — Real Work Happens Here
+                {headline}
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
@@ -127,7 +140,7 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
                 transition={{ delay: 0.1 }}
                 className="text-white/85 text-[12px] md:text-[14px] font-medium leading-relaxed max-w-[900px]"
               >
-                We run real campaigns in the classroom. Live projects. Learning from industry experts. By the time you finish — your portfolio is ready, and so are you.
+                {description}
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
@@ -137,7 +150,7 @@ export default function LearningMethodology ({ Courses, email_sender, Brochure, 
                 className="pt-1"
               >
                 <CTAButton
-                  name="Yes, I'm Ready — Enroll Now →"
+                  name={ctaName}
                   styleClasses="h-11 px-10 bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-black text-[12px] md:text-[14px] shadow-lg shadow-blue-900/30 border-none"
                   _this={_this}
                 />

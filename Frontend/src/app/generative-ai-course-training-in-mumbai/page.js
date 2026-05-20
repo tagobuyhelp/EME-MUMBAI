@@ -22,79 +22,81 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 const GenAIfaq = [
   {
     id: 1,
-    title: "Is this course for beginners in Mumbai?",
-    desc: "Yes! Our Generative AI course in Mumbai is beginner-friendly. We start from the basics and build up to advanced tools like LLMs, GANs, and LangChain.",
+    title: "I have no prior coding background. Is this a Generative AI Course for Beginners?",
+    desc: "Absolutely! We’ve designed our AI Course in Mumbai from the ground up to be completely accessible. Whether you are from a non-tech background or just starting out, this Generative AI Course for Beginners will take you step-by-step from foundational concepts to advanced AI logic.",
   },
   {
     id: 2,
-    title:
-      "What is the duration and fee structure of the Generative AI course in Mumbai?",
-    desc: "The course is 6 months long (including internship). The generative AI course fees in Mumbai at EME Academy Mumbai is ₹40,000, currently offered at a discounted fee of ₹30,000.",
+    title: "What makes EME Academy the Best AI Training Institute in Mumbai?",
+    desc: "We don't just teach theory; we focus on deep-tech engineering and real-world application. As the Best AI Training Institute in Mumbai, our award-winning curriculum is backed by MSME, ISO, and Startup India. From building live AI portfolios to 100% placement support, we provide the Best Generative AI Course in Mumbai to ensure you graduate job-ready.",
   },
   {
     id: 3,
-    title:
-      "Will I receive a certificate after completing this Generative AI course?",
-    desc: "Absolutely. Upon completion, you’ll receive a globally recognized generative AI certification from EME Academy Mumbai, positioning you as an AI-ready professional in a booming tech industry.",
+    title: "Do you offer a Generative AI Course with Placement support for new graduates?",
+    desc: "Yes, we do! Our Generative AI Course for Freshers includes 100% dedicated placement assistance. When you enroll in our Generative AI Course with Placement, you get access to top-tier tech mentorship, resume optimization, mock technical interviews, and direct referrals to over 50 premium AI startups and global IT firms.",
   },
   {
     id: 4,
-    title: "What tools and models will I work with during the course?",
-    desc: "You’ll get hands-on experience with ChatGPT, GPT-4, Midjourney, Stable Diffusion, LangChain, DALL·E, ElevenLabs, and more.",
+    title: "What are the Generative AI Course Fees in Mumbai, and can I learn remotely?",
+    desc: "We believe elite tech education should be accessible. Our highly transparent Generative AI Course Fees in Mumbai are currently discounted to just ₹45,000. Plus, if you prefer the flexibility of learning from home, you can easily join our highly interactive Generative AI Course Online in Mumbai without compromising on the hands-on classroom experience.",
   },
   {
     id: 5,
-    title: "Do you offer placement support after the course?",
-    desc: "Yes! EME Academy Mumbai offers 100% placement assistance with resume building, mock interviews, job referrals, and portfolio development to help you land your first job in the AI space.",
+    title: "Is this just a basic ChatGPT Course in Mumbai, or will I learn advanced prompting?",
+    desc: "This goes far beyond a simple ChatGPT Course in Mumbai! You will command advanced AI logic through our intensive Prompt Engineering Course in Mumbai. By the time you graduate, you will have the technical execution skills to defend your prompt choices in interviews, making this the ultimate Prompt Engineer Course in Mumbai.",
   },
   {
     id: 6,
-    title: "Can I get a demo class before enrolling?",
-    desc: "Yes! We offer a free demo session to help you understand our teaching approach.",
+    title: "Will I learn to build actual applications and work with large models?",
+    desc: "Definitely. You won't just be a passive user; you will be the one building the technology. Our 6-month track includes an in-depth LLM Course in Mumbai, a specialized LangChain Course in Mumbai, and a comprehensive AI App Development Course in Mumbai so you can architect and deploy real-world enterprise solutions.",
   },
   {
     id: 7,
-    title: "Will this course help me with freelancing opportunities?",
-    desc: "Yes. Many of our students have started working as freelance AI content creators, automation consultants, and prompt engineers. Our projects and case studies are real-world and client-ready.",
+    title: "Is this a certified program? Will I get a recognized document for my resume?",
+    desc: "Yes! Upon successful graduation, you will be awarded an industry-recognized Generative AI Course with Certificate. Our Generative AI Certification Course in Mumbai is highly respected by tech headhunters, giving your LinkedIn profile and resume the elite badge of AI Career Excellence.",
   },
   {
     id: 8,
-    title: "Do I need a coding background to take this course?",
-    desc: "No prior coding experience is required. We teach everything from scratch, including Python for AI, prompt engineering, and how to use no-code AI tools.",
+    title: "I already have a full-time job. Is this Generative AI Course for Working Professionals?",
+    desc: "100%! We’ve structured this Generative AI Course for Working Professionals to help you future-proof your corporate skill set. Whether you want to negotiate a premium CTC or pivot your career entirely, mastering applied AI at the top Generative AI Institute in Mumbai gives you the competitive edge you need.",
   },
   {
     id: 9,
-    title: "I’m working full-time. Can I still join this course?",
-    desc: "Yes, we provide flexible batches including weekend and evening classes.",
+    title: "Can this course help me start an independent career or freelance business?",
+    desc: "Absolutely. If your goal is to launch high-ticket independent projects, this curriculum serves as an incredible Generative AI Freelancing Course in Mumbai. You’ll learn how to resolve complex model hallucinations and build custom GPTs, perfectly equipping you to become a highly paid Freelance AI Consultant.",
   },
   {
     id: 10,
-    title: "What if I miss a class or need revision?",
-    desc: "All sessions are recorded and shared with you. You’ll also have access to extra doubt-clearing classes to stay on track with your learning.",
-  },
-  {
-    id: 11,
-    title: "How can I enroll?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    title: "Do you cover language processing and data evaluation?",
+    desc: "Yes, deep tech requires deep knowledge. Our curriculum features a robust NLP Course in Mumbai where you will master natural language processing, algorithmic challenges, and dataset evaluation. You'll learn the exact skills needed to claim the highest-paying roles in the global tech landscape.",
   },
 ];
 
 export const metadata = {
-  title: "AI Courses in Mumbai and Prompt Engineer Course in Mumbai",
+  title: "Future-Proof Your Career with the Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
   description:
-    "Join artificial intelligence course in Mumbai and AI course in Mumbai with Prompt Engineering course with placement and Prompt engineering course with certificate.",
+    "Our hands-on Generative AI Certification Course Mumbai goes far beyond basic chatbot interactions. You will dive deep into Large Language Models through our intensive LLM Course in Mumbai, command advanced AI logic in our Prompt Engineering Course in Mumbai, and architect real-world solutions via our LangChain Course Mumbai and AI App Development Course Mumbai.",
   keywords: [
-    "artificial intelligence course in Mumbai",
-    "AI course in Mumbai",
-    "artificial intelligence course fees in Mumbai",
-    "AI and Machine Learning Courses in Mumbai",
-    "AI courses in Mumbai",
-    "best AI course in Mumbai",
-    "Prompt Engineering course in Mumbai with placement",
-    "Prompt engineering course in Mumbai with certificate",
-    "prompt engineer course in Mumbai",
-    "AI prompt engineering course in Mumbai",
-    "artificial intelligence course in Mumbai",
+    "Best Generative AI Course in mumbai",
+    "Generative AI Institute in mumbai",
+    "Prompt Engineering Course in mumbai",
+    "LLM Course in mumbai",
+    "AI Course in mumbai",
+    "LangChain Course mumbai",
+    "Generative AI Certification Course mumbai",
+    "Generative AI Course for Beginners",
+    "Generative AI Course with Placement",
+    "Prompt Engineer Course mumbai",
+    "ChatGPT Course mumbai",
+    "Generative AI Course for Freshers",
+    "AI App Development Course mumbai",
+    "Generative AI Course with Certificate",
+    "Generative AI Course Fees mumbai",
+    "NLP Course mumbai",
+    "Generative AI Course for Working Professionals",
+    "Generative AI Freelancing Course mumbai",
+    "Best AI Training Institute mumbai",
+    "Generative AI Course Online mumbai"
   ],
   alternates: {
     canonical:
@@ -105,7 +107,7 @@ export const metadata = {
 export default function page() {
   const Courses = "Prompt Engineering with AI Course";
   const email_sender = "ALL";
-    const Brochure =
+  const Brochure =
     "https://drive.google.com/file/d/1LPlfsCPoEtHbV4Zif5j6pp1OyG-oE7cN/view?usp=sharing";
   const BrochureName = "GenerativeAI_brochure.pdf";
   const _this = {
@@ -118,45 +120,44 @@ export default function page() {
   // Hero data
   const heroData = {
     badgeText: "Master Generative AI in Just 6 Months",
-    title:
-      "Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
+    title: "Future-Proof Your Career with the Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
     description:
-      "Learn from experts at EME Academy Mumbai – the best generative AI training institute in Mumbai. Our hands-on course covers Large Language Models (LLMs), Prompt Engineering, LangChain, AI app building, and much more.",
+      "Dive deep into Large Language Models, LangChain, and advanced Prompt Engineering. Graduate with an elite AI app portfolio and get 100% placement support to lead the AI revolution.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };
 
   // Course details data
   const courseDetailsData = {
-    courseName: "Generative AI Course",
+    courseName: "Explore Our Advanced Generative AI Course in Mumbai",
     subtitle:
-      "Become job-ready with the best generative AI certification course in Mumbai with hands-on tools and real-world application!",
+      "Dive into real-world application building and enterprise-level tools with the most comprehensive, job-ready AI curriculum designed for both complete beginners and seasoned IT professionals.",
     courseData: [
       {
         id: 1,
-        title: "Generative AI Course",
+        title: "Master Generative AI & Applied LLMs",
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/GenAICard.png",
         description:
-          "Get certified with one of the most advanced generative AI certification courses in Mumbai, covering everything from GPT to LangChain and model customization.",
+          "Get certified with the most advanced Generative AI Certification Course Mumbai has to offer. This is not just a basic ChatGPT Course Mumbai; this is deep-tech engineering.",
         details: [
           { label: "Duration", value: "6 Months" },
           {
-            label: "Affordable Fees",
+            label: "Transparent Generative AI Course Fees Mumbai",
             value: (
               <>
-                <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
-                ₹45,000 <span className="text-[#00A51E]">after discount</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
+                ₹45,000 <span className="text-[#00A51E]">(after discount)</span>
               </>
             ),
           },
           {
             label: "Mode of Training",
-            value: "Online and classroom sessions are available.",
+            value: "Highly interactive Generative AI Course Online Mumbai and immersive classroom sessions available.",
           },
           {
             label: "Languages",
-            value: "English & Hindi",
+            value: "English, Hindi & Marathi",
           },
         ],
         hookLine:
@@ -349,19 +350,19 @@ export default function page() {
   // Career prospects data
   const careerProspectsData = {
     title:
-      'Future Prospect of a <span class="text-[#f97316]">Prompt Engineering with AI Course</span>',
+      'Elite Career <span style="color: #0057E2;">Prospects</span> in <span style="color: #f97316;">Generative AI</span> & Prompt Engineering',
     subtitle:
-      "After completing the generative AI course in Mumbai, you'll be ready for exciting roles like:",
+      "After mastering applied AI at EME Academy, you won't just be a passive user of technology—you will be the one building it. Whether you are launching your journey through our Generative AI Course for Freshers or future-proofing your corporate skill set, graduating from the Generative AI Institute in Mumbai equips you to claim the highest-paying, most in-demand roles in the global tech landscape.",
     careerRoles: [
-      "AI Engineer",
-      "Prompt Engineer",
+      "Certified Prompt Engineer",
       "Generative AI App Developer",
       "AI Product Manager",
-      "AI Research Assistant",
+      "NLP & AI Engineer",
       "Freelance AI Consultant",
+      "AI Research Assistant",
     ],
     salaryInfo:
-      'Average Salary in India: <strong class="font-bold">₹6 LPA - ₹12 LPA</strong> (as per industry standard)',
+      "Average Salary in India: ₹6 LPA - ₹12 LPA (as per industry standard)",
     image:
       "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/GenerativeAI.svg",
     buttonText: "Check Eligibility",
@@ -527,7 +528,7 @@ export default function page() {
       <div className="w-full bg-[url('https://eme25.s3.ap-south-1.amazonaws.com/assets/images/GeneAI/generativeAI_hero.png')] xs:h-[460px] md:h-[490px] bg-cover bg-center bg-no-repeat">
         <CoursesHero {...heroData} {..._this} />
       </div>
-      <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
+      <div className="flex w-full flex-col h-full bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={Courses}
           brochure={Brochure}
@@ -560,11 +561,94 @@ export default function page() {
       </div>
 
       <div id="" className="flex w-full p-6">
-        <TalkToOurCareerExpert {..._this} />
+        <TalkToOurCareerExpert
+          {..._this}
+          title='Stop Watching the AI Revolution. Start Leading It. <span style="color: #FF7A00;">Talk to an AI Career Expert!</span>'
+          description="Ready to transition into advanced AI engineering? Connect with our veteran industry mentors to build your personalized learning map."
+          buttonText="Download Full AI Syllabus & Brochure →"
+        />
       </div>
 
       <div className="flex w-full bg-[#f5f9fc] bg-[url('/assets/images/Home/background3.png')] bg-fit bg-top bg-no-repeat p-4 md:p-0">
-        <PlacementSupport {..._this} />
+        <PlacementSupport
+          {..._this}
+          badge="AI Career Excellence"
+          title="100% Dedicated Placement Support to Launch Your AI Engineering Career"
+          customFeatures={[
+            {
+              id: 1,
+              title: "Resume, LinkedIn & GitHub",
+              icon: "FileText",
+              color: "text-blue-500",
+              bg: "bg-blue-50",
+              points: [
+                "Craft ATS-optimized resumes tailored for NLP and AI developer roles.",
+                "Strategic LinkedIn and GitHub profile optimization for tech headhunters.",
+                "Highlight your mastery of LLMs, Python integration, and AI toolchains."
+              ],
+            },
+            {
+              id: 2,
+              title: "Algorithmic & Logic Training",
+              icon: "Brain",
+              color: "text-purple-500",
+              bg: "bg-purple-50",
+              points: [
+                "Daily logic, algorithmic challenges, and dataset evaluation practice.",
+                "Full-length aptitude mock exams for top-tier tech and AI startups.",
+                "Speed and accuracy enhancement for competitive technical screening rounds."
+              ],
+            },
+            {
+              id: 3,
+              title: "Technical Interview Mastery",
+              icon: "MessagesSquare",
+              color: "text-orange-500",
+              bg: "bg-orange-50",
+              points: [
+                "Weekly rigorous mock interviews focusing on model deployment and NLP logic.",
+                "Personalized whiteboard and live AI-architecture challenge feedback.",
+                "Real-world scenario prep for defending your prompt engineering choices."
+              ],
+            },
+            {
+              id: 4,
+              title: "Expert Tech Mentorship",
+              icon: "UserCheck",
+              color: "text-green-500",
+              bg: "bg-green-50",
+              points: [
+                "1-on-1 career counseling with senior AI developers and Data Scientists.",
+                "Insider insights on the latest LLM advancements and autonomous AI agents.",
+                "Professional salary negotiation tactics to maximize your premium tech CTC."
+              ],
+            },
+            {
+              id: 5,
+              title: "Elite Tech Hiring Network",
+              icon: "Briefcase",
+              color: "text-indigo-500",
+              bg: "bg-indigo-50",
+              points: [
+                "Access to 50+ premium AI startups, global IT firms, and tech partners.",
+                "Exclusive access to our internal, unlisted AI developer job portal.",
+                "Direct corporate interview referrals to fast-track your tech onboarding."
+              ],
+            },
+            {
+              id: 6,
+              title: "Live AI Portfolio Building",
+              icon: "Layout",
+              color: "text-pink-500",
+              bg: "bg-pink-50",
+              points: [
+                "Develop real-world capstone projects (Custom GPTs, LangChain apps).",
+                "Guided, mentor-led resolution of complex model hallucinations and API bugs.",
+                "Build an employer-ready digital showcase proving your generative AI mastery."
+              ],
+            },
+          ]}
+        />
       </div>
 
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
@@ -578,7 +662,12 @@ export default function page() {
       </div>
 
       <div id="" className="flex w-full p-6">
-        <NeedToKnowMore {..._this} />
+        <NeedToKnowMore
+          {..._this}
+          title="Ready to Build the Next AI Breakthrough?"
+          description="Stop hesitating and start engineering. Download our complete syllabus to explore our hands-on LLM and LangChain modules, review our highly transparent Generative AI Course Fees Mumbai, and discover exactly how earning an industry-recognized Generative AI Course with Certificate can fast-track your journey into top-tier tech startups and global AI labs."
+          buttonText="Download Complete AI Brochure"
+        />
       </div>
 
       <div className="flex flex-col justify-center w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
