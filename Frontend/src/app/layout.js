@@ -125,11 +125,21 @@ export default function RootLayout({ children }) {
         />
       </Head>
       {/* <GoogleTagManager gtmId="GTM-PDQTB5WZ" /> */}
-      <GoogleTagManager gtmId="GTM-K9M2TGKC" />
+      <GoogleTagManager gtmId="GTM-NN6J9GHM" />
       {/* <GoogleTagManager gtmId="GTM-KZXXKHG7" /> */}
       <GoogleAnalytics gaId="G-FJJYRNLQ4B" />
       {/* <GoogleAnalytics gaId="G-P6CCMJT8H8" /> */}
       <body className={`${inter.className}  `}>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NN6J9GHM"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         <Chat />
         <Toaster position="top-center" />
         <main>{children}</main>
