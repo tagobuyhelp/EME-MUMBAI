@@ -15,6 +15,9 @@ export const metadata = {
     "Mumbai's No 1 Training Institute | Mumbai's No.1 Job Oriented Training Institute - EME Academy Mumbai",
   description:
     "We are job oriented training Institute in Mumbai. Best SAP Certification courses, advanced Digital Marketing, and HR Management courses for career growth. Job-oriented & relevant courses in Mumbai at EME Academy Mumbai.",
+  verification: {
+    google: "C4o0-xKAEN4T_ufIrZYUxATGJdRJBpcl0s7_6Ufl4tw",
+  },
 };
 
 <link rel="icon" href="facicon.ico" sizes="any" />;
@@ -94,7 +97,7 @@ export default function RootLayout({ children }) {
         {/* Google Site Verification */}
         <meta
           name="google-site-verification"
-          content="gSlvHzxR_BU2lWlPG2mL40fNqEf8umL_vBOCX8RyOnQ"
+          content="C4o0-xKAEN4T_ufIrZYUxATGJdRJBpcl0s7_6Ufl4tw"
         />
 
         <link rel="icon" href="facicon.ico" sizes="any" />
