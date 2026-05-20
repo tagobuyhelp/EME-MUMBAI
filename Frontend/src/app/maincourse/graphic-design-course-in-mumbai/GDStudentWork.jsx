@@ -94,7 +94,7 @@ function GDStudentWork() {
                 alt="Student Work"
                 width={358}
                 height={200}
-                className="rounded-[10px] border border-gray-300 w-[358px] h-[200px] object-cover "
+                className="rounded-[10px] border border-gray-300 w-full h-[200px] object-cover "
               />
             </div>
 
@@ -105,7 +105,7 @@ function GDStudentWork() {
                 alt="Student Work"
                 width={175}
                 height={200}
-                className="rounded-[10px] border border-gray-300 w-[175px] h-[200px] object-cover"
+                className="rounded-[10px] border border-gray-300 w-full h-[200px] object-cover"
               />
             </div>
 
@@ -116,7 +116,7 @@ function GDStudentWork() {
                 alt="Student Work"
                 width={175}
                 height={200}
-                className="rounded-[10px] border border-gray-300 w-[175px] h-[200px] object-cover"
+                className="rounded-[10px] border border-gray-300 w-full h-[200px] object-cover"
               />
             </div>
 
@@ -127,7 +127,7 @@ function GDStudentWork() {
                 alt="Student Work"
                 width={358}
                 height={200}
-                className="rounded-[10px] border border-gray-300 w-[358px] h-[200px] object-cover"
+                className="rounded-[10px] border border-gray-300 w-full h-[200px] object-cover"
               />
             </div>
 
@@ -138,7 +138,7 @@ function GDStudentWork() {
                 alt="Student Work"
                 width={358}
                 height={202}
-                className="rounded-[10px] border border-gray-300 w-[358px] h-[202px] object-cover"
+                className="rounded-[10px] border border-gray-300 w-full h-[202px] object-cover"
               />
             </div>
           </div>

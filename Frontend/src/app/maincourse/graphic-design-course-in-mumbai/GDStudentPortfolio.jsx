@@ -130,7 +130,7 @@ function GDStudentPortfolio() {
                   alt={tool.name}
                   width={tool.companyLogoWidth}
                   height={tool.companyLogoHeight}
-                  className="object-contain transition-transform duration-300 hover:-translate-y-1"
+                  className="w-full max-w-[200px] h-auto object-contain transition-transform duration-300 hover:-translate-y-1"
                 />
                 <p className="text-[10px] md:text-[12px] font-medium">
                   {tool.name}

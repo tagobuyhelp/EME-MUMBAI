@@ -83,13 +83,14 @@ function CoursesDetails({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {course.details.map((detail, index) => {
                     let icon
-                    if (detail.label === "Duration") {
+                    const lowerLabel = detail.label.toLowerCase();
+                    if (lowerLabel.includes("duration")) {
                       icon = "/assets/icons/DurationIcon.svg"
-                    } else if (detail.label === "Affordable Fees") {
+                    } else if (lowerLabel.includes("fees") || lowerLabel.includes("budget")) {
                       icon = "/assets/icons/BudgetIcon.svg"
-                    } else if (detail.label === "Mode of Training") {
+                    } else if (lowerLabel.includes("mode") || lowerLabel.includes("training")) {
                       icon = "/assets/icons/TrainingIcon.svg"
-                    } else if (detail.label === "Languages") {
+                    } else if (lowerLabel.includes("language")) {
                       icon = "/assets/icons/LanguageIcon.svg"
                     }
 
