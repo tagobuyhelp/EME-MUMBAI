@@ -24,11 +24,11 @@ const WhyEMEAcademy = dynamic(() => import("@/components/common/WhyEMEAcademy"))
 
 export const metadata = {
   title:
-    "EME Academy Mumbai | Western India’s No. 1 Professional Training Institute",
+    "Western India's No 1 Training Institute in Mumbai | Job Oriented Training Institute",
   description:
-    "Future-proof your career with Mumbai's leading IT training institute. EME Academy offers industry-oriented courses and guaranteed support from a top placement institute. Book a free demo today!",
+    "EME Academy Mumbai is a leading Professional Training Institute in Mumbai offering job-oriented courses. Learn industry-relevant skills with expert trainers, practical projects, and dedicated placement support for career growth.",
   alternates: {
-    canonical: "https://mumbai.emeacademy.co.in",
+    canonical: "https://mumbai.emeacademy.co.in/",
   },
 };
 const faqs = [

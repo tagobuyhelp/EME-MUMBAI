@@ -21,9 +21,9 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Digital Marketing Course in Mumbai - Master SEO, Ads & AI - EME Academy Mumbai",
+    "Digital Marketing Course in Mumbai | SEO & Ads Training",
   description:
-    "Master Advanced Digital Marketing (SEO, Google Ads, Meta Ads, AI) with Mumbai's leading institute. Get 100% placement support and run live campaigns.",
+    "Enroll in the Best Digital Marketing Course in Mumbai. Learn SEO, Google Ads, Meta Ads & AI tools with placement support.",
   keywords: [
     "best digital marketing course in Mumbai",
     "digital marketing institute in Mumbai",

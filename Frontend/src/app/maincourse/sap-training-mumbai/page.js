@@ -14,9 +14,9 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Become a Certified Consultant at the Best SAP Training Institute in Mumbai",
+    "Best SAP Course in Mumbai with Placement Support",
   description:
-    "Master SAP FICO, MM, SD, and S/4 HANA with Western India’s No. 1 professional training institute. Get hands-on live server execution and 100% placement support in Mumbai.",
+    "Join the best SAP Course in Mumbai with live projects, SAP certification, expert trainers & 100% placement assistance.",
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/maincourse/sap-training-mumbai",
   },

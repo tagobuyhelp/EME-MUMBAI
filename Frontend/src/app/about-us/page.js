@@ -10,9 +10,9 @@ import { Card } from "@/components/ui/card";
 import AllLocation from "@/components/common/all-location";
 import WhyEMEAcademy from "@/components/common/WhyEMEAcademy";
 export const metadata = {
-  title: "About Us | EME Academy Mumbai - Shaping the Next Generation",
+  title: "About EME Academy Mumbai | Professional Training Institute in Mumbai",
   description:
-    "Discover EME Academy Mumbai's mission to bridge the gap between degree and career. Learn how Western India's No. 1 professional training institute transforms graduates into industry-ready experts.",
+    "EME Academy Mumbai is a trusted Professional Training Institute in Mumbai offering practical, industry-focused training in SAP, Digital Marketing, Data Analytics, and more.",
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/about-us",
   },

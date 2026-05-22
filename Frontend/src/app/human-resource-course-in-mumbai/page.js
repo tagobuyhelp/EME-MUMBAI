@@ -19,8 +19,8 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Best HR Training Course in Mumbai | Human Resource Course in Mumbai",
-  description: "Join the best HR training course in Mumbai at EME Academy Mumbai. Master payroll, compliance, talent acquisition with 100% placement support.",
+  title: "Best HR Training Course in Mumbai | HR Management Course",
+  description: "Enroll in the Best HR Training Course in Mumbai. Learn payroll, recruitment, HR analytics & get placement support.",
   keywords: ["hr training course in mumbai", "human resource course in mumbai", "hr course in mumbai with placement"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai",

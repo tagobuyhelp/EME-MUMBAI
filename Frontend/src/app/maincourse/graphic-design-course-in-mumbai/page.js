@@ -23,9 +23,9 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Graphic Design Course in Mumbai - Master Visual Design - EME Academy Mumbai",
+    "Best Graphic Design Course in Mumbai | Adobe & UI Training",
   description:
-    "Master Professional Graphic Design (Photoshop, Illustrator, InDesign) with Mumbai's leading institute. Get 100% placement support and build a creative portfolio.",
+    "Enroll in the Best Graphic Design Course in Mumbai. Learn Photoshop, Illustrator, Figma & build a creative portfolio.",
   keywords: [
     "best graphic design course in Mumbai",
     "graphic design institute in Mumbai",

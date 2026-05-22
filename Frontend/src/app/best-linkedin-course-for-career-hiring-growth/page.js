@@ -17,9 +17,9 @@ import Awards from "@/components/common/Awards";
 import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
 
 export const metadata = {
-  title: "Best LinkedIn Course for Career & Hiring Growth",
+  title: "Best LinkedIn Course for Career Growth | LinkedIn AI & Marketing Training",
   description:
-    "Master LinkedIn from beginner to advance in 24 AI-powered classes. Build your brand, generate leads, attract recruiters and convert connections into real revenue. Enroll in India's most complete LinkedIn course by EME Academy.",
+    "Enroll in the Best LinkedIn Course for Career growth and learn LinkedIn profile optimization, personal branding, content strategy, lead generation, Sales Navigator, outreach automation, and AI-powered LinkedIn marketing with practical training.",
   keywords: [
     "Best LinkedIn Course for Career",
     "LinkedIn Training for HR",
@@ -42,7 +42,7 @@ export const metadata = {
     "Online LinkedIn Course India"
   ],
   alternates: {
-    canonical: "https://emeacademy.co.in/best-linkedin-course-for-career-hiring-growth",
+    canonical: "https://mumbai.emeacademy.co.in/best-linkedin-course-for-career-hiring-growth",
   },
 };
 

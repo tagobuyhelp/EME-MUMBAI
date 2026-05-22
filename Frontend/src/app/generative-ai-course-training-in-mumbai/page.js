@@ -73,9 +73,9 @@ const GenAIfaq = [
 ];
 
 export const metadata = {
-  title: "Future-Proof Your Career with the Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
+  title: "Best Generative AI Course in Mumbai | LLM & AI Training",
   description:
-    "Our hands-on Generative AI Certification Course Mumbai goes far beyond basic chatbot interactions. You will dive deep into Large Language Models through our intensive LLM Course in Mumbai, command advanced AI logic in our Prompt Engineering Course in Mumbai, and architect real-world solutions via our LangChain Course Mumbai and AI App Development Course Mumbai.",
+    "Enroll in the Best Generative AI Course in Mumbai. Learn LLMs, Prompt Engineering, LangChain & AI tools.",
   keywords: [
     "Best Generative AI Course in mumbai",
     "Generative AI Institute in mumbai",

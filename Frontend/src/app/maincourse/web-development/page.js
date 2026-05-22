@@ -21,9 +21,9 @@ import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
   title:
-    "Best Web Development Course in Mumbai - Launch Your Tech Career - EME Academy Mumbai",
+    "Best Web Development Course in Mumbai with Placement",
   description:
-    "Master Full Stack Web Development (MERN, MEAN, PHP, WordPress) with the best course in Mumbai. Get 100% placement support and build a live portfolio.",
+    "Join The best Web Development Course in Mumbai with placement. Learn MERN, MEAN, PHP, WordPress & build real projects.",
   keywords: [
     "best web development course in Mumbai",
     "web development course in Mumbai",

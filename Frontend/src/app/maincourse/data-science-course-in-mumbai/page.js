@@ -19,9 +19,9 @@ import { AnotherHeader } from "@/components/common/AnotherHeader";
 import InfiniteCall from "@/components/InfiniteCall";
 
 export const metadata = {
-  title: "Best Data Science Course in Mumbai - Master Python, AI & ML - EME Academy",
+  title: "Data Science Course in Mumbai | AI & ML Training",
   description:
-    "Master Advanced Data Science (Python, R, SQL, ML, AI) with Mumbai's leading institute. Get 100% placement support and work on real-time projects.",
+    "Enroll in the Best Data Science Course in Mumbai. Learn Python, AI, Machine Learning & SQL with placement support.",
   keywords: [
     "Best Data Science Course in mumbai",
     "Data Science Institute in mumbai",

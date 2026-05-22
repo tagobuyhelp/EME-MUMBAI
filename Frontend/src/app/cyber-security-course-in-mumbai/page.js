@@ -19,9 +19,9 @@ import { CoursesTestimonials } from "@/components/global/CoursesTestimonials";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 
 export const metadata = {
-  title: "Best Cyber Security Course in Mumbai with placement",
+  title: "Cyber Security Course in Mumbai | Ethical Hacking Training",
   description:
-    "Join cyber security course in Mumbai at best cyber security institute in Mumbai with affordable cyber security course fees in Mumbai and expert training.",
+    "Enroll in EME Academy's industry-focused Cyber Security Course in Mumbai and learn Ethical Hacking, Penetration Testing, Network Security, Malware Analysis, and Cyber Forensics with practical training, live projects, and placement support.",
   keywords: [
     "Best Cyber Security Course in Mumbai",
     "Cyber Security Institute in Mumbai",

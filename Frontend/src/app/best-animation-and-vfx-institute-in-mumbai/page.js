@@ -21,9 +21,9 @@ import CoursesLandingFooter from "@/components/global/CoursesLandingFooter";
 import CoursesCurriculum from "@/components/global/CoursesCurriculum";
 
 export const metadata = {
-  title: "Best Animation & VFX Institute in Mumbai for 2D, 3D & Motion Design",
+  title: "Animation Course in Mumbai | 2D, 3D & VFX Training Institute",
   description:
-    "Join the Best Animation Institute in Mumbai for a complete Animation and VFX Course covering VFX Course in Mumbai, 3D Animation Course in Mumbai, and 2D Animation Course in Mumbai. Learn Maya, Blender, After Effects, character animation, and motion graphics through beginner-friendly training, live projects, portfolio building, internship opportunities, and career support.",
+    "Enroll in EME Academy’s industry-focused Animation Course in Mumbai and learn 2D Animation, 3D Animation, VFX, Motion Graphics, Maya, Blender, and After Effects with practical training, portfolio projects, and placement support.",
   keywords: [
     "VFX Course in Mumbai",
     "3D Animation Course in Mumbai",

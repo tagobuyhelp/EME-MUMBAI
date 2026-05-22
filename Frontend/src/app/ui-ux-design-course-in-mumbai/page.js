@@ -21,9 +21,9 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Architect the Digital World with the Best Web Design Course in Mumbai",
+  title: "Best Web Design Course in Mumbai | UI UX Training",
   description:
-    "Stop relying on basic templates and start coding custom, high-converting digital experiences. Train with the premier Web Designing Institute in Mumbai and master the art of creating stunning, user-centric websites. Dive deep into responsive layouts and interactive prototyping with our integrated UI UX Design Course in Mumbai. You will gain hands-on, agency-level expertise through our dedicated Figma Course in Mumbai and foundational HTML CSS Course Mumbai.",
+    "Enroll in the Best Web Design Course in Mumbai. Learn UI/UX, Figma, HTML, CSS & get placement support.",
   keywords: [
     "Best Web Design Course in mumbai",
     "UI UX Design Course in mumbai",
