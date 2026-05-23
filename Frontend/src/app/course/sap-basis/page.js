@@ -8,10 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "SAP BASIS Training in Mumbai | SAP Basis Certification Training institute Mumbai - EME Academy Mumbai",
+  title: "Best SAP Basis Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Discover the best SAP BASIS training institute in Mumbai for comprehensive learning. Unlock your potential with expert guidance and practical skills.",
+    "Enroll in the best SAP Basis Training Course in Mumbai and gain practical expertise in SAP system administration, cloud infrastructure, and technical support with paid internships, mock interviews, and 100% placement assistance.",
   keywords: [
     "Best SAP BASIS Training in Mumbai",
     "SAP BASIS Training in Mumbai",

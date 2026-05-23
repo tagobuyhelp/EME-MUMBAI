@@ -22,8 +22,9 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 import CTAButton from "../../components/common/CtaButton";
 
 export const metadata = {
-  title: "Best MEAN Stack Course in Mumbai | Full Stack Development Training",
-  description: "Join the best MEAN stack course in Mumbai at EME Academy Mumbai. Master Angular, Node.js, Express, and MongoDB with 100% placement support.",
+  title: "Best MEAN Stack Course in Mumbai | Full Stack Developer Training",
+  description:
+    "Join the best MEAN Stack Course in Mumbai and become a certified full stack developer. Learn Angular, Node.js, Express.js, MongoDB, REST APIs, and live projects with expert mentorship and 100% placement support.",
   keywords: ["mean stack course in mumbai", "full stack development training in mumbai", "best mean stack institute in mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/best-mean-stack-training-course-in-mumbai",

@@ -8,9 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP MM Training in Mumbai - EME Academy Mumbai",
+  title: "Best SAP MM Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Join our SAP MM Training in Mumbai to gain practical skills and knowledge in material management. Learn from experts and boost your career with hands-on training.",
+    "Enroll in the best SAP MM Training Course in Mumbai and master Material Management with hands-on practical training, paid internships, mock interviews, and 100% placement assistance from industry experts.",
   keywords: [
     "Best SAP MM Training in Mumbai",
     "SAP MM Training in Mumbai",

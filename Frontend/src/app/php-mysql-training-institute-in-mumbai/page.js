@@ -22,8 +22,9 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 import CTAButton from "../../components/common/CtaButton";
 
 export const metadata = {
-  title: "Best PHP MySQL Training Institute in Mumbai | PHP Development Course",
-  description: "Join the best PHP MySQL training institute in Mumbai at EME Academy Mumbai. Master backend development, database integration with 100% placement support.",
+  title: "Best PHP & MySQL Course in Mumbai | Full Stack Developer Training",
+  description:
+    "Join the best PHP & MySQL Course in Mumbai and become a certified full stack developer. Learn PHP, MySQL, database integration, dynamic website development, and real-world projects with 100% placement support.",
   keywords: ["php mysql training institute in mumbai", "php development course in mumbai", "best php training institute in mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/php-mysql-training-institute-in-mumbai",

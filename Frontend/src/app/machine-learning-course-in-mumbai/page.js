@@ -10,9 +10,9 @@ import Faqs from "@/components/common/Faqs";
 import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best Generative AI Course in Mumbai | AI & ML Training",
+  title: "Best AI & Machine Learning Course in Mumbai | AI & ML Training Institute",
   description:
-    "Enroll in the Best Generative AI Course in Mumbai. Learn AI, ML, ChatGPT, LLMs & Prompt Engineering.",
+    "Join the best AI & Machine Learning course in Mumbai with expert trainers, hands-on projects, placement support, flexible batches, and industry-recognized certification. Enroll now to build your career in AI & ML.",
   keywords: [
     "Best Generative AI Course in mumbai",
     "Generative AI Institute in mumbai",

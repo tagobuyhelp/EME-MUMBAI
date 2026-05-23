@@ -21,9 +21,9 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Data Analytics Institute in Mumbai and Training in Mumbai",
+  title: "Best Data Analytics Course in Mumbai | Data Analyst Training Institute",
   description:
-    "Best data analytics courses in Mumbai, data analytics institute in Mumbai, data analytics training in Mumbai for practical skills & career growth now!",
+    "Join the best Data Analytics Course in Mumbai and master SQL, Python, Tableau, Power BI, Excel, and machine learning with hands-on projects, certification, and 100% placement support.",
   keywords: [
     "data analytics courses in Mumbai",
     "data analyst course in Mumbai",

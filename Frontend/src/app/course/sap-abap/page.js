@@ -8,9 +8,9 @@ import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 import { Footer } from "@/components/common/Footer";
 
 export const metadata = {
-  title: "Best SAP ABAP Training in Mumbai - EME Academy Mumbai",
+  title: "Best SAP ABAP Training Course in Mumbai | Certification & Placement Support",
   description:
-    "EME Academy Mumbai provides the most job-focused SAP ABAP training in Mumbai, designed to offer valuable insights into the analytics market. Our trainer will support you every step of the way, starting from the basics.",
+    "Enroll in the best SAP ABAP Training Course in Mumbai and learn Advanced Business Application Programming with practical training, expert mentors, mock interviews, paid internships, and 100% placement assistance.",
   keywords: [
     "Best SAP ABAP Training in Mumbai",
     "SAP ABAP Training in Mumbai",

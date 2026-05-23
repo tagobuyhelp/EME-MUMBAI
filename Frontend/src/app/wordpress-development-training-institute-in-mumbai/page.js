@@ -21,10 +21,9 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title:
-    "Best Full-Stack WordPress Development Course in Mumbai - EME Academy Mumbai",
+  title: "Best WordPress Development Course in Mumbai | Certified WordPress Training",
   description:
-    "Learn how to build websites from start to finish with our Full-Stack WordPress Development Course in Mumbai. Master both front-end and back-end development effortlessly. Join now!",
+    "Join the best WordPress Development Course in Mumbai and learn WordPress, WooCommerce, SEO, plugin development, and website customization with real-world projects, expert mentors, and 100% placement support.",
   keywords: [
     "Best Full-Stack WordPress Development Course in Mumbai",
     "Full-Stack WordPress Development Course in Mumbai",

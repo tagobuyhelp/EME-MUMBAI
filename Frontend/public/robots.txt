@@ -4,4 +4,4 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://emeacademy.co.in/sitemap.xml
+Sitemap: https://mumbai.emeacademy.co.in/sitemap.xml

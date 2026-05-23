@@ -8,10 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "Best SAP FICO Training in Mumbai | SAP FICO Training 100% Placement - EME Academy Mumbai",
+  title: "Best SAP FICO Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Get the best SAP FICO training Center in Mumbai at EME Academy Mumbai. Learn from expert trainers and gain practical skills for a successful career in SAP. Start your journey today!",
+    "Join the best SAP FICO Training Course in Mumbai and gain expertise in Financial Accounting & Controlling with practical training, paid internships, mock interviews, and 100% placement assistance. Learn from industry experts today.",
   keywords: [
     "Best SAP FICO Training in Mumbai",
     "SAP FICO Training in Mumbai",

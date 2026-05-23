@@ -8,9 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP HCM Training in Mumbai - EME Academy Mumbai",
+  title: "Best SAP HCM Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Get the best SAP HCM training in Mumbai at EME Academy Mumbai. Learn from experts, gain practical skills, and advance your career in human resources.",
+    "Enroll in the best SAP HCM Training Course in Mumbai and learn Human Capital Management with practical training, paid internships, mock interviews, and 100% placement assistance from industry experts.",
   keywords: [
     "Best SAP HCM Training in Mumbai",
     "SAP HCM Training in Mumbai",

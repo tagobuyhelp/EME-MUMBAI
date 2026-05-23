@@ -8,9 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title: "Best SAP SD Training in Mumbai - EME Academy Mumbai",
+  title: "Best SAP SD Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Get the best SAP SD training in Mumbai at EME Academy Mumbai. Learn from expert trainers, gain real-world skills, and boost your career in sales and distribution.",
+    "Join the best SAP SD Training Course in Mumbai and master Sales & Distribution with practical training, paid internships, mock interviews, and 100% placement assistance. Learn from industry experts and boost your SAP career.",
   keywords: [
     "Best SAP SD Training in Mumbai",
     "SAP SD Training in Mumbai",

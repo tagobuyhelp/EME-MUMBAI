@@ -47,10 +47,9 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
   ];
   
 export const metadata = {
-  title:
-    "Advanced Digital Marketing course | Mumbai's #1 Advanced Digital Marketing Training institute - EME Academy Mumbai",
+  title: "Advanced Digital Marketing course in Mumbai | Advanced Certification Program",
   description:
-    "Learn advanced digital marketing skills with our course in Mumbai. Master the latest strategies and techniques to excel in the digital marketing field at EME Academy Mumbai. Enroll now!",
+    "Join the Advanced Digital Marketing course in Mumbai and master SEO, Google Ads, social media marketing, AI tools, and more with practical training, certification, and placement assistance from industry experts.",
   keywords: [
     "Advanced Digital Marketing course in Mumbai",
     "Advanced Digital Marketing Training institute in Mumbai",

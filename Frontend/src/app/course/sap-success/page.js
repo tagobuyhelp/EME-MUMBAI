@@ -8,8 +8,7 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "SAP Success Factors Training | SAP SuccessFactors Course in Mumbai - EME Academy Mumbai",
+  title: "SAP Success Factors Training | SAP SuccessFactors Course in Mumbai - EME Academy",
   description:
     "Discover top-notch SAP Success Factors courses in Mumbai. Gain valuable skills for your career growth. Join now!",
   keywords: [

@@ -8,10 +8,9 @@ import OtherGraphicDesignCourse from "./OtherGraphicDesignCourse";
 import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "Graphic Design Courses | Best Graphic Design institute in Mumbai - EME Academy Mumbai",
+  title: "Best Graphic Design Course in Mumbai | Certification & Placement Support",
   description:
-    "Want to learn graphic design from top graphic design institutes in Mumbai? EME Academy Mumbai offers you the best graphic design courses in Mumbai. Call now!",
+    "Join the best Graphic Design Course in Mumbai and master creative design tools, motion graphics, branding, and visual design with hands-on training, expert mentors, and 100% placement support.",
   keywords: [
     "graphic design courses in Mumbai ",
     "graphic design institutes in Mumbai",

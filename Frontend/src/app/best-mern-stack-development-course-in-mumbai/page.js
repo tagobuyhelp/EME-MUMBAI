@@ -22,9 +22,9 @@ import CTAButton from "../../components/common/CtaButton";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "Best MERN Stack Training Course in Mumbai – 100% Job",
+  title: "Best MERN Stack Course in Mumbai | Full Stack Developer Training",
   description:
-    "Join MERN Stack Development Course in Mumbai at the Best MERN Stack Course In Mumbai offering expert Best Mern Stack Developer Course Training in Mumbai.",
+    "Join the best MERN Stack Course in Mumbai and become a certified full stack developer. Learn React, Node.js, Express.js, MongoDB, REST APIs, and real-world projects with 100% placement support.",
   keywords: [
     "MERN Stack Development Course in Mumbai",
     "Best MERN Stack Course In Mumbai",

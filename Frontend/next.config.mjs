@@ -35,6 +35,17 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.mumbai.emeacademy.co.in",
+          },
+        ],
+        destination: "https://mumbai.emeacademy.co.in/:path*",
+        permanent: true,
+      },
+      {
         source: "/linkedin-course",
         destination: "/best-linkedin-course-for-career-hiring-growth",
         permanent: true,

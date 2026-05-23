@@ -48,10 +48,9 @@ const faqs = [
 ];
 
 export const metadata = {
-  title:
-    "Online Advance Digital Marketing Course in Mumbai | AI in Digital Marketing Course in Mumbai - EME Academy Mumbai",
+  title: "Master Digital Marketing with AI Course in Mumbai | Certification Program",
   description:
-    "Get ahead with our Diploma in Advanced Digital Marketing Program with AI. Dive deep into the world of digital marketing and artificial intelligence at EME Academy Mumbai. Start your journey now!",
+    "Enroll in the best Digital Marketing with AI Course in Mumbai and learn SEO, Google Ads, social media marketing, AI tools, content marketing, and more with practical training and placement assistance.",
   keywords: [
     "Online Advance Digital Marketing Course in Mumbai",
     "AI in Digital Marketing Course in Mumbai",

@@ -8,10 +8,9 @@ import { Footer } from "@/components/common/Footer";
 import StickyCTAButton from "@/app/blogs/Components/stickyCTAButton";
 
 export const metadata = {
-  title:
-    "Best SAP PP Training in Mumbai | SAP PP Training 100% Placement - EME Academy Mumbai",
+  title: "Best SAP PP Training Course in Mumbai | Certification & Placement Support",
   description:
-    "Get the best SAP PP course training in Mumbai at EME Academy Mumbai. Learn from expert trainers and start your career in production planning today.",
+    "Join the best SAP PP Training Course in Mumbai and master Production Planning with hands-on practical training, paid internships, mock interviews, flexible EMI options, and 100% placement assistance from industry experts.",
   keywords: [
     "Best SAP PP Training in Mumbai",
     "SAP PP Training in Mumbai",
