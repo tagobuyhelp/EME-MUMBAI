@@ -1,202 +1,132 @@
-"use client"
-import { useState } from 'react'
-import certiface from '../../../public/assets/images/certified.png'
-import iso from '../../../public/assets/images/isoNew.png'
-import startup from '../../../public/assets/images/startup.png'
-import Image from 'next/image'
-import msme from '../../../public/assets/images/msmeOne.svg'
-import AdmissionForm from '@/components/common/LandingAdmissionForm'
+"use client";
+import { useState } from "react";
+import certiface from "../../../public/assets/images/certified.png";
+import iso from "../../../public/assets/images/isoNew.png";
+import startup from "../../../public/assets/images/startup.png";
+import Image from "next/image";
+import msme from "../../../public/assets/images/msmeOne.svg";
+import AdmissionForm from "@/components/common/LandingAdmissionForm";
 
 function AIMLLandingHero({
+  Courses,
+  SelectCourses,
+  email_sender,
+  Brochure,
+  BrochureName,
+}) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [ctaType, setCtaType] = useState(null);
+  const _this = {
+    isModalOpen,
+    setIsModalOpen,
     Courses,
-    SelectCourses,
+    SelectCourses: SelectCourses ? SelectCourses : [],
     email_sender,
     Brochure,
     BrochureName,
-}) {
+    ctaType,
+    setCtaType,
+  };
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-    const [ctaType, setCtaType] = useState(null);
-    const _this = {
-        isModalOpen,
-        setIsModalOpen,
-        Courses,
-        SelectCourses: SelectCourses ? SelectCourses : [],
-        email_sender,
-        Brochure,
-        BrochureName,
-        ctaType,           
-        setCtaType,         
-    };
+  const handleScrollToForm = () => {
+    const element = document.getElementById("admission-form-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
-    return (
-        <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between gap-y-3  lg:gap-x-6 py-5 md:py-10  px-5 md:px-24 ">
-            <div className='w-full lg:hidden inline '>
-                <div className='w-full text-[#042A76] text-xl font-bold  text-center '>
-                    <span className="text-[#E87D1A]">A</span>re you looking for the Best Institute for 
-                     <span className=' text-[#00A2E7] text-xl font-bold  text-center '> AI & ML in Eastern India ?</span>
-                </div>
-                
-                <div className='w-full text-[#232D63] text-base   font-bold   text-center pt-1'>
-                    <div><span className="text-[#E87D1A]">Y</span>ou are in the right place to be in. Scroll downwards to know more
-                    </div>
-                    
-
-                </div>
-            </div>
-
-            <div className='w-full flex lg:hidden pt-3 '>
-
-                <div className='w-full flex flex-col gap-y-3 justify-center items-start min-[450px]:px-5 min-[550px]:px-10'>
-
-                    <div className='w-full  flex justify-between  '>
-                        <div className='  text-black text-xs  font-semibold flex  flex-col items-start gap-y-3  '>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> Network and Recognition
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> Placement Assistance
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> Offline/Online Classes
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> 100+ Hiring Partners 
-                            </div>
-
-
-                        </div>
-
-
-
-                        <div className='  text-black text-xs  font-semibold flex   flex-col items  gap-y-3 '>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span>  High salaried jobs (4-5 LPA)
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> 12 Months course
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span>  2000+ successful students
-                            </div>
-                            
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-          
-
-            <div className='hidden w-[70%] lg:flex flex-col gap-y-10 items-start justify-start '>
-                <div className='w-full hidden lg:inline'>
-                    <div className='w-full text-[#232D63] lg:leading-9 lg:text-3xl  font-bold  text-start '>
-                        <span className="text-[#E87D1A]">A</span>re you looking for the Best Institute <span className='text-[#00A2E7]'>for AI & ML in Eastern India ?</span>
-
-                    </div>
-                    <div className='w-full text-[#232D63] lg:leading-9 lg:text-3xl  font-extrabold flex justify-start gap-x-2 text-start pt-3'>
-                        <div><span className="text-[#E87D1A]">Y</span>ou are in the right place to be in. Scroll downwards to know more.
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div className='w-full flex flex-col gap-y-3 justify-center items-start  '>
-                    <div className='w-full  flex justify-start   items-center gap-x-4'>
-                        <div className=' text-black text-sm  font-semibold flex   gap-x-3 '>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> Network and Recognition
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> High salaried jobs (4-5 LPA)
-
-                            </div>
-
-
-                        </div>
-                        <div className=' text-black text-sm  font-semibold flex   gap-x-3'>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span>  Placement Assistance
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                    <div className='w-full  flex justify-start   items-center gap-x-4 '>
-                        <div className=' text-black text-sm  font-semibold flex   gap-x-3  '>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> 12 Months course
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span>  Offline/Online Classes
-                            </div>
-
-
-                        </div>
-                        <div className=' text-black text-sm  font-semibold flex   gap-x-3 '>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> 2000+ successful students 
-                            </div>
-                            <div>
-                                <span className='text-[#00A2E7]'>✦</span> 100+ Hiring Partners
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                  
-
-                </div>
-
-                <div className='hidden w-full  lg:flex flex-col items-start gap-y-5'>
-                    <div className='w-full  flex items-center gap-x-2'>
-                        <div>
-                            <Image className='w-8 h-8 '
-                                width={500}
-                                height={500}
-                                src={certiface}
-                                alt='certiface'
-                            />
-                        </div>
-                        <div className='text-black text-xl leading-5 font-semibold'>Certified by </div>
-                    </div>
-
-                    <div className='w-full flex items-center justify-start gap-x-4'>
-
-                        <div>
-                            <Image
-
-                                width={150}
-                                height={150}
-                                src={msme}
-                                alt="msme"
-                            />
-                        </div>
-                        <div>
-                            <Image className='' width={150} height={150} src={startup} alt='startup' />
-                        </div>
-                        <div>
-                            <Image className='' width={70} height={70} src={iso} alt='iso' />
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div className='w-[30%] hidden lg:inline'>
-                <AdmissionForm  {..._this} />
-            </div>
+  return (
+    <div className="w-full max-w-[1380px] mx-auto flex flex-col lg:flex-row items-stretch justify-between gap-y-8 lg:gap-x-12 py-8 lg:py-16 px-5 md:px-24">
+      {/* Left Column: Text & Stats */}
+      <div className="w-full lg:w-[65%] flex flex-col justify-center items-start text-start">
+        {/* Mobile Subtitle */}
+        <div className="lg:hidden w-full mb-3">
+          <span className="bg-blue-600/10 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+            Western India's No. 1 AI & ML Institute
+          </span>
         </div>
-    )
+
+        {/* Heading */}
+        <h1 className="text-[#232D63] text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight">
+          Best Machine Learning & <br className="hidden md:inline" />
+          <span className="text-[#00A2E7]">Artificial Intelligence</span> Institute in Mumbai
+        </h1>
+
+        {/* Description */}
+        <p className="text-gray-700 text-base md:text-lg font-normal mt-5 leading-relaxed max-w-[800px]">
+          Begin your journey in the world of advanced algorithms and data with the Best AI Institute Western India has to offer. An intensive Deep Learning Course in Mumbai to accelerate your IT career, it's time to explore your passions and engineer your future.
+        </p>
+
+        {/* Stats Badges */}
+        <div className="flex flex-wrap items-center gap-3 md:gap-4 mt-6">
+          <div className="flex items-center gap-1.5 bg-white/80 backdrop-blur-md border border-amber-200 px-3.5 py-2 rounded-full shadow-sm text-sm font-semibold text-amber-800">
+            <span className="text-amber-500 text-lg">⭐</span> 4.5/5.0 Rating
+          </div>
+          <div className="flex items-center gap-1.5 bg-white/80 backdrop-blur-md border border-blue-200 px-3.5 py-2 rounded-full shadow-sm text-sm font-semibold text-blue-800">
+            <span>🏆</span> 12k Enrolled
+          </div>
+          <div className="flex items-center gap-1.5 bg-white/80 backdrop-blur-md border border-emerald-200 px-3.5 py-2 rounded-full shadow-sm text-sm font-semibold text-emerald-800">
+            <span>🌐</span> English, Hindi
+          </div>
+        </div>
+
+        {/* CTA Register Button for Mobile/Tablet */}
+        <div className="lg:hidden w-full mt-8">
+          <button
+            onClick={handleScrollToForm}
+            className="w-full bg-[#E87D1A] hover:bg-[#d66e13] text-white text-base font-bold py-3.5 px-6 rounded-lg transition-all duration-300 shadow-md transform hover:-translate-y-0.5 active:translate-y-0"
+          >
+            Register Now
+          </button>
+        </div>
+
+        {/* Trust Badges (Desktop) */}
+        <div className="hidden lg:flex flex-col items-start gap-y-4 mt-10 w-full border-t border-gray-200/50 pt-8">
+          <div className="flex items-center gap-x-2">
+            <Image
+              className="w-6 h-6"
+              width={24}
+              height={24}
+              src={certiface}
+              alt="Certified Icon"
+            />
+            <span className="text-gray-900 text-base font-bold">Certified by</span>
+          </div>
+
+          <div className="flex items-center gap-x-6">
+            <Image
+              className="h-10 w-auto object-contain"
+              width={120}
+              height={40}
+              src={msme}
+              alt="MSME Certified"
+            />
+            <Image
+              className="h-10 w-auto object-contain"
+              width={120}
+              height={40}
+              src={startup}
+              alt="Startup India"
+            />
+            <Image
+              className="h-10 w-auto object-contain"
+              width={50}
+              height={40}
+              src={iso}
+              alt="ISO Certified"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Right Column: Admission Form (Desktop) */}
+      <div id="admission-form-section" className="w-full lg:w-[35%] flex justify-center lg:justify-end items-center">
+        <div className="w-full max-w-[400px]">
+          <AdmissionForm {..._this} />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default AIMLLandingHero
+export default AIMLLandingHero;
