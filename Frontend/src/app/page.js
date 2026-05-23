@@ -30,6 +30,19 @@ export const metadata = {
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/",
   },
+  openGraph: {
+    title: "Western India's No 1 Training Institute in Mumbai",
+    siteName: "EME Academy Mumbai",
+    url: "https://mumbai.emeacademy.co.in",
+    description: "EME Academy Mumbai is a leading Professional Training Institute in Mumbai offering job-oriented courses. Learn industry-relevant skills with expert trainers, practical projects, and dedicated placement support for career growth.",
+    type: "website",
+    images: [
+      {
+        url: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png",
+      },
+    ],
+    locale: "en_IN",
+  },
 };
 const faqs = [
   {

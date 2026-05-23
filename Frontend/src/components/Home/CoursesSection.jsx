@@ -139,7 +139,7 @@ export default function CoursesSection() {
       saving: "20% OFF",
       popular: true,
       popularText: "Elite Tech",
-      link: "/data-science-course-in-mumbai",
+      link: "/maincourse/data-science-course-in-mumbai",
       description: "Advanced Machine Learning, Deep Learning, and AI with Python.",
       features: ["Capstone Projects", "Statistical Analysis", "Research Support"]
     },
