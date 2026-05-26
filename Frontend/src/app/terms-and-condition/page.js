@@ -3,7 +3,7 @@ import { Footer } from '@/components/common/Footer'
 import Link from 'next/link'
 import React from 'react'
 
-const addressUrl = "https://maps.app.goo.gl/29GowbGvjuF3pLYq5";
+const addressUrl = "https://www.google.com/maps/search/?api=1&query=Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+400710";
 export default function page() {
   return (
     <> 
@@ -171,7 +171,7 @@ export default function page() {
           <p>
             <strong className='text-[#0057E2]'>Address: </strong>
             <Link href={addressUrl} target="_blank" className='flex gap-2 cursor-pointer'>
-               EME Academy Mumbai, 5th Floor, Mumbai Branch, Maharashtra, India.
+               EME Academy Mumbai, 814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape, Navi Mumbai, Maharashtra, India, 400710.
             </Link> 
           </p>
           <p>

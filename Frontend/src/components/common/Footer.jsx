@@ -4,7 +4,7 @@ import Link from "next/link"
 
 
 export const Footer = () => {
-  const addressUrl = "https://maps.app.goo.gl/29GowbGvjuF3pLYq5";
+  const addressUrl = "https://www.google.com/maps/search/?api=1&query=Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+400710";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
   return (
     <div className="w-full bg-[#131932]">

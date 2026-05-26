@@ -51,16 +51,16 @@ export default function RootLayout({ children }) {
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "Mumbai Branch",
-      addressLocality: "Mumbai",
+        "814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape",
+      addressLocality: "Navi Mumbai",
       addressRegion: "Maharashtra",
-      postalCode: "400001",
+      postalCode: "400710",
       addressCountry: "IN",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "22.572142449058223",
-      longitude: "88.43353038465743",
+      latitude: "19.135242782073994",
+      longitude: "73.00392347596766",
     },
     openingHoursSpecification: [
       {
