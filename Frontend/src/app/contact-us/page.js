@@ -133,7 +133,7 @@ export default function ContactPageClient() {
             <div className="flex flex-col w-full max-w-[1380px] md:flex-row justify-start items-start md:justify-between md:items-center md:gap-[18px] mt-4 md:mt-8">
               <div className="flex flex-row gap-[15px] lg:gap-[20px] pt-4 lg:pt-1">
                 <a
-                  href="https://www.facebook.com/profile.php?id=61565016775751"
+                  href="https://www.facebook.com/profile.php?id=61589298807614"
                   target="_blank"
                 >
                   <Image
@@ -156,7 +156,7 @@ export default function ContactPageClient() {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/emeacademy__/"
+                  href="https://www.instagram.com/eme_academy_mumbai/"
                   target="_blank"
                 >
                   <Image
@@ -168,7 +168,17 @@ export default function ContactPageClient() {
                   />
                 </a>
 
-                <a href="https://www.youtube.com/@emeacademy" target="_blank">
+                <a
+                  href="https://www.pinterest.com/hiemeacademy/?invite_code=b612232379204c42a5e74b0e188e7d6d&sender=108578992882025"
+                  target="_blank"
+                >
+                  <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[45px] h-[45px] lg:w-[50px] lg:h-[50px] hover:scale-105 transition-all ease-out">
+                    <circle cx="17.5" cy="17.7687" r="17.5" fill="#F9F9F9"/>
+                    <path d="M17.5 10.2687c-4.14 0-7.5 3.36-7.5 7.5 0 3.18 1.98 5.89 4.77 6.98-.08-.59-.16-1.51.03-2.16.17-.59 1.11-4.7 1.11-4.7s-.28-.56-.28-1.4c0-1.31.76-2.29 1.71-2.29.8 0 1.19.6 1.19 1.33 0 .81-.51 2.02-.78 3.14-.22.94.47 1.7 1.4 1.7 1.68 0 2.97-1.77 2.97-4.32 0-2.26-1.62-3.84-3.94-3.84-2.69 0-4.26 2.02-4.26 4.1 0 .81.31 1.68.7 2.15.08.09.09.18.06.27l-.26 1.07c-.04.17-.14.21-.32.13-1.18-.55-1.92-2.27-1.92-3.66 0-2.98 2.16-5.71 6.23-5.71 3.27 0 5.81 2.33 5.81 5.45 0 3.25-2.05 5.87-4.89 5.87-.96 0-1.85-.5-2.16-1.08l-.59 2.24c-.21.82-.79 1.85-1.17 2.47 1.11.34 2.29.53 3.5.53 4.14 0 7.5-3.36 7.5-7.5 0-4.14-3.36-7.5-7.5-7.5z" fill="#0057E2"/>
+                  </svg>
+                </a>
+
+                <a href="https://www.youtube.com/@EMEAcademyMumbai" target="_blank">
                   <Image
                     className="w-[45px] h-[45px] lg:w-[50px] lg:h-[50px] hover:scale-105 transition-all ease-out"
                     width={500}
@@ -178,7 +188,7 @@ export default function ContactPageClient() {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/emeacademy/"
+                  href="https://www.youtube.com/channel/UCcYuv-IUJMyKdy0e-T5E5DA"
                   target="_blank"
                 >
                   <Image

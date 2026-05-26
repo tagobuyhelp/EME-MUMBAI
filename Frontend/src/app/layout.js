@@ -84,11 +84,12 @@ export default function RootLayout({ children }) {
       reviewCount: "297",
     },
     sameAs: [
-      "https://www.facebook.com/profile.php?id=61565016775751",
-      "https://www.instagram.com/emeacademy__/",
-      "https://www.youtube.com/@emeacademy",
-      "https://www.linkedin.com/company/emeacademy/",
-      "https://maps.app.goo.gl/rkwtFrpKiNQFpsdM6",
+      "https://www.facebook.com/profile.php?id=61589298807614",
+      "https://www.instagram.com/eme_academy_mumbai/",
+      "https://www.youtube.com/@EMEAcademyMumbai",
+      "https://www.youtube.com/channel/UCcYuv-IUJMyKdy0e-T5E5DA",
+      "https://www.pinterest.com/hiemeacademy/?invite_code=b612232379204c42a5e74b0e188e7d6d&sender=108578992882025",
+      "https://www.google.com/maps/search/?api=1&query=Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+400710",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",

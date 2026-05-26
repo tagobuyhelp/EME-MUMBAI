@@ -34,32 +34,42 @@ export default function AdmissionFooter() {
                             Explore, learn, and grow with us today. With a diverse range of courses, expert instructors, and a supportive community, we&apos;re here to empower you on your educational journey.
 
                         </div>
-                        <div className='flex justify-start items-start gap-[20px] lg:gap-[30px]'>
-                            <a href='https://www.facebook.com/emeacademy.Official' target='_blank'>
+                        <div className='flex justify-start items-center gap-[20px] lg:gap-[30px]'>
+                            <a href='https://www.facebook.com/profile.php?id=61589298807614' target='_blank'>
                                 <Image
                                     className="  w-[30px] h-[30px] hover:scale-110 transition-all ease-out"
                                     width={500}
                                     height={500}
                                     src={fb}
-                                    alt="EME Academy Mumbai Logo" />
+                                    alt="EME Academy Mumbai facebook Logo" />
                             </a>
 
-                            <a href='https://www.instagram.com/emeacademy.co.in/'>
+                            <a href='https://www.instagram.com/eme_academy_mumbai/' target='_blank'>
                                 <Image
                                     className=" w-[30px] h-[30px] hover:scale-110 transition-all ease-out"
                                     width={500}
                                     height={500}
                                     src={insta}
-                                    alt="EME Academy Mumbai Logo" />
+                                    alt="EME Academy Mumbai Instagram Logo" />
                             </a>
 
-                            <a href='https://www.youtube.com/@emeacademy' target='_blank'>
+                            <a href='https://www.pinterest.com/hiemeacademy/?invite_code=b612232379204c42a5e74b0e188e7d6d&sender=108578992882025' target='_blank'>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" className="w-[30px] h-[30px] hover:scale-110 transition-all ease-out">
+                                    <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+
+                            <a href='https://www.youtube.com/@EMEAcademyMumbai' target='_blank'>
                                 <Image
                                     className="  w-[30px] h-[30px] hover:scale-110 transition-all ease-out"
                                     width={500}
                                     height={500}
                                     src={yt}
-                                    alt="EME Academy Mumbai Logo" />
+                                    alt="EME Academy Mumbai Youtube Logo" />
+                            </a>
+
+                            <a href='https://www.youtube.com/channel/UCcYuv-IUJMyKdy0e-T5E5DA' target='_blank'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[30px] h-[30px] hover:scale-110 transition-all ease-out"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
                             </a>
                         </div>
                     </div>
