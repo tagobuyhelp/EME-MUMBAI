@@ -10,7 +10,7 @@ const truncateDescription = (text, words) => {
 const blogsData = [
   {
     "_id": "data-analyst-mumbai-roadmap",
-    "image": "/assets/images/blogs/data_analyst_roadmap.png",
+    "image": "/assets/images/blogs/How_to_Become_a_Data_Analyst_in_Mumbai_Complete _2026_Roadmap.png",
     "title": "How to Become a Data Analyst in Mumbai: Complete 2026 Roadmap",
     "meta_description": "Want a data analyst career in Mumbai? This roadmap covers skills, salary benchmarks, portfolio tips, and a step-by-step plan to land your first job without a CS degree.",
     "url": "blogs/how-to-become-a-data-analyst-in-mumbai-roadmap"
