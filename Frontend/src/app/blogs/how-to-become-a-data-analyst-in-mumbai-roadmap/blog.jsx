@@ -135,7 +135,7 @@ export default function DataAnalyticsBlog({
                         className="w-full rounded-md"
                         width={1200}
                         height={514}
-                        src="/assets/images/blogs/data_analyst_roadmap.png"
+                        src="/assets/images/blogs/How_to_Become_a_Data_Analyst_in_Mumbai_Complete _2026_Roadmap.png"
                         alt="Blog Image"
                     />
                     <div>
