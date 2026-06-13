@@ -40,9 +40,38 @@ const _this = {
   BrochureName,
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://emeacademy.co.in"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": "https://emeacademy.co.in/blogs"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "How to Become a Data Analyst in Mumbai: Complete 2026 Roadmap",
+      "item": "https://emeacademy.co.in/blogs/how-to-become-a-data-analyst-in-mumbai-roadmap"
+    }
+  ]
+};
+
 export default function data_analytics_blog() {
   return (
     <main className="flex flex-col justify-center items-center w-full gap-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <AnotherHeader />
       <div className="w-full mx-auto">
         <DataAnalyticsBlog {..._this}/>

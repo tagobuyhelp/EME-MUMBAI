@@ -4,6 +4,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Calendar, Clock2, Eye } from "lucide-react";
 import LeftSection from "./left_section";
 import Image from "next/image";
+import Link from "next/link";
 import Cards from "./cards";
 import NewsLogo from "../Components/NewsLogo";
 import BlogTestimonial from "../Components/BlogTestimonial";
@@ -131,6 +132,15 @@ export default function DataAnalyticsBlog({
 
             <div className="flex flex-col justify-center gap-4 md:mt-8 md:max-w-[680px]">
                 <div className="flex flex-col gap-2">
+                    <nav className="flex text-xs md:text-sm text-gray-500 gap-1 md:gap-2 items-center mb-1">
+                        <Link href="/" className="hover:text-[#0057E2] transition-colors">Home</Link>
+                        <span>/</span>
+                        <Link href="/blogs" className="hover:text-[#0057E2] transition-colors">Blogs</Link>
+                        <span>/</span>
+                        <span className="text-gray-800 font-[500] truncate max-w-[200px] md:max-w-[400px]">
+                            How to Become a Data Analyst in Mumbai
+                        </span>
+                    </nav>
                     <Image
                         className="w-full rounded-md"
                         width={1200}

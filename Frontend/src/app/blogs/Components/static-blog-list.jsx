@@ -9,6 +9,13 @@ const truncateDescription = (text, words) => {
 
 const blogsData = [
   {
+    "_id": "top-4-technical-courses-after-12th-for-high-paying-careers",
+    "image": "/assets/images/blogs/Top_4_Technical_Courses_After_12th_That_Can_Lead_to_High_Paying_Careers.webp",
+    "title": "Top 4 Technical Courses After 12th That Can Lead to High-Paying Careers",
+    "meta_description": "Looking for the best technical courses after 12th? Discover 4 job-ready courses - Data Analytics, SAP, Digital Marketing, and Gen AI - with salary insights, career paths, and who they're best for.",
+    "url": "blogs/top-4-technical-courses-after-12th-for-high-paying-careers"
+  },
+  {
     "_id": "data-analyst-mumbai-roadmap",
     "image": "/assets/images/blogs/How_to_Become_a_Data_Analyst_in_Mumbai_Complete _2026_Roadmap.png",
     "title": "How to Become a Data Analyst in Mumbai: Complete 2026 Roadmap",
