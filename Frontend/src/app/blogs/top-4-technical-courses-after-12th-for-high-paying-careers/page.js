@@ -23,6 +23,30 @@ export const metadata = {
     canonical:
       "https://emeacademy.co.in/blogs/top-4-technical-courses-after-12th-for-high-paying-careers",
   },
+  openGraph: {
+    title: "Top 4 Technical Courses After 12th for High-Paying Careers",
+    description:
+      "Looking for the best technical courses after 12th? Discover 4 job-ready courses - Data Analytics, SAP, Digital Marketing, and Gen AI - with salary insights, career paths, and who they're best for.",
+    url: "https://emeacademy.co.in/blogs/top-4-technical-courses-after-12th-for-high-paying-careers",
+    siteName: "EME Academy Mumbai",
+    images: [
+      {
+        url: "https://emeacademy.co.in/assets/images/blogs/Top_4_Technical_Courses_After_12th_That_Can_Lead_to_High_Paying_Careers.webp",
+        width: 1200,
+        height: 514,
+        alt: "Top 4 Technical Courses After 12th",
+      },
+    ],
+    type: "article",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Top 4 Technical Courses After 12th for High-Paying Careers",
+    description:
+      "Looking for the best technical courses after 12th? Discover 4 job-ready courses - Data Analytics, SAP, Digital Marketing, and Gen AI - with salary insights, career paths, and who they're best for.",
+    images: ["https://emeacademy.co.in/assets/images/blogs/Top_4_Technical_Courses_After_12th_That_Can_Lead_to_High_Paying_Careers.webp"],
+  },
 };
 
 const Courses = "Digital Marketing Course";

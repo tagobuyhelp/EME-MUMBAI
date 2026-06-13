@@ -22,6 +22,30 @@ export const metadata = {
     canonical:
       "https://emeacademy.co.in/blogs/how-to-become-a-data-analyst-in-mumbai-roadmap",
   },
+  openGraph: {
+    title: "How to Become a Data Analyst in Mumbai: Complete Roadmap",
+    description:
+      "Want a data analyst career in Mumbai? This roadmap covers skills, salary benchmarks, portfolio tips, and a step-by-step plan to land your first job without a CS degree.",
+    url: "https://emeacademy.co.in/blogs/how-to-become-a-data-analyst-in-mumbai-roadmap",
+    siteName: "EME Academy Mumbai",
+    images: [
+      {
+        url: "https://emeacademy.co.in/assets/images/blogs/How_to_Become_a_Data_Analyst_in_Mumbai_Complete%20_2026_Roadmap.png",
+        width: 1200,
+        height: 514,
+        alt: "How to Become a Data Analyst in Mumbai",
+      },
+    ],
+    type: "article",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Become a Data Analyst in Mumbai: Complete Roadmap",
+    description:
+      "Want a data analyst career in Mumbai? This roadmap covers skills, salary benchmarks, portfolio tips, and a step-by-step plan to land your first job without a CS degree.",
+    images: ["https://emeacademy.co.in/assets/images/blogs/How_to_Become_a_Data_Analyst_in_Mumbai_Complete%20_2026_Roadmap.png"],
+  },
 };
 
 const Courses = "Data Analytics Course";
