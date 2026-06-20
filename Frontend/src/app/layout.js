@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape",
+        "8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape",
       addressLocality: "Navi Mumbai",
       addressRegion: "Maharashtra",
       postalCode: "400710",
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
       "https://www.youtube.com/@EMEAcademyMumbai",
       "https://www.youtube.com/channel/UCcYuv-IUJMyKdy0e-T5E5DA",
       "https://www.pinterest.com/hiemeacademy/?invite_code=b612232379204c42a5e74b0e188e7d6d&sender=108578992882025",
-      "https://www.google.com/maps/search/?api=1&query=Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+400710",
+      "https://maps.app.goo.gl/MnUFq3bQptnJTR626",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",

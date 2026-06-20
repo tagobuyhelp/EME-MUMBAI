@@ -4,7 +4,7 @@ import Link from "next/link"
 
 
 export const Footer = () => {
-  const addressUrl = "https://www.google.com/maps/search/?api=1&query=EME+Academy+Mumbai+814+815+D-wing+Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+Maharashtra+400710";
+  const addressUrl = "https://maps.app.goo.gl/MnUFq3bQptnJTR626";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
   return (
     <div className="w-full bg-[#131932]">
@@ -239,7 +239,7 @@ export const Footer = () => {
                             height={25}
                             className=" w-[18px] h-[18px] lg:w-[24px] lg:h-[24px] shrink-0"
                             src="/assets/images/Web_Development/icons/icons8-india-48.png"
-                            alt="Location Icon" />EME Academy Mumbai, 814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape, Navi Mumbai, Maharashtra 400710
+                            alt="Location Icon" />8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai, Maharashtra 400710
                         </Link>
                       </div>
                       <div className='flex mt-[10px] hover:underline cursor-pointer'>

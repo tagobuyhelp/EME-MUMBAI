@@ -43,7 +43,7 @@ export default function ContactPageClient() {
       BrochureName,
     };
 
-  const addressUrl1 = "https://www.google.com/maps/search/?api=1&query=Rupa+Solitaire+Millennium+Business+Park+Mahape+Navi+Mumbai+400710";
+  const addressUrl1 = "https://maps.app.goo.gl/MnUFq3bQptnJTR626";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
 
   return (
@@ -78,7 +78,7 @@ export default function ContactPageClient() {
                     src="/assets/images/Web_Development/icons/icons8-india-48.png"
                     alt="Location Icon"
                   />
-                  EME Academy Mumbai, 814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape, Navi Mumbai, Maharashtra 400710
+                  8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai, Maharashtra 400710
                 </Link>
               </div>
               <div className="flex mt-[10px] hover:underline cursor-pointer">
@@ -241,7 +241,7 @@ export default function ContactPageClient() {
           <div className="pt-5 lg:py-10 py-5 px-[20px] md:px-24  max-w-[1380px] mx-auto">
             <iframe
               className="w-full md:shadow-2xl shadow-lg  rounded-md lg:rounded-2xl h-[300px] lg:h-[500px]"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.345914619736!2d73.00392347596766!3d19.135242782073994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0c1694f1c0d%3A0x673c4d7e271a067a!2sRupa%20Solitaire%2C%20Millennium%20Business%20Park%2C%20Mahape%2C%20Navi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716700000000!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=EME%20Academy%20Mumbai&t=&z=14&ie=UTF8&iwloc=&output=embed"
               width="600"
               height="500"
               allowFullScreen=""

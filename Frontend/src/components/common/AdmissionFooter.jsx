@@ -118,8 +118,8 @@ export default function AdmissionFooter() {
                             <div className='text-[13px] lg:text-[14px] font-[400] leading-[20px] lg:leading-[24px] text-white/80'>
                                 <li className='flex justify-start items-center'>
                                     {/* <img src={location_icon} alt="" /> */}
-                                    814,815, D-wing, Rupa Solitaire, Millennium Business Park, Mahape, Navi Mumbai,</li>
-                                <li>Maharashtra, India, 400710</li>
+                                    8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai,</li>
+                                <li>Maharashtra 400710</li>
 
                                 <li className='flex items-center gap-2 mt-[15px] lg:mt-[25px]'>
                                     <Image
