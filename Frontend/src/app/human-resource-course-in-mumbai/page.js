@@ -96,6 +96,18 @@ function page() {
     BrochureName,
   };
 
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: "HR Management Course",
+    description: "Enroll in the HR Training Course at EME Academy Mumbai and learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and AI tools with hands-on training and 100% placement support.",
+    provider: {
+      "@type": "Organization",
+      name: "EME Academy",
+      sameAs: "https://mumbai.emeacademy.co.in"
+    }
+  };
+
   // Hero data
   const heroData = {
     badgeText: "Learn & Get Hired in 4 Months!",
@@ -323,6 +335,10 @@ function page() {
     <main
       className={`flex flex-col justify-start items-center w-full min-h-screen`}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
       <AnotherHeader />
       <div id="home" className="w-full ">
         <InfiniteCall />

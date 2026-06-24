@@ -1,327 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://mumbai.emeacademy.co.in/</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/about-us</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/admission-page</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/admission-tearms-condition</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/blogs</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/careers</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/contact-us</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/privacy-policy</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/recentplacements</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/blogs</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/rewards-recognition</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/terms-and-condition</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://mumbai.emeacademy.co.in/maincourse/data-science-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
+  <loc>https://mumbai.emeacademy.co.in/contact-us</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/maincourse/digital-marketing-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
+  <loc>https://mumbai.emeacademy.co.in/admission-page</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/maincourse/graphic-design-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
+  <loc>https://mumbai.emeacademy.co.in/data-analytics-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/maincourse/sap-training-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/maincourse/digital-marketing-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/maincourse/web-development</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://mumbai.emeacademy.co.in/advanced-digital-marketing-certificate-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/maincourse/data-science-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/ai-ml-landing-course</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/careers</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/animation-vfx-institute-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-animation-and-vfx-institute-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-data-analytics-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-graphic-design-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-hr-training-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-linkedin-course-for-career-hiring-growth</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-mean-stack-training-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-mern-stack-development-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-mern-stack-training-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/best-php-mysql-training-institute-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/cloud-computing-landing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/cyber-security-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/cyber-security-landing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/data-analytics-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/devops-landing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/digital-marketing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/digital-marketing-course</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/digital-marketing-crash-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/diploma-in-advance-digital-marketing-courses-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/generative-ai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/generative-ai-course-training-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/graphic-design-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/grievance-cell</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/human-resource-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/machine-learning-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/mean-stack-training-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/motion-graphics-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/privacy-policy</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/payment-terms-and-refund-policy</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/php-mysql-training-institute-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/terms-and-condition</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/power-bi-landing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/grievance-cell</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/sap-training-institute</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/maincourse/graphic-design-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/ui-ux-design-course-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/cyber-security-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/ui-ux-landing</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
+  <loc>https://mumbai.emeacademy.co.in/generative-ai-course-training-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/web-development</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/wordpress-development-training-institute-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/wordpress-training-institute-in-mumbai</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.70</priority>
-</url>
-
-<url>
-  <loc>https://mumbai.emeacademy.co.in/course/sap-abap</loc>
-  <lastmod>2026-05-23</lastmod>
+  <loc>https://mumbai.emeacademy.co.in/blogs/top-4-technical-courses-after-12th-for-high-paying-careers</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://mumbai.emeacademy.co.in/course/sap-analytics</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/course/sap-basis</loc>
-  <lastmod>2026-05-23</lastmod>
+  <loc>https://mumbai.emeacademy.co.in/blogs/how-to-become-a-data-analyst-in-mumbai-roadmap</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/course/sap-fico</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/course/sap-hcm</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/course/sap-mm</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mumbai.emeacademy.co.in/course/sap-pp</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/course/sap-sd</loc>
-  <lastmod>2026-05-23</lastmod>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/course/sap-abap</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/course/sap-hcm</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/course/sap-pp</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/course/sap-basis</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/course/sap-analytics</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/advanced-digital-marketing-certificate-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/diploma-in-advance-digital-marketing-courses-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/best-mern-stack-development-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/best-mean-stack-training-course-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/php-mysql-training-institute-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumbai.emeacademy.co.in/wordpress-development-training-institute-in-mumbai</loc>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mumbai.emeacademy.co.in/course/sap-success</loc>
-  <lastmod>2026-05-23</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-06-24T03:59:59+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 </urlset>

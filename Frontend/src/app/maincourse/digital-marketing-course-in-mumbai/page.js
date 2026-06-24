@@ -621,8 +621,25 @@ export default function page() {
     Brochure,
     BrochureName,
   };
+
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: "Digital Marketing Course",
+    description: "Enroll in the Digital Marketing Course in Mumbai at EME Academy and master SEO, Google Ads, Meta Ads, AI tools, and WordPress with hands-on live campaign training. Includes placement support and industry-recognized certification.",
+    provider: {
+      "@type": "Organization",
+      name: "EME Academy",
+      sameAs: "https://mumbai.emeacademy.co.in"
+    }
+  };
+
   return (
     <main className="flex flex-col justify-center items-center w-full min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
       <AnotherHeader />
 
       <div id="home" className="w-full ">

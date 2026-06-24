@@ -91,16 +91,6 @@ export default function RootLayout({ children }) {
       "https://www.pinterest.com/hiemeacademy/?invite_code=b612232379204c42a5e74b0e188e7d6d&sender=108578992882025",
       "https://maps.app.goo.gl/MnUFq3bQptnJTR626",
     ],
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Courses",
-      itemListElement: [
-        { "@type": "Course", name: "Digital Marketing Course" },
-        { "@type": "Course", name: "SAP Course" },
-        { "@type": "Course", name: "HR Management Course" },
-        { "@type": "Course", name: "Data Analytics Course" },
-      ],
-    },
   };
 
   return (

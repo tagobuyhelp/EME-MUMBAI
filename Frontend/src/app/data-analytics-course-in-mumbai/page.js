@@ -109,6 +109,18 @@ function page() {
     BrochureName,
   };
 
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: "Data Analytics Course",
+    description: "Enroll in the Data Analytics Course in Mumbai at EME Academy and master Python, SQL, Excel, Tableau, and Power BI with hands-on projects and 100% placement support.",
+    provider: {
+      "@type": "Organization",
+      name: "EME Academy",
+      sameAs: "https://mumbai.emeacademy.co.in"
+    }
+  };
+
   const alumniStudentsMumbai = [
     {
       id: 1,
@@ -406,6 +418,10 @@ function page() {
     <main
       className={`flex flex-col justify-start items-center w-full min-h-screen`}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
       <AnotherHeader />
 
       <div id="home" className="w-full ">

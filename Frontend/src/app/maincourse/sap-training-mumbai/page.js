@@ -87,8 +87,24 @@ export default function page() {
       BrochureName,
     };
 
+    const courseSchema = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      name: "SAP Course",
+      description: "Enroll in the SAP Course in Mumbai at EME Academy and master FICO, MM, SD, ABAP, HCM, and S/4 HANA with live server training. Includes global certification preparation and 100% placement support.",
+      provider: {
+        "@type": "Organization",
+        name: "EME Academy",
+        sameAs: "https://mumbai.emeacademy.co.in"
+      }
+    };
+
   return (
     <main className="flex flex-col justify-center items-center w-full min-h-screen bg-[#ffffff]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
       <AnotherHeader />
 
       <div id="home" className="w-full ">
