@@ -41,7 +41,7 @@ export const alumniStudents = [
     title: "Ankita Biswas",
     subtitle: "Mumbai, India",
     companyName: "Human Settlement Planning Centre",
-    companyLogo: "/assets/icons/companies/hspc.svg",
+    companyLogo: "/assets/icons/companies/hspc.jpeg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -77,7 +77,7 @@ export const alumniStudents = [
     title: "Laiba Noor",
     subtitle: "Mumbai, India",
     companyName: "2coms",
-    companyLogo: "/assets/icons/companies/2coms.svg",
+    companyLogo: "/assets/icons/companies/2coms.avif",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -89,7 +89,7 @@ export const alumniStudents = [
     title: "Amit Singh",
     subtitle: "Mumbai, India",
     companyName: "Hamilton Research Pvt. Ltd",
-    companyLogo: "/assets/icons/companies/hamilton-research.svg",
+    companyLogo: "/assets/icons/companies/hamilton-research.jpeg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -113,7 +113,7 @@ export const alumniStudents = [
     title: "Jayita Halder",
     subtitle: "Mumbai, India",
     companyName: "Trustklub",
-    companyLogo: "/assets/icons/companies/trustklub.svg",
+    companyLogo: "/assets/icons/companies/trustklub.jpg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -149,7 +149,7 @@ export const alumniStudents = [
     title: "Keya Sharma",
     subtitle: "Mumbai, India",
     companyName: "Hamilton Research Pvt. Ltd",
-    companyLogo: "/assets/icons/companies/hamilton-research.svg",
+    companyLogo: "/assets/icons/companies/hamilton-research.jpeg",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",
@@ -161,7 +161,7 @@ export const alumniStudents = [
     title: "Krishna Das Ghosh",
     subtitle: "Mumbai, India",
     companyName: "Genius Consultant",
-    companyLogo: "/assets/icons/companies/genius-consultant.svg",
+    companyLogo: "/assets/icons/companies/genius-consultants.avif",
     overlay:
       "absolute inset-0 bg-gradient-to-t from-[#202027e5] via-[#39339300] to-transparent",
     titleStyle: "text-base font-medium",

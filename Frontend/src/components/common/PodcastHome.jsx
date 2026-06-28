@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/carousel"
 import CTAButton from "./CtaButton"
 
-export default function PodcastHome() {
+export default function PodcastHome({ _this: externalThis }) {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [ctaType, setCtaType] = React.useState(null);
   const [activeIndex, setActiveIndex] = React.useState(null);
@@ -34,7 +34,7 @@ export default function PodcastHome() {
   ];
   const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
   const BrochureName = "EME-brochure-2024.pdf";
-  const _this = {
+  const internalThis = {
     isModalOpen,
     setIsModalOpen,
     SelectCourses,
@@ -45,6 +45,8 @@ export default function PodcastHome() {
     ctaType,
     setCtaType,
   };
+
+  const _this = externalThis || internalThis;
   
   const plugin = React.useRef(
     Autoplay({ delay: 3500, stopOnInteraction: true })
@@ -232,6 +234,7 @@ export default function PodcastHome() {
       <CTAButton name="Enroll Now"
         styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-50 rounded-lg"
         _this={_this}
+        disableInternalModal={!!externalThis}
       />
 
       <style jsx>{`

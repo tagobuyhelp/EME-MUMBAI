@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 export default function CoursesLandingFooter({
-  courseName = "Data Analytics Course",
+  courseName = "Data Analytics with AI Course",
   Courses,
   SelectCourses,
   customCourseList,
@@ -31,21 +31,18 @@ export default function CoursesLandingFooter({
 }) {
   const [email, setEmail] = useState("");
 
+  const addressUrl = "https://maps.app.goo.gl/29GowbGvjuF3pLYq5";
+  const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
+
   const defaultCourseList = [
-    "Digital Marketing",
-    "Data Science",
-    "Web Development",
-    "Graphic Design",
-    "Cyber Security",
+    "Digital Marketing Course",
+    "Data Science Course",
+    "Web Development Course",
+    "UI/UX Design Course",
+    "Cyber Security Course",
   ];
 
   const courseList = customCourseList || defaultCourseList;
-
-  const handleOpenModal = (e) => {
-    if (e) e.preventDefault();
-    if (setCtaType) setCtaType("normal");
-    if (setIsModalOpen) setIsModalOpen(true);
-  };
 
   return (
     <footer className="w-full bg-[#050A1F] text-white border-t border-slate-800 relative overflow-hidden">
@@ -53,7 +50,7 @@ export default function CoursesLandingFooter({
       {/* Background ambient light */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none" />
       
-      {/* Subtle dotted map background */}
+      {/* Subtle dotted map background (simulated with radial dots or just ambient pattern) */}
       <div 
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{
@@ -74,14 +71,13 @@ export default function CoursesLandingFooter({
             <div className="flex flex-col gap-3.5">
               <div className="flex flex-col gap-1">
                 <Image
-                  src="/assets/images/emeFooterLogo.svg"
-                  alt="EME Academy Mumbai"
+                  src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png"
+                  alt="EME Academy"
                   width={140}
                   height={50}
-                  className="w-[120px] lg:w-[140px] cursor-pointer"
-                  onClick={handleOpenModal}
+                  className="brightness-0 invert w-[120px] lg:w-[140px]"
                 />
-                <span className="text-xs font-bold pl-0.5 mt-2">
+                <span className="text-xs font-bold pl-0.5">
                   A <span className="text-[#f59e0b]">Decade</span> of Excellence
                 </span>
               </div>
@@ -134,7 +130,7 @@ export default function CoursesLandingFooter({
                   onChange={(e) => setEmail(e.target.value)}
                   className="bg-transparent text-xs text-white px-2.5 py-1.5 w-full outline-none placeholder:text-slate-600"
                 />
-                <button onClick={handleOpenModal} className="bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold px-3 py-1.5 rounded-md transition-colors shrink-0 shadow-sm">
+                <button onClick={() => { setCtaType?.("normal"); setIsModalOpen?.(true); }} className="bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold px-3 py-1.5 rounded-md transition-colors shrink-0 shadow-sm">
                   Subscribe
                 </button>
               </div>
@@ -150,7 +146,7 @@ export default function CoursesLandingFooter({
             </h3>
 
             {/* Featured Course Card */}
-            <div onClick={handleOpenModal} className="bg-[#0A1229] border border-white/10 rounded-2xl overflow-hidden shadow-lg flex flex-col cursor-pointer hover:border-blue-500/30 transition-colors group">
+            <div onClick={() => { setCtaType?.("normal"); setIsModalOpen?.(true); }} className="bg-[#0A1229] border border-white/10 rounded-2xl overflow-hidden shadow-lg flex flex-col cursor-pointer hover:border-blue-500/30 transition-colors group">
               <div className="p-3.5 flex gap-3.5 items-center border-b border-white/5 bg-gradient-to-r from-blue-900/20 to-transparent">
                 <div className="relative w-18 h-14 rounded-lg overflow-hidden shrink-0 border border-white/10">
                   <Image 
@@ -170,7 +166,7 @@ export default function CoursesLandingFooter({
                 </div>
               </div>
               <div className="px-3.5 py-2.5 flex justify-end">
-                <button onClick={handleOpenModal} className="text-blue-400 text-[11px] font-bold flex items-center gap-1 hover:text-blue-300 transition-colors">
+                <button onClick={() => { setCtaType?.("normal"); setIsModalOpen?.(true); }} className="text-blue-400 text-[11px] font-bold flex items-center gap-1 hover:text-blue-300 transition-colors">
                   Explore Course
                   <div className="w-4.5 h-4.5 rounded-full bg-blue-600 flex items-center justify-center">
                     <ArrowRight className="w-2.5 h-2.5 text-white" />
@@ -182,7 +178,7 @@ export default function CoursesLandingFooter({
             {/* Other Courses List */}
             <ul className="flex flex-col gap-0 border-y border-white/10">
               {courseList.map((c, i) => (
-                <li onClick={handleOpenModal} key={i} className="flex items-center justify-between border-b border-white/5 py-2.5 last:border-0 group cursor-pointer hover:bg-white/5 px-2 -mx-2 rounded-lg transition-colors">
+                <li onClick={() => { setCtaType?.("normal"); setIsModalOpen?.(true); }} key={i} className="flex items-center justify-between border-b border-white/5 py-2.5 last:border-0 group cursor-pointer hover:bg-white/5 px-2 -mx-2 rounded-lg transition-colors">
                   <div className="flex items-center gap-2.5">
                     <BookOpen className="w-3.5 h-3.5 text-blue-500 group-hover:text-blue-400 transition-colors" />
                     <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">{c}</span>
@@ -192,7 +188,7 @@ export default function CoursesLandingFooter({
               ))}
             </ul>
 
-            <button onClick={handleOpenModal} className="text-blue-400 text-xs font-bold flex items-center gap-1 hover:text-blue-300 transition-colors">
+            <button onClick={() => { setCtaType?.("normal"); setIsModalOpen?.(true); }} className="text-blue-400 text-xs font-bold flex items-center gap-1 hover:text-blue-300 transition-colors">
               View All Courses
               <ArrowRight className="w-3 h-3" />
             </button>
@@ -207,7 +203,7 @@ export default function CoursesLandingFooter({
 
             <div className="flex flex-col gap-4.5">
               <span className="text-sm font-bold text-blue-400">
-                EME Academy Mumbai Educational &amp; Welfare Trust
+                EME Academy Educational &amp; Welfare Trust
               </span>
 
               {/* Addresses */}
@@ -220,8 +216,24 @@ export default function CoursesLandingFooter({
                     height={18}
                     className="w-4.5 h-4.5 object-contain mt-0.5 shrink-0"
                   />
-                  <a href="#" onClick={handleOpenModal} className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
-                    8th floor, RUPA SOLITAIRE,<br/>
+                  <a href={addressUrl} target="_blank" rel="noopener noreferrer" className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
+                    EME Academy, 5th Floor, TOWER-1,<br/>
+                    Globsyn Crystals, 505, EP Block,<br/>
+                    Sector V, Bidhannagar,<br/>
+                    Kolkata, West Bengal 700091
+                  </a>
+                </div>
+
+                <div className="flex gap-2.5">
+                  <Image
+                    src="/assets/images/Web_Development/icons/icons8-india-48.png"
+                    alt="India"
+                    width={18}
+                    height={18}
+                    className="w-4.5 h-4.5 object-contain mt-0.5 shrink-0"
+                  />
+                  <a href="https://maps.app.goo.gl/DgyG2mZuu3ej3Gqx7" target="_blank" rel="noopener noreferrer" className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
+                    EME Academy, 8th floor, RUPA SOLITAIRE,<br/>
                     MILLENNIUM BUSINESS PARK, 814, D wing,<br/>
                     Mahape, Navi Mumbai,<br/>
                     Maharashtra 400710
@@ -236,7 +248,7 @@ export default function CoursesLandingFooter({
                     height={18}
                     className="w-4.5 h-4.5 object-contain mt-0.5 shrink-0"
                   />
-                  <a href="#" onClick={handleOpenModal} className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
+                  <a href={addressUrl2} target="_blank" rel="noopener noreferrer" className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
                     EME Academy, 275 New north Road,<br/>
                     Islington, London,<br/>
                     N1 7AA, United Kingdom
@@ -246,21 +258,21 @@ export default function CoursesLandingFooter({
 
               {/* Contact Methods */}
               <div className="flex flex-col gap-3 mt-1.5">
-                <a href="#" onClick={handleOpenModal} className="flex items-center gap-2.5 group">
+                <a href="tel:+91-9093926145" className="flex items-center gap-2.5 group">
                   <div className="w-7 h-7 rounded-full bg-blue-900/50 border border-blue-500/30 flex items-center justify-center shrink-0 group-hover:bg-blue-600/50 transition-colors">
                     <Phone className="w-3 h-3 text-blue-400 group-hover:text-white transition-colors" />
                   </div>
                   <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">9093926145</span>
                 </a>
 
-                <a href="#" onClick={handleOpenModal} className="flex items-center gap-2.5 group">
+                <a href="mailto:info@emeacademy.co.in" className="flex items-center gap-2.5 group">
                   <div className="w-7 h-7 rounded-full bg-blue-900/50 border border-blue-500/30 flex items-center justify-center shrink-0 group-hover:bg-blue-600/50 transition-colors">
                     <Mail className="w-3 h-3 text-blue-400 group-hover:text-white transition-colors" />
                   </div>
-                  <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">infomumbai@emeacademy.co.in</span>
+                  <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">info@emeacademy.co.in</span>
                 </a>
 
-                <a href="#" onClick={handleOpenModal} className="flex items-center gap-2.5 group">
+                <a href="https://www.emeacademy.co.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 group">
                   <div className="w-7 h-7 rounded-full bg-blue-900/50 border border-blue-500/30 flex items-center justify-center shrink-0 group-hover:bg-blue-600/50 transition-colors">
                     <Globe className="w-3 h-3 text-blue-400 group-hover:text-white transition-colors" />
                   </div>
@@ -271,6 +283,7 @@ export default function CoursesLandingFooter({
             
             {/* Map pin absolute decorations for the right side */}
             <div className="absolute right-0 bottom-10 w-48 h-48 opacity-20 pointer-events-none hidden xl:block">
+               {/* Just a decorative map visual representation */}
                <MapPin className="absolute top-10 right-20 w-5 h-5 text-blue-400" />
                <MapPin className="absolute bottom-10 right-10 w-6 h-6 text-blue-500" />
             </div>
@@ -281,32 +294,30 @@ export default function CoursesLandingFooter({
 
         {/* ─── BOTTOM BAR ─── */}
         <div className="mt-10 pt-4 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-[10px] text-[#94a3b8] flex flex-col md:flex-row md:gap-2 text-center md:text-left">
-            <span>&copy; {new Date().getFullYear()} <span className="text-[#00A2E7] font-bold">EME Academy Mumbai Educational &amp; Welfare Trust</span> | All Rights Reserved.</span>
-            <span className="hidden md:inline">|</span>
-            <span>Developed By <a href="#" onClick={handleOpenModal} className="text-[#00A2E7] font-bold hover:underline">EME Academy Mumbai Team</a></span>
+          <div className="text-[10px] text-[#94a3b8]">
+            &copy; {new Date().getFullYear()} EME Academy. All Rights Reserved.
           </div>
           
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-[11px] text-[#cbd5e1]">
-            <button onClick={handleOpenModal} className="hover:text-white transition-colors">Privacy Policy</button>
+            <button onClick={() => setIsModalOpen?.(true)} className="hover:text-white transition-colors">Privacy Policy</button>
             <span className="w-px h-3 bg-white/20"></span>
-            <button onClick={handleOpenModal} className="hover:text-white transition-colors">Terms &amp; Conditions</button>
+            <button onClick={() => setIsModalOpen?.(true)} className="hover:text-white transition-colors">Terms &amp; Conditions</button>
             <span className="w-px h-3 bg-white/20"></span>
-            <button onClick={handleOpenModal} className="hover:text-white transition-colors">Refund Policy</button>
+            <button onClick={() => setIsModalOpen?.(true)} className="hover:text-white transition-colors">Refund Policy</button>
           </div>
 
           <div className="flex items-center gap-3">
             <span className="text-[11px] text-[#cbd5e1] mr-1">Follow Us</span>
-            <a href="#" onClick={handleOpenModal} className="w-7 h-7 rounded-full bg-[#3b5998] flex items-center justify-center hover:opacity-80 transition-opacity">
+            <a href="https://www.facebook.com/profile.php?id=61565016775751" target="_blank" rel="noopener noreferrer" className="w-7 h-7 rounded-full bg-[#3b5998] flex items-center justify-center hover:opacity-80 transition-opacity">
               <Facebook className="w-3.5 h-3.5 text-white" />
             </a>
-            <a href="#" onClick={handleOpenModal} className="w-7 h-7 rounded-full bg-[#0077b5] flex items-center justify-center hover:opacity-80 transition-opacity">
+            <a href="https://www.linkedin.com/company/emeacademy/" target="_blank" rel="noopener noreferrer" className="w-7 h-7 rounded-full bg-[#0077b5] flex items-center justify-center hover:opacity-80 transition-opacity">
               <Linkedin className="w-3.5 h-3.5 text-white" />
             </a>
-            <a href="#" onClick={handleOpenModal} className="w-7 h-7 rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center hover:opacity-80 transition-opacity">
+            <a href="https://www.instagram.com/emeacademy__/" target="_blank" rel="noopener noreferrer" className="w-7 h-7 rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center hover:opacity-80 transition-opacity">
               <Instagram className="w-3.5 h-3.5 text-white" />
             </a>
-            <a href="#" onClick={handleOpenModal} className="w-7 h-7 rounded-full bg-[#ff0000] flex items-center justify-center hover:opacity-80 transition-opacity">
+            <a href="https://www.youtube.com/@emeacademy" target="_blank" rel="noopener noreferrer" className="w-7 h-7 rounded-full bg-[#ff0000] flex items-center justify-center hover:opacity-80 transition-opacity">
               <Youtube className="w-3.5 h-3.5 text-white" />
             </a>
           </div>

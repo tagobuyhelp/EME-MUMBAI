@@ -21,22 +21,26 @@ export function NewsHomeLanding({
   Brochure,
   BrochureName,
   formVariant,
+  isModalOpen: parentIsModalOpen,
+  setIsModalOpen: parentSetIsModalOpen,
+  setCtaType: parentSetCtaType,
 }) {
   const plugin = React.useRef(
     Autoplay({ delay: 1500, stopOnInteraction: false })
   );
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [ctaType, setCtaType] = useState(null);
+  const [localIsModalOpen, localSetIsModalOpen] = useState(false);
+  const [localCtaType, localSetCtaType] = useState(null);
+  
   const _this = {
-    isModalOpen,
-    setIsModalOpen,
+    isModalOpen: parentIsModalOpen !== undefined ? parentIsModalOpen : localIsModalOpen,
+    setIsModalOpen: parentSetIsModalOpen !== undefined ? parentSetIsModalOpen : localSetIsModalOpen,
     SelectCourses,
     Courses,
     email_sender,
     Brochure,
     BrochureName,
-    ctaType,
-    setCtaType,
+    ctaType: parentSetCtaType !== undefined ? parentSetCtaType : localCtaType,
+    setCtaType: parentSetCtaType !== undefined ? parentSetCtaType : localSetCtaType,
     formVariant,
   };
 
@@ -179,6 +183,7 @@ export function NewsHomeLanding({
         name="Enquire Now"
         styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 rounded-full border-none !px-12 !py-1 mt-6"
         _this={_this}
+        disableInternalModal={parentIsModalOpen !== undefined}
       />
     </div>
   );

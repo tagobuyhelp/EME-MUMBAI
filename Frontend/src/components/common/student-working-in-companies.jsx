@@ -121,6 +121,7 @@ function StudentsWorkingInCompanies({
   courses,
   SelectCourses = [],
   formVariant,
+  _this: externalThis,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [ctaType, setCtaType] = useState(null);
@@ -128,7 +129,7 @@ function StudentsWorkingInCompanies({
   const email_sender = "ALL";
   const Brochure = brochure;
   const BrochureName = brochureName;
-  const _this = {
+  const internalThis = {
     isModalOpen,
     setIsModalOpen,
     Courses,
@@ -140,6 +141,8 @@ function StudentsWorkingInCompanies({
     setCtaType,
     formVariant,
   };
+
+  const _this = externalThis || internalThis;
 
   return (
     <>
@@ -193,6 +196,7 @@ function StudentsWorkingInCompanies({
                 name="Apply Now"
                 styleClasses="bg-[#0057E2] hover:bg-[#0057E2] text-white font-bold py-1 px-6 text-[12px] rounded-[24px] transition-all flex items-center justify-center hover:text-white"
                 _this={_this}
+                disableInternalModal={!!externalThis}
               />
             </div>
           </div>
@@ -257,6 +261,7 @@ function StudentsWorkingInCompanies({
             name="See Where Your Future Can Take You →"
             styleClasses="text-white bg-[#0057E2] hover:bg-[#0047C2] hover:text-gray-100 !px-6 rounded-md"
             _this={_this}
+            disableInternalModal={!!externalThis}
           />
         </div>
       </div>

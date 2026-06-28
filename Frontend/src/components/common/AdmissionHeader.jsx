@@ -42,7 +42,7 @@ export default function Header({ _this: parentThis, navItems }) {
   const Brochure = parentThis?.Brochure || "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
   const BrochureName = parentThis?.BrochureName || "EME-brochure-2024.pdf";
 
-  const _this = {
+  const internalThis = {
     isModalOpen,
     setIsModalOpen,
     Courses,
@@ -52,6 +52,8 @@ export default function Header({ _this: parentThis, navItems }) {
     ctaType,
     setCtaType,
   };
+
+  const _this = parentThis || internalThis;
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const headerNavItems =
@@ -178,6 +180,7 @@ export default function Header({ _this: parentThis, navItems }) {
             name="Contact Us ->"
             styleClasses="flex text-[#E9E7E4] text-[14px] rounded-[24px] bg-[#0057E2] hover:bg-[#0057E2]/90 md:px-[24px] py-[12px] justify-center items-center gap-2 font-[600] group hover:text-white"
             _this={_this}
+            disableInternalModal={!!parentThis}
           />
         </div>
 
@@ -187,6 +190,7 @@ export default function Header({ _this: parentThis, navItems }) {
             name="Contact Us ->"
             styleClasses="flex text-[#E9E7E4] text-[14px] rounded-[24px] bg-[#0057E2] hover:bg-[#0057E2]/90 px-[20px] py-[12px] justify-center items-center gap-2 font-[600] group hover:text-white"
             _this={_this}
+            disableInternalModal={!!parentThis}
           />
         </div>
       </div>
