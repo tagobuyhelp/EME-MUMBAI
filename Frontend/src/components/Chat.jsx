@@ -10,7 +10,7 @@ export default function Chat() {
                         <div className=' group-hover:flex flex-col    py-[0px] justify-center items-center rounded-xl'>
                             <div className="flex flex-col gap-[9px] justify-center items-center">
                                 {/* WhatsApp Button */}
-                                <a href="https://wa.me/+919093926145" target="_blank"
+                                <a href="https://wa.me/+918207205867" target="_blank"
                                 className="relative group cursor-pointer z-[999] flex rounded-full items-center gap-[10px] justify-center">
                                     <div className="animate-pulse-circle absolute w-[35px] h-[35px] bg-green-500 opacity-40 rounded-full"></div>
                                     <Image className="w-[40px] h-[40px] animate-zoom" width={400} height={400} src={whatsapp} alt="WhatsApp icon" unoptimized />
