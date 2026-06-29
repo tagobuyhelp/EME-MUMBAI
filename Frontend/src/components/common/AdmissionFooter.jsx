@@ -128,7 +128,7 @@ export default function AdmissionFooter() {
                                         height={500}
                                         src={call}
                                         alt="call icon" />
-                                    <a href="tel:+91-9093926145">9093926145</a>
+                                    <a href="tel:+91-8207205867">8207205867</a>
                                 </li>
                                 <li className='flex items-center  gap-2 mt-[3px]'>
 

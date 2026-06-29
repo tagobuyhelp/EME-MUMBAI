@@ -43,7 +43,7 @@ export default function Hiring() {
             </h3>
 
             <a
-              href="tel:+919093926145"
+              href="tel:+918207205867"
               className="bg-[#E9F8FF] text-[#0057E2] w-full h-[51px] py-[7px] rounded-[20px] text-sm font-medium hover:bg-blue-200 transition flex items-center justify-center md:mt-4 duration-500 ease-in-out transform hover:scale-105 cursor-pointer"
             >
               View Job Details →

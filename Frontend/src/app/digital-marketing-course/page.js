@@ -97,7 +97,7 @@ const DMfaq = [
     {
         id: 11,
         title: "How can I enroll?",
-        desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+        desc: "To enroll, contact us at 8207205867/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
     },
 ];
 
@@ -742,7 +742,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#E87D1A]" /> Only 12 Seats Left in This Batch — Apply Before It&apos;s Full
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 9093926145
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 8207205867
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month
@@ -756,7 +756,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#E87D1A]" /> Only 12 Seats Left in This Batch — Apply Before It&apos;s Full
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 9093926145
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 8207205867
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month

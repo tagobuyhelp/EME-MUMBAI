@@ -164,7 +164,7 @@ export default function page() {
       desc: (
         <>
           <p>
-            To enroll, contact us at 9093926145/9831284098 or email at
+            To enroll, contact us at 8207205867/9831284098 or email at
             infomumbai@emeacademy.co.in. You can also register online through our
             website.
           </p>

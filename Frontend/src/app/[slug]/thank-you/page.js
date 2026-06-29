@@ -215,7 +215,7 @@ export default function ThankYou() {
                       }}
                     >
                       <div className="flex flex-row gap-2 items-center justify-center">
-                        <Phone className="w-4 h-4" /> 9093926145 / 9831284098
+                        <Phone className="w-4 h-4" /> 8207205867 / 9831284098
                       </div>
                       <div className="flex flex-row gap-2 items-center justify-center">
                         <Globe className="w-4 h-4" /> emeacademy.co.in
@@ -279,7 +279,7 @@ export default function ThankYou() {
           )}
 
           <a
-            href="https://wa.me/+919093926145"
+            href="https://wa.me/+918207205867"
             target="_blank"
             className="flex items-center gap-2 text-[#60D568] bg-white px-6 py-2 rounded-md border-2 border-[#0057E2]"
           >

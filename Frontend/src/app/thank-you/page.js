@@ -51,7 +51,7 @@ export default function ThankYou() {
       </button>
 
       <a
-        href="https://wa.me/+919093926145"
+        href="https://wa.me/+918207205867"
         target="_blank"
         className="flex items-center gap-2 text-[#60D568] bg-white px-6 py-2 rounded-md border-2 border-[#0057E2]"
       >

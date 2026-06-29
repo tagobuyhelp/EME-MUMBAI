@@ -33,7 +33,7 @@ export default function StickyCTAButton({
       <div className="border rounded-t-[16px] bg-gradient-to-r from-blue-600 to-blue-800 flex items-center  px-4 shadow-lg w-full justify-evenly">
         {/* Phone CTA */}
         <a
-          href="tel:+919093926145"
+          href="tel:+918207205867"
           className="relative flex items-center justify-center p-2"
         >
           <div className="absolute w-10 h-10 bg-blue-500 opacity-40 rounded-full animate-ping"></div>
@@ -52,7 +52,7 @@ export default function StickyCTAButton({
 
         {/* WhatsApp CTA */}
         <a
-          href="https://wa.me/+919093926145"
+          href="https://wa.me/+918207205867"
           target="_blank"
           className="relative flex items-center justify-center p-2"
         >

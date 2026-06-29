@@ -17,7 +17,7 @@ export default function Chat() {
                                 </a>
 
                                 {/* Call Button */}
-                                <a href="tel:+919093926145"
+                                <a href="tel:+918207205867"
                                 className="relative group cursor-pointer z-[999] flex rounded-full items-center gap-[10px] justify-center">
                                     <div className="animate-pulse-circle absolute w-[35px] h-[35px] bg-blue-500 opacity-40 rounded-full"></div>
                                     <Image className="w-[40px] h-[40px] animate-zoom" width={400} height={400} src={callIcon} alt="Call icon" unoptimized />

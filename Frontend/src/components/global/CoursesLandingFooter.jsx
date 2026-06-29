@@ -250,7 +250,7 @@ export default function CoursesLandingFooter({
                   <div className="w-7 h-7 rounded-full bg-blue-900/50 border border-blue-500/30 flex items-center justify-center shrink-0 group-hover:bg-blue-600/50 transition-colors">
                     <Phone className="w-3 h-3 text-blue-400 group-hover:text-white transition-colors" />
                   </div>
-                  <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">9093926145</span>
+                  <span className="text-xs text-[#cbd5e1] group-hover:text-white transition-colors">8207205867</span>
                 </a>
 
                 <a href="#" onClick={handleOpenModal} className="flex items-center gap-2.5 group">

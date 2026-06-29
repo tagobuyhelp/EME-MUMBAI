@@ -74,7 +74,7 @@ const faqs = [
   {
     id: 10,
     title: "How can I enroll in a course at EME Academy Mumbai?",
-    desc: "To enroll, contact us at 9093926145/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
+    desc: "To enroll, contact us at 8207205867/9831284098 or email at infomumbai@emeacademy.co.in. You can also register online through our website.",
   },
 ];
 

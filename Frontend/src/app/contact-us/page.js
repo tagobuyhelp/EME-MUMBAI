@@ -108,9 +108,9 @@ export default function ContactPageClient() {
                 />
                 <a
                   className="hover:underline cursor-pointer"
-                  href="tel:+91-9093926145"
+                  href="tel:+91-8207205867"
                 >
-                  9093926145
+                  8207205867
                 </a>{" "}
                 <span>/</span>{" "}
                 <span className="hover:underline cursor-pointer">

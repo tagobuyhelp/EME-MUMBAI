@@ -259,7 +259,7 @@ export const Footer = () => {
                           height={500}
                           src="/assets/icons/call.svg"
                           alt="call icon" />
-                        <a className='hover:underline cursor-pointer' href="tel:+91-9831284098">9831284098</a> <span>/</span> <span className='hover:underline cursor-pointer'><a href="tel:+91-9093926145">9093926145</a></span>
+                        <a className='hover:underline cursor-pointer' href="tel:+91-9831284098">9831284098</a> <span>/</span> <span className='hover:underline cursor-pointer'><a href="tel:+91-8207205867">8207205867</a></span>
                       </li>
 
                       <li className='flex items-center  gap-2 mt-[5px] lg:mt-[15px] hover:underline cursor-pointer'>

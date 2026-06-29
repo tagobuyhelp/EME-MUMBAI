@@ -62,7 +62,7 @@ export default function BottomNavBar({ _this }) {
       <div className="fixed bottom-[72px] right-4 z-[999] flex flex-col gap-3 md:hidden">
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/919093926145"
+          href="https://wa.me/918207205867"
           target="_blank"
           rel="noopener noreferrer"
           className="relative flex items-center justify-center w-11 h-11 rounded-full active:scale-95 transition-transform"
@@ -80,7 +80,7 @@ export default function BottomNavBar({ _this }) {
 
         {/* Call Button */}
         <a
-          href="tel:+919093926145"
+          href="tel:+918207205867"
           className="relative flex items-center justify-center w-11 h-11 rounded-full bg-[#00A2E7] shadow-[0_4px_15px_rgba(0,162,231,0.4)] active:scale-95 transition-transform"
         >
           <span className="absolute w-full h-full bg-sky-400 rounded-full animate-ping opacity-25 pointer-events-none" />
