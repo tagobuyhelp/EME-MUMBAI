@@ -18,6 +18,9 @@ import CertifiedStudent from "@/app/recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 import { AnotherHeader } from "@/components/common/AnotherHeader";
 import InfiniteCall from "@/components/InfiniteCall";
+import CourseModules from "@/components/global/CourseModules";
+import WhoShouldEnroll from "@/components/global/WhoShouldEnroll";
+import WhatYouWillDo from "@/components/global/WhatYouWillDo";
 
 export const metadata = {
   title:
@@ -55,7 +58,8 @@ export const metadata = {
 // Hero data
 const heroData = {
   badgeText: "From Beginner to Job-Ready in Just 6 Months!",
-  title: "Dominate the Digital Space with the Best Digital Marketing Course in Mumbai",
+  title: "Best Digital Marketing Course in Mumbai - Learn SEO, Meta Ads & AI Marketing",
+  secondSubtitle: "AI-Powered Training + 100% Placement Support in Mumbai",
   description:
     "Stop just consuming content and start monetizing it. Upskill with EME Academy’s Advanced Digital Marketing Course in Mumbai. Master Technical SEO, Google & Meta Ads, AI-powered automation, sales funnels, and WordPress—all in one place. Built strictly around live campaigns and actual performance marketing strategies, we offer the most reliable Digital Marketing Course with Placement in Mumbai. Step out of the classroom, build an undeniable portfolio, and unlock tech-driven marketing roles earning up to ₹10 LPA!",
   googleRating: "4.8/5",
@@ -651,6 +655,7 @@ export default function page() {
       <div className="flex w-full flex-col h-full max-h-[600px] bg-[#ffffff] bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.9px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.9px)] lg:bg-[linear-gradient(to_right,#4f4f4f23_0.1px,transparent_0.8px),linear-gradient(to_bottom,#4f4f4f23_0.1px,transparent_0.8px)] bg-[size:90px_50px] 2xl:bg-[size:100px_80px]">
         <StudentsWorkingInCompanies
           courses={Courses}
+          title="EME Academy Alumni Are Placed at India's Top Companies"
           brochure={Brochure}
           brochureName={BrochureName}
           SelectCourses={SelectCourses || []}
@@ -672,6 +677,17 @@ export default function page() {
           thisObject={_this}
         />
       </div>
+
+      {/* NEW: Explore Our Digital Marketing Course Modules */}
+      <div className="flex justify-center bg-[#ffffff]">
+        <CourseModules />
+      </div>
+
+      {/* NEW: Who Should Enroll */}
+      <div className="flex justify-center bg-white border-t border-gray-100">
+        <WhoShouldEnroll />
+      </div>
+
       <div className="flex justify-center bg-[#ffffff]">
         <CoursesCurriculum {...toolsData} {..._this} />
       </div>
@@ -765,6 +781,9 @@ export default function page() {
           ]}
         />
       </div>
+
+      {/* NEW: What You Will Be Able to Do */}
+      <WhatYouWillDo />
 
       <div className="flex flex-col w-full bg-[#F4FBFE] px-6 pb-8">
         <CertifiedStudent

@@ -119,6 +119,7 @@ function StudentsWorkingInCompanies({
   brochureName,
   brochure,
   courses,
+  title,
   SelectCourses = [],
   formVariant,
   _this: externalThis,
@@ -205,9 +206,9 @@ function StudentsWorkingInCompanies({
 
       <div className="md:mt-10 w-full  max-w-[1380px] mx-auto flex flex-col items-center justify-between gap-0.5 py-5 md:py-6  px-[20px] md:px-24 ">
         <div className="w-full flex flex-col items-center justify-center text-center gap-2 my-2">
-          <div className="text-[#232D63] text-[18px] md:text-[26px] font-bold leading-tight">
-            Our Students Are Now Working at These Companies
-          </div>
+          <h2 className="text-[#232D63] text-[18px] md:text-[26px] font-bold leading-tight">
+            {title ? title : "Our Students Are Now Working at These Companies"}
+          </h2>
           <div className="text-[#4B4B4B] text-[12px] md:text-[14px] font-medium max-w-[820px]">
             750+ placements in the last year alone. Salary ranging from ₹40,000 to ₹70,000/month — and that&apos;s just the start.
           </div>

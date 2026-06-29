@@ -17,6 +17,7 @@ function CoursesHero({
     BrochureName,
     formVariant,
     badgeText,
+    secondSubtitle,
     title,
     description,
     googleRating,
@@ -63,14 +64,20 @@ function CoursesHero({
                 <div className={`flex flex-col md:items-start justify-center mt-2 md:mt-8 gap-4 md:gap-6 ${isLight ? "text-[#232D63]" : "text-[#FAF9F9]"}`}>
                     <div className='flex flex-col gap-2'>
                         {badgeText ? (
-                            <div className={`text-[11px] text-[#E87D1A] font-semibold ${badgeBgClass} py-1 px-4 rounded-lg w-fit`}>
+                            <h2 className={`text-[11px] text-[#E87D1A] font-semibold ${badgeBgClass} py-1 px-4 rounded-lg w-fit`}>
                                 {badgeText}
-                            </div>
+                            </h2>
                         ) : null}
 
                         <h1 className={`text-[24px] lg:text-[34px] font-extrabold ${textColorClass} text-left md:text-left md:pr-6`}>
                             {title}
                         </h1>
+                        
+                        {secondSubtitle ? (
+                            <h2 className={`text-[14px] md:text-[18px] font-bold ${textColorClass} text-left md:text-left md:pr-6`}>
+                                {secondSubtitle}
+                            </h2>
+                        ) : null}
 
                         <p className={`text-[12px] md:text-[16px] ${textColorClass} leading-[20px] font-[500] md:pr-40`}>
                             {description}
