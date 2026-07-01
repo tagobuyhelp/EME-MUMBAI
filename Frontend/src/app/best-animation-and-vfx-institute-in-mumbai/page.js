@@ -268,7 +268,12 @@ const courses = [
       {
         icon: "/assets/icons/BudgetIcon.svg",
         label: "Affordable Fees",
-        value: "₹55,000 Limited-Time Offer Available",
+        value: (
+          <>
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
+            <span className="text-[#00A51E]">(Save ₹10,000/-)</span>
+          </>
+        ),
       },
       {
         icon: "/assets/icons/TrainingIcon.svg",

@@ -38,7 +38,7 @@ const GenAIfaq = [
   {
     id: 4,
     title: "What are the Generative AI Course Fees in Mumbai, and can I learn remotely?",
-    desc: "We believe elite tech education should be accessible. Our highly transparent Generative AI Course Fees in Mumbai are currently discounted to just ₹45,000. Plus, if you prefer the flexibility of learning from home, you can easily join our highly interactive Generative AI Course Online in Mumbai without compromising on the hands-on classroom experience.",
+    desc: "We believe elite tech education should be accessible. Our highly transparent Generative AI Course Fees in Mumbai are ₹65,000, currently discounted to just ₹55,000 (save ₹10,000). Plus, if you prefer the flexibility of learning from home, you can easily join our highly interactive Generative AI Course Online in Mumbai without compromising on the hands-on classroom experience.",
   },
   {
     id: 5,
@@ -146,8 +146,8 @@ export default function page() {
             label: "Transparent Generative AI Course Fees Mumbai",
             value: (
               <>
-                Affordable Fees at <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
-                ₹45,000 <span className="text-[#00A51E]">(after discount)</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+                ₹55,000 <span className="text-[#00A51E]">(after discount)</span>
               </>
             ),
           },

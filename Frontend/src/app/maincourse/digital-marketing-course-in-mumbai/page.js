@@ -526,8 +526,8 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹35,000</span> ₹30,000{" "}
-            <span className="text-[#00A51E]">after discount</span>
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
+            <span className="text-[#00A51E]">Save ₹10,000/-</span>
           </>
         ),
       },
@@ -594,8 +594,8 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹45,000</span> ₹35,000{" "}
-            <span className="text-[#00A51E]">after discount</span>
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
+            <span className="text-[#00A51E]">Save ₹10,000/-</span>
           </>
         ),
       },

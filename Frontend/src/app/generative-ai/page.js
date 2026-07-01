@@ -46,7 +46,7 @@ const GenAIfaq = [
     id: 2,
     title:
       "What is the duration and fee structure of the Generative AI course in Mumbai?",
-    desc: "The course is 6 months long (including internship). The generative AI course fees in Mumbai at EME Academy is ₹40,000, currently offered at a discounted fee of ₹30,000.",
+    desc: "The course is 6 months long (including internship). The generative AI course fees in Mumbai at EME Academy is ₹65,000, currently offered at a discounted fee of ₹55,000 (save ₹10,000).",
   },
   {
     id: 3,
@@ -240,8 +240,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹55,000</span>{" "}
-              ₹45,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },

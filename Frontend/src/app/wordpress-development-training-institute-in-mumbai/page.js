@@ -45,7 +45,7 @@ const faq = [
     id: 2,
     title:
       "What is the duration and fee structure of the WordPress Development Course?",
-    decs: "The course lasts for 4 months. The original fee is ₹30,000, but after discount, it is ₹20,000. EMI options are available with 0% interest.",
+    decs: "The course lasts for 4 months. The original fee is ₹65,000, but after discount, it is ₹55,000. EMI options are available with 0% interest.",
   },
   {
     id: 3,
@@ -130,8 +130,8 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">Save ₹5,000/-</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
             </>
           ),
         },

@@ -128,7 +128,7 @@ export default function page() {
             Full Stack (MEAN)Web Development Course Fee - Rs.50,000 (Rs 40,000
             after discount)
           </p>
-          <p>PHP & MySQL Course Fee - Rs.35,000 (Rs. 25,000 after discount) </p>
+          <p>PHP & MySQL Course Fee - Rs.65,000 (Rs. 55,000 after discount) </p>
           <p>
             WordPress Development Course Fee - Rs. 30,000 (Rs. 20,000 after
             discount)
@@ -256,8 +256,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹50,000</span>{" "}
-              ₹40,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -300,8 +300,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹50,000</span>{" "}
-              ₹40,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -344,8 +344,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -388,8 +388,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
