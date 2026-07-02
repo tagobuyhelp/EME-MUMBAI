@@ -126,10 +126,7 @@ export default function ContactPageClient() {
                 >
                   8207205867
                 </a>{" "}
-                <span>/</span>{" "}
-                <span className="hover:underline cursor-pointer">
-                  <a href="tel:+91-9831284098">9831284098</a>
-                </span>
+                
               </li>
 
               <li className="flex items-center  gap-2 mt-[5px] lg:mt-[15px] hover:underline cursor-pointer">

@@ -64,7 +64,7 @@ export default function TalkToOurCareerExpert({
           Reach out to our expert{" "}
           <span className="flex flex-row justify-center items-center gap-2">
             <Phone size={16} />
-            9831284098
+            8207205867
           </span>
         </p>
       </div>

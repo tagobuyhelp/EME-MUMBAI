@@ -215,7 +215,7 @@ export default function ThankYou() {
                       }}
                     >
                       <div className="flex flex-row gap-2 items-center justify-center">
-                        <Phone className="w-4 h-4" /> 8207205867 / 9831284098
+                        <Phone className="w-4 h-4" /> 8207205867
                       </div>
                       <div className="flex flex-row gap-2 items-center justify-center">
                         <Globe className="w-4 h-4" /> emeacademy.co.in

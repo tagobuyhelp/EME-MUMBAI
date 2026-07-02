@@ -9,7 +9,7 @@ export default function CareerCall() {
           For any queries , Call us
         </p>
         <a
-          href="tel:+919831284098"
+          href="tel:+918207205867"
           className="flex flex-row px-[10px] lg:px-[20px] py-[6px] lg:py-[10px] text-[14px] bg-[#ffffff] font-medium text-[#151A28] rounded-md lg:rounded-xl hover:scale-105 transition-all"
         >
           <div>
