@@ -84,7 +84,7 @@ const faq = [
   {
     id: "9",
     title: "What are the course fees, and is there an EMI option?",
-    desc: "We maintain highly transparent and competitive Graphic Design Course Fees Mumbai, with packages starting at ₹25,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus on your creativity instead of financial stress.",
+    desc: "We maintain highly transparent and competitive Graphic Design Course Fees Mumbai, with packages starting at ₹55,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus on your creativity instead of financial stress.",
   },
   {
     id: "10",
@@ -123,7 +123,7 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹35,000</span> ₹25,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -164,7 +164,7 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span> ₹30,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },

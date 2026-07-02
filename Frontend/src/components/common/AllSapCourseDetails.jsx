@@ -95,7 +95,7 @@ export default function AllSapCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                    INR. 40,000
+                                    INR. 65,000
                                 </div>
                                 <div>
                                     Full Course
@@ -109,7 +109,7 @@ export default function AllSapCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                    INR. 35,000
+                                    INR. 55,000
                                 </div>
                                 <div>
                                     Discounted Price

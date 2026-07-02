@@ -41,8 +41,8 @@ const AnimationVfxfaq = [
     title: "What is the duration and fee of each animation course?",
     desc: (
       <>
-        <p>• 2D Animation Course Fee - ₹30,000</p>
-        <p>• 3D Animation Course Fee - ₹40,000</p>
+        <p>• 2D Animation Course Fee - ₹55,000</p>
+        <p>• 3D Animation Course Fee - ₹55,000</p>
         <p>• 2D + 3D Combo Course Fee - <span style={{textDecoration: 'line-through', color: '#FF0000'}}>₹65,000</span> ₹55,000 (Save ₹10,000)</p>
         <p>EMI options available for all courses</p>
       </>
@@ -156,7 +156,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹50,000</span> ₹30,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">Save ₹10,000/-</span>
           </>
         ),
@@ -228,7 +228,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹50,000</span> ₹40,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">Save ₹10,000/-</span>
           </>
         ),
@@ -367,7 +367,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹50,000</span> ₹40,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">Save ₹10,000/-</span>
           </>
         ),

@@ -30,7 +30,7 @@ const faq = [
     id: 2,
     title:
       "What is the fee structure for EME Academy Mumbai’s Web Design Course in Mumbai?",
-    desc: "The web design course fee in Mumbai at EME Academy Mumbai is structured to be affordable and flexible. The total course fee is ₹40,000, but with a limited-time discount, you can enroll for just ₹30,000. We also offer 0% interest EMI options, making it easier for students and working professionals to join one of the best web designing courses in Mumbai with placement support.",
+    desc: "The web design course fee in Mumbai at EME Academy Mumbai is structured to be affordable and flexible. The total course fee is ₹65,000, but with a limited-time discount, you can enroll for just ₹55,000. We also offer 0% interest EMI options, making it easier for students and working professionals to join one of the best web designing courses in Mumbai with placement support.",
   },
   {
     id: 3,
@@ -164,8 +164,8 @@ export default function page() {
             label: "Affordable Fees",
             value: (
               <>
-                <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">after discount</span>
+                <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+                ₹55,000 <span className="text-[#00A51E]">after discount</span>
               </>
             ),
           },

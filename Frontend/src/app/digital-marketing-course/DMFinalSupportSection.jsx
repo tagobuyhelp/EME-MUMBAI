@@ -184,11 +184,11 @@ export default function DMFinalSupportSection({ _this }) {
                       <SelectValue placeholder="Select Program" />
                     </SelectTrigger>
                     <SelectContent position="popper" side="bottom">
-                      <SelectItem value="Advanced Digital Marketing (Facebook & Google Ads) — ₹30,000">
-                        Advanced Digital Marketing (Facebook & Google Ads) — ₹30,000
+                      <SelectItem value="Advanced Digital Marketing (Facebook & Google Ads) - ₹55,000">
+                        Advanced Digital Marketing (Facebook & Google Ads) - ₹55,000
                       </SelectItem>
-                      <SelectItem value="Master Digital Marketing with AI — ₹35,000">
-                        Master Digital Marketing with AI — ₹35,000
+                      <SelectItem value="Master Digital Marketing with AI - ₹55,000">
+                        Master Digital Marketing with AI - ₹55,000
                       </SelectItem>
                       <SelectItem value="Both — Tell me more">Both — Tell me more</SelectItem>
                     </SelectContent>

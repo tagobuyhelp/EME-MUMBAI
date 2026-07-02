@@ -87,7 +87,7 @@ const faq = [
   {
     id: 7,
     title: "What is the cost of the course, and are there payment plans?",
-    desc: "We believe elite creative education should be accessible. We maintain highly transparent Graphic Design Course Fees Mumbai, with the complete 6-month diploma priced at just ₹30,000 after our special discount. We also offer 0% No-Cost EMI options so you can focus on building your portfolio, not stressing over finances.",
+    desc: "We believe elite creative education should be accessible. We maintain highly transparent Graphic Design Course Fees Mumbai, with the complete 6-month diploma priced at just ₹55,000 after our special discount. We also offer 0% No-Cost EMI options so you can focus on building your portfolio, not stressing over finances.",
   },
   {
     id: 8,
@@ -141,8 +141,8 @@ const courseDetailsData = {
           label: "Transparent Graphic Design Course Fees Mumbai",
           value: (
             <>
-              Affordable Fees at <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹30,000 <span className="text-[#00A51E]">(Save ₹10,000/- Special Discount)</span>
+              Affordable Fees at <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">(Save ₹10,000/- Special Discount)</span>
             </>
           ),
         },

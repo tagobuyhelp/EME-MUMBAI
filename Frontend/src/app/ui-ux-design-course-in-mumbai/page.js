@@ -90,7 +90,7 @@ const faq = [
   {
     id: 8,
     title: "What is the cost of the program, and are there payment plans?",
-    desc: "We believe elite tech education should be accessible to everyone. We maintain highly transparent Web Design Course Fees Mumbai, with the complete 6-month diploma priced at just ₹35,000 after our special discount. We also offer 0% No-Cost EMI options.",
+    desc: "We believe elite tech education should be accessible to everyone. We maintain highly transparent Web Design Course Fees Mumbai, with the complete 6-month diploma priced at just ₹55,000 after our special discount. We also offer 0% No-Cost EMI options.",
   },
   {
     id: 9,
@@ -149,8 +149,8 @@ export default function page() {
             label: "Transparent Web Design Course Fees Mumbai",
             value: (
               <>
-                Affordable Fees at <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">(after discount)</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+                ₹55,000 <span className="text-[#00A51E]">(after discount)</span>
               </>
             ),
           },

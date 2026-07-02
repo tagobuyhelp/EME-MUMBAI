@@ -121,16 +121,16 @@ export default function page() {
         <>
           <p>Yes, there are</p>
           <p>
-            Full Stack (MERN)Web Development Course Fee - Rs.50,000 (Rs 40,000
+            Full Stack (MERN)Web Development Course Fee - Rs.65,000 (Rs. 55,000
             after discount){" "}
           </p>
           <p>
-            Full Stack (MEAN)Web Development Course Fee - Rs.50,000 (Rs 40,000
+            Full Stack (MEAN)Web Development Course Fee - Rs.65,000 (Rs. 55,000
             after discount)
           </p>
           <p>PHP & MySQL Course Fee - Rs.65,000 (Rs. 55,000 after discount) </p>
           <p>
-            WordPress Development Course Fee - Rs. 30,000 (Rs. 20,000 after
+            WordPress Development Course Fee - Rs.65,000 (Rs. 55,000 after
             discount)
           </p>
         </>

@@ -24,7 +24,7 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
       id: 3,
       question: "What are the course fees?",
       answer:
-        "Digital marketing course fees in Mumbai can vary depending on the institution, but EME Academy Mumbai offers competitive fees, just ₹30,000 in total, with an admission fee of ₹15,000 and, a course duration of 6 months, To learn more, please get in touch with the academy directly.",
+        "Digital marketing course fees in Mumbai can vary depending on the institution, but EME Academy Mumbai offers competitive fees, just ₹55,000 in total, with a course duration of 6 months. To learn more, please get in touch with the academy directly.",
     },
     {
       id: 4,

@@ -96,7 +96,7 @@ export default function MotionGraphicsCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                Total Fee - INR. 45,000 
+                                Total Fee - INR. 65,000 
                                 </div>
                                 <div>
                                     Full Course
@@ -110,7 +110,7 @@ export default function MotionGraphicsCourseDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                Discounted Fee - INR. 35,000 
+                                Discounted Fee - INR. 55,000 
                                 </div>
                                 <div>
                                     Discounted Price

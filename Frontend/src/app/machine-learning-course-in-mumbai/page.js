@@ -157,8 +157,8 @@ export default function page() {
             label: "Transparent AI ML Course Fees Mumbai",
             value: (
               <>
-                Affordable Fees at <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">(Save ₹10,000/- Special Discount)</span>
+                Affordable Fees at <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+                ₹55,000 <span className="text-[#00A51E]">(Save ₹10,000/- Special Discount)</span>
               </>
             ),
           },

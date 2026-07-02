@@ -63,7 +63,7 @@ const faqs = [
   {
     id: 4,
     title: "4. What is the course duration and fee structure?",
-    desc: "Course lengths usually vary between 3 and 6 months, depending on the course's comprehensiveness. Fees vary by course and range from ₹20,000 to ₹40,000, and are offered with flexible and 0% EMI options so that learners can concentrate on learning, and not on financial troubles."
+    desc: "Course lengths usually vary between 3 and 6 months, depending on the course's comprehensiveness. Fees are ₹55,000 after discount, and are offered with flexible and 0% EMI options so that learners can concentrate on learning, and not on financial troubles."
   },
   {
     id: 5,

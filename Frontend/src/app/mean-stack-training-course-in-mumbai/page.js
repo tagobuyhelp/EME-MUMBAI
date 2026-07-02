@@ -52,7 +52,7 @@ const faq = [
   {
     id: 3,
     title: "What technologies and tools will I learn in this course?",
-    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.You will master tools like HTML5, CSS3, JavaScript, Angular, TypeScript, Node.js, Express.js, MongoDB, Postman, JWT, GitHub, MongoDB Atlas, and more—covering everything from front-end UI to secure backend APIs.",
+    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹65,000, but currently offered at a discounted rate of ₹55,000. EMI options with 0% interest are available.You will master tools like HTML5, CSS3, JavaScript, Angular, TypeScript, Node.js, Express.js, MongoDB, Postman, JWT, GitHub, MongoDB Atlas, and more—covering everything from front-end UI to secure backend APIs.",
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ const faq = [
     id: 11,
     title:
       "What is the duration and fee structure of the MEAN Stack course in Mumbai?",
-    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
+    decs: "The full MEAN Stack Development Course in Mumbai is 6 months. The regular fee is ₹65,000, but currently offered at a discounted rate of ₹55,000. EMI options with 0% interest are available.",
   },
 ];
 
@@ -127,8 +127,8 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹50,000</span>{" "}
-              ₹40,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
             </>
           ),
         },

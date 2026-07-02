@@ -35,7 +35,7 @@ const faqs = [
   {
     id: 2,
     title: "What is the duration and fee of the HR course?",
-    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Mumbai at EME Academy Mumbai is ₹20,000 after discount. EMI options are also available.",
+    desc: "The course duration is 3 months, including a 1-month internship. The Human Resource course fees in Mumbai at EME Academy Mumbai is ₹55,000 after discount. EMI options are also available.",
   },
   {
     id: 3,
@@ -143,8 +143,8 @@ function page() {
             label: "Affordable Fees",
             value: (
               <>
-                <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-                ₹35,000 <span className="text-[#00A51E]">Save ₹5,000/-</span>
+                <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+                ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
               </>
             ),
           },

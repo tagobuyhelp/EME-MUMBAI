@@ -155,7 +155,7 @@ const courses = [
       {
         icon: "/assets/icons/BudgetIcon.svg",
         label: "Affordable Fees",
-        value: "₹30,000 Affordable EMI Options Available",
+        value: "₹55,000 Affordable EMI Options Available",
       },
       {
         icon: "/assets/icons/TrainingIcon.svg",
@@ -214,7 +214,7 @@ const courses = [
       {
         icon: "/assets/icons/BudgetIcon.svg",
         label: "Affordable Fees",
-        value: "₹40,000 Flexible Payment Plans",
+        value: "₹55,000 Flexible Payment Plans",
       },
       {
         icon: "/assets/icons/TrainingIcon.svg",
@@ -346,7 +346,7 @@ const courses = [
       {
         icon: "/assets/icons/BudgetIcon.svg",
         label: "Affordable Fees",
-        value: "₹40,000 EMI Available",
+        value: "₹55,000 EMI Available",
       },
       {
         icon: "/assets/icons/TrainingIcon.svg",

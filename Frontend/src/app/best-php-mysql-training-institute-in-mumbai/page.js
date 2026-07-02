@@ -47,7 +47,7 @@ const faq = [
     id: 2,
     title:
       "What is the duration and fee structure of the PHP MySQL course in Mumbai?",
-    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹35,000, but we're currently offering it at ₹25,000 as part of a limited-time promotion at EME Academy Mumbai. EMI options with 0% interest are available.",
+    decs: "The full PHP & MySQL Development Intensive Course runs for 4 months. The regular course fee is ₹65,000, but we're currently offering it at ₹55,000 as part of a limited-time promotion at EME Academy Mumbai. EMI options with 0% interest are available.",
   },
   {
     id: 3,
@@ -133,8 +133,8 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹40,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">Save ₹5,000/-</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
             </>
           ),
         },

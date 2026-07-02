@@ -94,7 +94,7 @@ export default function DDMDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                Total Fee - INR. 45,000 
+                                Total Fee - INR. 65,000 
                                 </div>
                                 <div>
                                     Full Course
@@ -108,7 +108,7 @@ export default function DDMDetails({
                             </div>
                             <div className='fle flex-col text-[12px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
                                 <div className='font-[600] text-[14px]'>
-                                Discounted Fee - INR. 35,000 
+                                Discounted Fee - INR. 55,000 
                                 </div>
                                 <div>
                                     Discounted Price
@@ -152,17 +152,17 @@ export default function DDMDetails({
                     <div className='flex flex-col lg:flex-row px-[22px] lg:px-[40px] py-[20px] justify-between items-start gap-[10px]'>
                         <div className='flex justify-center items-center gap-[5px]'>
                             <div className='text-[14px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
-                            INR 10,000 
+                            INR 20,000 
                             </div>
                         </div>
                         <div className='flex justify-center items-center gap-[5px]'>
                             <div className='text-[14px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
-                            INR 10,000 
+                            INR 20,000 
                             </div>
                         </div>
                         <div className='flex justify-center items-center gap-[5px]'>
                             <div className='text-[14px] font-[400] leading-[14px]  text-[#121112] text-wrap'>
-                            INR 5,000 
+                            INR 15,000 
                             </div>
                         </div>
                         

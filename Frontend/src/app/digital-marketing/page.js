@@ -45,8 +45,8 @@ const DMfaq = [
           Our digital marketing courses in Mumbai range from 4 to 6 months,
           including internship. The course fees are mentioned below:
         </p>
-        <p>● Advanced Digital Marketing (Facebook & Google Ads)- ₹30,000</p>
-        <p>● Master Digital Marketing with AI- ₹40,000</p>
+        <p>● Advanced Digital Marketing (Facebook & Google Ads)- ₹55,000</p>
+        <p>● Master Digital Marketing with AI- ₹55,000</p>
       </>
     ),
   },
@@ -239,8 +239,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹35,000</span>{" "}
-              ₹30,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },
@@ -365,8 +365,8 @@ export default function page() {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">after discount</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">after discount</span>
             </>
           ),
         },

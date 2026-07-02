@@ -52,7 +52,7 @@ const MernStackfaq = [
     id: 2,
     title:
       "What is the duration and fee structure of the MERN Stack course in Mumbai?",
-    decs: "The full MERN Stack Development Course in Mumbai is 6 months. The regular fee is ₹50,000, but currently offered at a discounted rate of ₹40,000. EMI options with 0% interest are available.",
+    decs: "The full MERN Stack Development Course in Mumbai is 6 months. The regular fee is ₹65,000, but currently offered at a discounted rate of ₹55,000. EMI options with 0% interest are available.",
   },
   {
     id: 3,
@@ -133,8 +133,8 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹50,000</span>{" "}
-              ₹40,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
             </>
           ),
         },

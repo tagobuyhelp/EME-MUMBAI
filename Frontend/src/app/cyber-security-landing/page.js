@@ -47,7 +47,7 @@ const faq = [
   {
     id: 2,
     title: "What is the duration and fee of the Cyber Security course?",
-    desc: "The cyber security course fees is ₹30,000 after discount. It’s duration is 6 months (5 months of intensive training + 1-month internship).",
+    desc: "The cyber security course fees is ₹55,000 after discount. It’s duration is 6 months (5 months of intensive training + 1-month internship).",
   },
   {
     id: 3,
@@ -116,8 +116,8 @@ const courseDetailsData = {
           label: "Affordable Fees",
           value: (
             <>
-              <span className="line-through text-[#FF0000]">₹45,000</span>{" "}
-              ₹35,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
+              <span className="line-through text-[#FF0000]">₹65,000</span>{" "}
+              ₹55,000 <span className="text-[#00A51E]">Save ₹10,000/-</span>
             </>
           ),
         },

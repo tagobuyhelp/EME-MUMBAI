@@ -88,7 +88,7 @@ const faq = [
   {
     id: 8,
     title: "What are the fees, and do you offer EMI options?",
-    desc: "We believe elite tech education should be accessible, which is why we maintain highly transparent and competitive Data Science Course Fees Mumbai. Our comprehensive diploma is currently available at a discounted rate of ₹40,000. More importantly, we offer zero-interest, No-Cost EMI options so you can focus entirely on mastering algorithms rather than stressing over upfront costs.",
+    desc: "We believe elite tech education should be accessible, which is why we maintain highly transparent and competitive Data Science Course Fees Mumbai. Our comprehensive diploma is currently available at a discounted rate of ₹55,000. More importantly, we offer zero-interest, No-Cost EMI options so you can focus entirely on mastering algorithms rather than stressing over upfront costs.",
   },
   {
     id: 9,
@@ -284,7 +284,7 @@ function page() {
           label: "Transparent Data Science Course Fees Mumbai",
           value: (
             <>
-              Affordable Fees at <span className="line-through text-[#FF0000]">₹50,000</span> ₹40,000{" "}
+              Affordable Fees at <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
               <span className="text-[#00A51E]">(Save ₹10,000/- Special Discount)</span>
             </>
           ),

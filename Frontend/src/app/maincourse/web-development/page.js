@@ -75,7 +75,7 @@ const webdevfaq = [
   {
     id: "8",
     title: "What are the course fees, and do you offer EMI?",
-    desc: "We believe elite tech education should be accessible. Our Web Development Course Fees Mumbai are fully transparent, starting between ₹35,000 and ₹40,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your coding projects instead of financial stress.",
+    desc: "We believe elite tech education should be accessible. Our Web Development Course Fees Mumbai are fully transparent, starting at ₹55,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your coding projects instead of financial stress.",
   },
   {
     id: "9",
@@ -123,7 +123,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹50,000</span> ₹40,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">after discount</span>
           </>
         ),
@@ -167,7 +167,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹50,000</span> ₹40,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">after discount</span>
           </>
         ),
@@ -212,7 +212,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹40,000</span> ₹35,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">after discount</span>
           </>
         ),
@@ -256,7 +256,7 @@ const courses = [
         label: "Affordable Fees",
         value: (
           <>
-            <span className="line-through text-[#FF0000]">₹40,000</span> ₹35,000{" "}
+            <span className="line-through text-[#FF0000]">₹65,000</span> ₹55,000{" "}
             <span className="text-[#00A51E]">after discount</span>
           </>
         ),

@@ -460,7 +460,7 @@ const DMfaq = [
   {
     id: "9",
     title: "What is the cost of the program, and do you offer EMI?",
-    desc: "We believe elite, agency-level education should be accessible. We maintain highly transparent and competitive Digital Marketing Course Fees Mumbai, with options starting at ₹30,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your campaigns instead of your finances.",
+    desc: "We believe elite, agency-level education should be accessible. We maintain highly transparent and competitive Digital Marketing Course Fees Mumbai, with options starting at ₹55,000 after discounts. We also provide zero-interest, No-Cost EMI options so you can focus entirely on your campaigns instead of your finances.",
   },
   {
     id: "10",
