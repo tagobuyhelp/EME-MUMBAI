@@ -6,9 +6,10 @@ import Link from "next/link"
 export const Footer = () => {
   const addressUrl = "https://maps.app.goo.gl/MnUFq3bQptnJTR626";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
+  const addressUrl3 = "https://maps.app.goo.gl/GJfuei9WJHoQGVAy9";
   return (
     <div className="w-full bg-[#131932]">
-      <div className="bg-[#131932] text-[#FFFFFF] w-full 2xl:w-[1380px] mx-auto lg:max-h-[522px] py-[20px] px-[20px] lg:py-[40px] lg:px-[80px]">
+      <div className="bg-[#131932] text-[#FFFFFF] w-full 2xl:w-[1380px] mx-auto  py-[20px] px-[20px] lg:py-[40px] lg:px-[80px]">
         <div className='flex flex-col lg:flex-col justify-between items-start gap-[20px] lg:gap-8'>
           {/* EME logo Description logo done */}
           <div className='flex flex-col lg:flex-col justify-start items-start gap-[20px] lg:gap-5'>
@@ -239,7 +240,18 @@ export const Footer = () => {
                             height={25}
                             className=" w-[18px] h-[18px] lg:w-[24px] lg:h-[24px] shrink-0"
                             src="/assets/images/Web_Development/icons/icons8-india-48.png"
-                            alt="Location Icon" />8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai, Maharashtra 400710
+                            alt="Location Icon" />EME Academy, 8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai, Maharashtra 400710
+                        </Link>
+                      </div>
+                      <div className='flex mt-[10px] hover:underline cursor-pointer'>
+
+                        <Link href={addressUrl3} target="_blank" className='flex gap-2'>
+                          <Image
+                            width={25}
+                            height={25}
+                            className=" w-[18px] h-[18px] lg:w-[24px] lg:h-[24px] shrink-0"
+                            src="/assets/images/Web_Development/icons/icons8-india-48.png"
+                            alt="Location Icon" />EME Academy, 5th Floor, TOWER-1, Globsyn Crystals, 505, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091
                         </Link>
                       </div>
                       <div className='flex mt-[10px] hover:underline cursor-pointer'>

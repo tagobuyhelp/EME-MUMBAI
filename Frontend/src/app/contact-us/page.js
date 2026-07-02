@@ -17,9 +17,9 @@ export const metadata = {
 
 
 export default function ContactPageClient() {
-    const Courses = "All Course"
-    const email_sender = "ALL"
-    const SelectCourses = [
+  const Courses = "All Course"
+  const email_sender = "ALL"
+  const SelectCourses = [
     "Data Analytics Course",
     "Sap Course",
     "Digital Marketing Course",
@@ -32,19 +32,20 @@ export default function ContactPageClient() {
     "Animation & VFX Course",
     "Cloud Computing Course",
     "Prompt Engineering with AI Course"
-    ];
-    const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
-    const BrochureName = "EME-brochure-2024.pdf";
-    const _this = {
-      SelectCourses,
-      Courses,
-      email_sender,
-      Brochure,
-      BrochureName,
-    };
+  ];
+  const Brochure = "https://drive.google.com/file/d/1Sa3EPxn939y85I9D7YwJJ2gGwpw7RGyx/view?usp=sharing";
+  const BrochureName = "EME-brochure-2024.pdf";
+  const _this = {
+    SelectCourses,
+    Courses,
+    email_sender,
+    Brochure,
+    BrochureName,
+  };
 
   const addressUrl1 = "https://maps.app.goo.gl/MnUFq3bQptnJTR626";
   const addressUrl2 = "https://maps.app.goo.gl/HzhGJgQaWtG4G2C5A";
+  const addressUrl3 = "https://maps.app.goo.gl/GJfuei9WJHoQGVAy9";
 
   return (
     <main className="flex flex-col  justify-center items-center w-full min-h-screen ">
@@ -81,6 +82,19 @@ export default function ContactPageClient() {
                   8th floor, RUPA SOLITAIRE, MILLENNIUM BUSINESS PARK, 814, D wing, Mahape, Navi Mumbai, Maharashtra 400710
                 </Link>
               </div>
+
+              <div className='flex mt-[10px] hover:underline cursor-pointer'>
+
+                <Link href={addressUrl3} target="_blank" className='flex gap-2'>
+                  <Image
+                    width={25}
+                    height={25}
+                    className=" w-[18px] h-[18px] lg:w-[24px] lg:h-[24px] shrink-0"
+                    src="/assets/images/Web_Development/icons/icons8-india-48.png"
+                    alt="Location Icon" />  EME Academy, 5th Floor, TOWER-1, Globsyn Crystals, 505, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091
+                </Link>
+              </div>
+
               <div className="flex mt-[10px] hover:underline cursor-pointer">
                 <Link
                   href={addressUrl2}
@@ -173,8 +187,8 @@ export default function ContactPageClient() {
                   target="_blank"
                 >
                   <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[45px] h-[45px] lg:w-[50px] lg:h-[50px] hover:scale-105 transition-all ease-out">
-                    <circle cx="17.5" cy="17.7687" r="17.5" fill="#F9F9F9"/>
-                    <path d="M17.5 10.2687c-4.14 0-7.5 3.36-7.5 7.5 0 3.18 1.98 5.89 4.77 6.98-.08-.59-.16-1.51.03-2.16.17-.59 1.11-4.7 1.11-4.7s-.28-.56-.28-1.4c0-1.31.76-2.29 1.71-2.29.8 0 1.19.6 1.19 1.33 0 .81-.51 2.02-.78 3.14-.22.94.47 1.7 1.4 1.7 1.68 0 2.97-1.77 2.97-4.32 0-2.26-1.62-3.84-3.94-3.84-2.69 0-4.26 2.02-4.26 4.1 0 .81.31 1.68.7 2.15.08.09.09.18.06.27l-.26 1.07c-.04.17-.14.21-.32.13-1.18-.55-1.92-2.27-1.92-3.66 0-2.98 2.16-5.71 6.23-5.71 3.27 0 5.81 2.33 5.81 5.45 0 3.25-2.05 5.87-4.89 5.87-.96 0-1.85-.5-2.16-1.08l-.59 2.24c-.21.82-.79 1.85-1.17 2.47 1.11.34 2.29.53 3.5.53 4.14 0 7.5-3.36 7.5-7.5 0-4.14-3.36-7.5-7.5-7.5z" fill="#0057E2"/>
+                    <circle cx="17.5" cy="17.7687" r="17.5" fill="#F9F9F9" />
+                    <path d="M17.5 10.2687c-4.14 0-7.5 3.36-7.5 7.5 0 3.18 1.98 5.89 4.77 6.98-.08-.59-.16-1.51.03-2.16.17-.59 1.11-4.7 1.11-4.7s-.28-.56-.28-1.4c0-1.31.76-2.29 1.71-2.29.8 0 1.19.6 1.19 1.33 0 .81-.51 2.02-.78 3.14-.22.94.47 1.7 1.4 1.7 1.68 0 2.97-1.77 2.97-4.32 0-2.26-1.62-3.84-3.94-3.84-2.69 0-4.26 2.02-4.26 4.1 0 .81.31 1.68.7 2.15.08.09.09.18.06.27l-.26 1.07c-.04.17-.14.21-.32.13-1.18-.55-1.92-2.27-1.92-3.66 0-2.98 2.16-5.71 6.23-5.71 3.27 0 5.81 2.33 5.81 5.45 0 3.25-2.05 5.87-4.89 5.87-.96 0-1.85-.5-2.16-1.08l-.59 2.24c-.21.82-.79 1.85-1.17 2.47 1.11.34 2.29.53 3.5.53 4.14 0 7.5-3.36 7.5-7.5 0-4.14-3.36-7.5-7.5-7.5z" fill="#0057E2" />
                   </svg>
                 </a>
 
@@ -216,7 +230,7 @@ export default function ContactPageClient() {
           </div>
 
           <div className="w-full md:w-[40%]">
-            <ContactForm {..._this}/>
+            <ContactForm {..._this} />
           </div>
         </div>
       </div>
