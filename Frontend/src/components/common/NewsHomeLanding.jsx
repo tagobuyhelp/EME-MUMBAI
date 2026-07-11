@@ -54,58 +54,27 @@ export function NewsHomeLanding({
     },
     {
       id: 2,
-      src: "/assets/images/newsOne.webp",
-      channel:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/abpnews.png",
-      link: "https://bengali.abplive.com/brand-wire/eme-academy-is-guiding-force-for-employment-by-conducting-professional-courses-1045489",
-    },
-    {
-      id: 3,
-      src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/TheStatesmanNews.jpeg",
-      channel: "/assets/images/The_Statesman.png",
-      link: "https://www.thestatesman.com/features/how-kazi-mahasin-azim-went-from-dropout-to-founder-of-one-of-kolkatas-leading-skill-institutes-1503489221.html#",
-    },
-    {
-      id: 4,
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/newsFour.webp",
       channel: "/assets/images/republic.svg",
       link: "https://www.republicbharat.com/india/eme-academy-professional-courses-make-bright-future-of-students/",
     },
     {
-      id: 5,
-      src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/Tv9News.png",
-      channel: "/assets/icons/TV9Logo.svg",
-      link: "https://tv9bangla.com/kolkata/grand-event-was-organized-in-the-heart-of-kolkata-by-the-career-oriented-training-center-eme-academy-1170791.html",
+      id: 3,
+      src: "/assets/images/Home/news/mid-day-post.jpeg",
+      channel: "/assets/images/Home/news/mid-day.png",
+      link: "https://www.mid-day.com/buzzfeed/article/the-success-story-of-the-eme-academy-moulding-careers-empowering-futures-in-the-new-age-economy---9281",
     },
     {
-      id: 6,
-      src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/PratidinNews.jpeg",
-      channel: "/assets/images/Sangbad_Pratidin_Logo.png",
-      link: "https://www.sangbadpratidin.in/career/eme-academy-take-new-initiative-to-eliminate-unemployment/",
-    },
-    {
-      id: 7,
-      src: "/assets/images/newsThree.webp",
-      channel: "/assets/images/kolomT.png",
-      link: "https://www.puberkalom.com/eme-academic-special-honors/",
-    },
-    {
-      id: 8,
+      id: 4,
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/statupPedia.jpg",
       channel: "/assets/images/startup_pedia_logo.jpg",
       link: "https://www.linkedin.com/posts/startup-pedia_startup-kolkatastartup-edtech-activity-7295396798280413184-japp/?utm_source=share&utm_medium=member_android&rcm=ACoAACijlzoBUEvFD0HPtgn5Quk1RNa07qDQhr4",
     },
     {
-      id: 9,
+      id: 5,
       src: "/assets/images/newsTwo.webp",
       channel: "/assets/images/Dailyhunt.png",
       link: "http://dhunt.in/SHbMS",
-    },
-    {
-      id: 10,
-      src: "/assets/images/Home/news/mid-day-post.jpeg",
-      channel: "/assets/images/Home/news/mid-day.png",
-      link: "https://www.mid-day.com/buzzfeed/article/the-success-story-of-the-eme-academy-moulding-careers-empowering-futures-in-the-new-age-economy---9281",
     },
   ];
 
@@ -170,13 +139,9 @@ export function NewsHomeLanding({
           </CarouselContent>
 
           {/* Custom Nav Buttons */}
-          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 bg-white drop-shadow-md border rounded-full p-2 md:p-3">
-            <ChevronLeft className="w-4 h-4 md:w-5 md:h-5 text-[#2251FF]" />
-          </CarouselPrevious>
+          <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 bg-white drop-shadow-md border rounded-full p-2 md:p-3" />
 
-          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 bg-white drop-shadow-md border rounded-full p-2 md:p-3">
-            <ChevronRight className="w-4 h-4 md:w-5 md:h-5 text-[#2251FF]" />
-          </CarouselNext>
+          <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 bg-white drop-shadow-md border rounded-full p-2 md:p-3" />
         </Carousel>
       </div>
       <CTAButton

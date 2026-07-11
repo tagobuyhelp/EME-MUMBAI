@@ -13,7 +13,7 @@ function Awards() {
         </p>
       </div>
       <div className="w-full h-auto md:h-[350px]   bg-white  shadow-xl  rounded-xl flex flex-col md:flex-row gap-4 items-center overflow-hidden">
-        <div className="md:w-[50%]  h-[50%] md:h-full flex flex-col justify-center gap-y-2 md:gap-y-4 px-4 md:px-14 py-2 items-center ">
+        <div className="md:w-[40%]  h-[50%] md:h-full flex flex-col justify-center gap-y-2 md:gap-y-4 px-4 md:px-6 py-2 items-center ">
           <div className="flex flex-row gap-2 md:justify-start justify-center items-center md:items-start w-full">
             <Image
               width={150}
@@ -57,7 +57,7 @@ function Awards() {
           </Card>
         </div>
 
-        <div className="w-full md:w-[65%] h-[50%] md:h-[90%] p-2 md:pr-10">
+        <div className="w-full md:w-[60%] h-[50%] md:h-[90%] p-2 md:pr-10">
           <div className="w-full h-full relative">
             <Image
               className="w-full h-full rounded-lg object-cover   md:object-cover object-center md:object-center  relative z-10"

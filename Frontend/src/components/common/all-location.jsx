@@ -6,16 +6,20 @@ export default function AllLocation() {
   const cards2 = [
     {
       id: 1,
-      title: "India Classroom",
-      image:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/About_Us/indian_classroom.png",
+      title: "Mumbai Classroom",
+      image: "/assets/images/mumbai_classroom.svg",
       flagIcon: "/assets/images/Web_Development/icons/icons8-india-48.png",
     },
     {
       id: 2,
+      title: "Kolkata Classroom",
+      image: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/About_Us/indian_classroom.png",
+      flagIcon: "/assets/images/Web_Development/icons/icons8-india-48.png",
+    },
+    {
+      id: 3,
       title: "London, UK. Classroom",
-      image:
-        "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/About_Us/uk_classroom.png",
+      image: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/About_Us/uk_classroom.png",
       flagIcon: "/assets/images/Web_Development/icons/icons8-uk-48.png",
     },
   ];
@@ -25,7 +29,7 @@ export default function AllLocation() {
         Our Classrooms
         <span className="flex flex-col items-end">
           <span className="text-[18px] md:text-[22px] text-[#232D63]">
-            – Mumbai & London
+            – Mumbai, Kolkata & London
           </span>
           <Image
             src="/assets/images/Home/icons/StudentsLineVector.svg"
@@ -36,7 +40,7 @@ export default function AllLocation() {
           />
         </span>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 w-full max-w-[1200px]">
         {cards2.map((card) => (
           <Card
             key={card.id}
@@ -50,8 +54,8 @@ export default function AllLocation() {
               className="w-full h-full object-cover"
             />
 
-            {/* Text overlay container */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-[#000000]">
+            {/* Text overlay container with dark readability backdrop */}
+            <div className="absolute inset-0 bg-black/45 flex flex-col items-center justify-center text-center text-white transition-all duration-300 hover:bg-black/35">
               <h3 className="flex gap-2 justify-center items-center text-[14px] md:text-xl font-bold mb-2">
                 <span>
                   <Image

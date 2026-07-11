@@ -33,8 +33,10 @@ const admissionSchema = z.object({
   mobile: z
     .string()
     .regex(/^(\+91-|\+91|0)?\d{10}$/, "Please enter valid mobile number"),
-  //   course: z.string().optional(),
   course: z.string().min(1, "Please select a course"),
+  terms: z.literal(true, {
+    errorMap: () => ({ message: "You must accept the terms and conditions" }),
+  }),
 });
 
 export default function LandingAdmissionForm(_this) {
@@ -50,6 +52,7 @@ export default function LandingAdmissionForm(_this) {
     // phone_number: "",
     course: _this.SelectCourses?.length > 0 ? "" : _this.Courses,
     email_sender: _this.email_sender,
+    terms: false,
   });
 
   const form = useForm({
@@ -282,11 +285,21 @@ focus:ring-1 focus:ring-blue-500  transition-colors"
           )}
 
           <div className="flex flex-col space-y-1">
-            <div className="flex items-start space-x-1">
-              <Checkbox id="terms" className="" />
+            <div className="flex items-start space-x-2">
+              <Controller
+                control={form.control}
+                name="terms"
+                render={({ field }) => (
+                  <Checkbox
+                    id="terms"
+                    checked={field.value}
+                    onCheckedChange={field.onChange}
+                  />
+                )}
+              />
               <Label
                 htmlFor="terms"
-                className="text-sm font-medium leading-none"
+                className="text-sm font-medium leading-none cursor-pointer"
               >
                 Accept terms and conditions
               </Label>

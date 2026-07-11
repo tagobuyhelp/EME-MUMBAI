@@ -3,7 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Home, Info, Briefcase, FileText, Trophy, Phone, BookOpen } from "lucide-react";
 
 export const AnotherHeader = () => {
   const [activeCategory, setActiveCategory] = useState(null);
@@ -54,33 +54,40 @@ export const AnotherHeader = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // Dropdown doesn't occupy full viewport height, so scroll locking is not needed
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   return (
     <div
-      className={
-        color
-          ? isOpen
-            ? "sticky top-0 w-full z-[99] bg-white shadow-md py-2  lg:py-2"
-            : "sticky top-0 w-full z-[99] backdrop-blur-md bg-white/75 py-2  lg:py-2"
-          : isOpen
-          ? "sticky top-0 w-full z-[99] bg-gradient-to-r from-[#CAE5FF] to-white py-2  lg:py-2"
-          : "sticky top-0 w-full z-[99] bg-white shadow-md py-2  lg:py-2"
-      }
+      className="sticky top-0 w-full z-[99] px-2 sm:px-4 md:px-8 py-2 transition-all duration-500 ease-in-out bg-transparent"
     >
-      <div className="relative flex items-center justify-between max-w-[1380px] mx-auto px-[20px] lg:px-24">
+      <div
+        className={`relative flex items-center justify-between mx-auto transition-all duration-500 ease-in-out ${
+          isOpen
+            ? "w-full max-w-[1280px] px-3 sm:px-6 py-4 bg-white shadow-lg rounded-2xl border border-slate-200"
+            : color
+            ? "w-full max-w-[1280px] px-3 sm:px-6 py-3 bg-white/85 backdrop-blur-md border border-slate-200/50 shadow-[0_8px_30px_rgb(0,0,0,0.06)] rounded-2xl mt-2 scale-[0.98] lg:scale-[0.99]"
+            : "w-full max-w-[1280px] px-3 sm:px-6 py-4 bg-white/95 backdrop-blur-[2px] border border-slate-200/20 shadow-[0_4px_20px_rgba(0,0,0,0.03)] rounded-2xl mt-2"
+        }`}
+      >
         {/* Logo Section */}
-        <div className="flex justify-center items-center gap-5 lg:gap-10">
+        <div className="flex justify-center items-center gap-2 sm:gap-4 lg:gap-8">
           <div className=" flex flex-col justify-start cursor-pointer">
             <Link href={"/"} className="z-[30]">
               <Image
-                className="w-[100px] h-[38px] md:w-[120px] md:h-[48.279998779296875px]"
-                width={150}
-                height={150}
+                className="w-[95px] h-[36px] md:w-[115px] md:h-[46px] object-contain"
+                width={130}
+                height={130}
                 src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/emeLogo.png"
                 alt="EME Academy Mumbai Logo"
                 priority
               />
             </Link>
-            <div className="text-[10px] md:text-[10px] text-[#252C65] font-bold text-nowrap ml-[13px] z-[30]">
+            <div className="text-[9px] md:text-[10px] text-[#252C65] font-bold text-nowrap ml-1.5 sm:ml-[10px] z-[30]">
               A <span className="text-[#E87D1A]">Decade</span> of Excellence
             </div>
           </div>
@@ -88,18 +95,19 @@ export const AnotherHeader = () => {
           {/* All Courses Button */}
           <div>
             <button
-              className="text-[#E9E7E4] text-[13px] lg:text-[14px] rounded-md bg-[#00a2e7] px-3 py-[10px] lg:px-5 lg:py-[12px] flex justify-center items-center gap-2 z-[30] relative"
+              className="text-white text-[11px] sm:text-[13px] lg:text-[14px] font-semibold rounded-lg bg-[#0057E2] hover:bg-[#0047C2] px-2.5 py-1.5 sm:px-3.5 sm:py-2 flex justify-center items-center gap-1 sm:gap-2 z-[30] relative shadow-md shadow-blue-500/10 hover:shadow-blue-500/20 transition-all duration-300"
               onClick={() => setOpenMenu(!openMenu)}
             >
               <Image
                 src="/assets/icons/book.svg"
                 alt="book"
-                width={18}
-                height={18}
+                width={14}
+                height={14}
+                className="w-3.5 h-3.5 sm:w-4 sm:h-4"
               />
               <span>Courses</span>
               <ChevronDown
-                className={`w-4 h-4 transition-transform duration-200 ${
+                className={`w-3 h-3 sm:w-3.5 sm:h-3.5 transition-transform duration-200 ${
                   openMenu ? "rotate-180" : ""
                 }`}
               />
@@ -109,22 +117,22 @@ export const AnotherHeader = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="flex lg:hidden flex-col justify-center items-center gap-[5px] bg-transparent z-[30] focus:outline-none"
+          className="flex lg:hidden flex-col justify-center items-center gap-[5px] bg-slate-100 hover:bg-slate-200 h-10 w-10 rounded-full z-[30] focus:outline-none transition-all duration-300"
           onClick={toggleMenu}
         >
           <span
-            className={`block bg-[#252C65] h-[2px] w-[25px] rounded-md origin-left transition-all ${
-              isOpen ? "rotate-45 opacity-1" : ""
+            className={`block bg-[#252C65] h-[2px] w-[20px] rounded-md transition-all duration-300 ${
+              isOpen ? "rotate-45 translate-y-[7px]" : ""
             }`}
           ></span>
           <span
-            className={`block bg-[#252C65] h-[2px] w-[25px] rounded-md origin-center transition-all ${
-              isOpen ? "opacity-0 mb-[4px]" : ""
+            className={`block bg-[#252C65] h-[2px] w-[20px] rounded-md transition-all duration-300 ${
+              isOpen ? "opacity-0" : "opacity-100"
             }`}
           ></span>
           <span
-            className={`block bg-[#252C65] h-[2px] w-[25px] rounded-md origin-left transition-all ${
-              isOpen ? "-rotate-[45deg] opacity-1" : ""
+            className={`block bg-[#252C65] h-[2px] w-[20px] rounded-md transition-all duration-300 ${
+              isOpen ? "-rotate-45 -translate-y-[7px]" : ""
             }`}
           ></span>
         </button>
@@ -133,95 +141,128 @@ export const AnotherHeader = () => {
         <div
           className={
             isOpen
-              ? " flex lg:hidden   flex-col items-start gap-[12px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-6 py-[10px] bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100%  animate-fade-in-left z-[28] transition-all "
-              : "hidden lg:flex flex-row items-center justify-center gap-[28px] lg:text-[15px] 2xl:text-[18px] text-[#E9E7E4] font-[400] 2xl:font-[400] "
+              ? "absolute top-full left-0 right-0 w-full bg-white/95 backdrop-blur-md shadow-xl rounded-2xl mt-2 p-5 border border-slate-200/60 flex lg:hidden flex-col items-stretch gap-2.5 text-[15px] font-semibold text-slate-800 animate-fade-in-down z-[98] transition-all"
+              : "hidden lg:flex flex-row items-center justify-center gap-[24px] lg:text-[14px] 2xl:text-[16px] font-[500] text-[#191919]"
           }
         >
           <Link
             href="/"
-            className={`link ${
-              pathname === "/" ? "text-blue-800 font-bold " : "text-[#191919]"
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
+              pathname === "/"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Home
+            <Home className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>Home</span>
           </Link>
+          {/* Collapsible Courses Item for Mobile */}
+          <div className="lg:hidden w-full">
+            <button
+              onClick={() => handleCategoryClick("mobile-courses")}
+              className="w-full flex items-center justify-between py-2 px-3 rounded-xl text-slate-700 hover:bg-slate-50 transition-all focus:outline-none"
+            >
+              <div className="flex items-center gap-3">
+                <BookOpen className="w-4 h-4 opacity-70 text-blue-600/80" />
+                <span>Our Courses</span>
+              </div>
+              <ChevronDown className={`w-4 h-4 text-slate-500 transition-transform ${activeCategory === "mobile-courses" ? "rotate-180" : ""}`} />
+            </button>
+            {activeCategory === "mobile-courses" && (
+              <div className="pl-6 pt-1.5 pb-2 flex flex-col gap-2 border-l border-slate-200 ml-5 mt-1 animate-fade-in-down">
+                <Link href="/data-analytics-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">Data Analytics Course</Link>
+                <Link href="/maincourse/sap-training-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">SAP Course</Link>
+                <Link href="/human-resource-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">HR Course</Link>
+                <Link href="/maincourse/digital-marketing-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">Digital Marketing Course</Link>
+                <Link href="/maincourse/web-development" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">Full-Stack IT Course</Link>
+                <Link href="/maincourse/data-science-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">Data Science Course</Link>
+                <Link href="/maincourse/graphic-design-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">Graphic Design Course</Link>
+                <Link href="/ui-ux-design-course-in-mumbai" onClick={() => setIsOpen(false)} className="text-sm py-1.5 text-slate-600 hover:text-blue-600 font-normal transition-colors">UI UX Course</Link>
+              </div>
+            )}
+          </div>
           <Link
             href="/about-us"
-            className={`link ${
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
               pathname === "/about-us"
-                ? " text-blue-800 font-bold  navElement-style "
-                : "text-[#191919]"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            About
+            <Info className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>About</span>
           </Link>
           <Link
             href="/recentplacements"
-            className={`link ${
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
               pathname === "/recentplacements"
-                ? "text-blue-800 font-bold  navElement-style "
-                : "text-[#191919]"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Recent Placements
+            <Briefcase className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>Recent Placements</span>
           </Link>
 
           <Link
             href="/blogs"
-            className={`link ${
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
               pathname === "/blogs"
-                ? "text-blue-800 font-bold  navElement-style "
-                : "text-[#191919]"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Blogs
+            <FileText className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>Blogs</span>
           </Link>
 
           <Link
             href="/rewards-recognition"
-            className={`link ${
-              pathname === "/careers"
-                ? "text-blue-800 font-bold  navElement-style "
-                : "text-[#191919]"
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
+              pathname === "/rewards-recognition"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Awards
+            <Trophy className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>Awards</span>
           </Link>
           <Link
             href="/contact-us"
-            className={`link ${
+            className={`relative transition-all duration-300 group flex items-center gap-2 py-2 px-3 rounded-xl lg:p-0 lg:rounded-none lg:bg-transparent lg:gap-1.5 ${
               pathname === "/contact-us"
-                ? "text-blue-800 font-bold navElement-style "
-                : "text-[#191919]"
+                ? "bg-blue-50 text-blue-600 font-bold lg:bg-transparent"
+                : "text-slate-700 hover:bg-slate-50 hover:text-blue-600 lg:hover:bg-transparent lg:text-[#333333]"
             }`}
             onClick={() => setIsOpen(false)}
           >
-            Contact Us
+            <Phone className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-600/80" />
+            <span>Contact Us</span>
           </Link>
 
-          <Link href="/admission-page">
-            <button className="lg:hidden text-[#fff] text-[14px] rounded-md bg-[#00a2e7] px-[24px] py-[12px] flex justify-center items-center gap-2 ">
+          <Link href="/admission-page" className="w-full mt-1 lg:hidden" onClick={() => setIsOpen(false)}>
+            <button className="w-full text-white text-[14px] font-semibold rounded-lg bg-[#FD7900] hover:bg-[#E87D1A] py-2.5 flex justify-center items-center gap-2 shadow-md shadow-orange-500/10 transition-all duration-300">
               <div>Get Admission</div>
               <Image
-                className=" w-[10px] lg:w-[16px] lg:h-[16px]  "
+                className=" w-[10px] lg:w-[16px] lg:h-[16px] "
                 width={500}
                 height={500}
                 src={"/assets/images/rightArrow.svg"}
-                alt="EME Academy Mumbai Logo"
+                alt="Admission"
               />
             </button>
           </Link>
         </div>
         <Link href="/admission-page" className="hidden lg:block">
-          <button className="hidden lg:flex text-[#E9E7E4]  text-[14px] rounded-md bg-[#00a2e7] px-[24px] py-[12px]  justify-center items-center gap-2 group hover:bg-blue-700 ">
+          <button className="hidden lg:flex text-white text-[14px] font-semibold rounded-lg bg-[#FD7900] hover:bg-[#E87D1A] px-5 py-2.5 justify-center items-center gap-2 group shadow-md shadow-orange-500/10 hover:shadow-orange-500/20 transition-all duration-300">
             <div>Get Admission</div>
             <Image
-              className=" w-[10px] lg:w-[16px] lg:h-[16px] group-hover:translate-x-1 transition-all "
+              className=" w-[12px] h-[12px] lg:w-[14px] lg:h-[14px] filter invert group-hover:translate-x-1 transition-all "
               width={500}
               height={500}
               src={"/assets/images/rightArrow.svg"}
@@ -234,7 +275,7 @@ export const AnotherHeader = () => {
         {openMenu && (
           <div
             ref={menuRef}
-            className="absolute top-full left-0 w-full  bg-white shadow-lg mt-2 rounded-xl z-50 animate-fade-in-down"
+            className="absolute top-full left-0 right-0 w-full bg-white shadow-xl mt-2 rounded-xl z-50 border border-slate-200/60 max-h-[70vh] overflow-y-auto animate-fade-in-down"
           >
             <div className="max-w-5xl mx-auto p-4 md:p-6">
               <div className="flex flex-col gap-2">
@@ -292,7 +333,7 @@ export const AnotherHeader = () => {
                     <div
                       className={`${
                         activeCategory === "sap" ? "block" : "hidden"
-                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 absolute left-0 w-full z-10`}
+                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 md:absolute relative left-0 w-full z-10`}
                     >
                       <div className="p-2 space-y-1">
                         <div className="text-[#97A3B7] uppercase text-xs font-semibold">
@@ -475,7 +516,7 @@ export const AnotherHeader = () => {
                     <div
                       className={`${
                         activeCategory === "marketing" ? "block" : "hidden"
-                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 absolute left-0 w-full z-10`}
+                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 md:absolute relative left-0 w-full z-10`}
                     >
                       <div className="p-2 space-y-1">
                         <div className="text-[#97A3B7] uppercase text-xs font-semibold">
@@ -558,7 +599,7 @@ export const AnotherHeader = () => {
                     <div
                       className={`${
                         activeCategory === "graphic" ? "block" : "hidden"
-                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 absolute left-0 w-full z-10`}
+                      } bg-white border border-gray-100 rounded-md shadow-sm mt-1 md:absolute relative left-0 w-full z-10`}
                     >
                       <div className="p-2 space-y-1">
                         <div className="text-[#97A3B7] uppercase text-xs font-semibold">

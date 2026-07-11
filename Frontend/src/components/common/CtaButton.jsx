@@ -34,7 +34,7 @@ export default function CTAButton({ name, styleClasses, _this, disableInternalMo
     }
 
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center w-full sm:w-auto">
             <Dialog>
                 <DialogTrigger asChild>
                     <Button

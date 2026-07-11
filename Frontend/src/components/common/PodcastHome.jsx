@@ -100,10 +100,14 @@ export default function PodcastHome({ _this: externalThis }) {
 
   //usemeemo concept to add idCode to each podcast
   const podcastWithThumbnails = podcasts.map((item) => {
+    const idCode = getYouTubeId(item.url);
+    const isDriveUrl = item.thumbnail.includes("drive.google.com");
     return {
       ...item,
-      idCode: getYouTubeId(item.url),
-
+      idCode,
+      thumbnail: isDriveUrl && idCode
+        ? `https://img.youtube.com/vi/${idCode}/hqdefault.jpg`
+        : item.thumbnail
     };
   });
 

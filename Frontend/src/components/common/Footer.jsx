@@ -63,7 +63,7 @@ export const Footer = () => {
                     src="/assets/images/yt.svg"
                     alt="EME Academy Mumbai Youtube Logo" />
                 </a>
-                <a href='https://www.youtube.com/channel/UCcYuv-IUJMyKdy0e-T5E5DA' target='_blank'>
+                <a href='https://www.linkedin.com/company/eme-academy/' target='_blank'>
                   <Image
                     className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] hover:scale-105 transition-all ease-out"
                     width={500}
@@ -85,8 +85,8 @@ export const Footer = () => {
             {/* <=--------------Line Seprator-------------=>*/}
             <div className='w-full h-[1px] bg-[#FFFFFF33]'></div>
 
-            <div >
-              <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4'>
+            <div className="w-full">
+              <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12'>
                 {/* <=----------------------------------Quick Links-----------------------------------=> */}
                 <div className=' flex flex-col font-normal leading-[20px] lg:leading-[24px] gap-2 lg:gap-[10px]'>
                   <div className='text-[14px] md:text-[16px] font-[700] leading-[10px] md:leading-[14px] text-nowrap text-white'>
@@ -295,10 +295,10 @@ export const Footer = () => {
         </div>
       </div>
       {/* <=----------------------------------Copyright and developed by-----------------------------------=> */}
-      <div className='w-full bg-[#ffffff]'>
-        <div className='w-full mx-auto 2xl:w-[1380px] flex text-black flex-col md:flex-row justify-center items-center gap-[10px] md:items-center  md:justify-between px-[20px]  lg:px-24  py-[20px]  text-[11px] lg:text-[12px] xl:text-[14px] font-[400] leading-[12px] lg:leading-[16px]'>
-          <div className='text-sm lg:text-base'> © 2025 <span className='text-[#00A2E7] font-[600]'>EME Academy Mumbai Educational & Welfare Trust</span>  | All Rights Reserved. </div>
-          <div className='text-[12px] lg:text-base'>Developed By <a href="https://mumbai.emeacademy.co.in/" className='text-sm lg:text-lg  font-[600] text-[#00A2E7]'>EME Academy Mumbai Team</a>
+      <div className='w-full bg-[#0a0e20] border-t border-white/10'>
+        <div className='w-full mx-auto 2xl:w-[1380px] flex text-white/70 flex-col md:flex-row justify-center items-center gap-[10px] md:items-center  md:justify-between px-[20px]  lg:px-24  py-[20px]  text-[11px] lg:text-[12px] xl:text-[14px] font-[400] leading-[12px] lg:leading-[16px]'>
+          <div className='text-sm lg:text-base text-center md:text-left'> © 2025 <span className='text-[#00A2E7] font-[600]'>EME Academy Mumbai Educational & Welfare Trust</span>  | All Rights Reserved. </div>
+          <div className='text-[12px] lg:text-base'>Developed By <a href="https://mumbai.emeacademy.co.in/" className='text-sm lg:text-lg  font-[600] text-[#00A2E7] hover:underline'>EME Academy Mumbai Team</a>
           </div>
         </div>
       </div>

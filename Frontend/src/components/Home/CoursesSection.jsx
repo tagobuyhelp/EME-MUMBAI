@@ -49,7 +49,7 @@ export default function CoursesSection() {
       originalPrice: 65000,
       discountedPrice: 55000,
       saving: "15% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      languages: ["English", "Hindi", "Marathi"],
       popular: true,
       popularText: "Most Popular",
       link: "/data-analytics-course-in-mumbai",
@@ -67,7 +67,7 @@ export default function CoursesSection() {
       originalPrice: 65000,
       discountedPrice: 55000,
       saving: "15% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      languages: ["English", "Hindi", "Marathi"],
       popular: true,
       popularText: "MNC Favorite",
       link: "/maincourse/sap-training-mumbai",
@@ -85,7 +85,7 @@ export default function CoursesSection() {
       originalPrice: 65000,
       discountedPrice: 55000,
       saving: "15% OFF",
-      languages: ["Bengali", "English", "Hindi"],
+      languages: ["English", "Hindi", "Marathi"],
       popular: true,
       popularText: "Trending",
       link: "/maincourse/digital-marketing-course-in-mumbai",
@@ -448,7 +448,13 @@ function CourseCard({ course, formatPrice }) {
         <div className="mt-auto grid grid-cols-2 gap-2">
           <Dialog>
             <DialogTrigger asChild>
-              <button className="w-full py-2.5 px-3 rounded-xl text-[11px] font-bold text-gray-600 bg-white hover:bg-gray-50 border border-gray-200 hover:border-[#0057E2]/30 transition-all duration-300">
+              <button
+                onClick={() => {
+                  setCtaType("download");
+                  setIsModalOpen(true);
+                }}
+                className="w-full py-2.5 px-3 rounded-xl text-[11px] font-bold text-gray-600 bg-white hover:bg-gray-50 border border-gray-200 hover:border-[#0057E2]/30 transition-all duration-300"
+              >
                 Brochure
               </button>
             </DialogTrigger>

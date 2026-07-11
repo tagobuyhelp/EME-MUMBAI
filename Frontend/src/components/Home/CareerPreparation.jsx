@@ -201,8 +201,8 @@ export default function CareerPreparation() {
               {stats.map((stat, index) => (
                 <div key={index} className="flex flex-col items-center">
                   <Loader value={stat.value} color={stat.color} />
-                  <p className="mt-2 text-[9px] font-black text-gray-500 uppercase tracking-tight text-center leading-none">
-                    {stat.label.split(' ').slice(-1)}
+                  <p className="mt-2 text-[9px] font-black text-gray-500 uppercase tracking-tight text-center leading-normal max-w-[85px] break-words">
+                    {stat.label}
                   </p>
                 </div>
               ))}
@@ -219,6 +219,10 @@ export default function CareerPreparation() {
               <Dialog>
                 <DialogTrigger asChild>
                   <Button
+                    onClick={() => {
+                      setCtaType("normal");
+                      setIsModalOpen(true);
+                    }}
                     size="lg"
                     className="h-11 px-8 bg-[#0057E2] hover:bg-[#0047C2] text-white rounded-xl font-black text-xs shadow-lg shadow-blue-50 transition-all hover:scale-105"
                   >

@@ -31,8 +31,6 @@ export const metadata = {
   },
 };
 
-<link rel="icon" href="facicon.ico" sizes="any" />;
-
 export default function RootLayout({ children }) {
   const educationalOrganizationSchema = {
     "@context": "https://schema.org",
@@ -102,7 +100,7 @@ export default function RootLayout({ children }) {
           content="C4o0-xKAEN4T_ufIrZYUxATGJdRJBpcl0s7_6Ufl4tw"
         />
 
-        <link rel="icon" href="facicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         {/* Google Tag (gtag.js) */}
 
         <script

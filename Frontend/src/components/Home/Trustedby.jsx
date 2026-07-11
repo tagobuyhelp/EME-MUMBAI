@@ -112,8 +112,10 @@ export default function Trustedby() {
                 <div className="space-y-0.5 md:space-y-1.5">
                   <div className="flex items-center justify-center gap-1 md:gap-1.5">
                     <span className="text-lg md:text-2xl font-black text-gray-800">4.8</span>
-                    <div className="flex text-yellow-400">
-                      <Star className="h-3 w-3 md:h-3.5 md:w-3.5 fill-current" />
+                    <div className="flex text-yellow-400 gap-0.5">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="h-3 w-3 md:h-3.5 md:w-3.5 fill-current" />
+                      ))}
                     </div>
                   </div>
                   <p className="text-[8px] md:text-[11px] font-bold text-gray-400 uppercase tracking-widest leading-tight">
@@ -143,8 +145,10 @@ export default function Trustedby() {
                 <div className="space-y-0.5 md:space-y-1.5">
                   <div className="flex items-center justify-center gap-1 md:gap-1.5">
                     <span className="text-lg md:text-2xl font-black text-gray-800">4.8</span>
-                    <div className="flex text-yellow-400">
-                      <Star className="h-3 w-3 md:h-3.5 md:w-3.5 fill-current" />
+                    <div className="flex text-yellow-400 gap-0.5">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="h-3 w-3 md:h-3.5 md:w-3.5 fill-current" />
+                      ))}
                     </div>
                   </div>
                   <p className="text-[8px] md:text-[11px] font-bold text-gray-400 uppercase tracking-widest leading-tight">

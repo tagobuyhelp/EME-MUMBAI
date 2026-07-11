@@ -46,7 +46,6 @@ const featuredLogos2 = [
     width: 50,
     height: 40,
   },
-  { src: "/assets/images/blog/klam.svg", alt: "Kolom", width: 90, height: 80 },
   {
     src: "/assets/images/startup_pedia_logo.jpg",
     alt: "Startuppedia",

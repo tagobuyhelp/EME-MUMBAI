@@ -76,10 +76,11 @@ function PlacementPartners() {
                     {/* First Marquee */}
                     <Marquee speed={30} autoFill className="overflow-y-hidden">
                         {companies1.map((company, index) => (
-                            <Card key={index} className="w-[100px] h-[64px] md:w-[150px] md:h-[74px] mx-4 md:mx-7 cursor-pointer transition items-center justify-center rounded-[15px] bg-[#fffff]">
+                            <Card key={index} className="w-[100px] h-[64px] md:w-[150px] md:h-[74px] mx-4 md:mx-7 cursor-pointer transition items-center justify-center rounded-[15px] bg-[#ffffff] border border-gray-100/50">
                                 <CardContent className="w-full p-2 flex items-center justify-center h-full">
                                     <Image
-                                        className={`w-[85px] md:w-[110px] object-contain h-[${company?.height}]`}
+                                        className="w-[85px] md:w-[110px] object-contain"
+                                        style={{ height: company?.height }}
                                         width={500}
                                         height={500}
                                         src={company.src}
@@ -93,10 +94,11 @@ function PlacementPartners() {
                     {/* Second Marquee */}
                     <Marquee speed={30} autoFill direction="right" className="">
                         {companies2.map((company, index) => (
-                            <Card key={index} className="w-[100px] h-[64px] md:w-[150px] md:h-[74px] mx-4 md:mx-7 cursor-pointer transition items-center justify-center rounded-[15px] bg-[#fffff]">
+                            <Card key={index} className="w-[100px] h-[64px] md:w-[150px] md:h-[74px] mx-4 md:mx-7 cursor-pointer transition items-center justify-center rounded-[15px] bg-[#ffffff] border border-gray-100/50">
                                 <CardContent className="w-full p-2 flex items-center justify-center h-full">
                                     <Image
-                                        className={`w-[85px] md:w-[110px] object-contain h-[${company?.height}]`}
+                                        className="w-[85px] md:w-[110px] object-contain"
+                                        style={{ height: company?.height }}
                                         width={500}
                                         height={500}
                                         src={company.src}

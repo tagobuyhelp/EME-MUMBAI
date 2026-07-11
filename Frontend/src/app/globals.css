@@ -197,10 +197,16 @@
 
 .marquee-up {
   animation: scroll-up 30s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
 }
 
 .marquee-down {
   animation: scroll-down 30s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
 }
 
 /* @media print {
@@ -244,6 +250,73 @@
     left: 0;
     top: 0;
     width: 100%;
+  }
+}
+
+@keyframes blob-float {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.15);
+  }
+  66% {
+    transform: translate(-30px, 30px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes badge-drift {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.animate-blob-float-1 {
+  animation: blob-float 18s infinite ease-in-out;
+}
+
+.animate-blob-float-2 {
+  animation: blob-float 22s infinite ease-in-out;
+  animation-delay: 2.5s;
+}
+
+.animate-badge-drift-1 {
+  animation: badge-drift 6s infinite ease-in-out;
+}
+
+.animate-badge-drift-2 {
+  animation: badge-drift 7s infinite ease-in-out;
+  animation-delay: 1.8s;
+}
+
+/* Push NoPaperForms / Meritto Chatbot widget up on mobile to avoid overlapping the bottom sticky bar */
+@media (max-width: 767px) {
+  #npf-chatbot,
+  .npf-chat-widget,
+  .npf-widget-container,
+  div[id^="npf-"],
+  div[class*="npf-"],
+  .npf-chat-launcher,
+  #npf-widget,
+  .npf-widget,
+  div[id^="npfWidget"],
+  div[class*="npfWidget"],
+  .chatbot-container,
+  #chatbot-container,
+  .chat-widget,
+  #chat-widget,
+  iframe[id^="npf-"],
+  iframe[class*="npf-"] {
+    bottom: 70px !important;
   }
 }
 

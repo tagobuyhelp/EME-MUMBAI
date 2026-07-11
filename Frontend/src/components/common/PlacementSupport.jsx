@@ -445,9 +445,9 @@ export default function PlacementSupport({
       color: "text-orange-500",
       bg: "bg-orange-50",
       points: [
-        "Weekly rigorous HR and technical marketing mocks.",
-        "Personalized performance feedback from senior strategists.",
-        "Real-world client pitch and campaign scenario prep."
+        "Weekly technical mock interviews led by senior data scientists.",
+        "Personalized feedback on statistical modeling & algorithm design.",
+        "Prep for live coding, SQL queries, and case study defense."
       ],
     },
     {
@@ -457,9 +457,9 @@ export default function PlacementSupport({
       color: "text-green-500",
       bg: "bg-green-50",
       points: [
-        "1-on-1 career counseling tailored to your specific niche.",
-        "Insider insights on the latest algorithm updates & hiring trends.",
-        "Professional salary negotiation tactics to maximize your CTC."
+        "1-on-1 career mentoring mapped to analytics & machine learning roles.",
+        "Insider insights on AI/ML frameworks, cloud platforms, and big data trends.",
+        "Salary negotiation coaching for specialized data roles."
       ],
     },
     {
@@ -469,8 +469,8 @@ export default function PlacementSupport({
       color: "text-indigo-500",
       bg: "bg-indigo-50",
       points: [
-        "Access to 50+ premium marketing and agency hiring partners.",
-        "Exclusive access to our internal, unlisted job portal.",
+        "Direct pipeline to 50+ premium product, fintech, and analytics hiring companies.",
+        "Exclusive access to our internal job board for junior data roles.",
         "Direct corporate interview referrals to fast-track your hiring."
       ],
     },
@@ -481,9 +481,9 @@ export default function PlacementSupport({
       color: "text-pink-500",
       bg: "bg-pink-50",
       points: [
-        "Develop real-world, data-backed capstone campaigns.",
-        "Guided, mentor-led case study development.",
-        "Build an employer-ready showcase proving your actual ROI generation."
+        "Develop enterprise-grade ML models and dashboard visualization projects.",
+        "Guided, mentor-led Kaggle case studies and model deployment workflows.",
+        "Build a GitHub portfolio demonstrating clean code, EDA, and statistical insights."
       ],
     },
   ];
