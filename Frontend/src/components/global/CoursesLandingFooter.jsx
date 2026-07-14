@@ -230,6 +230,22 @@ export default function CoursesLandingFooter({
 
                 <div className="flex gap-2.5">
                   <Image
+                    src="/assets/images/Web_Development/icons/icons8-india-48.png"
+                    alt="India"
+                    width={18}
+                    height={18}
+                    className="w-4.5 h-4.5 object-contain mt-0.5 shrink-0"
+                  />
+                  <a href="#" onClick={handleOpenModal} className="text-[11px] text-[#cbd5e1] hover:text-white transition-colors leading-relaxed">
+                    EME Academy, 5th Floor, TOWER-1,<br/>
+                    Globsyn Crystals, 505, EP Block,<br/>
+                    Sector V, Bidhannagar, Kolkata,<br/>
+                    West Bengal 700091
+                  </a>
+                </div>
+
+                <div className="flex gap-2.5">
+                  <Image
                     src="/assets/images/Web_Development/icons/icons8-uk-48.png"
                     alt="UK"
                     width={18}

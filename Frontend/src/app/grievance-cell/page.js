@@ -16,8 +16,8 @@ export default function page() {
             </p>
           </section>
           <p className='text-[#000000] text-[12px] lg:text-[16px] text-center'>
-          All complaints may be directed to the Mediator at <a href="mailto:emeacademyinfo@gmail.com" className='hover:underline cursor-pointer text-[#232D63]'>
-          emeacademyinfo@gmail.com
+          All complaints may be directed to the Mediator at <a href="mailto:grievance@emeacademy.co.in" className='hover:underline cursor-pointer text-[#232D63]'>
+          grievance@emeacademy.co.in
                         </a>
           </p>
         </div>
