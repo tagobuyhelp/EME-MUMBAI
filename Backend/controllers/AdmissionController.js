@@ -134,12 +134,15 @@ module.exports = {
           process.env.ADMISSION_MAIL1,
           process.env.ADMISSION_MAIL2,
           process.env.ADMISSION_MAIL3,
+          process.env.ADMISSION_MAIL4,
+          process.env.ADMISSION_MAIL5,
         ];
 
         let key = "";
         if (key === "SAP") {
           admin_mail.push(process.env.ADMIN_MAIL4);
         }
+        admin_mail = admin_mail.filter(Boolean);
         const mailSend = await Mail.sendFormData(
           admin_mail,
           mailData,

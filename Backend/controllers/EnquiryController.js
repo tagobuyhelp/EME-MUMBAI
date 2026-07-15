@@ -108,10 +108,15 @@ module.exports = {
         };
 
         // New routing logic:
-        // - ADMIN_MAIL1 and ADMIN_MAIL4 always receive
+        // - ADMIN_MAIL1, ADMIN_MAIL4, ADMIN_MAIL5 and ADMIN_MAIL6 always receive
         // - If source is organic -> also send to ADMIN_MAIL3
         // - If source is non-organic UTM (e.g., fb, googleads) -> also send to ADMIN_MAIL2
-        let admin_mail = [process.env.ADMIN_MAIL1, process.env.ADMIN_MAIL4];
+        let admin_mail = [
+          process.env.ADMIN_MAIL1,
+          process.env.ADMIN_MAIL4,
+          process.env.ADMIN_MAIL5,
+          process.env.ADMIN_MAIL6,
+        ];
         const isOrganic = (inserted.source || "").toLowerCase() === "organic";
         const isNonOrganicUtm =
           !isOrganic &&
