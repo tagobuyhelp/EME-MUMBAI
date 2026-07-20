@@ -92,7 +92,7 @@ export default function page() {
     {
       id: "6",
       title: "Will I get placement support after the course?",
-      desc: "Absolutely! We provide 100% placement support, resume-building assistance, and mock interview preparation.",
+      desc: "Absolutely! We provide 100% placement assistance, resume-building assistance, and mock interview preparation.",
     },
     {
       id: "7",
@@ -102,7 +102,7 @@ export default function page() {
     {
       id: "8",
       title: "Do you provide placement assistance?",
-      desc: "Yes, we offer 100% placement support, including resume building, mock interviews, and job referrals to top tech companies.",
+      desc: "Yes, we offer 100% placement assistance, including resume building, mock interviews, and job referrals to top tech companies.",
     },
     {
       id: "9",
@@ -699,7 +699,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹25,000 to ₹60,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

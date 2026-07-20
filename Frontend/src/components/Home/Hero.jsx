@@ -456,7 +456,7 @@ export const Hero = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
                 </span>
-                <span className="text-[9px] md:text-[10px] font-extrabold text-slate-800 tracking-wider uppercase">🔥 100% Placement</span>
+                <span className="text-[9px] md:text-[10px] font-extrabold text-slate-800 tracking-wider uppercase">🔥 100% Placement Assistance</span>
               </div>
 
               <div className="absolute -bottom-3 -right-3 z-20 bg-white/95 backdrop-blur-md border border-slate-200/50 rounded-xl px-3 py-1.5 shadow-[0_8px_30px_rgb(0,0,0,0.06)] flex items-center gap-1.5 animate-badge-drift-2">

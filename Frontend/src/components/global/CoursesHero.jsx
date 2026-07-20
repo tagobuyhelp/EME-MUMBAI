@@ -216,7 +216,7 @@ function CoursesHero({
                         <div className='flex flex-col lg:flex-row justify-center items-center text-center lg:text-start gap-2'>
                             <Image src="/assets/icons/PlacementIcon.svg" alt='EMI Icon' width={46} height={46} />
                             <div>
-                                Placement Support <br /><strong className='text-[14px] text-[#121112]'>100% Placement Support</strong>
+                                Placement Support <br /><strong className='text-[14px] text-[#121112]'>100% Placement Assistance</strong>
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row justify-center items-center text-center lg:text-start gap-2'>

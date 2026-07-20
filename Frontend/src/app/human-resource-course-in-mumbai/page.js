@@ -100,7 +100,7 @@ function page() {
     "@context": "https://schema.org",
     "@type": "Course",
     name: "HR Management Course",
-    description: "Enroll in the HR Training Course at EME Academy Mumbai and learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and AI tools with hands-on training and 100% placement support.",
+    description: "Enroll in the HR Training Course at EME Academy Mumbai and learn HRM, Talent Acquisition, Payroll, Compliance, HR Analytics, and AI tools with hands-on training and 100% placement assistance.",
     provider: {
       "@type": "Organization",
       name: "EME Academy",

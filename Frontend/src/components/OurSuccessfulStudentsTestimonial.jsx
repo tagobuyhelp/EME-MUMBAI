@@ -12,7 +12,7 @@ export default function OurSuccessfulStudentsTestimonial() {
             Some of Our Successful Students
           </div>
           <p className="text-[#232D63] text-[13px] md:text-[15px] text-center font-[700]">
-            <strong>“Salary Ranges from ₹25,000 to ₹60,000 per month.”</strong>
+            <strong>“Salary Ranges up to ₹40,000 per month.”</strong>
           </p>
         </div>
         <Marquee autoFill className=" px-4 pb-2  gap-5">

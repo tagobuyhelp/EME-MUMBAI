@@ -59,7 +59,7 @@ export const metadata = {
 const heroData = {
   badgeText: "From Beginner to Job-Ready in Just 6 Months!",
   title: "Best Digital Marketing Course in Mumbai - Learn SEO, Meta Ads & AI Marketing",
-  secondSubtitle: "AI-Powered Training + 100% Placement Support in Mumbai",
+  secondSubtitle: "AI-Powered Training + 100% Placement Assistance in Mumbai",
   description:
     "Stop just consuming content and start monetizing it. Upskill with EME Academy’s Advanced Digital Marketing Course in Mumbai. Master Technical SEO, Google & Meta Ads, AI-powered automation, sales funnels, and WordPress—all in one place. Built strictly around live campaigns and actual performance marketing strategies, we offer the most reliable Digital Marketing Course with Placement in Mumbai. Step out of the classroom, build an undeniable portfolio, and unlock tech-driven marketing roles earning up to ₹10 LPA!",
   googleRating: "4.8/5",
@@ -792,7 +792,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

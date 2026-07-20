@@ -149,7 +149,7 @@ export default function page() {
         justdialRating: "4.8/5",
         heroStats: [
             { iconSrc: "/assets/icons/PlacementIcon.svg", iconAlt: "Placement", value: "750+ Placed", label: "Last year alone" },
-            { iconSrc: "/assets/icons/BudgetIcon.svg", iconAlt: "Salary", value: "₹25K–₹60K/mo", label: "Average starting salary" },
+            { iconSrc: "/assets/icons/BudgetIcon.svg", iconAlt: "Salary", value: "Up to ₹40K/mo", label: "Average starting salary" },
             { iconSrc: "/assets/icons/DurationIcon.svg", iconAlt: "Weekend batches", value: "Weekend Batches", label: "For working professionals" },
             { iconSrc: "/assets/icons/EMIIcon.svg", iconAlt: "EMI", value: "0% EMI", label: "From ₹2,500/month" },
         ],
@@ -607,7 +607,7 @@ export default function page() {
             "Freelancer / Entrepreneur",
         ],
         salaryInfo:
-            'Avg salary: <strong class="font-bold">₹25K–₹60K/month</strong>',
+            'Avg salary: <strong class="font-bold">Up to ₹40K/month</strong>',
         image: "/assets/images/Digital_Marketing_Landing/CareerProspectsDM.webp",
         buttonText: "Check Eligibility",
     };
@@ -745,7 +745,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 8207205867
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary up to ₹40K/month
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 0% Interest EMI · No Coding Required · Weekend Batches Available
@@ -759,7 +759,7 @@ export default function page() {
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> Call Us Now: +91 8207205867
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
-                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary ₹25K–₹60K/month
+                                <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 750+ Students Placed · Salary up to ₹40K/month
                             </span>
                             <span className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-wide">
                                 <span className="h-1.5 w-1.5 rounded-full bg-[#00A2E7]" /> 0% Interest EMI · No Coding Required · Weekend Batches Available
@@ -986,7 +986,7 @@ export default function page() {
                 <DMShortsCarousel
                     _this={_this}
                     title="👤 Real Students. Real Results. Koi Farzi Nahi."
-                    subtitle="They Started Exactly  Where You Are Today. Last year akele 750+ placements. Salary ₹25,000–₹60,000/month — aur yeh sirf starting hai."
+                    subtitle="They Started Exactly  Where You Are Today. Last year akele 750+ placements. Salary up to ₹40,000/month — aur yeh sirf starting hai."
                     videos={[
                         "https://www.youtube.com/shorts/ZqHbDgX30Ps",
                         "https://www.youtube.com/shorts/qC06mvJiyL0",

@@ -18,8 +18,8 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 import CertifiedStudent from "../recentplacements/CertifiedStudent";
 
 export const metadata = {
-  title: "Best HR Course in Mumbai | 100% Placement Support",
-  description: "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement support and launch your corporate career today!",
+  title: "Best HR Course in Mumbai | 100% Placement Assistance",
+  description: "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement assistance and launch your corporate career today!",
   keywords: [
     "Best HR Course in mumbai",
     "Human Resource Course in mumbai",
@@ -117,7 +117,7 @@ export default function page() {
     badgeText: "Learn & Get Hired in Just 4 Months!",
     title: "Step Up as a Corporate Leader with the Best HR Course in Mumbai",
     description:
-      "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement support and launch your corporate career today!",
+      "Master Payroll, Talent Acquisition, Compliance, and HR Analytics with the Best HR Training Institute in Mumbai. Get 100% placement assistance and launch your corporate career today!",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
     ctaRatingsLabel: "Download Syllabus & Brochure →",
@@ -134,7 +134,7 @@ export default function page() {
         image:
           "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/HR_Management/HRCourseDetailsMain.png",
         description:
-          "From statutory compliance to emerging AI recruitment tools, this 4-month track guarantees you graduate 100% placement-ready.",
+          "From statutory compliance to emerging AI recruitment tools, this 4-month track guarantees you graduate 100% placement assistance-ready.",
         details: [
           {
             label: "Duration",
@@ -543,7 +543,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

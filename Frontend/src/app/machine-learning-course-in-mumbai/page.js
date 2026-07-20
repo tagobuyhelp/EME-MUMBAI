@@ -147,7 +147,7 @@ export default function page() {
         title: "Certified Machine Learning & Artificial Intelligence Course in Mumbai",
         image: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/AiMLImage.jpg",
         description:
-          "From mathematical models and foundational Python programming to advanced neural architectures and deep learning applications, this 6-month track guarantees you graduate 100% placement-ready.",
+          "From mathematical models and foundational Python programming to advanced neural architectures and deep learning applications, this 6-month track guarantees you graduate 100% placement assistance-ready.",
         details: [
           {
             label: "Duration",
@@ -527,7 +527,7 @@ export default function page() {
           students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
-          subtitle="750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
+          subtitle="750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
         />
       </div>
       <div className="flex flex-col justify-center w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">

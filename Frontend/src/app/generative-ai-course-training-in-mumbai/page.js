@@ -28,7 +28,7 @@ const GenAIfaq = [
   {
     id: 2,
     title: "What makes EME Academy the Best AI Training Institute in Mumbai?",
-    desc: "We don't just teach theory; we focus on deep-tech engineering and real-world application. As the Best AI Training Institute in Mumbai, our award-winning curriculum is backed by MSME, ISO, and Startup India. From building live AI portfolios to 100% placement support, we provide the Best Generative AI Course in Mumbai to ensure you graduate job-ready.",
+    desc: "We don't just teach theory; we focus on deep-tech engineering and real-world application. As the Best AI Training Institute in Mumbai, our award-winning curriculum is backed by MSME, ISO, and Startup India. From building live AI portfolios to 100% placement assistance, we provide the Best Generative AI Course in Mumbai to ensure you graduate job-ready.",
   },
   {
     id: 3,
@@ -122,7 +122,7 @@ export default function page() {
     badgeText: "Master Generative AI in Just 6 Months",
     title: "Future-Proof Your Career with the Best Generative AI Course in Mumbai – Master LLMs, Prompt Engineering, and AI Tools.",
     description:
-      "Dive deep into Large Language Models, LangChain, and advanced Prompt Engineering. Graduate with an elite AI app portfolio and get 100% placement support to lead the AI revolution.",
+      "Dive deep into Large Language Models, LangChain, and advanced Prompt Engineering. Graduate with an elite AI app portfolio and get 100% placement assistance to lead the AI revolution.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
   };

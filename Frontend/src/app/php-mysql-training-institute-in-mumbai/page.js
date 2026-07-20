@@ -24,7 +24,7 @@ import CTAButton from "../../components/common/CtaButton";
 export const metadata = {
   title: "Best PHP & MySQL Course in Mumbai | Full Stack Developer Training",
   description:
-    "Join the best PHP & MySQL Course in Mumbai and become a certified full stack developer. Learn PHP, MySQL, database integration, dynamic website development, and real-world projects with 100% placement support.",
+    "Join the best PHP & MySQL Course in Mumbai and become a certified full stack developer. Learn PHP, MySQL, database integration, dynamic website development, and real-world projects with 100% placement assistance.",
   keywords: ["php mysql training institute in mumbai", "php development course in mumbai", "best php training institute in mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/php-mysql-training-institute-in-mumbai",
@@ -55,7 +55,7 @@ const faq = [
   },
   {
     id: 5,
-    title: "Do you provide 100% placement support after the course?",
+    title: "Do you provide 100% placement assistance after the course?",
     decs: "Yes! We provide complete placement assistance. This includes resume building, LinkedIn profile optimization, aptitude training, mock interviews (technical + HR), direct job referrals, and exclusive access to our career portal with 50+ hiring partners.",
   },
   {

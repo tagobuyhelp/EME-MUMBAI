@@ -29,7 +29,7 @@ export default function WhyEMEAcademy({
     },
     {
       icon: Target,
-      title: "100% Placement",
+      title: "100% Placement Assistance",
       subtitle: "We stand by you with rigorous interview coaching, resume optimization, and direct referrals to hiring partners until you secure an offer.",
       color: "text-orange-500",
       bg: "bg-orange-50",
@@ -74,7 +74,7 @@ export default function WhyEMEAcademy({
     },
     {
       icon: Target,
-      title: "100% Placement Support",
+      title: "100% Placement Assistance",
       subtitle: "We don't just hand out advice; we hand out opportunities. With relentless interview training and direct referrals for fresh graduates, we back your job hunt until you are hired.",
       color: "text-orange-500",
       bg: "bg-orange-50",

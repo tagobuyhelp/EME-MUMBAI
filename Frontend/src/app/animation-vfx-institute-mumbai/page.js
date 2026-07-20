@@ -23,7 +23,7 @@ import CoursesLandingFooter from "@/components/global/CoursesLandingFooter";
 
 export const metadata = {
   title: "Best Animation & VFX Institute in Mumbai | Animation Course Mumbai",
-  description: "Join the best animation and VFX institute in Mumbai at EME Academy Mumbai. Master 2D, 3D animation, and VFX with 100% placement support.",
+  description: "Join the best animation and VFX institute in Mumbai at EME Academy Mumbai. Master 2D, 3D animation, and VFX with 100% placement assistance.",
   keywords: ["best animation institute in mumbai", "animation course mumbai", "vfx institute in mumbai", "2d animation course mumbai", "3d animation course mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/animation-vfx-institute-mumbai",
@@ -61,7 +61,7 @@ const AnimationVfxfaq = [
   {
     id: 5,
     title: "Do you offer placement assistance after course completion?",
-    desc: "Yes! We provide 100% placement support, including mock interviews, resume building, job referrals, and internship opportunities.",
+    desc: "Yes! We provide 100% placement assistance, including mock interviews, resume building, job referrals, and internship opportunities.",
   },
   {
     id: 6,
@@ -792,7 +792,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹25,000 to ₹60,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

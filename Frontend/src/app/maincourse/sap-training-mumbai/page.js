@@ -91,7 +91,7 @@ export default function page() {
       "@context": "https://schema.org",
       "@type": "Course",
       name: "SAP Course",
-      description: "Enroll in the SAP Course in Mumbai at EME Academy and master FICO, MM, SD, ABAP, HCM, and S/4 HANA with live server training. Includes global certification preparation and 100% placement support.",
+      description: "Enroll in the SAP Course in Mumbai at EME Academy and master FICO, MM, SD, ABAP, HCM, and S/4 HANA with live server training. Includes global certification preparation and 100% placement assistance.",
       provider: {
         "@type": "Organization",
         name: "EME Academy",

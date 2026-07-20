@@ -44,7 +44,7 @@ export default function AllSapCourseLandingShadcn({
         </div>
       ),
       decsOne: "80% Students Hired by MNCs",
-      decsTwo: "100% Placement Support",
+      decsTwo: "100% Placement Assistance",
       decsThree: "2000+ Successful Students",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SapCourseOne.jpg",
     },
@@ -70,7 +70,7 @@ export default function AllSapCourseLandingShadcn({
         </div>
       ),
       decsOne: "80% Students Hired by MNCs",
-      decsTwo: "100% Placement Support",
+      decsTwo: "100% Placement Assistance",
       decsThree: "100% Assistance",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SapCourseThree.jpg",
     },
@@ -83,7 +83,7 @@ export default function AllSapCourseLandingShadcn({
         </div>
       ),
       decsOne: "78% Students Hired by MNCs",
-      decsTwo: "100% Placement Support",
+      decsTwo: "100% Placement Assistance",
       decsThree: "Latest S/4 HANA Curriculum",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SapCourseFour.jpg",
     },
@@ -96,7 +96,7 @@ export default function AllSapCourseLandingShadcn({
         </div>
       ),
       decsOne: "80% Students Hired by MNCs",
-      decsTwo: "100% Placement Support",
+      decsTwo: "100% Placement Assistance",
       decsThree: "2000+ Employment Generated",
       src: "https://eme25.s3.ap-south-1.amazonaws.com/assets/images/SapCourseFive.jpg",
     },

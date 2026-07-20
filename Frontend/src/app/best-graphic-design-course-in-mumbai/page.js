@@ -24,7 +24,7 @@ import CoursesHero from "@/components/global/CoursesHero";
 export const metadata = {
   title: "Best Graphic Design Course in Mumbai | EME Academy",
   description:
-    "Enroll in the best graphic design institute in Mumbai at EME Academy. Master Adobe Photoshop, Illustrator, InDesign, CorelDRAW, & Lightroom with 100% placement support.",
+    "Enroll in the best graphic design institute in Mumbai at EME Academy. Master Adobe Photoshop, Illustrator, InDesign, CorelDRAW, & Lightroom with 100% placement assistance.",
   keywords: [
     "Best Graphic Design Course in mumbai",
     "Graphic Design Institute in mumbai",
@@ -111,7 +111,7 @@ const heroData = {
   badgeText: "Learn & Get Hired in 6 Months!",
   title: "Turn Your Creativity Into a Career with the Best Graphic Design Course in Mumbai",
   description:
-    "Stop scrolling through great design and start creating it. Master Adobe Photoshop, Illustrator, InDesign, CorelDRAW, and Lightroom with EME Academy, the premier Graphic Design Institute in Mumbai. Build a high-paying creative career with hands-on, agency-level training and aggressive 100% placement support.",
+    "Stop scrolling through great design and start creating it. Master Adobe Photoshop, Illustrator, InDesign, CorelDRAW, and Lightroom with EME Academy, the premier Graphic Design Institute in Mumbai. Build a high-paying creative career with hands-on, agency-level training and aggressive 100% placement assistance.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
   ctaRatingsLabel: "Download Syllabus & Brochure →",
@@ -121,7 +121,7 @@ const heroData = {
 const courseDetailsData = {
   courseName: "Graphic Design Training in Mumbai",
   subtitle:
-    "Upgrade your skills from basic design to commercial visual mastery. Learn with EME Academy and become a highly-paid, certified visual communicator equipped with our aggressive, 100% placement support ecosystem!",
+    "Upgrade your skills from basic design to commercial visual mastery. Learn with EME Academy and become a highly-paid, certified visual communicator equipped with our aggressive, 100% placement assistance ecosystem!",
   courseData: [
     {
       id: 1,
@@ -598,7 +598,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹40,000 to ₹70,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

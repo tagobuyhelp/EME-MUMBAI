@@ -54,7 +54,7 @@ export default function CoursesSection() {
       popularText: "Most Popular",
       link: "/data-analytics-course-in-mumbai",
       description: "Master Excel, SQL, Python, and Power BI with real-world projects.",
-      features: ["100% Placement Support", "Industry Projects", "Expert Mentors"]
+      features: ["100% Placement Assistance", "Industry Projects", "Expert Mentors"]
     },
     {
       id: 2,
@@ -160,23 +160,7 @@ export default function CoursesSection() {
       description: "Master Photoshop, Illustrator, InDesign for professional visual communication.",
       features: ["Creative Portfolio", "Design Principles", "Freelancing Tips"]
     },
-    {
-      id: 8,
-      title: "Business Accounting",
-      category: "others",
-      image: "/assets/images/Home/courses/business-accounting-course-gst-finance-training.webp",
-      rating: 4.7,
-      reviews: "120",
-      duration: "3 Months",
-      originalPrice: 65000,
-      discountedPrice: 55000,
-      saving: "15% OFF",
-      popular: true,
-      popularText: "Practical Finance",
-      link: "/maincourse/business-accounting-course-in-mumbai",
-      description: "Practical Tally Prime, GST, Income Tax, and Financial Accounting.",
-      features: ["GST Filing", "Taxation Skills", "Tally Certification"]
-    },
+
     {
       id: 9,
       title: "LinkedIn Course",

@@ -23,7 +23,7 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 export const metadata = {
   title: "Best Data Analytics Course in Mumbai | Data Analyst Training Institute",
   description:
-    "Join the best Data Analytics Course in Mumbai and master SQL, Python, Tableau, Power BI, Excel, and machine learning with hands-on projects, certification, and 100% placement support.",
+    "Join the best Data Analytics Course in Mumbai and master SQL, Python, Tableau, Power BI, Excel, and machine learning with hands-on projects, certification, and 100% placement assistance.",
   keywords: [
     "data analytics courses in Mumbai",
     "data analyst course in Mumbai",
@@ -48,7 +48,7 @@ const DataAnalyticsfaq = [
   {
     id: 2,
     title: "Will I get placement support after the course?",
-    desc: "Absolutely! We provide 100% placement support, resume-building assistance, and mock interview preparation.",
+    desc: "Absolutely! We provide 100% placement assistance, resume-building assistance, and mock interview preparation.",
   },
   {
     id: 3,
@@ -113,7 +113,7 @@ function page() {
     "@context": "https://schema.org",
     "@type": "Course",
     name: "Data Analytics Course",
-    description: "Enroll in the Data Analytics Course in Mumbai at EME Academy and master Python, SQL, Excel, Tableau, and Power BI with hands-on projects and 100% placement support.",
+    description: "Enroll in the Data Analytics Course in Mumbai at EME Academy and master Python, SQL, Excel, Tableau, and Power BI with hands-on projects and 100% placement assistance.",
     provider: {
       "@type": "Organization",
       name: "EME Academy",

@@ -66,7 +66,7 @@ function Hero({
                                     <span className='text-[#00A2E7]'>✦</span>  EMI at ‘0’ Cost
                                 </div>
                                 <div>
-                                    <span className='text-[#00A2E7]'>✦</span> 100% Placement Support
+                                    <span className='text-[#00A2E7]'>✦</span> 100% Placement Assistance
                                 </div>
 
 
@@ -132,7 +132,7 @@ function Hero({
                                 <span className='text-[#00A2E7]'>✦</span>  Salary: 3.6 LPA to 12 LPA
                             </div>
                             <div>
-                                <span className='text-[#00A2E7]'>✦</span> 100% Placement Support
+                                <span className='text-[#00A2E7]'>✦</span> 100% Placement Assistance
                             </div>
 
                         </div>

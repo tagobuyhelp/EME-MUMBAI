@@ -23,7 +23,7 @@ import { alumniStudents } from "@/data/alumniStudentsData";
 export const metadata = {
   title: "Best WordPress Development Course in Mumbai | Certified WordPress Training",
   description:
-    "Join the best WordPress Development Course in Mumbai and learn WordPress, WooCommerce, SEO, plugin development, and website customization with real-world projects, expert mentors, and 100% placement support.",
+    "Join the best WordPress Development Course in Mumbai and learn WordPress, WooCommerce, SEO, plugin development, and website customization with real-world projects, expert mentors, and 100% placement assistance.",
   keywords: [
     "Best Full-Stack WordPress Development Course in Mumbai",
     "Full-Stack WordPress Development Course in Mumbai",
@@ -59,7 +59,7 @@ const faq = [
   },
   {
     id: 5,
-    title: "Do you offer 100% placement support?",
+    title: "Do you offer 100% placement assistance?",
     decs: "Yes. We provide resume building, LinkedIn profile optimization, mock interviews, job portal guidance, and real client internship referrals.",
   },
   {
@@ -449,7 +449,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹25,000 to ₹50,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

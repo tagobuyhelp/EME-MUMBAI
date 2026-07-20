@@ -20,7 +20,7 @@ export default function WhyStudentsChooseUs() {
     {
       title: "Placement & Career Acceleration",
       items: [
-        "100% Placement Support & Interview Preparation",
+        "100% Placement Assistance & Interview Preparation",
         "Resume Building & Portfolio Guidance",
         "Mock Interviews with Industry Experts",
         "100+ Hiring & Industry Connections",

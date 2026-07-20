@@ -19,7 +19,7 @@ import { useState } from "react";
 const placementCards = [
     {
         id: 1,
-        title: "100% Placement Support Program",
+        title: "100% Placement Assistance Program",
         imageSrc: "/assets/images/blog/girl_photo.svg",
         features: [
             "5000+ placed",

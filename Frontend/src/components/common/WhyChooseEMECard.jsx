@@ -23,7 +23,7 @@ const features = [
   },
   {
     icon: Target,
-    title: "100% Placement",
+    title: "100% Placement Assistance",
     color: "text-orange-500",
     bg: "bg-orange-50",
   },

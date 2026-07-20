@@ -324,7 +324,7 @@ export default function BlogAdmissionForm(_this) {
         )}
       </div>
       <div className="w-full text-[#fff] text-[14px] lg:text-[16px] font-[700] flex flex-col gap-2 mt-2">
-        100% Placement support program
+        100% Placement Assistance program
         <ul className="text-[#fff] text-[12px] lg:text-[14px] font-[400] flex flex-col gap-1">
           <li className="flex items-center gap-2">
             <Image

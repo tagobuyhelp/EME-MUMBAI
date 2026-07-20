@@ -91,7 +91,7 @@ const faq = [
 
 export const metadata = {
   title: "Best Web Design Course in Mumbai | UI/UX Training Institute",
-  description: "Enroll in the best web design course in Mumbai at EME Academy Mumbai. Master UI/UX, Figma, HTML, CSS, and more with 100% placement support.",
+  description: "Enroll in the best web design course in Mumbai at EME Academy Mumbai. Master UI/UX, Figma, HTML, CSS, and more with 100% placement assistance.",
   keywords: ["web design course in mumbai", "ui ux design course in mumbai", "best web design institute in mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/ui-ux-landing",
@@ -519,7 +519,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹25,000 to ₹50,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

@@ -21,12 +21,12 @@ import CertifiedStudent from "../recentplacements/CertifiedStudent";
 import { alumniStudents } from "@/data/alumniStudentsData";
 
 export const metadata = {
-  title: "MEAN Stack Course In Mumbai With 100% Placement Support",
+  title: "MEAN Stack Course In Mumbai With 100% Placement Assistance",
   description:
-    "Join Best MEAN Stack Training Course in Mumbai with 100% placement support at Top Mean Stack Training Institutes in Mumbai offering full MEAN Stack course.",
+    "Join Best MEAN Stack Training Course in Mumbai with 100% placement assistance at Top Mean Stack Training Institutes in Mumbai offering full MEAN Stack course.",
   keywords: [
     "Best MEAN Stack Training Course in Mumbai",
-    "MEAN Stack Course In Mumbai With 100% Placement Support",
+    "MEAN Stack Course In Mumbai With 100% Placement Assistance",
     "Best MEAN Stack Full Course in Mumbai",
     "Top Mean Stack Training Institutes in Mumbai",
     "Mean Stack Development Course in Mumbai",
@@ -56,7 +56,7 @@ const faq = [
   },
   {
     id: 4,
-    title: "Do you provide 100% placement support after the course?",
+    title: "Do you provide 100% placement assistance after the course?",
     decs: " Yes! We offer 100% placement assistance, including resume building, mock interviews, LinkedIn optimization, job portal access, direct referrals, and real-time interview preparation.",
   },
   {
@@ -101,7 +101,7 @@ const heroData = {
   badgeText: "Become a Certified MEAN Stack Developer in Just 6 Months!",
   title: "Best MEAN Stack Training Course in Mumbai – 100% Job-Ready Program",
   description:
-    "Join EME Academy Mumbai’s MEAN Stack Course in Mumbai with 100% Placement Support. Learn Angular, Node.js, Express.js & MongoDB through live projects, expert mentorship, and industry-backed curriculum. Earn your MEAN Stack Developer Certification and launch a high-growth tech career.",
+    "Join EME Academy Mumbai’s MEAN Stack Course in Mumbai with 100% Placement Assistance. Learn Angular, Node.js, Express.js & MongoDB through live projects, expert mentorship, and industry-backed curriculum. Earn your MEAN Stack Developer Certification and launch a high-growth tech career.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -468,7 +468,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹30,000 to ₹50,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

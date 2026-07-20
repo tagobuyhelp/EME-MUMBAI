@@ -66,7 +66,7 @@ export default function KeyHighlight({ mode }) {
       "2000+ Successful Students",
     ],
     col2: [
-      "100% Placement Support",
+      "100% Placement Assistance",
       "Corporate Environment",
       "ONLINE/OFFLINE CLASSROOM SESSION",
       "Flexible Batch Timing",

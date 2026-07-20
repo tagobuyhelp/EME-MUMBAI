@@ -10,7 +10,7 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 export const metadata = {
   title: "Best Motion Graphic Course in Mumbai | Certification & Placement Support",
   description:
-    "Join the best Motion Graphic Course in Mumbai and learn animation, visual effects, video editing, and creative design tools with hands-on training, expert mentors, and 100% placement support.",
+    "Join the best Motion Graphic Course in Mumbai and learn animation, visual effects, video editing, and creative design tools with hands-on training, expert mentors, and 100% placement assistance.",
   keywords: [
     "motion graphics courses in Mumbai ",
     "motion graphics institutes in Mumbai",

@@ -15,7 +15,7 @@ export default function WhyChooseEMELatest({ name, image, thisObject, title, des
     {
       id: 2,
       icon: "placement-support",
-      title: "100% Placement Support",
+      title: "100% Placement Assistance",
       bgColor: "bg-[#E0F5FF]",
     },
     {

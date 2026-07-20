@@ -228,7 +228,7 @@ export default function BestDataAnalyticsClientPage() {
           students={alumniStudentsMumbai}
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
-          subtitle={"750+ Students placed last year alone! Salary Ranges from ₹25,000 to ₹60,000 per month"}
+          subtitle={"750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"}
         />
       </div>
 

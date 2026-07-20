@@ -210,7 +210,7 @@ function StudentsWorkingInCompanies({
             {title ? title : "Our Students Are Now Working at These Companies"}
           </h2>
           <div className="text-[#4B4B4B] text-[12px] md:text-[14px] font-medium max-w-[820px]">
-            750+ placements in the last year alone. Salary ranging from ₹40,000 to ₹70,000/month — and that&apos;s just the start.
+            750+ placements in the last year alone. Salary ranging up to ₹40,000/month — and that&apos;s just the start.
           </div>
         </div>
 

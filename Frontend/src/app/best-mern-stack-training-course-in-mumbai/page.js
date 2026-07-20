@@ -24,7 +24,7 @@ import CTAButton from "../../components/common/CtaButton";
 
 export const metadata = {
   title: "Best MERN Stack Course in Mumbai | Full Stack Development Training",
-  description: "Join the best MERN stack course in Mumbai at EME Academy Mumbai. Master React, Node.js, Express, and MongoDB with 100% placement support.",
+  description: "Join the best MERN stack course in Mumbai at EME Academy Mumbai. Master React, Node.js, Express, and MongoDB with 100% placement assistance.",
   keywords: ["mern stack course in mumbai", "full stack development training in mumbai", "best mern stack institute in mumbai"],
   alternates: {
     canonical: "https://mumbai.emeacademy.co.in/best-mern-stack-training-course-in-mumbai",
@@ -55,7 +55,7 @@ const MernStackfaq = [
   },
   {
     id: 5,
-    title: "Do you provide 100% placement support after the course?",
+    title: "Do you provide 100% placement assistance after the course?",
     decs: "Yes! We offer 100% placement assistance, including resume building, mock interviews, LinkedIn optimization, job portal access, direct referrals, and real-time interview preparation.",
   },
   {
@@ -95,7 +95,7 @@ const heroData = {
     "Best Full Stack (MERN) Web Development Course in Mumbai – Become a Certified Full Stack Developer!",
   title: "Best MERN Stack Training Course in Mumbai – 100% Job-Ready Program",
   description:
-    "Looking for the Best MERN Stack Course in Mumbai with placement for freshers? EME Academy Mumbai offers hands-on MERN Stack Developer Course Training in Mumbai designed to help you master React, Node.js, Express.js, and MongoDB through real-time projects and 100% placement support.",
+    "Looking for the Best MERN Stack Course in Mumbai with placement for freshers? EME Academy Mumbai offers hands-on MERN Stack Developer Course Training in Mumbai designed to help you master React, Node.js, Express.js, and MongoDB through real-time projects and 100% placement assistance.",
   googleRating: "4.8/5",
   justdialRating: "4.8/5",
 };
@@ -594,7 +594,7 @@ export default function page() {
           title={"Our Alumni "}
           titleHighlight={"Leading the World"}
           subtitle={
-            "750+ Students placed last year alone! Salary Ranges from ₹30,000 to ₹50,000 per month"
+            "750+ Students placed last year alone! Salary Ranges up to ₹40,000 per month"
           }
         />
       </div>

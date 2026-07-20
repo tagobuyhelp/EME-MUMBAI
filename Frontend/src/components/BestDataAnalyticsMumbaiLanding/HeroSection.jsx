@@ -69,7 +69,7 @@ export default function HeroSection({ _this }) {
     { label: "Live Interactive Classes", icon: VideoIcon },
     { label: "15+ Real-World Projects", icon: ClipboardList },
     { label: "Internship Certificate", icon: Award },
-    { label: "100% Placement Support", icon: Briefcase },
+    { label: "100% Placement Assistance", icon: Briefcase },
   ];
 
   const certifiedLogos = [

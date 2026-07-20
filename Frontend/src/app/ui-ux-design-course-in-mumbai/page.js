@@ -121,7 +121,7 @@ export default function page() {
     badgeText: "Certified Web Designer in Just 6 Months!",
     title: "Architect the Digital World with the Best Web Design Course in Mumbai",
     description:
-      "Train with the premier Web Designing Institute in Mumbai and master custom layouts, UI/UX prototyping on Figma, and responsive development. Graduate with an elite portfolio and get 100% placement support to secure high-paying tech roles up to ₹8 LPA.",
+      "Train with the premier Web Designing Institute in Mumbai and master custom layouts, UI/UX prototyping on Figma, and responsive development. Graduate with an elite portfolio and get 100% placement assistance to secure high-paying tech roles up to ₹8 LPA.",
     googleRating: "4.8/5",
     justdialRating: "4.8/5",
     ctaRatingsLabel: "Download Syllabus & Brochure →",

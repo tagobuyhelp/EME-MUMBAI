@@ -11,7 +11,7 @@ const CertifiedStudent = ({
   badgeText = "👤 Real Students. Real Results. Koi Farzi Nahi.",
   title = "They Started Exactly Where You Are Today.",
   titleHighlight = "",
-  subtitle = "Last year akele 750+ placements. Salary ₹40,000–₹70,000/month — aur yeh sirf starting hai.",
+  subtitle = "Last year akele 750+ placements. Salary up to ₹40,000/month — aur yeh sirf starting hai.",
   Courses,
   email_sender,
   SelectCourses = [],

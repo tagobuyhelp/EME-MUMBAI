@@ -10,7 +10,7 @@ import StickyCTAButton from "../blogs/Components/stickyCTAButton";
 export const metadata = {
   title: "Best Graphic Design Course in Mumbai | Certification & Placement Support",
   description:
-    "Join the best Graphic Design Course in Mumbai and master creative design tools, motion graphics, branding, and visual design with hands-on training, expert mentors, and 100% placement support.",
+    "Join the best Graphic Design Course in Mumbai and master creative design tools, motion graphics, branding, and visual design with hands-on training, expert mentors, and 100% placement assistance.",
   keywords: [
     "graphic design courses in Mumbai ",
     "graphic design institutes in Mumbai",
