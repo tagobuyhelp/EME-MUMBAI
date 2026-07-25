@@ -2,76 +2,47 @@
 
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import ibm from "../../../public/assets/images/ibm.png";
-import itc from "../../../public/assets/images/itc.png";
-import concentrix from "../../../public/assets/images/concentrix.png";
-import deloitte from "../../../public/assets/images/deloitte.png";
-import infosys from "../../../public/assets/images/infosys.webp";
+
+const landingCompanies = [
+  { src: "/assets/icons/companies/Infosys_icon.svg", alt: "Infosys" },
+  { src: "/assets/icons/companies/Deloitte2.svg", alt: "Deloitte" },
+  { src: "/assets/icons/companies/AccentureIcon.svg", alt: "Accenture" },
+  { src: "/assets/icons/companies/flipkart.png", alt: "Flipkart" },
+  { src: "/assets/icons/companies/ntt-data.png", alt: "NTT DATA" },
+  { src: "/assets/icons/companies/birlasoft.png", alt: "Birlasoft" },
+  { src: "/assets/icons/companies/hp.png", alt: "HP" },
+  { src: "/assets/icons/companies/maruti-suzuki.png", alt: "Maruti Suzuki" },
+  { src: "/assets/icons/companies/yash-technologies.png", alt: "YASH Technologies" },
+  { src: "/assets/icons/companies/teamlease.png", alt: "TeamLease" },
+  { src: "/assets/icons/companies/m-pokket.png", alt: "mPokket" },
+  { src: "/assets/icons/companies/TCS_icon.svg", alt: "TCS" },
+  { src: "/assets/icons/companies/WiproIcon.svg", alt: "Wipro" },
+  { src: "/assets/icons/companies/capgemini.svg", alt: "Capgemini" },
+  { src: "/assets/icons/companies/CognizantIcon.svg", alt: "Cognizant" },
+  { src: "/assets/icons/companies/genpact.svg", alt: "Genpact" },
+  { src: "/assets/icons/companies/fusion.png", alt: "Fusion BPO" },
+  { src: "/assets/icons/companies/meraqui.png", alt: "Meraqui" },
+];
 
 export default function SliderLandingCompany() {
   return (
-    <div className=" w-full relative z-20">
-      <h1 className="text-center font-semibold text-[#393939] text-xl ">
+    <div className="w-full relative z-20">
+      <h1 className="text-center font-semibold text-[#393939] text-xl">
         Our students are working in
       </h1>
-      <div className="w-full flex items-center justify-around flex-nowrap mx-auto overflow-hidden whitespace-nowrap flex-shrink-0 group py-10 space-x-8 md:space-x-16 ">
-        <Marquee pauseOnHover autoFill>
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F] rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className=" h-14 w-auto xl:w-auto xl:h-24  mx-[10px] lg:mx-[30px]  "
-              width={500}
-              height={500}
-              src={deloitte}
-              alt="deloitte LOGO"
-            />
-          </div>
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F] rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className=" h-14 w-auto xl:w-32 xl:h-24 mx-[10px] lg:mx-[30px] "
-              width={500}
-              height={500}
-              src={ibm}
-              alt="IBM LOGO"
-            />
-          </div>
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F]  rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className="h-14 w-auto  xl:h-24 mx-[10px] lg:mx-[30px] "
-              width={500}
-              height={500}
-              src="https://eme25.s3.ap-south-1.amazonaws.com/assets/images/dabur.png"
-              alt="Dabour LOGO"
-            />
-          </div>
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F] rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className="h-14 w-auto xl:w-auto xl:h-24 mx-[10px] lg:mx-[30px] "
-              width={500}
-              height={500}
-              src={infosys}
-              alt="Infosys logo"
-            />
-          </div>
-
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F] rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className=" h-14 w-auto xl:w-auto xl:h-24 mx-[10px] lg:mx-[30px] "
-              width={500}
-              height={500}
-              src={itc}
-              alt="ITC LOGO"
-            />
-          </div>
-
-          <div className="px-10 py-5 bg-white  border-2 border-[#9F9F9F] rounded-md shadow-sm 2xl:shadow-lg shadow-[rgba(0,0,0,0.25)] mx-5">
-            <Image
-              className=" h-14 w-auto xl:w-auto xl:h-24 mx-[10px] lg:mx-[30px] "
-              width={500}
-              height={500}
-              src={concentrix}
-              alt="concentrix logo"
-            />
-          </div>
+      <div className="w-full flex items-center justify-around flex-nowrap mx-auto overflow-hidden whitespace-nowrap flex-shrink-0 group py-6">
+        <Marquee pauseOnHover autoFill speed={35}>
+          {landingCompanies.map((company, index) => (
+            <div key={index} className="px-6 py-3 bg-white border border-[#D0D0D0] rounded-lg shadow-sm mx-4 flex items-center justify-center h-20 w-40">
+              <Image
+                className="h-12 w-auto max-w-full object-contain"
+                width={160}
+                height={50}
+                src={company.src}
+                alt={company.alt}
+              />
+            </div>
+          ))}
         </Marquee>
       </div>
     </div>

@@ -63,15 +63,19 @@ export const AnotherHeader = () => {
 
   return (
     <div
-      className="sticky top-0 w-full z-[99] px-2 sm:px-4 md:px-8 py-2 transition-all duration-500 ease-in-out bg-transparent"
+      className={`sticky top-0 w-full z-[99] transition-all duration-300 ease-in-out ${
+        color
+          ? "bg-white/95 backdrop-blur-md py-1.5 px-2 sm:px-4 md:px-8 border-b border-slate-200/60 shadow-sm"
+          : "bg-transparent py-2 px-2 sm:px-4 md:px-8"
+      }`}
     >
       <div
-        className={`relative flex items-center justify-between mx-auto transition-all duration-500 ease-in-out ${
+        className={`relative flex items-center justify-between mx-auto transition-all duration-300 ease-in-out ${
           isOpen
-            ? "w-full max-w-[1280px] px-3 sm:px-6 py-4 bg-white shadow-lg rounded-2xl border border-slate-200"
+            ? "w-full max-w-[1280px] px-3 sm:px-6 py-3.5 bg-white shadow-lg rounded-2xl border border-slate-200"
             : color
-            ? "w-full max-w-[1280px] px-3 sm:px-6 py-3 bg-white/85 backdrop-blur-md border border-slate-200/50 shadow-[0_8px_30px_rgb(0,0,0,0.06)] rounded-2xl mt-2 scale-[0.98] lg:scale-[0.99]"
-            : "w-full max-w-[1280px] px-3 sm:px-6 py-4 bg-white/95 backdrop-blur-[2px] border border-slate-200/20 shadow-[0_4px_20px_rgba(0,0,0,0.03)] rounded-2xl mt-2"
+            ? "w-full max-w-[1280px] px-3 sm:px-6 py-2.5 bg-white shadow-sm border border-slate-200/60 rounded-xl"
+            : "w-full max-w-[1280px] px-3 sm:px-6 py-4 bg-white/95 backdrop-blur-[2px] border border-slate-200/20 shadow-[0_4px_20px_rgba(0,0,0,0.03)] rounded-2xl mt-1"
         }`}
       >
         {/* Logo Section */}
