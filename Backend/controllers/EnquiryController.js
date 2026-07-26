@@ -33,7 +33,9 @@ module.exports = {
       const {
         name = "",
         email = "",
-        phone_number = "",
+        phone_number: rawPhone = "",
+        mobile = "",
+        contact_number = "",
         course = "",
         timing = "",
         email_sender = "",
@@ -46,6 +48,8 @@ module.exports = {
         page_url = "", // ✅ landing page URL
       } = req.body;
 
+      const phone_number = rawPhone || mobile || contact_number || "";
+
       console.log("Course", course, email_sender);
 
       let validateError = null;
@@ -56,7 +60,8 @@ module.exports = {
       if (!validateError && !ValidateEmail(email)) {
         validateError = "Invalid email format.";
       }
-      if (!validateError && !ValidateMobile(phone_number)) {
+      const cleanedPhone = String(phone_number).replace(/[\s\-\+]/g, "");
+      if (!validateError && !ValidateMobile(cleanedPhone)) {
         validateError = "Invalid phone number format.";
       }
 
@@ -83,9 +88,9 @@ module.exports = {
         data: {
           name,
           email,
-          phone_number,
+          phone_number: cleanedPhone || phone_number,
           course,
-           timing,
+          timing,
           utm_source,
           utm_medium,
           utm_campaign,
@@ -101,16 +106,13 @@ module.exports = {
         const mailData = {
           name: inserted.name,
           email,
-          phone_number,
+          phone_number: inserted.phone_number,
           course,
           timing,
           source: inserted.source,
         };
 
-        // New routing logic:
-        // - ADMIN_MAIL1, ADMIN_MAIL4, ADMIN_MAIL5 and ADMIN_MAIL6 always receive
-        // - If source is organic -> also send to ADMIN_MAIL3
-        // - If source is non-organic UTM (e.g., fb, googleads) -> also send to ADMIN_MAIL2
+        // Routing logic:
         let admin_mail = [
           process.env.ADMIN_MAIL1,
           process.env.ADMIN_MAIL4,
@@ -134,22 +136,26 @@ module.exports = {
         }
         admin_mail = admin_mail.filter(Boolean);
 
-        const mailSend = await Mail.sendFormData(
-          admin_mail,  
-          // admin_mail.join(","),     
-          // process.env.ADMIN_MAIL1,
-          mailData,
-          `EME Enquiry Form from ${course} Course`,
-          "Enquiry Form"
-        );
-        if (!mailSend) {
-          return HandleError(res, "Failed to send Enquiry data.");
+        try {
+          const mailSend = await Mail.sendFormData(
+            admin_mail,  
+            mailData,
+            `EME Enquiry Form from ${course} Course`,
+            "Enquiry Form"
+          );
+          if (!mailSend) {
+            console.error("Warning: Mail sending failed, but Enquiry lead was successfully saved in DB.");
+          } else {
+            console.log("Mail sent successfully :: ", mailSend, mailData);
+          }
+        } catch (mailErr) {
+          console.error("Email send exception:", mailErr);
         }
-        console.log("Test :: ", mailSend, mailData)
+
+        return HandleSuccess(res, inserted);
       } else {
         return HandleError(res, "Failed to add enquiry data.");
       }
-      return HandleSuccess(res, inserted);
     } catch (err) {
       HandleServerError(res, req, err);
     }

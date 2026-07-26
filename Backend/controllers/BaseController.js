@@ -203,8 +203,10 @@ const ValidateEmail = (email) => {
 };
 
 const ValidateMobile = (mobile) => {
+  if (!mobile) return false;
+  const cleaned = String(mobile).replace(/[\s\-\+]/g, "");
   let re = /^\d{10,13}$/;
-  return re.test(mobile);
+  return re.test(cleaned);
 };
 
 const ValidateAlphanumeric = (text) => {

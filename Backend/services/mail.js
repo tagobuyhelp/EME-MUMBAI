@@ -7,12 +7,13 @@ const { dynamicMailTemplate } = require("../public/mail/formdata");
 
 
 const transpoter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: process.env.SMTP_PORT,
-  debug:true,
+  host: process.env.SMTP_HOST || process.env.GMAIL_HOST || "smtp.hostinger.com",
+  port: Number(process.env.SMTP_PORT || process.env.GMAIL_PORT) || 465,
+  secure: true,
+  debug: true,
   auth: {
-    user: process.env.GMAIL,
-    pass: process.env.SMTP_PASS,
+    user: process.env.SMTP_USER || process.env.GMAIL || "infomumbai@emeacademy.co.in",
+    pass: process.env.SMTP_PASS || process.env.GMAIL_PASS,
   },
 });
 
